@@ -7,7 +7,7 @@ export default function BookingSection() {
           <div>
             <h2 className="font-serif text-2xl text-foreground mb-6">New Patient Bookings</h2>
             <p className="text-muted-foreground leading-relaxed max-w-[55ch]">
-              If you are a new patient and would like to schedule an appointment with our clinic, we kindly request that you call our front desk during our regular business hours. Our friendly staff will be more than happy to assist you in finding a suitable appointment time.
+              If you are a new client and would like to schedule an appointment with Vanesa, please get in touch via phone or email. Vanesa will be happy to assist you in finding a suitable appointment time.
             </p>
             <a
               href="#"
