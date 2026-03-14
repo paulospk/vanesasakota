@@ -11,10 +11,10 @@ export default function HeroSection() {
               Dietitian
             </p>
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
-              Louise Houtzager
+              Vanesa Sakota
             </h1>
             <p className="text-muted-foreground text-lg">
-              MSc (Nutrition & Dietetics), BSc (Human Movement & Nutrition), APD
+              BSc (Psychology), MA (Psychotherapy and Counseling)
             </p>
             <a
               href="#book"
