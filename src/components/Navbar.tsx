@@ -9,8 +9,7 @@ export default function Navbar() {
   return (
     <nav className="border-b border-border py-4 px-6 md:px-8 flex justify-between items-center bg-card/80 backdrop-blur-md sticky top-0 z-50">
       <div className="flex items-center gap-2">
-        <span className="font-serif text-xl font-bold tracking-tighter text-foreground">Holdsworth House</span>
-        <span className="text-muted-foreground text-sm hidden sm:inline">Sydney</span>
+        <span className="font-serif text-xl font-bold tracking-tighter text-foreground">Vanesa Sakota</span>
       </div>
 
       {/* Desktop */}

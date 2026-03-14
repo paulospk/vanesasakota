@@ -8,13 +8,13 @@ export default function HeroSection() {
           {/* Left: Text */}
           <div className="space-y-6 animate-fade-up">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground">
-              Dietitian
+              Psychotherapist
             </p>
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
-              Louise Houtzager
+              Vanesa Sakota
             </h1>
             <p className="text-muted-foreground text-lg">
-              MSc (Nutrition & Dietetics), BSc (Human Movement & Nutrition), APD
+              BSc (Psychology), MA (Psychotherapy and Counseling)
             </p>
             <a
               href="#book"
@@ -30,7 +30,7 @@ export default function HeroSection() {
               <div className="absolute -inset-3 border border-border -z-10 translate-x-3 translate-y-3" />
               <img
                 src={profileImg}
-                alt="Louise Houtzager"
+                alt="Vanesa Sakota"
                 className="w-full aspect-[4/5] object-cover object-top"
               />
             </div>
