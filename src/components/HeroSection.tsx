@@ -8,7 +8,7 @@ export default function HeroSection() {
           {/* Left: Text */}
           <div className="space-y-6 animate-fade-up">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground">
-              Dietitian
+              Psychotherapist
             </p>
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
               Vanesa Sakota
