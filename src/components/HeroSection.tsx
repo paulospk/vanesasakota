@@ -30,7 +30,7 @@ export default function HeroSection() {
               <div className="absolute -inset-3 border border-border -z-10 translate-x-3 translate-y-3" />
               <img
                 src={profileImg}
-                alt="Louise Houtzager"
+                alt="Vanesa Sakota"
                 className="w-full aspect-[4/5] object-cover object-top"
               />
             </div>

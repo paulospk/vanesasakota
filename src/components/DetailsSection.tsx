@@ -54,13 +54,13 @@ export default function DetailsSection() {
           <h2 className="font-serif text-2xl text-foreground border-b border-border pb-3 mb-6">Biography</h2>
           <div className="space-y-5 text-muted-foreground leading-relaxed max-w-[65ch]">
             <p>
-              Louise Houtzager, an accredited practicing Dietitian for over 16 years, provides nutritional assessment, counselling and lifestyle coaching for a range of health issues. Louise has a special interest in, diabetes, gastrointestinal problems, heart disease, HIV infection, liver and kidney disease and sports nutrition.
+              Vanesa Sakota is a qualified psychotherapist and counsellor, providing therapeutic support and guidance for a range of mental health and wellbeing concerns. Vanesa has a special interest in anxiety, depression, relationship issues, trauma, and personal development.
             </p>
             <p>
-              Louise's work also involves research, education, community nutrition and international development projects at the The Albion Centre, where she specialises in HIV and Hepatitis C.
+              Vanesa's work also involves ongoing professional development and community engagement to ensure the highest standard of care for her clients.
             </p>
             <p>
-              Louise holds academic appointments and lectures to undergraduate and postgraduate dietetic students from the Universities of Sydney, Wollongong and Canberra.
+              Vanesa holds a Bachelor of Science in Psychology and a Master of Arts in Psychotherapy and Counseling.
             </p>
           </div>
         </div>
