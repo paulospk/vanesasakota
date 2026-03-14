@@ -15,8 +15,8 @@ export default function FooterSection() {
           </div>
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Contact</h4>
-            <p className="text-sm opacity-70">Phone: (02) 9331 7228</p>
-            <p className="text-sm opacity-70">Fax: (02) 9360 3485</p>
+            <p className="text-sm opacity-70">Phone: 0404 933 722</p>
+            <p className="text-sm opacity-70">Email: vanesa.sakota@gmail.com</p>
           </div>
         </div>
         <div className="border-t border-card/10 mt-12 pt-8 text-sm opacity-40">
