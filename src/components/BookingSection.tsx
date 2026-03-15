@@ -22,7 +22,7 @@ export default function BookingSection() {
             <h3 className="font-serif text-xl text-foreground mb-2">Book Online</h3>
             <p className="text-sm text-muted-foreground mb-6">Select a time that works for you via HotDoc.</p>
             <a
-              href="https://www.hotdoc.com.au/medical-centres/darlinghurst-NSW-2010/holdsworth-house-medical-practice-sydney/doctors"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full py-4 bg-foreground text-card font-semibold text-center hover:opacity-90 transition-opacity"
