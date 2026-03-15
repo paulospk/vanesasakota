@@ -9,7 +9,7 @@ export default function FooterSection() {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Location</h4>
             <p className="text-sm opacity-70 leading-relaxed">
-              Level 3, 26 College Street<br />
+              121 Crown Street<br />
               Darlinghurst NSW 2010
             </p>
           </div>
