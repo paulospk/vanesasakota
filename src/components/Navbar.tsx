@@ -38,7 +38,7 @@ export default function Navbar() {
           Book Now
         </Link>
         <a
-          href="mailto:session@vanesasakota.com.au"
+          href="mailto:appointment@vanesasakota.com.au"
           className="border border-foreground text-foreground px-5 py-2 text-sm font-medium hover:bg-foreground hover:text-card transition-colors"
         >
           Contact
