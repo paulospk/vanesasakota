@@ -20,7 +20,7 @@ export default function FooterSection() {
           </div>
         </div>
         <div className="border-t border-card/10 mt-12 pt-8 text-sm opacity-40">
-          © {new Date().getFullYear()} Vanesa Sakota Psychotherapy. All rights reserved.
+          © {new Date().getFullYear()} Sydney Mind Clinic. All rights reserved.
         </div>
       </div>
     </footer>
