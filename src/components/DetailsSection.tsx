@@ -43,10 +43,6 @@ export default function DetailsSection() {
             </div>
           </div>
 
-          <div>
-            <h2 className="font-serif text-lg font-semibold text-foreground mb-4">Personal Website</h2>
-            <a href="#" className="text-sm text-primary hover:underline">View Website</a>
-          </div>
         </div>
 
         {/* Right column: Biography */}
