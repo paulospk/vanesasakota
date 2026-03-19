@@ -14,7 +14,7 @@ export default function HeroSection() {
               Vanesa Sakota
             </h1>
             <p className="text-muted-foreground text-lg">
-              BSc Psychology MA Psychotherapy and Counselling
+              BSc (Psychology) MA (Psychotherapy and Counselling)
             </p>
             <a
               href="#book"
