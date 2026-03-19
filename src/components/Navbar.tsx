@@ -16,7 +16,7 @@ export default function Navbar() {
     <nav className="border-b border-border py-4 px-6 md:px-8 flex justify-between items-center bg-card/80 backdrop-blur-md sticky top-0 z-50">
       <div className="flex items-center gap-2">
         <Link to="/" className="font-serif text-xl font-bold tracking-tighter text-foreground">
-          Vanesa Sakota
+          Sydney Mind Clinic
         </Link>
       </div>
 
@@ -38,7 +38,7 @@ export default function Navbar() {
           Book Now
         </Link>
         <a
-          href="mailto:appointment@vanesasakota.com.au"
+          href="mailto:appointment@sydneymindclinic.com.au"
           className="border border-foreground text-foreground px-5 py-2 text-sm font-medium hover:bg-foreground hover:text-card transition-colors"
         >
           Contact
