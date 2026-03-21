@@ -12,7 +12,7 @@ const specialInterests = [
   "Weight management",
 ];
 
-const workingDays = ["Tue", "Wed"];
+
 
 export default function DetailsSection() {
   return (
