@@ -10,7 +10,7 @@ export default function BookingSection() {
           <div className="space-y-3 text-sm text-muted-foreground">
             <p>
               <span className="font-semibold text-foreground">Phone:</span>{" "}
-              <a href="tel:0404933722" className="hover:text-foreground transition-colors">0404 933 722</a>
+              <a href="tel:0405933722" className="hover:text-foreground transition-colors">0405 933 722</a>
             </p>
             <p>
               <span className="font-semibold text-foreground">Email:</span>{" "}
