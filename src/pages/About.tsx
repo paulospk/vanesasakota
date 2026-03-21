@@ -78,21 +78,20 @@ const About = () => {
         </div>
       </section>
 
-      {/* Qualifications */}
+      {/* Education & Memberships */}
       <section className="border-t border-border bg-hero">
         <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-24">
-          <h2 className="font-serif text-2xl text-foreground mb-8">Qualifications & Memberships</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-sm font-semibold uppercase tracking-widest text-muted-foreground mb-4">Education</h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-2 text-sm text-foreground">
                   <span className="mt-1.5 w-1.5 h-1.5 bg-primary rounded-full shrink-0" />
-                  Master of Arts in Psychotherapy and Counseling — Western Sydney University
+                  Master of Psychotherapy and Counselling — Western Sydney University (NSW)
                 </li>
                 <li className="flex items-start gap-2 text-sm text-foreground">
                   <span className="mt-1.5 w-1.5 h-1.5 bg-primary rounded-full shrink-0" />
-                  Bachelor of Science in Psychology — University of Sydney
+                  Bachelor of Science in Psychology — Griffith University (QLD)
                 </li>
               </ul>
             </div>
@@ -105,7 +104,7 @@ const About = () => {
                 </li>
                 <li className="flex items-start gap-2 text-sm text-foreground">
                   <span className="mt-1.5 w-1.5 h-1.5 bg-primary rounded-full shrink-0" />
-                  Australian Counselling Association (ACA)
+                  Australian Psychological Society (APS)
                 </li>
               </ul>
             </div>
