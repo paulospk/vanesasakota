@@ -15,7 +15,7 @@ export default function FooterSection() {
           </div>
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Contact</h4>
-            <p className="text-sm opacity-70">Phone: 0404 933 722</p>
+            <p className="text-sm opacity-70">Phone: 0405 933 722</p>
             <p className="text-sm opacity-70">Email: vanesa@vanesasakota.com.au</p>
           </div>
         </div>
