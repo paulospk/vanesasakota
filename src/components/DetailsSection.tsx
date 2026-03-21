@@ -12,7 +12,7 @@ const specialInterests = [
   "Weight management",
 ];
 
-const workingDays = ["Tue", "Wed"];
+
 
 export default function DetailsSection() {
   return (
@@ -30,17 +30,6 @@ export default function DetailsSection() {
                 </li>
               ))}
             </ul>
-          </div>
-
-          <div>
-            <h2 className="font-serif text-lg font-semibold text-foreground mb-4">Working Days</h2>
-            <div className="flex gap-2">
-              {workingDays.map((day) => (
-                <span key={day} className="px-3 py-1 bg-secondary text-secondary-foreground text-sm">
-                  {day}
-                </span>
-              ))}
-            </div>
           </div>
 
         </div>
