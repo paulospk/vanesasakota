@@ -87,7 +87,7 @@ const ForProviders = () => {
               {
                 number: "04",
                 title: "Somatic Guarding",
-                description: "The musculoskeletal system responds with involuntary "guarding" reflexes—such as pelvic floor hypertonicity—creating a self-perpetuating feedback loop of pain, tension, and inflammation.",
+                description: 'The musculoskeletal system responds with involuntary "guarding" reflexes—such as pelvic floor hypertonicity—creating a self-perpetuating feedback loop of pain, tension, and inflammation.',
               },
             ].map((step) => (
               <div key={step.number} className="flex gap-6 items-start">
