@@ -20,7 +20,7 @@ const researchData = [
   {
     domain: "Vaginismus & Reflex",
     source: "ter Kuile, et al. (2015) / van der Velde, J., et al. (2001)",
-    significance: "Confirms that involuntary pelvic floor muscle activity is a "threat-avoidance" reflex rather than a purely structural defect.",
+    significance: 'Confirms that involuntary pelvic floor muscle activity is a "threat-avoidance" reflex rather than a purely structural defect.',
   },
   {
     domain: "Nociplastic Pain",
