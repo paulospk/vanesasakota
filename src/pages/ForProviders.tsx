@@ -135,7 +135,9 @@ const ForProviders = () => {
                       {row.domain}
                     </td>
                     <td className="px-4 py-3 text-muted-foreground align-top border-b border-border">
-                      {row.source}
+                      <a href={row.url} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                        {row.source}
+                      </a>
                     </td>
                     <td className="px-4 py-3 text-muted-foreground align-top border-b border-border">
                       {row.significance}
