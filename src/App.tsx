@@ -8,6 +8,7 @@ import About from "./pages/About.tsx";
 import Services from "./pages/Services.tsx";
 import FAQs from "./pages/FAQs.tsx";
 import Fees from "./pages/Fees.tsx";
+import ForProviders from "./pages/ForProviders.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
