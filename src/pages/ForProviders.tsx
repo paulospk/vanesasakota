@@ -5,26 +5,31 @@ const researchData = [
   {
     domain: "Epigenetics & Development",
     source: "National Scientific Council on the Developing Child (2010), Working Paper 10",
+    url: "https://developingchild.harvard.edu/resources/early-experiences-can-alter-gene-expression-and-affect-long-term-development/",
     significance: 'Early-life stress creates "chemical signatures" on DNA that program the immune system for lifelong inflammatory hyper-reactivity.',
   },
   {
     domain: "Shame & Inflammation",
     source: "Dickerson, S.S., et al. (2004), Psychosomatic Medicine",
+    url: "https://pubmed.ncbi.nlm.nih.gov/15184702/",
     significance: "Demonstrates that social shame specifically induces a measurable spike in pro-inflammatory cytokine activity (sTNFαRII).",
   },
   {
     domain: "Vulvodynia & Stress",
     source: "Harlow, B.L., et al. (2014), Journal of Women's Health",
+    url: "https://pubmed.ncbi.nlm.nih.gov/24828455/",
     significance: "Childhood maltreatment or severe family stress is associated with a 4-fold increased risk of developing adult vulvodynia.",
   },
   {
     domain: "Vaginismus & Reflex",
     source: "ter Kuile, et al. (2015) / van der Velde, J., et al. (2001)",
+    url: "https://pubmed.ncbi.nlm.nih.gov/11223014/",
     significance: 'Confirms that involuntary pelvic floor muscle activity is a "threat-avoidance" reflex rather than a purely structural defect.',
   },
   {
     domain: "Nociplastic Pain",
     source: "Fitzcharles, M.A., et al. (2021), The Lancet",
+    url: "https://pubmed.ncbi.nlm.nih.gov/33882296/",
     significance: "Defines a third category of pain arising from altered nociception despite no clear evidence of tissue damage, requiring a nervous-system-led approach.",
   },
 ];
