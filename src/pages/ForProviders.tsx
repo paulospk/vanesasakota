@@ -164,7 +164,7 @@ const ForProviders = () => {
               },
               {
                 title: "Inhibit Cytokine Signaling",
-                description: "Lowering the inflammatory "noise" that sensitizes peripheral nerves.",
+                description: 'Lowering the inflammatory "noise" that sensitizes peripheral nerves.',
               },
               {
                 title: "Resolve Somatic Guarding",
