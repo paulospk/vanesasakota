@@ -72,7 +72,7 @@ const ForProviders = () => {
               {
                 number: "01",
                 title: "Social-Evaluative Threat (Chronic Shame/Stress)",
-                description: "High-shame states are processed by the brain as threats to social survival. This triggers a sustained "threat" response in the Hypothalamic-Pituitary-Adrenal (HPA) axis.",
+                description: 'High-shame states are processed by the brain as threats to social survival. This triggers a sustained "threat" response in the Hypothalamic-Pituitary-Adrenal (HPA) axis.',
               },
               {
                 number: "02",
