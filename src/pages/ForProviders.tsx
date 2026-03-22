@@ -5,7 +5,7 @@ const researchData = [
   {
     domain: "Epigenetics & Development",
     source: "National Scientific Council on the Developing Child (2010), Working Paper 10",
-    significance: "Early-life stress creates "chemical signatures" on DNA that program the immune system for lifelong inflammatory hyper-reactivity.",
+    significance: 'Early-life stress creates "chemical signatures" on DNA that program the immune system for lifelong inflammatory hyper-reactivity.',
   },
   {
     domain: "Shame & Inflammation",
