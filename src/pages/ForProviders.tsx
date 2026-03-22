@@ -153,7 +153,7 @@ const ForProviders = () => {
             Somatic Resolution & Parts Work
           </p>
           <p className="text-muted-foreground mb-10 max-w-[65ch]">
-            I utilize an integrative approach that combines Somatic Resolution and Parts Work to de-escalate the internal "threat" state. By addressing the psychological "parts" that hold these survival narratives, we can:
+            I utilize an integrative approach that combines Somatic Resolution and Parts Work to de-escalate the internal &ldquo;threat&rdquo; state. By addressing the psychological &ldquo;parts&rdquo; that hold these survival narratives, we can:
           </p>
 
           <div className="space-y-6">
