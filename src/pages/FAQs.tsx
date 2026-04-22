@@ -67,7 +67,7 @@ const faqs = [
 
 const FAQs = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-hero">
       <Navbar />
 
       {/* Hero */}
