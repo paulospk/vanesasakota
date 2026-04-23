@@ -23,8 +23,13 @@ export default function FooterSection() {
             <p className="text-sm opacity-70">Email: vanesa@vanesasakota.com.au</p>
           </div>
         </div>
-        <div className="border-t border-card/10 mt-12 pt-8 text-sm opacity-40">
-          © {new Date().getFullYear()} Vanesa Sakota Psychotherapy. All rights reserved.
+        <div className="border-t border-card/10 mt-12 pt-8 space-y-4">
+          <p className="text-sm opacity-60 leading-relaxed max-w-3xl">
+            I acknowledge the Gadigal people of the Eora Nation, the Traditional Custodians of the land on which I work and live. I pay my respects to their Elders past and present.
+          </p>
+          <p className="text-sm opacity-40">
+            © {new Date().getFullYear()} Vanesa Sakota Psychotherapy. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
