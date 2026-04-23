@@ -19,13 +19,7 @@ export default function FooterSection() {
             <p className="text-sm opacity-70">Email: vanesa@vanesasakota.com.au</p>
           </div>
         </div>
-        <div className="border-t border-card/10 mt-12 pt-8">
-          <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Acknowledgement of Country</h4>
-          <p className="text-sm opacity-70 leading-relaxed max-w-3xl">
-            Healing Moments recognises the continuous and deep connection to Country of Aboriginal people as the first peoples of this nation. In this way we respectfully acknowledge the Traditional Owners of our Country throughout Australia. We pay tribute to Elders past, present and emerging and respect the collective ancestry that has brought us all here today.
-          </p>
-        </div>
-        <div className="border-t border-card/10 mt-8 pt-8 text-sm opacity-40">
+        <div className="border-t border-card/10 mt-12 pt-8 text-sm opacity-40">
           © {new Date().getFullYear()} Vanesa Sakota Psychotherapy. All rights reserved.
         </div>
       </div>
