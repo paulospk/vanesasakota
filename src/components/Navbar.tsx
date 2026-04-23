@@ -3,8 +3,8 @@ import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const navLinks = [
+  { label: "Home", href: "/" },
   { label: "About", href: "/about" },
-  
   { label: "FAQs", href: "/faqs" },
   { label: "Fees", href: "/fees" },
   { label: "For Providers", href: "/for-providers" },
