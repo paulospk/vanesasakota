@@ -7,23 +7,28 @@ export default function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left: Text */}
           <div className="space-y-6 animate-fade-up">
-            <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground">
-              Psychotherapist
-            </p>
-            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
-              Vanesa Sakota
-            </h1>
-            <h2 className="font-serif text-xl md:text-2xl text-foreground/80 leading-snug max-w-[28ch]">
-              A Warm, Evidence-Based Approach to Therapy
+            <div className="space-y-2">
+              <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
+                Vanesa Sakota
+              </h1>
+              <p className="text-muted-foreground text-base">
+                Psychotherapist | BSc (Psychology), MA (Psychotherapy &amp; Counselling)
+              </p>
+              <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground">
+                Registered Member, PACFA
+              </p>
+            </div>
+            <h2 className="font-serif text-xl md:text-2xl text-foreground/80 leading-snug max-w-[32ch]">
+              A Warm, Evidence-Based Approach to Psychophysiological Health
             </h2>
-            <p className="text-muted-foreground text-base">
-              BSc (Psychology) MA (Psychotherapy and Counselling)
+            <p className="text-muted-foreground text-base leading-relaxed max-w-[55ch]">
+              Creating a safe, clinical, and supportive space to resolve symptoms at the intersection of the nervous system and the mind-body connection.
             </p>
             <a
               href="#book"
               className="inline-block bg-foreground text-card px-8 py-3 text-sm font-medium hover:opacity-90 transition-opacity mt-4"
             >
-              Book Now
+              Book a Consultation
             </a>
           </div>
 
