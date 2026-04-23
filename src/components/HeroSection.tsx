@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <section className="bg-hero border-b border-border">
       <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-end">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left: Text */}
           <div className="space-y-6 animate-fade-up">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground">
@@ -13,7 +13,10 @@ export default function HeroSection() {
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
               Vanesa Sakota
             </h1>
-            <p className="text-muted-foreground text-lg">
+            <h2 className="font-serif text-xl md:text-2xl text-foreground/80 leading-snug max-w-[28ch]">
+              A Warm, Evidence-Based Approach to Therapy
+            </h2>
+            <p className="text-muted-foreground text-base">
               BSc (Psychology) MA (Psychotherapy and Counselling)
             </p>
             <a

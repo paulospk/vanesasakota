@@ -4,7 +4,11 @@ export default function FooterSection() {
       <div className="max-w-7xl mx-auto px-6 md:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <h3 className="font-serif text-xl font-bold mb-4"></h3>
+            <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Professional Memberships</h4>
+            <ul className="space-y-2 text-sm opacity-70">
+              <li>Psychotherapy and Counselling Federation of Australia (PACFA)</li>
+              <li>Australian Psychological Society (APS)</li>
+            </ul>
           </div>
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Location</h4>
