@@ -9,12 +9,12 @@ const Fees = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-24">
-          <div className="max-w-2xl animate-fade-up">
-            <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-4">
+        <div className="max-w-4xl mx-auto px-6 md:px-8 py-12 md:py-16">
+          <div className="text-center animate-fade-up">
+            <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
               Fees
             </p>
-            <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1] mb-6">
+            <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1] mb-3">
               Session Fees & Payment
             </h1>
             <p className="text-muted-foreground text-lg">
@@ -25,7 +25,7 @@ const Fees = () => {
       </section>
 
       {/* Fee Table */}
-      <section className="max-w-4xl mx-auto px-6 md:px-8 py-16 md:py-24">
+      <section className="max-w-4xl mx-auto px-6 md:px-8 py-12 md:py-16">
         <div className="border border-border bg-card">
           <div className="p-8 border-b border-border">
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
