@@ -291,7 +291,7 @@ const ForProviders = () => {
               Mind-Body Evidence
             </p>
             <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
-              A Clinical Resource for Referring Providers
+              Mind-Body Evidence
             </h1>
             <p className="text-muted-foreground text-lg max-w-[70ch] mx-auto">
               This page summarises current evidence on the psychophysiological mechanisms underlying chronic somatic symptoms in women. It is structured in two parts: the foundational biological mechanisms that drive these conditions, followed by the specific clinical presentations where this evidence is most directly relevant. It is intended as a resource for integrative GPs, gynaecologists, dermatologists, and other clinicians working with patients whose symptoms have not fully resolved through conventional medical treatment.
