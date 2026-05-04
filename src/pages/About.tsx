@@ -1,4 +1,4 @@
-import profileImg from "@/assets/profile.jpg";
+import profileImg from "@/assets/profile-about.jpg";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 
