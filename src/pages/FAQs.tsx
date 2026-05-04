@@ -86,7 +86,7 @@ const FAQs = () => {
               Frequently Asked Questions
             </h1>
             <p className="text-muted-foreground text-lg">
-              Find answers to common questions about therapy sessions, pricing, and what to expect.
+              For clients and referring clinicians. If your question isn't answered here, please get in touch directly.
             </p>
           </div>
         </div>
