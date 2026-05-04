@@ -108,7 +108,7 @@ const SectionBlock = ({ section }: { section: Section }) => (
       </h3>
     </div>
 
-    <div className="space-y-5 mb-8 max-w-[70ch]">
+    <div className="space-y-5 mb-8">
       {section.paragraphs.map((p, i) => (
         <p key={i} className="text-muted-foreground leading-relaxed">
           {p}
@@ -119,7 +119,7 @@ const SectionBlock = ({ section }: { section: Section }) => (
     {section.subsections?.map((sub, i) => (
       <div key={i} className="mb-8">
         <h4 className="font-serif text-xl text-foreground mb-3">{sub.heading}</h4>
-        <p className="text-muted-foreground leading-relaxed max-w-[70ch]">{sub.body}</p>
+        <p className="text-muted-foreground leading-relaxed">{sub.body}</p>
       </div>
     ))}
 
@@ -147,7 +147,7 @@ const ForProviders = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-4xl mx-auto px-6 md:px-8 py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-24">
           <div className="space-y-6 animate-fade-up">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground">
               Mind-Body Evidence
@@ -155,7 +155,7 @@ const ForProviders = () => {
             <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
               Mind-Body Evidence
             </h1>
-            <p className="text-muted-foreground text-lg max-w-[70ch]">
+            <p className="text-muted-foreground text-lg">
               This page summarises what the current evidence tells us about the relationship between psychological experience and chronic somatic symptoms. It is intended as a resource for GPs, gynaecologists, dermatologists, and other clinicians whose patients have not fully responded to conventional medical treatment.
             </p>
           </div>
@@ -164,7 +164,7 @@ const ForProviders = () => {
 
       {/* Part One */}
       <section className="border-b border-border">
-        <div className="max-w-4xl mx-auto px-6 md:px-8 py-16 md:py-20">
+        <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-20">
           <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
             Part One
           </p>
@@ -182,14 +182,14 @@ const ForProviders = () => {
 
       {/* Part Two */}
       <section className="bg-accent/20 border-b border-border">
-        <div className="max-w-4xl mx-auto px-6 md:px-8 py-16 md:py-20">
+        <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-20">
           <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
             Part Two
           </p>
           <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground mb-6">
             Clinical Presentations
           </h2>
-          <p className="text-muted-foreground mb-12 max-w-[70ch] leading-relaxed">
+          <p className="text-muted-foreground mb-12 leading-relaxed">
             The following conditions represent presentations where the psychophysiological evidence is well established, and where psychological intervention has demonstrated meaningful outcomes — particularly where medical treatment has plateaued.
           </p>
 
@@ -203,11 +203,11 @@ const ForProviders = () => {
 
       {/* Referrals */}
       <section className="border-b border-border">
-        <div className="max-w-4xl mx-auto px-6 md:px-8 py-16 md:py-20">
+        <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-20">
           <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground mb-6">
             Referrals
           </h2>
-          <div className="space-y-5 text-muted-foreground leading-relaxed max-w-[70ch]">
+          <div className="space-y-5 text-muted-foreground leading-relaxed">
             <p>
               I welcome referrals from GPs, gynaecologists, dermatologists, physiotherapists, and other clinicians working with patients who present with chronic somatic symptoms where investigations have returned clear results.
             </p>
