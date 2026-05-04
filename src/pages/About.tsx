@@ -88,7 +88,7 @@ const About = () => {
               <li>Bachelor of Science in Psychology — Griffith University (QLD)</li>
               <li>Certificate, Clinical Resource Therapy — Resource Therapy International (2023)</li>
               <li>Registered Member, Psychotherapy and Counselling Federation of Australia (PACFA)</li>
-              <li>Member, Australian Psychological Society (APS)</li>
+              <li>Affiliate Member, Australian Psychological Society (APS)</li>
             </ul>
           </div>
         </div>
