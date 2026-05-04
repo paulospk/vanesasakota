@@ -17,21 +17,6 @@ const specializations = [
   },
 ];
 
-const clinicalApproach = [
-  {
-    title: "Inhibit Cytokine Signaling",
-    description: "Reducing the inflammatory markers associated with chronic \"shame-stress.\"",
-  },
-  {
-    title: "Resolve Somatic Guarding",
-    description: "Using somatic-orientated techniques to de-escalate the body's defensive postures.",
-  },
-  {
-    title: "Address Epigenetic & Developmental Factors",
-    description: "Exploring the history of sensitization to prevent symptom recurrence.",
-  },
-];
-
 export default function DetailsSection() {
   return (
     <>
