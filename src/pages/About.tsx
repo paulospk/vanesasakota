@@ -53,7 +53,7 @@ const About = () => {
               I draw on Clinical Resource Therapy, Brainspotting and CBT to work across both conscious and unconscious processes — addressing thoughts and beliefs, as well as the deeper emotional and somatic material that often drives symptoms and patterns.
             </p>
             <p>
-              There is no perfect moment to begin. A part of you however has brought you here, and that may be worth paying attention to. Please don't hesitate to reach out if you have any questions.
+              Please don't hesitate to reach out if you have any questions.
             </p>
           </div>
         </div>
