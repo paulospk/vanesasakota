@@ -60,6 +60,10 @@ const Fees = () => {
           </div>
         </div>
 
+        <p className="mt-6 text-sm text-muted-foreground leading-relaxed max-w-[65ch]">
+          You do not need a Mental Health Treatment Plan or a GP referral to see me. You can book directly. Private health rebates may apply depending on your level of cover — please check with your provider.
+        </p>
+
         {/* Professional Registration */}
         <div className="mt-12 space-y-8">
           <div>
