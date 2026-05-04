@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const navLinks = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
+  { label: "Mind-Body Evidence", href: "/for-providers" },
   { label: "FAQs", href: "/faqs" },
   { label: "Fees", href: "/fees" },
-  { label: "Mind-Body Evidence", href: "/for-providers" },
 ];
 
 export default function Navbar() {
@@ -46,7 +46,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="absolute top-full left-0 right-0 bg-card border-b border-border p-6 flex flex-col gap-4 lg:hidden">
+        <div className="absolute top-full left-0 right-0 bg-hero border-b border-border p-6 flex flex-col gap-4 lg:hidden">
           {navLinks.map((link) => (
             <Link
               key={link.label}
