@@ -57,13 +57,13 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <Link
-            to="/#book"
-            className="bg-foreground text-card px-5 py-2 text-sm font-medium text-center"
+          <a
+            href="mailto:vanesa@vanesasakota.com.au"
+            className="border border-foreground text-foreground px-5 py-2 text-sm font-medium text-center"
             onClick={() => setOpen(false)}
           >
-            Book Now
-          </Link>
+            Contact
+          </a>
         </div>
       )}
     </nav>
