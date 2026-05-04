@@ -19,10 +19,10 @@ export default function HeroSection() {
               </p>
             </div>
             <h2 className="font-serif text-xl md:text-2xl text-foreground/80 leading-snug max-w-[32ch]">
-              A Warm, Evidence-Based Approach to Psychophysiological Health
+              An Evidence-Based Approach to Chronic Somatic Symptoms
             </h2>
             <p className="text-muted-foreground text-base leading-relaxed max-w-[55ch]">
-              Creating a safe, clinical, and supportive space to resolve symptoms at the intersection of the nervous system and the mind-body connection.
+              Creating a safe, clinical, and supportive space for adults whose physical symptoms have not fully resolved through medical treatment alone.
             </p>
           </div>
 
