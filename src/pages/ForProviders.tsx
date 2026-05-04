@@ -285,7 +285,7 @@ const ForProviders = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-4xl mx-auto px-6 md:px-8 py-16 md:py-24 text-center">
+        <div className="max-w-4xl mx-auto px-6 md:px-8 py-16 md:py-24">
           <div className="space-y-6 animate-fade-up">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground">
               Mind-Body Evidence
@@ -293,7 +293,7 @@ const ForProviders = () => {
             <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
               Mind-Body Evidence
             </h1>
-            <p className="text-muted-foreground text-lg max-w-[70ch] mx-auto">
+            <p className="text-muted-foreground text-lg max-w-[70ch]">
               This page summarises current evidence on the psychophysiological mechanisms underlying chronic somatic symptoms in women. It is structured in two parts: the foundational biological mechanisms that drive these conditions, followed by the specific clinical presentations where this evidence is most directly relevant. It is intended as a resource for integrative GPs, gynaecologists, dermatologists, and other clinicians working with patients whose symptoms have not fully resolved through conventional medical treatment.
             </p>
           </div>
