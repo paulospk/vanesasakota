@@ -1,31 +1,28 @@
-const specializations = [
+const presentations = [
   {
-    title: "Female Pelvic Pain & Dysfunction",
-    description: "Including Vulvodynia, Vaginismus, and Chronic Pelvic Pain Syndrome (CPPS).",
+    title: "Female pelvic pain",
+    description: "Including vulvodynia, vaginismus, and chronic pelvic pain syndrome.",
   },
   {
-    title: "Nociplastic Pain",
-    description: "Addressing central and peripheral sensitization.",
+    title: "Stress-sensitive skin conditions",
+    description: "Including eczema, psoriasis, chronic urticaria, and alopecia areata.",
   },
   {
-    title: "Somatic Guarding",
-    description: "Resolving the neurobiological \"bracing\" patterns often linked to chronic stress or social-evaluative threat.",
-  },
-  {
-    title: "Stress-Induced Systemic Symptoms",
-    description: "Managing the \"Dance of the Neuro-Immune-Endocrine Axis\" and HPA axis downregulation.",
+    title: "And others",
+    description:
+      "Many chronic and treatment-resistant somatic presentations share the same underlying psychophysiological mechanisms, regardless of the system involved.",
   },
 ];
 
 export default function DetailsSection() {
   return (
     <>
-      {/* Clinical Specialization */}
+      {/* Clinical Specialisation */}
       <section className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
           <div className="lg:col-span-4">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
-              Clinical Specialization
+              Clinical Specialisation
             </p>
             <h2 className="font-serif text-2xl md:text-3xl text-foreground leading-snug">
               The Mind-Body Interface
@@ -33,20 +30,25 @@ export default function DetailsSection() {
           </div>
           <div className="lg:col-span-8 space-y-8">
             <p className="text-muted-foreground leading-relaxed max-w-[65ch]">
-              I specialize in the treatment of psychophysiological symptoms and nongenetic chronic pain—physical conditions that are not organic in nature but are driven by nervous system dysregulation. I provide targeted support for complex presentations that often fall between the gaps of traditional medicine:
+              Research is increasingly clear that many chronic physical symptoms have a significant psychophysiological component. I work with adults whose symptoms persist despite clear investigations, providing psychological support that addresses the nervous system drivers underlying their presentation.
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-              {specializations.map((item) => (
-                <div key={item.title} className="space-y-2">
-                  <div className="flex items-start gap-2">
+            <div>
+              <p className="text-foreground font-medium mb-5">
+                Presentations I commonly work with include:
+              </p>
+              <ul className="space-y-5">
+                {presentations.map((item) => (
+                  <li key={item.title} className="flex items-start gap-3">
                     <span className="mt-2 w-1.5 h-1.5 bg-primary rounded-full shrink-0" />
-                    <h3 className="font-serif text-lg text-foreground">{item.title}</h3>
-                  </div>
-                  <p className="text-sm text-muted-foreground leading-relaxed pl-3.5">
-                    {item.description}
-                  </p>
-                </div>
-              ))}
+                    <div className="space-y-1">
+                      <h3 className="font-serif text-lg text-foreground">{item.title}</h3>
+                      <p className="text-sm text-muted-foreground leading-relaxed max-w-[65ch]">
+                        {item.description}
+                      </p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
