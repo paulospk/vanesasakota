@@ -8,6 +8,7 @@ const navLinks = [
   { label: "FAQs", href: "/faqs" },
   { label: "Fees", href: "/fees" },
   { label: "Mind-Body Evidence", href: "/for-providers" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
@@ -31,12 +32,12 @@ export default function Navbar() {
             {link.label}
           </Link>
         ))}
-        <a
-          href="mailto:vanesa@vanesasakota.com.au"
+        <Link
+          to="/contact"
           className="border border-foreground text-foreground px-5 py-2 text-sm font-medium hover:bg-foreground hover:text-card transition-colors"
         >
           Contact
-        </a>
+        </Link>
       </div>
 
       {/* Mobile toggle */}
@@ -57,13 +58,13 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <a
-            href="mailto:vanesa@vanesasakota.com.au"
+          <Link
+            to="/contact"
             className="border border-foreground text-foreground px-5 py-2 text-sm font-medium text-center"
             onClick={() => setOpen(false)}
           >
             Contact
-          </a>
+          </Link>
         </div>
       )}
     </nav>
