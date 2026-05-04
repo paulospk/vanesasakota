@@ -119,15 +119,6 @@ const Fees = () => {
           </div>
         </div>
 
-        {/* CTA */}
-        <div className="mt-12 text-center">
-          <Link
-            to="/#book"
-            className="inline-block bg-foreground text-card px-8 py-3 text-sm font-medium hover:opacity-90 transition-opacity"
-          >
-            Book a Session
-          </Link>
-        </div>
       </section>
 
       <FooterSection />
