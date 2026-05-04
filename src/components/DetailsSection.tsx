@@ -67,24 +67,22 @@ export default function DetailsSection() {
               </h2>
             </div>
             <div className="lg:col-span-8 space-y-8">
-              <p className="text-muted-foreground leading-relaxed max-w-[65ch]">
-                I welcome inquiries from medical practitioners seeking a psychotherapeutic partner for patients with unexplained or treatment-resistant somatic symptoms.
-              </p>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                <div>
-                  <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-2">Location</p>
-                  <p className="text-sm text-foreground leading-relaxed">
-                    121 Crown Street<br />
-                    Darlinghurst NSW 2010
-                  </p>
-                </div>
+              <div className="space-y-4 text-muted-foreground leading-relaxed max-w-[65ch]">
+                <p>
+                  I welcome enquiries from medical practitioners seeking a psychotherapeutic partner for patients with unexplained or treatment-resistant somatic symptoms.
+                </p>
+                <p>
+                  I currently work online via Zoom. I am actively establishing permanent rooms in Sydney's Eastern Suburbs in 2026 and will update this page when a location is confirmed.
+                </p>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-2">Phone</p>
                   <p className="text-sm text-foreground">0405 933 722</p>
                 </div>
                 <div>
                   <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-2">Email</p>
-                <a href="mailto:vanesa@vanesasakota.com.au" className="text-sm text-foreground hover:opacity-70 transition-opacity break-all">
+                  <a href="mailto:vanesa@vanesasakota.com.au" className="text-sm text-foreground hover:opacity-70 transition-opacity break-all">
                     vanesa@vanesasakota.com.au
                   </a>
                 </div>
