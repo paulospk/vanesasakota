@@ -28,7 +28,7 @@ const About = () => {
                 <img
                   src={profileImg}
                   alt="Vanesa Sakota"
-                  className="w-full aspect-[4/5] object-cover object-top"
+                  className="w-full aspect-[4/5] object-cover object-top grayscale"
                 />
               </div>
             </div>
