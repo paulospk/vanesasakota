@@ -31,12 +31,6 @@ export default function Navbar() {
             {link.label}
           </Link>
         ))}
-        <Link
-          to="/#book"
-          className="ml-2 bg-foreground text-card px-5 py-2 text-sm font-medium hover:opacity-90 transition-opacity"
-        >
-          Book Now
-        </Link>
         <a
           href="mailto:vanesa@vanesasakota.com.au"
           className="border border-foreground text-foreground px-5 py-2 text-sm font-medium hover:bg-foreground hover:text-card transition-colors"
