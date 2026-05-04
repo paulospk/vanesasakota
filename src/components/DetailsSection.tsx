@@ -82,17 +82,11 @@ export default function DetailsSection() {
                 </div>
                 <div>
                   <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-2">Email</p>
-                  <a href="mailto:vanesa@vanesasakota.com.au" className="text-sm text-foreground hover:opacity-70 transition-opacity break-all">
+                <a href="mailto:vanesa@vanesasakota.com.au" className="text-sm text-foreground hover:opacity-70 transition-opacity break-all">
                     vanesa@vanesasakota.com.au
                   </a>
                 </div>
               </div>
-              <a
-                href="mailto:vanesa@vanesasakota.com.au"
-                className="inline-block bg-foreground text-card px-8 py-3 text-sm font-medium hover:opacity-90 transition-opacity"
-              >
-                Book a Consultation
-              </a>
             </div>
           </div>
         </div>

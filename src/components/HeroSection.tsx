@@ -24,12 +24,6 @@ export default function HeroSection() {
             <p className="text-muted-foreground text-base leading-relaxed max-w-[55ch]">
               Creating a safe, clinical, and supportive space to resolve symptoms at the intersection of the nervous system and the mind-body connection.
             </p>
-            <a
-              href="#book"
-              className="inline-block bg-foreground text-card px-8 py-3 text-sm font-medium hover:opacity-90 transition-opacity mt-4"
-            >
-              Book a Consultation
-            </a>
           </div>
 
           {/* Right: Image */}
