@@ -114,7 +114,7 @@ const Fees = () => {
               As I maintain a considerable waiting list and am heavily booked, I kindly ask for your cooperation with my cancellation policy. This ensures that unused appointment times can be offered to those who are waiting for support.
             </p>
             <p>
-              A minimum of <strong className="text-foreground">24 hours' notice</strong> is required to cancel or reschedule an appointment. Late cancellations or missed appointments will be charged the full session fee ($180 for standard sessions or $270 for intake sessions).
+              A minimum of <strong className="text-foreground">24 hours' notice</strong> is required to cancel or reschedule an appointment. Late cancellations or missed appointments will be charged the full session fee ($180 for standard sessions or $250 for intake sessions).
             </p>
           </div>
         </div>
