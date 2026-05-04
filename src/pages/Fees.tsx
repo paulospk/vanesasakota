@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
-import { Link } from "react-router-dom";
+
 
 const Fees = () => {
   return (
