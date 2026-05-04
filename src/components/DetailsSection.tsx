@@ -52,43 +52,6 @@ export default function DetailsSection() {
         </div>
       </section>
 
-      {/* Clinical Approach */}
-      <section className="border-t border-border bg-hero">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-24">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
-            <div className="lg:col-span-4">
-              <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
-                My Clinical Approach
-              </p>
-              <h2 className="font-serif text-2xl md:text-3xl text-foreground leading-snug">
-                Soma-Cognitive Resolution
-              </h2>
-            </div>
-            <div className="lg:col-span-8 space-y-8">
-              <p className="text-muted-foreground leading-relaxed max-w-[65ch]">
-                For referring specialists, my work serves as a functional adjunct to medical treatment. I utilize an integrative, evidence-based framework to:
-              </p>
-              <div className="space-y-6">
-                {clinicalApproach.map((item) => (
-                  <div key={item.title} className="space-y-2">
-                    <div className="flex items-start gap-2">
-                      <span className="mt-2 w-1.5 h-1.5 bg-primary rounded-full shrink-0" />
-                      <h3 className="font-serif text-lg text-foreground">{item.title}</h3>
-                    </div>
-                    <p className="text-sm text-muted-foreground leading-relaxed pl-3.5 max-w-[60ch]">
-                      {item.description}
-                    </p>
-                  </div>
-                ))}
-              </div>
-              <p className="text-muted-foreground leading-relaxed max-w-[65ch] pt-2">
-                I collaborate closely with GPs and specialists to ensure a shared, comprehensive understanding of a patient's clinical pathway.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Background & Training */}
       <section className="border-t border-border">
         <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-24">
