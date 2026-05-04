@@ -22,7 +22,7 @@ export default function HeroSection() {
               An Evidence-Based Approach to Chronic Somatic Symptoms
             </h2>
             <p className="text-muted-foreground text-base leading-relaxed max-w-[55ch]">
-              Creating a safe, clinical, and supportive space for adults whose physical symptoms have not fully resolved through medical treatment alone.
+              Creating a safe and supportive space for adults whose physical symptoms have not fully resolved through medical treatment alone.
             </p>
           </div>
 
