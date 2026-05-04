@@ -37,7 +37,7 @@ const Fees = () => {
                 </p>
               </div>
               <div className="text-right shrink-0">
-                <p className="font-serif text-3xl text-foreground">$270</p>
+                <p className="font-serif text-3xl text-foreground">$250</p>
                 <p className="text-sm text-muted-foreground">per session</p>
               </div>
             </div>
@@ -59,6 +59,10 @@ const Fees = () => {
             </div>
           </div>
         </div>
+
+        <p className="mt-6 text-sm text-muted-foreground leading-relaxed max-w-[65ch]">
+          You do not need a Mental Health Treatment Plan or a GP referral to see me. You can book directly. Private health rebates may apply depending on your level of cover — please check with your provider.
+        </p>
 
         {/* Professional Registration */}
         <div className="mt-12 space-y-8">
@@ -110,7 +114,7 @@ const Fees = () => {
               As I maintain a considerable waiting list and am heavily booked, I kindly ask for your cooperation with my cancellation policy. This ensures that unused appointment times can be offered to those who are waiting for support.
             </p>
             <p>
-              A minimum of <strong className="text-foreground">24 hours' notice</strong> is required to cancel or reschedule an appointment. Late cancellations or missed appointments will be charged the full session fee ($180 for standard sessions or $270 for intake sessions).
+              A minimum of <strong className="text-foreground">24 hours' notice</strong> is required to cancel or reschedule an appointment. Late cancellations or missed appointments will be charged the full session fee ($180 for standard sessions or $250 for intake sessions).
             </p>
           </div>
         </div>
