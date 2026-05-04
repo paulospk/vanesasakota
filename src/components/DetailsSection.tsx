@@ -52,48 +52,6 @@ export default function DetailsSection() {
         </div>
       </section>
 
-      {/* Background & Training */}
-      <section className="border-t border-border">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-24">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
-            <div className="lg:col-span-4">
-              <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
-                Background &amp; Training
-              </p>
-              <h2 className="font-serif text-2xl md:text-3xl text-foreground leading-snug">
-                A Unique Perspective on Health
-              </h2>
-            </div>
-            <div className="lg:col-span-8 space-y-6 text-muted-foreground leading-relaxed max-w-[65ch]">
-              <p>
-                My transition into psychotherapy followed a significant career in the technology sector, providing me with a unique perspective on the high-pressure environments that often contribute to autonomic dysregulation.
-              </p>
-              <div className="pt-2">
-                <h3 className="font-serif text-lg text-foreground mb-3">Education &amp; Memberships</h3>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-2">
-                    <span className="mt-2 w-1.5 h-1.5 bg-primary rounded-full shrink-0" />
-                    <span>Master of Psychotherapy and Counselling – Western Sydney University</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="mt-2 w-1.5 h-1.5 bg-primary rounded-full shrink-0" />
-                    <span>Bachelor of Science (Psychology) – Griffith University</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="mt-2 w-1.5 h-1.5 bg-primary rounded-full shrink-0" />
-                    <span>Registered Member: Psychotherapy and Counselling Federation of Australia (PACFA)</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="mt-2 w-1.5 h-1.5 bg-primary rounded-full shrink-0" />
-                    <span>Member: Australian Psychological Society (APS)</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Referrals & Contact */}
       <section id="book" className="border-t border-border bg-hero">
         <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-24">
