@@ -37,7 +37,7 @@ const Fees = () => {
                 </p>
               </div>
               <div className="text-right shrink-0">
-                <p className="font-serif text-3xl text-foreground">$270</p>
+                <p className="font-serif text-3xl text-foreground">$250</p>
                 <p className="text-sm text-muted-foreground">per session</p>
               </div>
             </div>
