@@ -1,7 +1,6 @@
+import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
-
-
 const Fees = () => {
   return (
     <div className="min-h-screen bg-background">
@@ -31,7 +30,7 @@ const Fees = () => {
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
               <div className="max-w-[65ch]">
                 <h2 className="font-serif text-xl text-foreground">Initial Consultation & Intake</h2>
-                <p className="text-sm text-muted-foreground mt-1">90-minute comprehensive assessment</p>
+                <p className="text-base md:text-lg text-foreground/80 font-medium mt-2">90-minute comprehensive assessment</p>
                 <p className="text-sm text-muted-foreground mt-3 leading-relaxed">
                   Our first session is extended to allow for a thorough exploration of your history, current symptoms, and your goals for therapy. This provides the necessary space to establish a foundation for our work together.
                 </p>
@@ -47,7 +46,7 @@ const Fees = () => {
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
               <div className="max-w-[65ch]">
                 <h2 className="font-serif text-xl text-foreground">Ongoing Psychotherapy Session</h2>
-                <p className="text-sm text-muted-foreground mt-1">50-minute session</p>
+                <p className="text-base md:text-lg text-foreground/80 font-medium mt-2">50-minute session</p>
                 <p className="text-sm text-muted-foreground mt-3 leading-relaxed">
                   Standard sessions focused on your therapeutic process and long-term resolution.
                 </p>
@@ -117,6 +116,16 @@ const Fees = () => {
               A minimum of <strong className="text-foreground">24 hours' notice</strong> is required to cancel or reschedule an appointment. Late cancellations or missed appointments will be charged the full session fee ($180 for standard sessions or $250 for intake sessions).
             </p>
           </div>
+        </div>
+
+        {/* CTA */}
+        <div className="mt-12 text-center">
+          <Link
+            to="/contact"
+            className="inline-block border border-foreground text-foreground px-8 py-3 text-sm font-medium hover:bg-foreground hover:text-card transition-colors"
+          >
+            Contact
+          </Link>
         </div>
 
       </section>
