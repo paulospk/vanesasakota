@@ -16,7 +16,7 @@ const About = () => {
                 About Vanesa
               </p>
               <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
-                A Unique Perspective on Health
+                A Different Kind of Conversation.
               </h1>
               <p className="text-muted-foreground text-lg max-w-[55ch]">
                 Creating a safe, clinical, and supportive space to explore what lies beneath the surface.
