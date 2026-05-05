@@ -1,61 +1,22 @@
-const presentations = [
-  {
-    title: "Female pelvic pain",
-    description: "Including vulvodynia, vaginismus, and chronic pelvic pain syndrome.",
-  },
-  {
-    title: "Stress-sensitive skin conditions",
-    description: "Including eczema, psoriasis, chronic urticaria, and alopecia areata.",
-  },
-  {
-    title: "And others",
-    description:
-      "Many chronic and treatment-resistant somatic presentations share the same underlying psychophysiological mechanisms, regardless of the system involved.",
-  },
-];
-
 export default function DetailsSection() {
   return (
     <>
-      {/* Mind-Body Intro */}
-      <section className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-16">
-        <p className="text-muted-foreground leading-relaxed max-w-[65ch] mx-auto text-base md:text-lg">
-          We now understand more than ever about the relationship between the mind and the body. Chronic physical symptoms — pain, skin conditions, pelvic floor dysfunction, fatigue — are increasingly recognised as having a significant psychophysiological component. This means the nervous system and unresolved psychological experience play a meaningful role in maintaining them, often independently of any structural cause.
-        </p>
-      </section>
-
-      {/* Clinical Specialisation */}
-      <section className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-10 gap-12 lg:gap-16">
-          <div className="lg:col-span-3">
-            <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
-              Clinical Specialisation
-            </p>
-            <h2 className="font-serif text-2xl md:text-3xl text-foreground leading-snug">
-              The Mind-Body Interface
-            </h2>
-          </div>
-          <div className="lg:col-span-7 space-y-8">
-            <p className="text-muted-foreground leading-relaxed max-w-[65ch]">
-              Research is increasingly clear that many chronic physical symptoms have a significant psychophysiological component. I work with adults whose symptoms persist despite clear investigations, providing psychological support that addresses the nervous system drivers underlying their presentation.
-            </p>
-            <div>
-              <p className="text-foreground font-medium mb-5">
-                Presentations I commonly work with include:
+      {/* The Mind-Body Interface */}
+      <section className="bg-muted/30 border-y border-border">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-5 md:py-24">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-5 lg:gap-16">
+            <div className="lg:col-span-3">
+              <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
+                Clinical Focus
               </p>
-              <ul className="space-y-5">
-                {presentations.map((item) => (
-                  <li key={item.title} className="flex items-start gap-3">
-                    <span className="mt-2 w-1.5 h-1.5 bg-primary rounded-full shrink-0" />
-                    <div className="space-y-1">
-                      <h3 className="font-serif text-lg text-foreground">{item.title}</h3>
-                      <p className="text-sm text-muted-foreground leading-relaxed max-w-[65ch]">
-                        {item.description}
-                      </p>
-                    </div>
-                  </li>
-                ))}
-              </ul>
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground leading-snug">
+                The Mind-Body Interface
+              </h2>
+            </div>
+            <div className="lg:col-span-7">
+              <p className="text-muted-foreground leading-relaxed text-base md:text-lg" style={{ maxWidth: "700px" }}>
+                We now understand that many chronic physical symptoms—including pelvic floor dysfunction, stress-sensitive skin, and persistent fatigue—have a significant psychophysiological component. When symptoms persist despite clear medical investigations, it often indicates that the nervous system and unresolved psychological experiences are playing a meaningful role in maintaining them. My practice provides evidence-based psychological support that addresses these underlying drivers, working at the interface of the mind and body to facilitate sustainable healing.
+              </p>
             </div>
           </div>
         </div>
