@@ -1,7 +1,7 @@
 export default function BookingSection() {
   return (
     <section id="book" className="border-t border-border">
-      <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-24">
+      <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-24">
         <div className="max-w-xl">
           <h2 className="font-serif text-2xl text-foreground mb-6">Get in Touch</h2>
           <p className="text-muted-foreground leading-relaxed mb-8">

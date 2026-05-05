@@ -8,7 +8,7 @@ const Contact = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 py-8 md:py-24">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-24">
           <div className="max-w-2xl animate-fade-up">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-4">
               Contact
@@ -24,12 +24,12 @@ const Contact = () => {
       </section>
 
       {/* Contact Details */}
-      <section className="max-w-7xl mx-auto px-6 md:px-8 py-8 md:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
-          <div className="lg:col-span-4">
+      <section className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-24">
+        <div className="grid grid-cols-1 lg:grid-cols-10 gap-12 lg:gap-16">
+          <div className="lg:col-span-3">
             <h2 className="font-serif text-2xl text-foreground mb-4">Contact Details</h2>
           </div>
-          <div className="lg:col-span-8 space-y-4 text-muted-foreground leading-relaxed max-w-[65ch]">
+          <div className="lg:col-span-7 space-y-4 text-muted-foreground leading-relaxed max-w-[65ch]">
             <p>The best way to get in touch is directly.</p>
             <p>
               <span className="text-foreground font-medium">Phone:</span>{" "}
@@ -47,12 +47,12 @@ const Contact = () => {
       </section>
 
       {/* Location */}
-      <section className="max-w-7xl mx-auto px-6 md:px-8 pb-8 md:pb-24">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
-          <div className="lg:col-span-4">
+      <section className="max-w-[1200px] mx-auto px-5 md:px-8 pb-8 md:pb-24">
+        <div className="grid grid-cols-1 lg:grid-cols-10 gap-12 lg:gap-16">
+          <div className="lg:col-span-3">
             <h2 className="font-serif text-2xl text-foreground mb-4">Location</h2>
           </div>
-          <div className="lg:col-span-8 text-muted-foreground leading-relaxed max-w-[65ch]">
+          <div className="lg:col-span-7 text-muted-foreground leading-relaxed max-w-[65ch]">
             <p>
               I currently work online via Zoom, offering sessions to clients across Australia. I am actively establishing permanent consulting rooms in Sydney's Eastern Suburbs and CBD, with a location to be confirmed in 2026. This page will be updated when a location is confirmed.
             </p>
@@ -61,12 +61,12 @@ const Contact = () => {
       </section>
 
       {/* For Referring Clinicians */}
-      <section className="max-w-7xl mx-auto px-6 md:px-8 pb-8 md:pb-24">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
-          <div className="lg:col-span-4">
+      <section className="max-w-[1200px] mx-auto px-5 md:px-8 pb-8 md:pb-24">
+        <div className="grid grid-cols-1 lg:grid-cols-10 gap-12 lg:gap-16">
+          <div className="lg:col-span-3">
             <h2 className="font-serif text-2xl text-foreground mb-4">For Referring Clinicians</h2>
           </div>
-          <div className="lg:col-span-8 text-muted-foreground leading-relaxed max-w-[65ch]">
+          <div className="lg:col-span-7 text-muted-foreground leading-relaxed max-w-[65ch]">
             <p>
               If you are a GP, gynaecologist, dermatologist, physiotherapist, or other specialist seeking a psychotherapeutic partner for a patient, I am happy to speak with you directly before a referral is made. Please call or email to arrange a brief consultation.
             </p>

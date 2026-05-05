@@ -8,7 +8,7 @@ const Fees = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-4xl mx-auto px-6 md:px-8 py-12 md:py-16">
+        <div className="max-w-4xl mx-auto px-5 md:px-8 py-12 md:py-16">
           <div className="text-center animate-fade-up">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
               Fees
@@ -24,7 +24,7 @@ const Fees = () => {
       </section>
 
       {/* Fee Table */}
-      <section className="max-w-4xl mx-auto px-6 md:px-8 py-12 md:py-16">
+      <section className="max-w-4xl mx-auto px-5 md:px-8 py-12 md:py-16">
         <div className="border border-border bg-card">
           <div className="p-8 border-b border-border">
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
@@ -72,7 +72,7 @@ const Fees = () => {
                 I am a <strong className="text-foreground">Registered Psychotherapist with the Psychotherapy and Counselling Federation of Australia (PACFA)</strong>.
               </p>
               <p>
-                My fees are intentionally set at a lower rate than the standard industry fee for psychologists. Because psychotherapists in Australia do not currently have rebate rights under the Medicare Mental Health Treatment Plan (MHTP) scheme, I have adjusted my pricing to reflect what a client would typically pay "out-of-pocket" as a gap fee elsewhere.
+                My fees are set to ensure specialized care remains sustainable, comparable to typical gap fees for psychology services.
               </p>
               <p>
                 This ensures that high-quality care remains financially sustainable for you without the requirement of a GP referral or a formal mental health care plan.
