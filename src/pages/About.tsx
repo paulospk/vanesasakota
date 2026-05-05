@@ -67,10 +67,13 @@ const About = () => {
           </div>
           <div className="lg:col-span-8 space-y-5 text-muted-foreground leading-relaxed max-w-[65ch]">
             <p>
-              My path into psychotherapy was not conventional. Before training as a psychotherapist, I spent years working in start-ups and medical technology — high-pressure environments that gave me a close understanding of what chronic stress actually does to people over time.
+              I completed my Bachelor of Science in Psychology at Griffith University in 2012. At the time, I was deeply curious about the mind — but I took a different path first. For the years that followed, I built a career in medical technology and start-ups, working in high-pressure environments where I saw firsthand what sustained stress does to people over time. Performance at the cost of the body. Symptoms that medicine couldn't fully explain. A nervous system running on empty.
             </p>
             <p>
-              I completed a Bachelor of Science in Psychology at Griffith University in Queensland, before returning to New South Wales to complete a Master of Psychotherapy and Counselling at Western Sydney University. I am trained in Brainspotting, Clinical Resource Therapy, and CBT, and am currently supervised by Philippa Thornton, psychologist and leading Resource Therapy practitioner. I have been in private practice for three years, working online and from rooms in Sydney's Eastern Suburbs.
+              It was during this period that my curiosity deepened. Watching people close to me — family and friends — struggle with physical symptoms that had no clear medical cause, I kept finding myself drawn back to the same question: what is the body trying to say? I had encountered the work of Peter Levine, Bessel van der Kolk, and Gabor Maté, and their ideas about trauma, the nervous system, and the body's long memory for unresolved experience resonated deeply — both professionally and personally.
+            </p>
+            <p>
+              That curiosity eventually became a conviction. I returned to study, completing a Master of Psychotherapy and Counselling at Western Sydney University. I trained in Brainspotting, Clinical Resource Therapy, and CBT, and am currently supervised by Philippa Thornton, psychologist and leading Resource Therapy practitioner. I have been in private practice for three years, working online and establishing rooms in Sydney's Eastern Suburbs.
             </p>
           </div>
         </div>
