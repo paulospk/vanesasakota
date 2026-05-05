@@ -67,16 +67,16 @@ export default function DetailsSection() {
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-12 lg:gap-16">
             <div className="lg:col-span-3">
               <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
-                Referrals &amp; Contact
+                Collaborative Care
               </p>
               <h2 className="font-serif text-2xl md:text-3xl text-foreground leading-snug">
-                Get in Touch
+                Working Alongside You
               </h2>
             </div>
             <div className="lg:col-span-7 space-y-8">
               <div className="space-y-4 text-muted-foreground leading-relaxed max-w-[65ch]">
                 <p>
-                  I welcome enquiries from GPs, gynaecologists, dermatologists, physiotherapists, and other clinicians. If you are working with a patient whose symptoms have not fully resolved through conventional treatment, please feel free to get in touch to discuss whether a referral may be appropriate.
+                  Collaborative Care: I partner with GPs and specialists to provide comprehensive support for patients with treatment-resistant somatic symptoms.
                 </p>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
