@@ -17,8 +17,15 @@ const presentations = [
 export default function DetailsSection() {
   return (
     <>
+      {/* Mind-Body Intro */}
+      <section className="max-w-7xl mx-auto px-6 md:px-8 py-6 md:py-16">
+        <p className="text-muted-foreground leading-relaxed max-w-[65ch] mx-auto text-base md:text-lg">
+          We now understand more than ever about the relationship between the mind and the body. Chronic physical symptoms — pain, skin conditions, pelvic floor dysfunction, fatigue — are increasingly recognised as having a significant psychophysiological component. This means the nervous system and unresolved psychological experience play a meaningful role in maintaining them, often independently of any structural cause.
+        </p>
+      </section>
+
       {/* Clinical Specialisation */}
-      <section className="max-w-7xl mx-auto px-6 md:px-8 py-10 md:py-24">
+      <section className="max-w-7xl mx-auto px-6 md:px-8 py-6 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
           <div className="lg:col-span-4">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
@@ -56,7 +63,7 @@ export default function DetailsSection() {
 
       {/* Referrals & Contact */}
       <section id="book" className="border-t border-border bg-hero">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 py-10 md:py-24">
+        <div className="max-w-7xl mx-auto px-6 md:px-8 py-8 md:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
             <div className="lg:col-span-4">
               <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
@@ -69,10 +76,7 @@ export default function DetailsSection() {
             <div className="lg:col-span-8 space-y-8">
               <div className="space-y-4 text-muted-foreground leading-relaxed max-w-[65ch]">
                 <p>
-                  I welcome enquiries from medical practitioners seeking a psychotherapeutic partner for patients with unexplained or treatment-resistant somatic symptoms.
-                </p>
-                <p>
-                  I currently work online via Zoom. I am actively establishing permanent rooms in Sydney's Eastern Suburbs in 2026 and will update this page when a location is confirmed.
+                  I welcome enquiries from GPs, gynaecologists, dermatologists, physiotherapists, and other clinicians. If you are working with a patient whose symptoms have not fully resolved through conventional treatment, please feel free to get in touch to discuss whether a referral may be appropriate.
                 </p>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

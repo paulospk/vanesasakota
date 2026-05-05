@@ -110,10 +110,7 @@ const Fees = () => {
           <h3 className="font-serif text-lg text-foreground mb-3">Cancellation Policy</h3>
           <div className="text-sm text-muted-foreground leading-relaxed space-y-3 max-w-[65ch]">
             <p>
-              As I maintain a considerable waiting list and am heavily booked, I kindly ask for your cooperation with my cancellation policy. This ensures that unused appointment times can be offered to those who are waiting for support.
-            </p>
-            <p>
-              A minimum of <strong className="text-foreground">48 hours' notice</strong> is required to cancel or reschedule an appointment. Late cancellations or missed appointments will be charged the full session fee ($180 for standard sessions or $250 for intake sessions).
+              I ask for at least <strong className="text-foreground">48 hours notice</strong> to cancel or reschedule a session. This allows the time to be offered to someone else. Late cancellations or missed appointments will be charged at the full session fee — $180 for standard sessions and $250 for the initial consultation.
             </p>
           </div>
         </div>

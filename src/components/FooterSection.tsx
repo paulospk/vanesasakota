@@ -13,8 +13,8 @@ export default function FooterSection() {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Location</h4>
             <p className="text-sm opacity-70 leading-relaxed">
-              121 Crown Street<br />
-              Darlinghurst NSW 2010
+              Currently online via Zoom.<br />
+              Rooms in Sydney's Eastern Suburbs coming 2026.
             </p>
           </div>
           <div>
