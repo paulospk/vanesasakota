@@ -1,3 +1,18 @@
+const frameworkCards = [
+  {
+    title: "Top-Down: Cognitive Behavioural Therapy",
+    body: "Focusing on the conscious mind. We work together to identify and reframe the thought patterns that inadvertently maintain autonomic arousal, helping to lower the body’s “volume” on distress.",
+  },
+  {
+    title: "Bottom-Up: Neuro-Experiential Processing",
+    body: "Focusing on the subcortical brain. As a derivative of EMDR, Brainspotting accesses the deep physiological layers where somatic memory is stored, allowing for processing that “talk therapy” alone cannot reach.",
+  },
+  {
+    title: "Systemic: Resource Therapy (Parts Work)",
+    body: "Focusing on internal harmony. We engage with the specific “parts” of the personality that hold physical symptoms, facilitating a sense of internal safety and systemic regulation.",
+  },
+];
+
 export default function DetailsSection() {
   return (
     <>
@@ -18,6 +33,39 @@ export default function DetailsSection() {
                 We now understand that many chronic physical symptoms—including pelvic floor dysfunction, stress-sensitive skin, and persistent fatigue—have a significant psychophysiological component. When symptoms persist despite clear medical investigations, it often indicates that the nervous system and unresolved psychological experiences are playing a meaningful role in maintaining them. My practice provides evidence-based psychological support that addresses these underlying drivers, working at the interface of the mind and body to facilitate sustainable healing.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Clinical Framework & Integrative Interventions */}
+      <section className="border-b border-border">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-24">
+          <div className="text-center max-w-3xl mx-auto mb-10 md:mb-16">
+            <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
+              Therapeutic Approach
+            </p>
+            <h2 className="font-serif text-2xl md:text-4xl text-foreground leading-snug mb-4">
+              Clinical Framework &amp; Integrative Interventions
+            </h2>
+            <p className="text-muted-foreground text-base md:text-lg" style={{ lineHeight: 1.6 }}>
+              Bridging the gap between neurobiological evidence and the human experience of healing.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {frameworkCards.map((card) => (
+              <article
+                key={card.title}
+                className="bg-[hsl(35_30%_97%)] border border-[hsl(210_20%_88%)] rounded-sm p-7 md:p-8 shadow-sm hover:shadow-md transition-shadow"
+              >
+                <h3 className="font-serif text-xl md:text-[1.375rem] text-foreground mb-4 leading-snug">
+                  {card.title}
+                </h3>
+                <p className="text-muted-foreground text-[0.95rem]" style={{ lineHeight: 1.6 }}>
+                  {card.body}
+                </p>
+              </article>
+            ))}
           </div>
         </div>
       </section>
