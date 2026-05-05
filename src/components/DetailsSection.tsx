@@ -26,8 +26,8 @@ export default function DetailsSection() {
 
       {/* Clinical Specialisation */}
       <section className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
-          <div className="lg:col-span-4">
+        <div className="grid grid-cols-1 lg:grid-cols-10 gap-12 lg:gap-16">
+          <div className="lg:col-span-3">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
               Clinical Specialisation
             </p>
@@ -35,7 +35,7 @@ export default function DetailsSection() {
               The Mind-Body Interface
             </h2>
           </div>
-          <div className="lg:col-span-8 space-y-8">
+          <div className="lg:col-span-7 space-y-8">
             <p className="text-muted-foreground leading-relaxed max-w-[65ch]">
               Research is increasingly clear that many chronic physical symptoms have a significant psychophysiological component. I work with adults whose symptoms persist despite clear investigations, providing psychological support that addresses the nervous system drivers underlying their presentation.
             </p>
@@ -64,8 +64,8 @@ export default function DetailsSection() {
       {/* Referrals & Contact */}
       <section id="book" className="border-t border-border bg-hero">
         <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-24">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
-            <div className="lg:col-span-4">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-12 lg:gap-16">
+            <div className="lg:col-span-3">
               <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
                 Referrals &amp; Contact
               </p>
@@ -73,7 +73,7 @@ export default function DetailsSection() {
                 Get in Touch
               </h2>
             </div>
-            <div className="lg:col-span-8 space-y-8">
+            <div className="lg:col-span-7 space-y-8">
               <div className="space-y-4 text-muted-foreground leading-relaxed max-w-[65ch]">
                 <p>
                   I welcome enquiries from GPs, gynaecologists, dermatologists, physiotherapists, and other clinicians. If you are working with a patient whose symptoms have not fully resolved through conventional treatment, please feel free to get in touch to discuss whether a referral may be appropriate.

@@ -38,11 +38,11 @@ const About = () => {
 
       {/* About Vanesa */}
       <section className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
-          <div className="lg:col-span-4">
+        <div className="grid grid-cols-1 lg:grid-cols-10 gap-12 lg:gap-16">
+          <div className="lg:col-span-3">
             <h2 className="font-serif text-2xl text-foreground mb-4">About Vanesa</h2>
           </div>
-          <div className="lg:col-span-8 space-y-5 text-muted-foreground leading-relaxed max-w-[65ch]">
+          <div className="lg:col-span-7 space-y-5 text-muted-foreground leading-relaxed max-w-[65ch]">
             <p>
               Therapy offers a space to explore what's beneath the surface — the emotional patterns, physical symptoms, and experiences that are often difficult to put into words. My work focuses on the connection between mind and body: the way unresolved experiences can show up as chronic pain, tension, fatigue, stress-sensitive skin conditions, pelvic pain, and a nervous system that never quite settles.
             </p>
@@ -61,11 +61,11 @@ const About = () => {
 
       {/* Background & Training */}
       <section className="max-w-[1200px] mx-auto px-5 md:px-8 pb-6 md:pb-24">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
-          <div className="lg:col-span-4">
+        <div className="grid grid-cols-1 lg:grid-cols-10 gap-12 lg:gap-16">
+          <div className="lg:col-span-3">
             <h2 className="font-serif text-2xl text-foreground mb-4">Background &amp; Training</h2>
           </div>
-          <div className="lg:col-span-8 space-y-5 text-muted-foreground leading-relaxed max-w-[65ch]">
+          <div className="lg:col-span-7 space-y-5 text-muted-foreground leading-relaxed max-w-[65ch]">
             <p>
               I completed my Bachelor of Science in Psychology at Griffith University in 2012. At the time, I was deeply curious about the mind — but I took a different path first. For the years that followed, I built a career in medical technology and start-ups, working in high-pressure environments where I saw firsthand what sustained stress does to people over time. Performance at the cost of the body. Symptoms that medicine couldn't fully explain. A nervous system running on empty.
             </p>
@@ -81,11 +81,11 @@ const About = () => {
 
       {/* Education & Memberships */}
       <section className="max-w-[1200px] mx-auto px-5 md:px-8 pb-6 md:pb-24">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
-          <div className="lg:col-span-4">
+        <div className="grid grid-cols-1 lg:grid-cols-10 gap-12 lg:gap-16">
+          <div className="lg:col-span-3">
             <h2 className="font-serif text-2xl text-foreground mb-4">Education &amp; Memberships</h2>
           </div>
-          <div className="lg:col-span-8 text-muted-foreground leading-relaxed max-w-[65ch]">
+          <div className="lg:col-span-7 text-muted-foreground leading-relaxed max-w-[65ch]">
             <ul className="space-y-3 list-disc pl-5 marker:text-muted-foreground/60">
               <li>Master of Psychotherapy and Counselling — Western Sydney University (NSW)</li>
               <li>Bachelor of Science in Psychology — Griffith University (QLD), 2012</li>
