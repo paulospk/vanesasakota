@@ -87,7 +87,7 @@ const About = () => {
           </div>
           <div className="lg:col-span-7 text-muted-foreground leading-relaxed max-w-[65ch]">
             <ul className="space-y-3 list-disc pl-5 marker:text-muted-foreground/60">
-              <li>Master of Psychotherapy and Counselling — Western Sydney University (NSW)</li>
+              <li>Master of Psychotherapy and Counselling — Western Sydney University (NSW), 2023</li>
               <li>Bachelor of Science in Psychology — Griffith University (QLD), 2012</li>
               <li>Certificate, Clinical Resource Therapy — Resource Therapy International (2023)</li>
               <li>Registered Member, Psychotherapy and Counselling Federation of Australia (PACFA)</li>
