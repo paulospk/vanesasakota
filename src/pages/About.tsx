@@ -13,7 +13,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="space-y-6 animate-fade-up">
               <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground">
-                About Vanesa
+                ABOUT VANESA
               </p>
               <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
                 A Different Kind of Conversation.
@@ -53,7 +53,7 @@ const About = () => {
               I draw on Clinical Resource Therapy, Brainspotting and CBT to work across both conscious and unconscious processes — addressing thoughts and beliefs, as well as the deeper emotional and somatic material that often drives symptoms and patterns.
             </p>
             <p>
-              There is no perfect moment to begin. A part of you however has brought you here, and that may be worth paying attention to. Please don't hesitate to reach out if you have any questions.
+              There is no perfect moment to begin. If you are curious about the therapeutic approaches I use, the thinkers mentioned above, or simply want to understand more before taking a step — please feel free to get in touch. I am happy to talk it through.
             </p>
           </div>
         </div>
@@ -67,10 +67,13 @@ const About = () => {
           </div>
           <div className="lg:col-span-8 space-y-5 text-muted-foreground leading-relaxed max-w-[65ch]">
             <p>
-              My path into psychotherapy was not conventional. Before training as a psychotherapist, I spent years working in start-ups and medical technology — high-pressure environments that gave me a close understanding of what chronic stress actually does to people over time.
+              I completed my Bachelor of Science in Psychology at Griffith University in 2012. At the time, I was deeply curious about the mind — but I took a different path first. For the years that followed, I built a career in medical technology and start-ups, working in high-pressure environments where I saw firsthand what sustained stress does to people over time. Performance at the cost of the body. Symptoms that medicine couldn't fully explain. A nervous system running on empty.
             </p>
             <p>
-              I completed a Bachelor of Science in Psychology at Griffith University in Queensland, before returning to New South Wales to complete a Master of Psychotherapy and Counselling at Western Sydney University. I am trained in Brainspotting, Clinical Resource Therapy, and CBT, and am currently supervised by Philippa Thornton, psychologist and leading Resource Therapy practitioner. I have been in private practice for three years, working online and from rooms in Sydney's Eastern Suburbs.
+              It was during this period that my curiosity deepened. Watching people close to me — family and friends — struggle with physical symptoms that had no clear medical cause, I kept finding myself drawn back to the same question: what is the body trying to say? I had encountered the work of Peter Levine, Bessel van der Kolk, and Gabor Maté, and their ideas about trauma, the nervous system, and the body's long memory for unresolved experience resonated deeply — both professionally and personally.
+            </p>
+            <p>
+              That curiosity eventually became a conviction. I returned to study, completing a Master of Psychotherapy and Counselling at Western Sydney University. I trained in Brainspotting, Clinical Resource Therapy, and CBT, and am currently supervised by Philippa Thornton, psychologist and leading Resource Therapy practitioner. I have been in private practice for three years, working online and establishing rooms in Sydney's Eastern Suburbs.
             </p>
           </div>
         </div>
@@ -85,7 +88,7 @@ const About = () => {
           <div className="lg:col-span-8 text-muted-foreground leading-relaxed max-w-[65ch]">
             <ul className="space-y-3 list-disc pl-5 marker:text-muted-foreground/60">
               <li>Master of Psychotherapy and Counselling — Western Sydney University (NSW)</li>
-              <li>Bachelor of Science in Psychology — Griffith University (QLD)</li>
+              <li>Bachelor of Science in Psychology — Griffith University (QLD), 2012</li>
               <li>Certificate, Clinical Resource Therapy — Resource Therapy International (2023)</li>
               <li>Registered Member, Psychotherapy and Counselling Federation of Australia (PACFA)</li>
               <li>Affiliate Member, Australian Psychological Society (APS)</li>
