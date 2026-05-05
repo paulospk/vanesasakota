@@ -8,7 +8,7 @@ const Contact = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-24">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-24">
           <div className="max-w-2xl animate-fade-up">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-4">
               Contact
@@ -24,7 +24,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Details */}
-      <section className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-24">
+      <section className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-10 gap-12 lg:gap-16">
           <div className="lg:col-span-3">
             <h2 className="font-serif text-2xl text-foreground mb-4">Contact Details</h2>
@@ -47,7 +47,7 @@ const Contact = () => {
       </section>
 
       {/* Location */}
-      <section className="max-w-[1200px] mx-auto px-5 md:px-8 pb-8 md:pb-24">
+      <section className="max-w-[1200px] mx-auto px-5 md:px-8 pb-6 md:pb-24">
         <div className="grid grid-cols-1 lg:grid-cols-10 gap-12 lg:gap-16">
           <div className="lg:col-span-3">
             <h2 className="font-serif text-2xl text-foreground mb-4">Location</h2>
@@ -61,7 +61,7 @@ const Contact = () => {
       </section>
 
       {/* For Referring Clinicians */}
-      <section className="max-w-[1200px] mx-auto px-5 md:px-8 pb-8 md:pb-24">
+      <section className="max-w-[1200px] mx-auto px-5 md:px-8 pb-6 md:pb-24">
         <div className="grid grid-cols-1 lg:grid-cols-10 gap-12 lg:gap-16">
           <div className="lg:col-span-3">
             <h2 className="font-serif text-2xl text-foreground mb-4">For Referring Clinicians</h2>

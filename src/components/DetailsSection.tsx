@@ -63,7 +63,7 @@ export default function DetailsSection() {
 
       {/* Referrals & Contact */}
       <section id="book" className="border-t border-border bg-hero">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-24">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-16">
             <div className="lg:col-span-3">
               <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
