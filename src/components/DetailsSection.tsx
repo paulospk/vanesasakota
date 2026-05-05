@@ -18,7 +18,7 @@ export default function DetailsSection() {
   return (
     <>
       {/* Clinical Specialisation */}
-      <section className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-24">
+      <section className="max-w-7xl mx-auto px-6 md:px-8 py-10 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
           <div className="lg:col-span-4">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
@@ -56,7 +56,7 @@ export default function DetailsSection() {
 
       {/* Referrals & Contact */}
       <section id="book" className="border-t border-border bg-hero">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-6 md:px-8 py-10 md:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
             <div className="lg:col-span-4">
               <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
