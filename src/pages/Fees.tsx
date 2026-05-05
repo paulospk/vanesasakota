@@ -8,7 +8,7 @@ const Fees = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-4xl mx-auto px-6 md:px-8 py-12 md:py-16">
+        <div className="max-w-4xl mx-auto px-5 md:px-8 py-12 md:py-16">
           <div className="text-center animate-fade-up">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
               Fees
@@ -24,7 +24,7 @@ const Fees = () => {
       </section>
 
       {/* Fee Table */}
-      <section className="max-w-4xl mx-auto px-6 md:px-8 py-12 md:py-16">
+      <section className="max-w-4xl mx-auto px-5 md:px-8 py-12 md:py-16">
         <div className="border border-border bg-card">
           <div className="p-8 border-b border-border">
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">

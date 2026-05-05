@@ -147,7 +147,7 @@ const ForProviders = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-24">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-24">
           <div className="space-y-6 animate-fade-up">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground">
               Mind-Body Evidence
@@ -164,7 +164,7 @@ const ForProviders = () => {
 
       {/* Part One */}
       <section className="border-b border-border">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-20">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-20">
           <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
             Part One
           </p>
@@ -182,7 +182,7 @@ const ForProviders = () => {
 
       {/* Part Two */}
       <section className="bg-accent/20 border-b border-border">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-20">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-20">
           <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
             Part Two
           </p>
@@ -203,7 +203,7 @@ const ForProviders = () => {
 
       {/* Referrals */}
       <section className="border-b border-border">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-20">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-20">
           <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground mb-6">
             Referrals
           </h2>

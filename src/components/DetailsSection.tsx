@@ -18,14 +18,14 @@ export default function DetailsSection() {
   return (
     <>
       {/* Mind-Body Intro */}
-      <section className="max-w-7xl mx-auto px-6 md:px-8 py-6 md:py-16">
+      <section className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-16">
         <p className="text-muted-foreground leading-relaxed max-w-[65ch] mx-auto text-base md:text-lg">
           We now understand more than ever about the relationship between the mind and the body. Chronic physical symptoms — pain, skin conditions, pelvic floor dysfunction, fatigue — are increasingly recognised as having a significant psychophysiological component. This means the nervous system and unresolved psychological experience play a meaningful role in maintaining them, often independently of any structural cause.
         </p>
       </section>
 
       {/* Clinical Specialisation */}
-      <section className="max-w-7xl mx-auto px-6 md:px-8 py-6 md:py-24">
+      <section className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
           <div className="lg:col-span-4">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
@@ -63,7 +63,7 @@ export default function DetailsSection() {
 
       {/* Referrals & Contact */}
       <section id="book" className="border-t border-border bg-hero">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 py-8 md:py-24">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
             <div className="lg:col-span-4">
               <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">

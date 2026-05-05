@@ -77,7 +77,7 @@ const FAQs = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-24">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-24">
           <div className="max-w-2xl animate-fade-up">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-4">
               FAQs
@@ -93,7 +93,7 @@ const FAQs = () => {
       </section>
 
       {/* FAQ Accordion */}
-      <section className="max-w-3xl mx-auto px-6 md:px-8 py-16 md:py-24">
+      <section className="max-w-3xl mx-auto px-5 md:px-8 py-16 md:py-24">
         <Accordion type="single" collapsible className="w-full">
           {faqs.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`}>
