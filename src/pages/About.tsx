@@ -13,7 +13,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="space-y-6 animate-fade-up">
               <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground">
-                About Vanesa
+                ABOUT VANESA
               </p>
               <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
                 A Different Kind of Conversation.
