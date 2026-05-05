@@ -14,7 +14,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="border-b border-border py-4 px-6 md:px-8 flex justify-between items-center bg-hero backdrop-blur-md sticky top-0 z-50">
+    <nav className="border-b border-border py-3 pl-4 pr-3 md:py-4 md:px-8 flex justify-between items-center bg-hero backdrop-blur-md sticky top-0 z-50">
       <div className="flex items-center gap-2">
         <Link to="/" className="font-serif text-xl font-bold tracking-tighter text-foreground">
         </Link>
