@@ -18,7 +18,7 @@ export default function DetailsSection() {
     <>
       {/* The Mind-Body Interface */}
       <section className="bg-muted/30 border-y border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-5 md:py-24">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-5 md:py-16">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-5 lg:gap-16">
             <div className="lg:col-span-3">
               <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
@@ -30,7 +30,7 @@ export default function DetailsSection() {
             </div>
             <div className="lg:col-span-7">
               <p className="text-muted-foreground leading-relaxed text-base md:text-lg" style={{ maxWidth: "700px" }}>
-                We now understand that many chronic physical symptoms—including pelvic floor dysfunction, stress-sensitive skin, and persistent fatigue—have a significant psychophysiological component. When symptoms persist despite clear medical investigations, it often indicates that the nervous system and unresolved psychological experiences are playing a meaningful role in maintaining them. My practice provides evidence-based psychological support that addresses these underlying drivers, working at the interface of the mind and body to facilitate sustainable healing.
+                When physical symptoms persist despite medical clearance, the nervous system is often the driver. I provide targeted psychological interventions to resolve these psychophysiological presentations.
               </p>
             </div>
           </div>
