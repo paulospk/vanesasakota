@@ -201,6 +201,54 @@ const ForProviders = () => {
         </div>
       </section>
 
+      {/* Key References Table */}
+      <section className="border-b border-border">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-20">
+          <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground mb-4">
+            Key References
+          </h2>
+          <p className="text-muted-foreground italic mb-8 leading-relaxed">
+            The following references are provided for clinicians wishing to explore the evidence base further. DOI links will be added once verified via PubMed.
+          </p>
+
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="border-b border-border">
+                  <th className="text-left font-semibold text-foreground py-3 px-3">Topic</th>
+                  <th className="text-left font-semibold text-foreground py-3 px-3">Author</th>
+                  <th className="text-left font-semibold text-foreground py-3 px-3">Title</th>
+                  <th className="text-left font-semibold text-foreground py-3 px-3">Journal</th>
+                  <th className="text-left font-semibold text-foreground py-3 px-3">Year</th>
+                </tr>
+              </thead>
+              <tbody className="text-muted-foreground">
+                {[
+                  ["Early life stress", "National Scientific Council on the Developing Child", "Early Experiences Can Alter Gene Expression and Affect Long-Term Development", "Harvard Working Paper", "2010"],
+                  ["Early life stress", "McEwen, B.S.", "Brain on stress: how the social environment gets under the skin", "PNAS", "2012"],
+                  ["Early life stress", "Shonkoff, J.P. et al.", "The lifelong effects of early childhood adversity and toxic stress", "Pediatrics", "2012"],
+                  ["HPA axis & inflammation", "Dhabhar, F.S.", "Effects of stress on immune function", "Immunologic Research", "2014"],
+                  ["HPA axis & inflammation", "Slavich, G.M. & Irwin, M.R.", "From stress to inflammation and major depressive disorder", "Psychological Bulletin", "2014"],
+                  ["Nociplastic pain", "Fitzcharles, M.A. et al.", "Nociplastic pain: towards an understanding of prevalent pain conditions", "The Lancet", "2021"],
+                  ["Nociplastic pain", "Woolf, C.J.", "Central sensitization: implications for the diagnosis and treatment of pain", "Pain", "2011"],
+                  ["Vulvodynia", "Harlow, B.L. et al.", "Prevalence of symptoms consistent with a diagnosis of vulvodynia", "American Journal of Obstetrics and Gynecology", "2014"],
+                  ["Vaginismus", "Ter Kuile, M.M. et al.", "Therapist-aided exposure for women with lifelong vaginismus", "Journal of Consulting and Clinical Psychology", "2010"],
+                  ["Psychodermatology", "Arck, P.C. & Paus, R.", "From the brain-skin connection to the mind-skin connection", "Experimental Dermatology", "2006"],
+                  ["Psychodermatology", "Jafferany, M. & Franca, K.", "Psychodermatology: basics concepts", "Acta Dermato-Venereologica", "2016"],
+                  ["Psychodermatology", "Heller, M.M. et al.", "Mind-body treatments for psoriasis", "American Journal of Clinical Dermatology", "2011"],
+                ].map((row, i) => (
+                  <tr key={i} className="border-b border-border/60 align-top">
+                    {row.map((cell, j) => (
+                      <td key={j} className="py-3 px-3 leading-relaxed">{cell}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
       {/* Referrals */}
       <section className="border-b border-border">
         <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-20">
