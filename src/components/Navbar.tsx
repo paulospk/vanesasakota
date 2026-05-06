@@ -16,7 +16,8 @@ export default function Navbar() {
   return (
     <nav className="border-b border-border py-3 pl-4 pr-3 md:py-4 md:px-8 flex justify-between items-center bg-hero backdrop-blur-md sticky top-0 z-50">
       <div className="flex items-center gap-2">
-        <Link to="/" className="font-serif text-xl font-bold tracking-tighter text-foreground">
+        <Link to="/" className="font-serif text-lg md:text-xl tracking-tight text-foreground">
+          Vanesa Sakota
         </Link>
       </div>
 

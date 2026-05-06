@@ -18,19 +18,19 @@ export default function DetailsSection() {
     <>
       {/* The Mind-Body Interface */}
       <section className="bg-muted/30 border-y border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-5 md:py-16">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-5 lg:gap-16">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-10">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-5 lg:gap-12">
             <div className="lg:col-span-3">
               <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
                 Clinical Focus
               </p>
-              <h2 className="font-serif text-2xl md:text-3xl text-foreground leading-snug">
+              <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
                 The Mind-Body Interface
               </h2>
             </div>
             <div className="lg:col-span-7">
-              <p className="text-muted-foreground leading-relaxed text-base md:text-lg" style={{ maxWidth: "700px" }}>
-                When physical symptoms persist despite medical clearance, the nervous system is often the driver. I provide targeted psychological interventions to resolve these psychophysiological presentations.
+              <p className="text-muted-foreground leading-relaxed text-base md:text-lg max-w-[700px]">
+                We now understand that many chronic symptoms—including pelvic floor pain, IBS, and stress-sensitive skin—have a significant psychophysiological component. When symptoms persist despite clear medical investigations, it indicates the nervous system is playing a primary role in maintaining them. My practice provides targeted somatic resolution to address these underlying drivers.
               </p>
             </div>
           </div>
@@ -39,8 +39,8 @@ export default function DetailsSection() {
 
       {/* Clinical Framework & Integrative Interventions */}
       <section className="border-b border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-16">
-          <div className="text-center max-w-3xl mx-auto mb-10 md:mb-16">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-10">
+          <div className="max-w-3xl mb-8 md:mb-10">
             <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
               Therapeutic Approach
             </p>
@@ -72,7 +72,7 @@ export default function DetailsSection() {
 
       {/* Referrals & Contact */}
       <section id="book" className="border-t border-border bg-hero">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-16">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-10">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-16">
             <div className="lg:col-span-3">
               <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
