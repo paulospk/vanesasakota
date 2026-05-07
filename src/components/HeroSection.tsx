@@ -13,14 +13,6 @@ export default function HeroSection() {
             <p className="text-muted-foreground text-base leading-relaxed max-w-[55ch]">
               Resolving chronic physical symptoms through a neurobiological lens. Specialized support for pelvic pain, IBS, and stress-sensitive skin.
             </p>
-            <div className="pt-2">
-              <a
-                href="/for-providers"
-                className="inline-block bg-foreground text-card px-6 py-3 text-sm font-medium hover:opacity-90 transition-opacity"
-              >
-                View Clinical Evidence
-              </a>
-            </div>
           </div>
 
           {/* Right: Image */}
