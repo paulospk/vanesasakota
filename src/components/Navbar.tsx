@@ -15,15 +15,12 @@ export default function Navbar() {
 
   return (
     <nav className="border-b border-border py-3 pl-4 pr-3 md:py-4 md:px-8 flex justify-between items-center bg-hero backdrop-blur-md sticky top-0 z-50">
-      <Link to="/" className="flex flex-col leading-tight">
+      <Link to="/" className="flex items-baseline gap-2 leading-tight">
         <span className="font-serif font-medium text-base md:text-xl tracking-tight text-foreground">
           Vanesa Sakota
         </span>
-        <span className="hidden sm:block text-[10px] md:text-[11px] text-muted-foreground tracking-wide mt-0.5">
-          Psychotherapist | BSc (Psychology), MA (Psychotherapy &amp; Counselling)
-        </span>
-        <span className="sm:hidden text-[10px] text-muted-foreground tracking-wide mt-0.5">
-          Psychotherapist | BSc (Psychology), MA
+        <span className="text-[10px] md:text-[11px] text-muted-foreground tracking-wide">
+          BSc Psych MPAC
         </span>
       </Link>
 
