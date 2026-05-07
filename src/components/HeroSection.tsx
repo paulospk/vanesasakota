@@ -7,9 +7,6 @@ export default function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* Left: Text */}
           <div className="space-y-4 animate-fade-up max-w-[800px]">
-            <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground">
-              Registered Member, PACFA
-            </p>
             <p className="font-serif text-lg md:text-xl text-foreground">
               Vanesa Sakota
               <span className="block text-sm md:text-base text-muted-foreground font-sans mt-1">
