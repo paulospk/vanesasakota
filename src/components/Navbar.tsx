@@ -20,10 +20,10 @@ export default function Navbar() {
           Vanesa Sakota
         </span>
         <span className="hidden sm:block text-[10px] md:text-[11px] text-muted-foreground tracking-wide mt-0.5">
-          Psychotherapist | BSc (Psych), MA (Psychotherapy &amp; Counselling)
+          Psychotherapist | BSc (Psychology), MA (Psychotherapy &amp; Counselling)
         </span>
         <span className="sm:hidden text-[10px] text-muted-foreground tracking-wide mt-0.5">
-          Psychotherapist | BSc, MA
+          Psychotherapist | BSc (Psychology), MA
         </span>
       </Link>
 
