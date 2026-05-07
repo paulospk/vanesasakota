@@ -21,7 +21,7 @@ export default function Navbar() {
             Vanesa Sakota
           </span>
           <span className="text-[10px] md:text-[11px] text-muted-foreground tracking-wide">
-            BSc Psych MPAC
+            BSc Psych MPAC PACFA
           </span>
         </div>
         <span className="text-[10px] md:text-[11px] text-muted-foreground tracking-wide mt-0.5">
