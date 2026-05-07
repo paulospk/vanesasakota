@@ -56,7 +56,7 @@ export default function DetailsSection() {
               My Framework and Integrative Approach
             </h2>
             <p className="text-muted-foreground text-base md:text-lg" style={{ lineHeight: 1.6 }}>
-              Bridging the gap between neurobiological evidence and the human experience of healing.
+              Integrating neurobiological evidence to address the physiological drivers of treatment-resistant symptoms.
             </p>
           </div>
 
