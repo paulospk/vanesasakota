@@ -37,7 +37,7 @@ export default function DetailsSection() {
                   href="/for-providers"
                   className="inline-block bg-foreground text-card px-6 py-3 text-sm font-medium hover:opacity-90 transition-opacity"
                 >
-                  View Clinical Evidence
+                  Explore the Evidence Base
                 </a>
               </div>
             </div>
