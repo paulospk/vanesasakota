@@ -53,7 +53,7 @@ export default function DetailsSection() {
               Therapeutic Approach
             </p>
             <h2 className="font-serif text-2xl md:text-4xl text-foreground leading-snug mb-4">
-              Clinical Framework &amp; Integrative Interventions
+              My Framework and Integrative Approach
             </h2>
             <p className="text-muted-foreground text-base md:text-lg" style={{ lineHeight: 1.6 }}>
               Bridging the gap between neurobiological evidence and the human experience of healing.
