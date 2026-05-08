@@ -1,7 +1,7 @@
 export default function FooterSection() {
   return (
     <footer className="bg-foreground text-card">
-      <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-16">
+      <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Professional Memberships</h4>
