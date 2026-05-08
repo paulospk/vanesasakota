@@ -53,10 +53,10 @@ export default function DetailsSection() {
               Therapeutic Approach
             </p>
             <h2 className="font-serif text-2xl md:text-4xl text-foreground leading-snug mb-4">
-              My Framework and Integrative Approach
+              Clinical Framework
             </h2>
             <p className="text-muted-foreground text-base md:text-lg" style={{ lineHeight: 1.6 }}>
-              Integrating neurobiological evidence to address the physiological drivers of treatment-resistant symptoms.
+              Applying neurobiological evidence to resolve the physiological drivers of persistent symptoms.
             </p>
           </div>
 
@@ -93,7 +93,7 @@ export default function DetailsSection() {
             <div className="lg:col-span-7 space-y-8">
               <div className="space-y-4 text-muted-foreground leading-relaxed max-w-[65ch]">
                 <p>
-                  I welcome enquiries from GPs, specialists, and allied health professionals. If a patient's progress has plateaued under conventional treatment, and you suspect autonomic dysregulation or psychophysiological factors are contributing to their symptoms, please feel free to reach out to discuss a referral.
+                  I welcome enquiries from GPs, specialists, and allied health professionals. If a patient's progress has plateaued under conventional treatment and you suspect autonomic dysregulation or psychophysiological factors are contributing to their symptoms, please reach out to discuss a referral.
                 </p>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
