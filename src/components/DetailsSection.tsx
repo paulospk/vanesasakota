@@ -30,7 +30,7 @@ export default function DetailsSection() {
             </div>
             <div className="lg:col-span-7">
               <p className="text-muted-foreground leading-relaxed text-base md:text-lg max-w-[700px]">
-                We now understand that many chronic symptoms-including pelvic floor pain, IBS, and stress-sensitive skin-have a significant psychophysiological component. When symptoms persist despite clear medical investigations, it indicates the nervous system is playing a primary role in maintaining them. My practice provides targeted somatic resolution to address these underlying drivers.
+                We now understand that many chronic symptoms-including stress-sensitive skin, female pelvic pain, and IBS-have a significant psychophysiological component. When symptoms persist despite clear medical investigations, it indicates the nervous system is playing a primary role in maintaining them. My practice provides targeted somatic resolution to address these underlying drivers.
               </p>
               <div className="pt-6">
                 <a
