@@ -39,9 +39,7 @@ const About = () => {
       {/* About Vanesa - Highlights */}
       <section className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-16">
         <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-16">
-          <div className="lg:col-span-3">
-            <h2 className="font-serif text-2xl text-foreground mb-4">About Vanesa</h2>
-          </div>
+          <div className="lg:col-span-3"></div>
           <div className="lg:col-span-7 max-w-[800px]">
             <ul className="space-y-5 text-muted-foreground leading-relaxed">
               <li>
