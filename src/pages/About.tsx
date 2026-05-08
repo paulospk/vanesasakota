@@ -36,7 +36,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* About Vanesa — Highlights */}
+      {/* About Vanesa - Highlights */}
       <section className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-16">
         <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-16">
           <div className="lg:col-span-3">
@@ -66,9 +66,9 @@ const About = () => {
           </div>
           <div className="lg:col-span-7 text-muted-foreground leading-relaxed max-w-[800px]">
             <ul className="space-y-3 list-disc pl-5 marker:text-muted-foreground/60">
-              <li>Master of Psychotherapy and Counselling — Western Sydney University (NSW), 2023</li>
-              <li>Bachelor of Science in Psychology — Griffith University (QLD), 2012</li>
-              <li>Certificate, Clinical Resource Therapy — Resource Therapy International (2023)</li>
+              <li>Master of Psychotherapy and Counselling - Western Sydney University (NSW), 2023</li>
+              <li>Bachelor of Science in Psychology - Griffith University (QLD), 2012</li>
+              <li>Certificate, Clinical Resource Therapy - Resource Therapy International (2023)</li>
               <li>Registered Member, Psychotherapy and Counselling Federation of Australia (PACFA)</li>
               <li>Affiliate Member, Australian Psychological Society (APS)</li>
             </ul>
