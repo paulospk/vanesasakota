@@ -45,12 +45,6 @@ export default function Navbar() {
             {link.label}
           </Link>
         ))}
-        <button
-          onClick={openContact}
-          className="border border-foreground text-foreground px-5 py-2 text-sm font-medium hover:bg-foreground hover:text-card transition-colors"
-        >
-          Contact
-        </button>
       </div>
 
       {/* Mobile toggle */}
@@ -71,12 +65,6 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <button
-            onClick={openContact}
-            className="border border-foreground text-foreground px-5 py-2 text-sm font-medium text-center"
-          >
-            Contact
-          </button>
         </div>
       )}
 
