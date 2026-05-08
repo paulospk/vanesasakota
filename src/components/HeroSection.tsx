@@ -11,7 +11,7 @@ export default function HeroSection() {
               Psychophysiological Interventions for Chronic Somatic Symptoms
             </h1>
             <p className="text-muted-foreground text-base leading-relaxed max-w-[55ch]">
-              Targeted neuro-experiential support for patients with functional presentations where the nervous system maintains the symptom loop.
+              Targeted support for patients with functional presentations where the nervous system maintains the symptom loop.
             </p>
           </div>
 
