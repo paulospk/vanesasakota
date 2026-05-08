@@ -156,7 +156,7 @@ const ForProviders = () => {
               Mind-Body Evidence
             </h1>
             <p className="text-muted-foreground text-lg">
-              This page summarises what the current evidence tells us about the relationship between psychological experience and chronic somatic symptoms. It is intended as a resource for GPs, gynaecologists, dermatologists, and other clinicians whose patients have not fully responded to conventional medical treatment.
+              This page summarises what the current evidence tells us about the relationship between psychological experience and chronic somatic symptoms.
             </p>
           </div>
         </div>
