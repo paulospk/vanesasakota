@@ -48,7 +48,7 @@ const About = () => {
                 <span className="font-semibold text-foreground">Specialization:</span> The intersection of somatic distress and psychological health.
               </li>
               <li>
-                <span className="font-semibold text-foreground">Approach:</span> Bridging top-down (CBT) and bottom-up (Brainspotting/EMDR/Parts Work Somatic) interventions.
+                <span className="font-semibold text-foreground">Approach:</span> Bridging top-down (CBT/ACT) and bottom-up (Brainspotting/EMDR/Parts Work Somatic) interventions.
               </li>
               <li>
                 <span className="font-semibold text-foreground">Background:</span> Master of Psychotherapy with a career background in Medical Technology leadership.
