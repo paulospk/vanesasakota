@@ -8,10 +8,10 @@ export default function HeroSection() {
           {/* Left: Text */}
           <div className="space-y-5 animate-fade-up max-w-[800px]">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
-              Psychophysiological Interventions for Chronic Somatic Symptoms
+              Psychophysiological Interventions for Chronic Symptoms
             </h1>
             <p className="text-muted-foreground text-base leading-relaxed max-w-[55ch]">
-              Targeted support for patients with functional presentations where the nervous system maintains the symptom loop.
+              Evidence-based treatment for patients with functional presentations that remain treatment-resistant following standard medical investigation.
             </p>
             {/* Desktop-only credentials under intro */}
             <div className="hidden lg:block space-y-1 pt-2">
