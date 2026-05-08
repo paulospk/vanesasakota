@@ -11,7 +11,7 @@ export default function HeroSection() {
               Psychophysiological Interventions for Chronic Symptoms
             </h1>
             <p className="text-muted-foreground text-base leading-relaxed max-w-[55ch]">
-              Evidence-based treatment for patients with functional presentations that remain treatment-resistant following standard medical investigation.
+              Utilising evidence-based psychological strategies to support patients with functional presentations not organic in nature.
             </p>
             {/* Desktop-only credentials under intro */}
             <div className="hidden lg:block space-y-1 pt-2">
