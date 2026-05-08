@@ -60,7 +60,7 @@ const Fees = () => {
         </div>
 
         <p className="mt-6 text-sm text-muted-foreground leading-relaxed max-w-[65ch]">
-          You do not need a Mental Health Treatment Plan or a GP referral to see me. You can book directly. Private health rebates may apply depending on your level of cover — please check with your provider.
+          You do not need a Mental Health Treatment Plan or a GP referral to see me. You can book directly. Private health rebates may apply depending on your level of cover - please check with your provider.
         </p>
 
         {/* Professional Registration */}
@@ -110,7 +110,7 @@ const Fees = () => {
           <h3 className="font-serif text-lg text-foreground mb-3">Cancellation Policy</h3>
           <div className="text-sm text-muted-foreground leading-relaxed space-y-3 max-w-[65ch]">
             <p>
-              I ask for at least <strong className="text-foreground">48 hours notice</strong> to cancel or reschedule a session. This allows the time to be offered to someone else. Late cancellations or missed appointments will be charged at the full session fee — $180 for standard sessions and $250 for the initial consultation.
+              I ask for at least <strong className="text-foreground">48 hours notice</strong> to cancel or reschedule a session. This allows the time to be offered to someone else. Late cancellations or missed appointments will be charged at the full session fee - $180 for standard sessions and $250 for the initial consultation.
             </p>
           </div>
         </div>

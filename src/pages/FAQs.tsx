@@ -16,7 +16,7 @@ const faqs = [
   {
     question: "Can therapy actually help with physical symptoms?",
     answer:
-      "This is one of the most important questions to ask. The short answer is yes — and there is a growing body of research to support it. Many chronic physical symptoms, including pelvic pain, stress-sensitive skin conditions, and treatment-resistant fatigue, have a well-documented psychophysiological component. This means the nervous system and psychological factors are playing a meaningful role in maintaining them. Psychological therapy that addresses these underlying drivers can produce significant and lasting change, particularly where medical treatment has plateaued. The Mind-Body Evidence page on this site summarises the research in more detail.",
+      "This is one of the most important questions to ask. The short answer is yes - and there is a growing body of research to support it. Many chronic physical symptoms, including pelvic pain, stress-sensitive skin conditions, and treatment-resistant fatigue, have a well-documented psychophysiological component. This means the nervous system and psychological factors are playing a meaningful role in maintaining them. Psychological therapy that addresses these underlying drivers can produce significant and lasting change, particularly where medical treatment has plateaued. The Mind-Body Evidence page on this site summarises the research in more detail.",
   },
   {
     question: "What does a session actually look like?",
@@ -26,12 +26,12 @@ const faqs = [
   {
     question: "How much does it cost and are there rebates?",
     answer:
-      "The initial consultation is $250. Subsequent sessions are $180. You do not need a Mental Health Treatment Plan to access my services. Private health rebates may apply depending on your level of cover — please check with your provider before your first session.",
+      "The initial consultation is $250. Subsequent sessions are $180. You do not need a Mental Health Treatment Plan to access my services. Private health rebates may apply depending on your level of cover - please check with your provider before your first session.",
   },
   {
     question: "Do you offer Medicare rebates?",
     answer:
-      "Not currently. Medicare rebates for psychology services require registration as a psychologist. As a registered psychotherapist and counsellor, I am not Medicare-registered. Some private health funds do cover psychotherapy — it is worth checking your policy.",
+      "Not currently. Medicare rebates for psychology services require registration as a psychologist. As a registered psychotherapist and counsellor, I am not Medicare-registered. Some private health funds do cover psychotherapy - it is worth checking your policy.",
   },
   {
     question: "How often should I attend sessions?",
@@ -51,10 +51,10 @@ const faqs = [
   {
     question: "What therapeutic approaches do you use?",
     answer:
-      "I draw on Clinical Resource Therapy, Brainspotting, and Cognitive Behavioural Therapy. Clinical Resource Therapy is a parts-based modality that works at the level of internal states — the emotional and somatic material that often drives symptoms and patterns beneath conscious awareness. Brainspotting is a body-based approach that accesses and processes experiences held in the nervous system. It was developed from EMDR and shares its evidence base, but works more directly with the body's physiological response to unresolved experience. CBT addresses thoughts, beliefs, and behavioural patterns at the conscious level. I use these in combination, tailored to each person.",
+      "I draw on Clinical Resource Therapy, Brainspotting, and Cognitive Behavioural Therapy. Clinical Resource Therapy is a parts-based modality that works at the level of internal states - the emotional and somatic material that often drives symptoms and patterns beneath conscious awareness. Brainspotting is a body-based approach that accesses and processes experiences held in the nervous system. It was developed from EMDR and shares its evidence base, but works more directly with the body's physiological response to unresolved experience. CBT addresses thoughts, beliefs, and behavioural patterns at the conscious level. I use these in combination, tailored to each person.",
   },
   {
-    question: "I am a clinician — how do I refer a patient?",
+    question: "I am a clinician - how do I refer a patient?",
     answer: (
       <>
         You are welcome to contact me directly by phone or email to discuss whether a referral is appropriate. I am happy to provide brief case consultation before a referral is made, and to liaise with you regarding shared patients where that is helpful. A formal referral letter is not required, though it is welcome. Contact:{" "}
