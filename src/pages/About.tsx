@@ -9,7 +9,7 @@ const About = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 pt-8 pb-4 md:py-16">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 pt-8 pb-4 md:py-6 md:py-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             <div className="space-y-5 animate-fade-up max-w-[800px]">
               <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground">
@@ -37,7 +37,7 @@ const About = () => {
       </section>
 
       {/* About Vanesa - Highlights */}
-      <section className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-16">
+      <section className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-6 md:py-10">
         <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-16">
           <div className="lg:col-span-3"></div>
           <div className="lg:col-span-7 max-w-[800px]">
