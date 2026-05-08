@@ -16,7 +16,15 @@ export default function HeroSection() {
           </div>
 
           {/* Right: Image */}
-          <div className="animate-fade-up" style={{ animationDelay: "100ms" }}>
+          <div className="animate-fade-up space-y-4" style={{ animationDelay: "100ms" }}>
+            <div className="space-y-1">
+              <p className="font-serif font-medium text-2xl md:text-3xl tracking-tight text-foreground">
+                Vanesa Sakota
+              </p>
+              <p className="text-[12px] text-muted-foreground tracking-wide font-sans">
+                MA (Psychotherapy & Counselling), BSc (Psychological Science), PACFA Reg.
+              </p>
+            </div>
             <div className="relative">
               <div className="absolute -inset-3 border border-border -z-10 translate-x-3 translate-y-3" />
               <img
