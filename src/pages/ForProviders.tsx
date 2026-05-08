@@ -168,7 +168,7 @@ const ForProviders = () => {
           <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
             Part One
           </p>
-          <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground mb-12">
+          <h2 className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-12">
             The Science
           </h2>
 
