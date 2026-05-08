@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Phone, MessageSquare, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -12,6 +13,12 @@ const navLinks = [
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const [contactOpen, setContactOpen] = useState(false);
+
+  const openContact = () => {
+    setOpen(false);
+    setContactOpen(true);
+  };
 
   return (
     <nav className="border-b border-border py-3 pl-4 pr-3 md:py-4 md:px-8 flex justify-between items-center bg-hero/80 backdrop-blur-md sticky top-0 z-50">
@@ -38,16 +45,16 @@ export default function Navbar() {
             {link.label}
           </Link>
         ))}
-        <Link
-          to="/contact"
+        <button
+          onClick={openContact}
           className="border border-foreground text-foreground px-5 py-2 text-sm font-medium hover:bg-foreground hover:text-card transition-colors"
         >
           Contact
-        </Link>
+        </button>
       </div>
 
       {/* Mobile toggle */}
-      <button onClick={() => setOpen(!open)} className="lg:hidden text-foreground">
+      <button onClick={() => setOpen(!open)} className="lg:hidden text-foreground" aria-label="Toggle menu">
         {open ? <X size={24} /> : <Menu size={24} />}
       </button>
 
@@ -64,15 +71,49 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <Link
-            to="/contact"
+          <button
+            onClick={openContact}
             className="border border-foreground text-foreground px-5 py-2 text-sm font-medium text-center"
-            onClick={() => setOpen(false)}
           >
             Contact
-          </Link>
+          </button>
         </div>
       )}
+
+      {/* Contact Modal */}
+      <Dialog open={contactOpen} onOpenChange={setContactOpen}>
+        <DialogContent className="sm:max-w-md bg-hero">
+          <DialogHeader>
+            <DialogTitle className="font-serif text-2xl text-foreground">Get in Touch</DialogTitle>
+            <DialogDescription className="text-muted-foreground">
+              Reach Vanesa directly — all enquiries answered within 24 hours.
+            </DialogDescription>
+          </DialogHeader>
+          <div className="flex flex-col gap-3 mt-2">
+            <a
+              href="tel:0405933722"
+              className="flex items-center justify-center gap-3 border border-foreground text-foreground px-5 py-4 text-base font-medium hover:bg-foreground hover:text-card transition-colors"
+            >
+              <Phone size={18} />
+              Call Vanesa
+            </a>
+            <a
+              href="sms:0405933722"
+              className="flex items-center justify-center gap-3 border border-foreground text-foreground px-5 py-4 text-base font-medium hover:bg-foreground hover:text-card transition-colors"
+            >
+              <MessageSquare size={18} />
+              Send a Text
+            </a>
+            <a
+              href="mailto:vanesa@vanesasakota.com.au"
+              className="flex items-center justify-center gap-3 border border-foreground text-foreground px-5 py-4 text-base font-medium hover:bg-foreground hover:text-card transition-colors"
+            >
+              <Mail size={18} />
+              Email Me
+            </a>
+          </div>
+        </DialogContent>
+      </Dialog>
     </nav>
   );
 }
