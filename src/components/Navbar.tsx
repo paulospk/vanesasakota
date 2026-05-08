@@ -19,7 +19,7 @@ export default function Navbar() {
         <span className="font-serif font-medium text-base md:text-xl tracking-tight text-foreground">
           Vanesa Sakota
           <span className="ml-2 text-[10px] md:text-[11px] text-muted-foreground tracking-wide font-sans align-middle">
-            BSc Psych MPAC
+            BSc, MA
           </span>
         </span>
         <span className="text-[10px] md:text-[11px] text-muted-foreground tracking-wide mt-0.5 font-sans">
