@@ -165,9 +165,6 @@ const ForProviders = () => {
       {/* Part One */}
       <section className="border-b border-border">
         <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-10">
-          <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
-            Part One
-          </p>
           <h2 className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-12">
             The Science
           </h2>
