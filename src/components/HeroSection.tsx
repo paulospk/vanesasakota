@@ -8,7 +8,7 @@ export default function HeroSection() {
           {/* Left: Text */}
           <div className="space-y-5 animate-fade-up max-w-[800px]">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
-              Integrative Psychotherapist
+              Where Physical Symptoms and Psychological Health Intersect
             </h1>
             <p className="text-muted-foreground text-base leading-relaxed max-w-[55ch]">
               Resolving chronic physical symptoms through a neurobiological lens. Specialized support for pelvic pain, IBS, and stress-sensitive skin.
