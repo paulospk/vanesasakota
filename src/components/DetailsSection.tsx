@@ -67,29 +67,26 @@ export default function DetailsSection() {
 
       {/* Clinical Framework & Integrative Interventions */}
       <section className="border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-10">
-          <div className="max-w-3xl mb-8 md:mb-10">
-            <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-16 md:py-24">
+          <div className="max-w-3xl mb-12 md:mb-16">
+            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
               Therapeutic Approach
             </p>
             <h2 className="font-serif text-2xl md:text-4xl text-foreground leading-snug mb-4">
               Clinical Framework
             </h2>
-            <p className="text-muted-foreground text-base md:text-lg" style={{ lineHeight: 1.6 }}>
+            <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
               Applying neurobiological evidence to resolve the physiological drivers of persistent symptoms.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12 border-t border-border pt-10">
             {frameworkCards.map((card) => (
-              <article
-                key={card.title}
-                className="bg-[hsl(35_30%_97%)] border border-[hsl(210_20%_88%)] rounded-sm p-7 md:p-8 shadow-sm hover:shadow-md transition-shadow"
-              >
-                <h3 className="font-serif text-xl md:text-[1.375rem] text-foreground mb-4 leading-snug">
+              <article key={card.title} className="space-y-3">
+                <h3 className="font-serif text-xl md:text-[1.375rem] text-foreground leading-snug">
                   {card.title}
                 </h3>
-                <p className="text-muted-foreground text-[0.95rem]" style={{ lineHeight: 1.6 }}>
+                <p className="text-muted-foreground text-[0.95rem] leading-relaxed">
                   {card.body}
                 </p>
               </article>
