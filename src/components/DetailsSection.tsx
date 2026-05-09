@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const helpItems = [
   {
-    title: "Pelvic & Reproductive Health",
+    title: "Pelvic Health",
     description:
       "Addressing somatic manifestations in the pelvic floor, including Vulvodynia, Vaginismus, and chronic pelvic pain.",
   },
