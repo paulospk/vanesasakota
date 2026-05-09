@@ -5,7 +5,7 @@ export default function ClinicalOrientation() {
         <div className="max-w-[720px] space-y-8">
           <div className="space-y-5 text-muted-foreground text-base md:text-[17px] leading-[1.8]">
             <p>
-              Sydney-based psychotherapist working at the intersection of mind and body. Vanesa completed a Bachelor of Science in Psychology at Griffith University and a Master of Psychotherapy and Counselling at Western Sydney University, where she was awarded a place on the Dean's Merit List for academic excellence.
+              Sydney-based psychotherapist working at the intersection of mind and body. Vanesa completed a Bachelor of Science in Psychology at Griffith University and a MA of Psychotherapy and Counselling at Western Sydney University, where she was awarded a place on the Dean's Merit List for academic excellence.
             </p>
             <p>
               Vanesa works with individuals experiencing stress-sensitive and psychophysiological symptom presentations — particularly where symptoms persist despite clear medical investigations, or where nervous system dysregulation, chronic stress physiology, and autonomic threat responses appear to play a significant role.
