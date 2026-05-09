@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 
 export default function ClinicalOrientation() {
   return (
@@ -18,14 +18,6 @@ export default function ClinicalOrientation() {
             <p>
               I work with people experiencing conditions such as vaginismus, vulvodynia, chronic pain, anxiety, and stress-related symptoms. My approach is warm, collaborative, and grounded in evidence-based therapy.
             </p>
-          </div>
-          <div className="pt-2">
-            <Link
-              to="/about"
-              className="inline-block text-sm tracking-wide text-foreground border-b border-foreground/40 pb-1 hover:border-foreground transition-colors"
-            >
-              More about me →
-            </Link>
           </div>
         </div>
       </div>
