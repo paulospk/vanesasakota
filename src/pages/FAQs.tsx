@@ -77,15 +77,15 @@ const FAQs = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-10">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-24">
           <div className="max-w-2xl animate-fade-up">
-            <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-4">
+            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-4">
               FAQs
             </p>
             <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1] mb-6">
               Frequently Asked Questions
             </h1>
-            <p className="text-muted-foreground text-lg">
+            <p className="text-muted-foreground text-lg leading-relaxed">
               For clients and referring clinicians. If your question isn't answered here, please get in touch directly.
             </p>
           </div>
@@ -93,7 +93,7 @@ const FAQs = () => {
       </section>
 
       {/* FAQ Accordion */}
-      <section className="max-w-3xl mx-auto px-5 md:px-8 py-6 md:py-10">
+      <section className="max-w-3xl mx-auto px-5 md:px-8 py-16 md:py-24">
         <Accordion type="single" collapsible className="w-full">
           {faqs.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`}>

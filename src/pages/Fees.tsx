@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 const Fees = () => {
@@ -8,25 +7,25 @@ const Fees = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-4xl mx-auto px-5 md:px-8 py-6 md:py-10">
+        <div className="max-w-4xl mx-auto px-5 md:px-8 py-16 md:py-24">
           <div className="text-center animate-fade-up">
-            <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
+            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
               Fees
             </p>
             <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1] mb-3">
               Session Fees & Payment
             </h1>
-            <p className="text-muted-foreground text-lg">
+            <p className="text-muted-foreground text-lg leading-relaxed">
               Transparent pricing designed to keep professional support accessible and straightforward.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Fee Table */}
-      <section className="max-w-4xl mx-auto px-5 md:px-8 py-6 md:py-10">
-        <div className="border border-border bg-card">
-          <div className="p-8 border-b border-border">
+      {/* Fee Rows */}
+      <section className="max-w-4xl mx-auto px-5 md:px-8 py-16 md:py-24">
+        <div className="border-t border-border">
+          <div className="py-10 border-b border-border">
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
               <div className="max-w-[65ch]">
                 <h2 className="font-serif text-xl text-foreground">Initial Consultation & Intake</h2>
@@ -42,7 +41,7 @@ const Fees = () => {
             </div>
           </div>
 
-          <div className="p-8">
+          <div className="py-10 border-b border-border">
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
               <div className="max-w-[65ch]">
                 <h2 className="font-serif text-xl text-foreground">Ongoing Psychotherapy Session</h2>
@@ -59,13 +58,16 @@ const Fees = () => {
           </div>
         </div>
 
-        <p className="mt-6 text-sm text-muted-foreground leading-relaxed max-w-[65ch]">
+        <p className="mt-8 text-sm text-muted-foreground leading-relaxed max-w-[65ch]">
           You do not need a Mental Health Treatment Plan or a GP referral to see me. You can book directly. Private health rebates may apply depending on your level of cover - please check with your provider.
         </p>
 
         {/* Professional Registration */}
-        <div className="mt-8 md:mt-12 space-y-8">
+        <div className="mt-16 md:mt-20 space-y-12">
           <div>
+            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
+              Registration
+            </p>
             <h2 className="font-serif text-2xl text-foreground mb-4">Professional Registration & Fees</h2>
             <div className="text-muted-foreground leading-relaxed space-y-4 max-w-[65ch]">
               <p>
@@ -82,49 +84,35 @@ const Fees = () => {
 
           {/* Payment */}
           <div>
+            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
+              Payment
+            </p>
             <h2 className="font-serif text-2xl text-foreground mb-4">Payment Methods</h2>
             <div className="text-muted-foreground leading-relaxed space-y-4 max-w-[65ch]">
               <p>
                 Payment is required at the time of each session. Accepted payment methods include:
               </p>
-              <ul className="space-y-2">
-                <li className="flex items-start gap-2 text-sm">
-                  <span className="mt-1.5 w-1.5 h-1.5 bg-primary rounded-full shrink-0" />
-                  Credit or Debit Card (Visa, Mastercard)
-                </li>
-                <li className="flex items-start gap-2 text-sm">
-                  <span className="mt-1.5 w-1.5 h-1.5 bg-primary rounded-full shrink-0" />
-                  Bank Transfer (EFT)
-                </li>
-                <li className="flex items-start gap-2 text-sm">
-                  <span className="mt-1.5 w-1.5 h-1.5 bg-primary rounded-full shrink-0" />
-                  Cash
-                </li>
+              <ul className="space-y-2 text-sm">
+                <li>· Credit or Debit Card (Visa, Mastercard)</li>
+                <li>· Bank Transfer (EFT)</li>
+                <li>· Cash</li>
               </ul>
             </div>
           </div>
-        </div>
 
-        {/* Cancellation */}
-        <div className="mt-8 md:mt-12 border border-border bg-accent/30 p-8">
-          <h3 className="font-serif text-lg text-foreground mb-3">Cancellation Policy</h3>
-          <div className="text-sm text-muted-foreground leading-relaxed space-y-3 max-w-[65ch]">
-            <p>
-              I ask for at least <strong className="text-foreground">48 hours notice</strong> to cancel or reschedule a session. This allows the time to be offered to someone else. Late cancellations or missed appointments will be charged at the full session fee - $180 for standard sessions and $250 for the initial consultation.
+          {/* Cancellation */}
+          <div>
+            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
+              Policy
             </p>
+            <h2 className="font-serif text-2xl text-foreground mb-4">Cancellation Policy</h2>
+            <div className="text-muted-foreground leading-relaxed space-y-3 max-w-[65ch]">
+              <p>
+                I ask for at least <strong className="text-foreground">48 hours notice</strong> to cancel or reschedule a session. This allows the time to be offered to someone else. Late cancellations or missed appointments will be charged at the full session fee — $180 for standard sessions and $250 for the initial consultation.
+              </p>
+            </div>
           </div>
         </div>
-
-        {/* CTA */}
-        <div className="mt-8 md:mt-12 text-center">
-          <Link
-            to="/contact"
-            className="inline-block border border-foreground text-foreground px-8 py-3 text-sm font-medium hover:bg-foreground hover:text-card transition-colors"
-          >
-            Contact
-          </Link>
-        </div>
-
       </section>
 
       <FooterSection />
