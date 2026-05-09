@@ -7,14 +7,14 @@ const helpItems = [
       "Addressing somatic manifestations in the pelvic floor, including Vulvodynia, Vaginismus, and chronic pelvic pain.",
   },
   {
-    title: "Functional Gastrointestinal Disorders",
-    description:
-      "Support for IBS and gut-brain axis dysregulation where medical tests are clear but symptoms persist.",
-  },
-  {
     title: "Psychodermatology",
     description:
       "Managing stress-responsive skin conditions such as eczema, psoriasis, alopecia (hair loss), and chronic pruritus (itching).",
+  },
+  {
+    title: "Functional Gastrointestinal Disorders",
+    description:
+      "Support for IBS and gut-brain axis dysregulation where medical tests are clear but symptoms persist.",
   },
   {
     title: "Chronic Pain & Tension",
