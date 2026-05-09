@@ -18,9 +18,9 @@ export default function DetailsSection() {
     <>
       {/* The Mind-Body Interface */}
       <section className="bg-muted/30 border-y border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-12 md:py-20">
-          <div className="max-w-2xl mb-10 md:mb-14">
-            <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-16 md:py-24">
+          <div className="max-w-2xl mb-12 md:mb-16">
+            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
               Clinical Focus
             </p>
             <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
@@ -55,11 +55,8 @@ export default function DetailsSection() {
           </div>
 
           <div>
-            <a
-              href="/for-providers"
-              className="inline-block bg-foreground text-card px-6 py-3 text-sm font-medium hover:opacity-90 transition-opacity"
-            >
-              Explore the Evidence Base
+            <a href="/for-providers" className="ghost-link">
+              Explore the Evidence Base →
             </a>
           </div>
         </div>
