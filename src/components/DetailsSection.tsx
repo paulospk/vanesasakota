@@ -1,13 +1,36 @@
 import { Link } from "react-router-dom";
 
 const helpItems = [
-  "Female pelvic pain (including Vulvodynia and Vaginismus)",
-  "Stress-sensitive skin conditions — eczema, psoriasis, hair loss, chronic itching, vitiligo",
-  "Psychophysiological and nervous system-based symptom presentations",
-  
-  "IBS and functional gastrointestinal symptoms",
-  "Chronic tension and pain conditions",
-  "Nervous system hypervigilance and autonomic dysregulation",
+  {
+    title: "Pelvic & Reproductive Health",
+    description:
+      "Addressing somatic manifestations in the pelvic floor, including Vulvodynia, Vaginismus, and chronic pelvic pain.",
+  },
+  {
+    title: "Functional Gastrointestinal Disorders",
+    description:
+      "Support for IBS and gut-brain axis dysregulation where medical tests are clear but symptoms persist.",
+  },
+  {
+    title: "Psychodermatology",
+    description:
+      "Managing stress-responsive skin conditions such as eczema, psoriasis, alopecia (hair loss), and chronic pruritus (itching).",
+  },
+  {
+    title: "Chronic Pain & Tension",
+    description:
+      "Working with \"adaptive bracing\" patterns, tension-type headaches, and musculoskeletal pain linked to sustained stress.",
+  },
+  {
+    title: "Nervous System Dysregulation",
+    description:
+      "Specialising in autonomic hypervigilance, \"tired but wired\" states, and somatic anxiety.",
+  },
+  {
+    title: "Non-Organic Symptom Presentations",
+    description:
+      "For those experiencing persistent physical symptoms that lack a clear structural or organic medical explanation.",
+  },
 ];
 
 export default function DetailsSection() {
@@ -23,13 +46,18 @@ export default function DetailsSection() {
               </h2>
             </div>
             <div className="lg:col-span-7">
-              <ul className="grid grid-cols-1 gap-y-4 text-foreground text-base md:text-lg max-w-[640px]">
+              <ul className="grid grid-cols-1 gap-y-5 max-w-[640px]">
                 {helpItems.map((item) => (
                   <li
-                    key={item}
-                    className="border-b border-border/60 pb-3 leading-relaxed"
+                    key={item.title}
+                    className="border-b border-border/60 pb-4"
                   >
-                    {item}
+                    <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug mb-1.5">
+                      {item.title}
+                    </h3>
+                    <p className="text-muted-foreground text-base leading-relaxed">
+                      {item.description}
+                    </p>
                   </li>
                 ))}
               </ul>
