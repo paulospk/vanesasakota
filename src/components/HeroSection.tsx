@@ -12,7 +12,7 @@ export default function HeroSection() {
               Psychotherapy for<br />the mind-body connection.
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl leading-relaxed max-w-[52ch]">
-              I support people experiencing chronic stress, persistent physical symptoms, sexual pain, and psychophysiological conditions.
+              I support individuals experiencing psychophysiological symptoms, with a special interest in stress-sensitive skin conditions and female pelvic pain.
             </p>
             <div className="flex flex-wrap items-center gap-x-8 gap-y-4 pt-2">
               <Link
