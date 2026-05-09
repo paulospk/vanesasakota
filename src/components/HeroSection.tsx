@@ -8,7 +8,7 @@ export default function HeroSection() {
           {/* Left: Text */}
           <div className="space-y-5 animate-fade-up max-w-[800px]">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
-              Psychophysiological Interventions for Chronic Symptoms
+              A Psychophysiological Approach to Chronic Symptoms
             </h1>
             <p className="text-muted-foreground text-base leading-relaxed max-w-[55ch]">
               Utilising evidence-based psychological strategies to support patients with functional presentations not organic in nature.
