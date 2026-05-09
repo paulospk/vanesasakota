@@ -16,12 +16,12 @@ const faqs = [
   {
     question: "Can therapy actually help with physical symptoms?",
     answer:
-      "This is one of the most important questions to ask. The short answer is yes - and there is a growing body of research to support it. Many chronic physical symptoms, including pelvic pain, stress-sensitive skin conditions, and treatment-resistant fatigue, have a well-documented psychophysiological component. This means the nervous system and psychological factors are playing a meaningful role in maintaining them. Psychological therapy that addresses these underlying drivers can produce significant and lasting change, particularly where medical treatment has plateaued. The Mind-Body Evidence page on this site summarises the research in more detail.",
+      "Yes — and there's strong research behind it. Many chronic symptoms, including pelvic pain, sensitive skin conditions, and persistent fatigue, are shaped by the nervous system and emotional patterns held in the body. Therapy that works with both the mind and body can lead to real, lasting change, especially when medical treatment has reached its limits.",
   },
   {
     question: "What does a session actually look like?",
     answer:
-      "Sessions are 50 minutes and currently delivered online via Zoom. The first session is an initial consultation where we explore what has brought you here, your history, and what you are hoping to change. From there, sessions are collaborative and will vary depending on what you are working with. Some sessions are more conversational. Others involve specific techniques drawn from Brainspotting or Clinical Resource Therapy that work at the level of the body and nervous system, not just thought and behaviour. You will always know what we are doing and why.",
+      "Sessions are 50 minutes, currently online via Zoom. The first session is a longer conversation about what brings you here and what you're hoping for. After that, sessions are collaborative — sometimes conversational, sometimes using body-based techniques like Brainspotting. You'll always know what we're doing and why.",
   },
   {
     question: "How much does it cost and are there rebates?",
@@ -51,7 +51,7 @@ const faqs = [
   {
     question: "What therapeutic approaches do you use?",
     answer:
-      "I draw on Clinical Resource Therapy, Brainspotting, and Cognitive Behavioural Therapy. Clinical Resource Therapy is a parts-based modality that works at the level of internal states - the emotional and somatic material that often drives symptoms and patterns beneath conscious awareness. Brainspotting is a body-based approach that accesses and processes experiences held in the nervous system. It was developed from EMDR and shares its evidence base, but works more directly with the body's physiological response to unresolved experience. CBT addresses thoughts, beliefs, and behavioural patterns at the conscious level. I use these in combination, tailored to each person.",
+      "I draw on Clinical Resource Therapy, Brainspotting, and Cognitive Behavioural Therapy. Some of this work is conversational; some works more directly with the body and nervous system. I tailor the approach to each person — and explain things as we go.",
   },
   {
     question: "I am a clinician - how do I refer a patient?",
@@ -83,10 +83,10 @@ const FAQs = () => {
               FAQs
             </p>
             <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1] mb-6">
-              Frequently Asked Questions
+              Common questions
             </h1>
-            <p className="text-muted-foreground text-lg leading-relaxed">
-              For clients and referring clinicians. If your question isn't answered here, please get in touch directly.
+            <p className="text-muted-foreground text-lg leading-[1.8]">
+              A few things people often want to know. If yours isn't here, please reach out.
             </p>
           </div>
         </div>
