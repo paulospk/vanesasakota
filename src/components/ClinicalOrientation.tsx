@@ -11,7 +11,7 @@ export default function ClinicalOrientation() {
               Vanesa works with individuals experiencing stress-sensitive and psychophysiological symptom presentations — particularly where symptoms persist despite clear medical investigations, or where nervous system dysregulation, chronic stress physiology, and autonomic threat responses appear to play a significant role.
             </p>
             <p>
-              She places strong value on the therapeutic relationships she develops with clients over time, and believes psychotherapy should be tailored to the individual — recognising that no two people, histories, or symptom presentations are the same.
+              She places strong value on the therapeutic relationships she develops with clients over time, and believes psychotherapy should be tailored to the individual — recognising that no two people, histories, or symptom presentations are ever the same.
             </p>
           </div>
         </div>
