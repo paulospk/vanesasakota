@@ -9,11 +9,11 @@ const About = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-10">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             <div className="space-y-5 animate-fade-up max-w-[800px]">
-              <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground">
-                ABOUT VANESA
+              <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
+                About Vanesa
               </p>
               <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
                 A Different Kind of Conversation.
@@ -37,7 +37,7 @@ const About = () => {
       </section>
 
       {/* About Vanesa - Highlights */}
-      <section className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-10">
+      <section className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-24 border-b border-border">
         <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-16">
           <div className="lg:col-span-3"></div>
           <div className="lg:col-span-7 max-w-[800px]">
@@ -57,7 +57,7 @@ const About = () => {
       </section>
 
       {/* Education & Memberships */}
-      <section className="max-w-[1200px] mx-auto px-5 md:px-8 pb-6 md:pb-16">
+      <section className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-16">
           <div className="lg:col-span-3">
             <h2 className="font-serif text-2xl text-foreground mb-4">Education &amp; Memberships</h2>
