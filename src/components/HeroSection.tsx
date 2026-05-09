@@ -1,5 +1,5 @@
 import profileImg from "@/assets/profile-hero.jpg";
-import { Link } from "react-router-dom";
+
 
 export default function HeroSection() {
   return (
@@ -14,20 +14,6 @@ export default function HeroSection() {
             <p className="text-muted-foreground text-lg md:text-xl leading-relaxed max-w-[52ch]">
               I support individuals experiencing psychophysiological symptoms, with a special interest in stress-sensitive skin conditions and female pelvic pain.
             </p>
-            <div className="flex flex-wrap items-center gap-x-8 gap-y-4 pt-2">
-              <Link
-                to="/contact"
-                className="text-sm tracking-wide text-foreground border-b border-foreground pb-1 hover:opacity-70 transition-opacity"
-              >
-                Book a session →
-              </Link>
-              <Link
-                to="/about"
-                className="text-sm tracking-wide text-muted-foreground hover:text-foreground transition-colors"
-              >
-                Learn more
-              </Link>
-            </div>
           </div>
 
           {/* Right: Image */}
