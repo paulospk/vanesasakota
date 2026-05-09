@@ -9,7 +9,7 @@ export default function HeroSection() {
           {/* Left: Text */}
           <div className="space-y-8 animate-fade-up max-w-[800px]">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
-              Psychotherapy for the mind-body connection.
+              Psychotherapy for<br />the mind-body connection.
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl leading-relaxed max-w-[52ch]">
               I support people experiencing chronic stress, persistent physical symptoms, sexual pain, and psychophysiological conditions.
