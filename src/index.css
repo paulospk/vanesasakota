@@ -38,7 +38,7 @@ html {
     --input: 214 32% 91%;
     --ring: 199 89% 48%;
 
-    --radius: 0.125rem;
+    --radius: 0rem;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -92,9 +92,19 @@ html {
   body {
     @apply bg-background text-foreground antialiased;
     font-family: 'Geist Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.7;
   }
 
   .font-serif {
     font-family: 'Fraunces', Georgia, serif;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground;
+  }
+  .ghost-link {
+    @apply inline-block text-sm tracking-wide text-foreground border-b border-foreground/40 pb-1 hover:border-foreground transition-colors;
   }
 }
