@@ -4,7 +4,7 @@ const helpItems = [
   "Female pelvic pain (including Vulvodynia and Vaginismus)",
   "Stress-sensitive skin conditions — eczema, psoriasis, hair loss, chronic itching, vitiligo",
   "Psychophysiological and nervous system-based symptom presentations",
-  "Chronic stress-related physical symptoms",
+  
   "IBS and functional gastrointestinal symptoms",
   "Chronic tension and pain conditions",
   "Nervous system hypervigilance and autonomic dysregulation",
