@@ -5,13 +5,13 @@ export default function ClinicalOrientation() {
         <div className="max-w-[720px] space-y-8">
           <div className="space-y-5 text-muted-foreground text-base md:text-[17px] leading-[1.8]">
             <p>
-              I'm a Sydney-based psychotherapist with a Bachelor of Science in Psychology and a Master of Psychotherapy and Counselling, where I was awarded a place on the Dean's Merit List for academic excellence. I have additional training in somatic and nervous system-based approaches, with a special interest in psychophysiological health and the relationship between the nervous system and chronic physical symptoms.
+              Vanesa is a Sydney-based psychotherapist with a Bachelor of Science in Psychology and a Master of Psychotherapy and Counselling, where she was awarded a place on the Dean's Merit List for academic excellence. She has additional training in somatic and nervous system-based approaches, with a special interest in psychophysiological health and the relationship between the nervous system and chronic physical symptoms.
             </p>
             <p>
-              I work with individuals experiencing stress-sensitive and psychophysiological symptom presentations — particularly where symptoms persist despite clear medical investigations, or where nervous system dysregulation, chronic stress physiology, and autonomic threat responses appear to play a significant role.
+              Vanesa works with individuals experiencing stress-sensitive and psychophysiological symptom presentations — particularly where symptoms persist despite clear medical investigations, or where nervous system dysregulation, chronic stress physiology, and autonomic threat responses appear to play a significant role.
             </p>
             <p>
-              I place strong value on the therapeutic relationships I develop with clients over time, and believe psychotherapy should be tailored to the individual — recognising that no two people, histories, or symptom presentations are the same.
+              She places strong value on the therapeutic relationships she develops with clients over time, and believes psychotherapy should be tailored to the individual — recognising that no two people, histories, or symptom presentations are the same.
             </p>
           </div>
         </div>
