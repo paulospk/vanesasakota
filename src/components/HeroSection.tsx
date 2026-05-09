@@ -17,12 +17,20 @@ export default function HeroSection() {
           </div>
 
           {/* Right: Image */}
-          <div className="animate-fade-up" style={{ animationDelay: "100ms" }}>
+          <div className="animate-fade-up space-y-4" style={{ animationDelay: "100ms" }}>
             <img
               src={profileImg}
               alt="Vanesa Sakota"
               className="w-full aspect-[4/5] object-cover object-top"
             />
+            <div className="text-center">
+              <p className="font-serif text-xl md:text-2xl text-foreground">
+                Vanesa Sakota
+              </p>
+              <p className="text-sm text-muted-foreground tracking-wide mt-1">
+                BSc (Psych), MPsychotherapy &amp; Counselling, PACFA, APS
+              </p>
+            </div>
           </div>
         </div>
       </div>
