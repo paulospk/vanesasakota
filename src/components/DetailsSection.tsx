@@ -1,15 +1,15 @@
 const frameworkCards = [
   {
-    title: "Top-Down: Cognitive Behavioural Therapy",
-    body: "Focusing on the conscious mind. We work together to identify and reframe the thought patterns that inadvertently maintain autonomic arousal, helping to lower the body’s “volume” on distress.",
+    title: "Top-Down (CBT)",
+    body: "Cognitive strategies to down-regulate autonomic arousal.",
   },
   {
-    title: "Bottom-Up: Neuro-Experiential Processing",
-    body: "Focusing on the subcortical brain. As a derivative of EMDR, Brainspotting accesses the deep physiological layers where somatic memory is stored, allowing for processing that “talk therapy” alone cannot reach.",
+    title: "Bottom-Up (Neuro-Experiential)",
+    body: "Utilising subcortical processing (Brainspotting) to resolve stored somatic memory.",
   },
   {
-    title: "Systemic: Resource Therapy (Parts Work)",
-    body: "Focusing on internal harmony. We engage with the specific “parts” of the personality that hold physical symptoms, facilitating a sense of internal safety and systemic regulation.",
+    title: "Systemic (Parts Work)",
+    body: "Engaging with internal 'Resource States' that hold traumatic affect to facilitate systemic regulation.",
   },
 ];
 
