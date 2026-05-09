@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 const Fees = () => {
   return (
