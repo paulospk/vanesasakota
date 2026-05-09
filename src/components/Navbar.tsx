@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 
 const navLinks = [
-  { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
+  { label: "About Vanesa", href: "/" },
+  { label: "My Approach", href: "/my-approach" },
   { label: "Mind-Body Evidence", href: "/for-providers" },
   { label: "FAQs", href: "/faqs" },
   { label: "Fees", href: "/fees" },
