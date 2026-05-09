@@ -83,21 +83,21 @@ const MyApproach = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10">
             <div className="space-y-4">
               <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
-                Top-Down
-              </p>
-              <h3 className="font-serif text-xl md:text-2xl text-foreground">Working with thought and meaning</h3>
-              <p className="text-muted-foreground text-base leading-[1.8]">
-                Exploring the beliefs, fears, and stories that shape how the body responds — using approaches like CBT and parts work to gently shift the patterns that keep symptoms locked in.
-              </p>
-            </div>
-
-            <div className="space-y-4">
-              <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
                 Bottom-Up
               </p>
               <h3 className="font-serif text-xl md:text-2xl text-foreground">Working with the body and nervous system</h3>
               <p className="text-muted-foreground text-base leading-[1.8]">
                 Using somatic and Brainspotting techniques to help the nervous system process what words alone can't reach — softening protective responses and restoring a sense of safety in the body.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
+                Top-Down
+              </p>
+              <h3 className="font-serif text-xl md:text-2xl text-foreground">Working with thought and meaning</h3>
+              <p className="text-muted-foreground text-base leading-[1.8]">
+                Exploring the beliefs, fears, and stories that shape how the body responds — using approaches like CBT and parts work to gently shift the patterns that keep symptoms locked in.
               </p>
             </div>
 
