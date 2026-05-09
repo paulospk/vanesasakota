@@ -11,7 +11,7 @@ export default function HeroSection() {
               A Psychophysiological Approach to Chronic Symptoms
             </h1>
             <p className="text-muted-foreground text-base leading-relaxed max-w-[55ch]">
-              Utilising evidence-based psychological strategies to support patients with functional presentations not organic in nature.
+              Utilising evidence-based psychological strategies to support patients living with symptoms that are not organic in nature.
             </p>
             {/* Desktop-only credentials under intro */}
             <div className="hidden lg:block space-y-1 pt-2">
