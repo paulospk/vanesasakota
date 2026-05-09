@@ -18,29 +18,49 @@ export default function DetailsSection() {
     <>
       {/* The Mind-Body Interface */}
       <section className="bg-muted/30 border-y border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-10">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-5 lg:gap-12">
-            <div className="lg:col-span-3">
-              <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
-                Clinical Focus
-              </p>
-              <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
-                The Mind-Body Interface
-              </h2>
-            </div>
-            <div className="lg:col-span-7">
-              <p className="text-muted-foreground leading-relaxed text-base md:text-lg max-w-[700px]">
-                We now understand that many chronic symptoms-including stress-sensitive skin, female pelvic pain, and IBS-have a significant psychophysiological component. When symptoms persist despite clear medical investigations, it indicates the nervous system is playing a primary role in maintaining them. My practice provides targeted somatic resolution to address these underlying drivers.
-              </p>
-              <div className="pt-6">
-                <a
-                  href="/for-providers"
-                  className="inline-block bg-foreground text-card px-6 py-3 text-sm font-medium hover:opacity-90 transition-opacity"
-                >
-                  Explore the Evidence Base
-                </a>
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-12 md:py-20">
+          <div className="max-w-2xl mb-10 md:mb-14">
+            <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
+              Clinical Focus
+            </p>
+            <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
+              The Mind-Body Interface
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12 mb-12">
+            {[
+              {
+                title: "The Symptom Loop",
+                body: "Chronic symptoms often persist because the nervous system is stuck in a state of 'high alert,' even after medical tests show the hardware is healthy.",
+              },
+              {
+                title: "Central Sensitization",
+                body: "We target the subcortical brain where 'non-organic' pain and distress signals are maintained.",
+              },
+              {
+                title: "Clinical Resolution",
+                body: "By utilising top-down and bottom-up interventions, we help the system 'unlearn' these persistent patterns.",
+              },
+            ].map((item) => (
+              <div key={item.title} className="text-left space-y-3">
+                <h3 className="font-serif text-xl text-foreground leading-snug">
+                  {item.title}
+                </h3>
+                <p className="text-muted-foreground leading-relaxed text-[0.95rem]">
+                  {item.body}
+                </p>
               </div>
-            </div>
+            ))}
+          </div>
+
+          <div>
+            <a
+              href="/for-providers"
+              className="inline-block bg-foreground text-card px-6 py-3 text-sm font-medium hover:opacity-90 transition-opacity"
+            >
+              Explore the Evidence Base
+            </a>
           </div>
         </div>
       </section>
