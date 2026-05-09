@@ -68,6 +68,52 @@ const MyApproach = () => {
         </div>
       </section>
 
+      {/* Three modes */}
+      <section className="border-b border-border">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-20 md:py-32">
+          <div className="max-w-[800px] mb-14">
+            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
+              Mind-Body Framework
+            </p>
+            <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
+              Three ways into the work
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10">
+            <div className="space-y-4">
+              <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
+                Top-Down
+              </p>
+              <h3 className="font-serif text-xl md:text-2xl text-foreground">Working with thought and meaning</h3>
+              <p className="text-muted-foreground text-base leading-[1.8]">
+                Exploring the beliefs, fears, and stories that shape how the body responds — using approaches like CBT and parts work to gently shift the patterns that keep symptoms locked in.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
+                Bottom-Up
+              </p>
+              <h3 className="font-serif text-xl md:text-2xl text-foreground">Working with the body and nervous system</h3>
+              <p className="text-muted-foreground text-base leading-[1.8]">
+                Using somatic and Brainspotting techniques to help the nervous system process what words alone can't reach — softening protective responses and restoring a sense of safety in the body.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
+                Systems Approach
+              </p>
+              <h3 className="font-serif text-xl md:text-2xl text-foreground">Working with the whole picture</h3>
+              <p className="text-muted-foreground text-base leading-[1.8]">
+                Considering relationships, history, environment, and the medical journey alongside the symptom itself — because mind-body work is never just about the body in isolation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* What sessions look like */}
       <section className="border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-20 md:py-32">
