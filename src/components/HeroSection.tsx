@@ -23,12 +23,12 @@ export default function HeroSection() {
               alt="Vanesa Sakota"
               className="w-full aspect-[4/5] object-cover object-top"
             />
-            <div className="text-center">
+            <div className="text-left">
               <p className="font-serif text-xl md:text-2xl text-foreground">
                 Vanesa Sakota
               </p>
               <p className="text-sm text-muted-foreground tracking-wide mt-1">
-                MA (Psychotherapy and Counselling)
+                MA (Psychotherapy and Counselling), BSc (Psych), PACFA, APS
               </p>
             </div>
           </div>
