@@ -114,6 +114,55 @@ const MyApproach = () => {
         </div>
       </section>
 
+      {/* Pioneers of somatic work */}
+      <section className="border-b border-border bg-muted/30">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-20 md:py-32">
+          <div className="max-w-[800px] mb-14">
+            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
+              Lineage
+            </p>
+            <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
+              The pioneers behind this work
+            </h2>
+            <p className="mt-6 text-muted-foreground text-base md:text-lg leading-[1.8]">
+              The mind-body approach I use is grounded in decades of research and clinical practice from a small group of pioneers who reshaped how we understand trauma, stress, and the body.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10">
+            <div className="space-y-4">
+              <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
+                Peter Levine
+              </p>
+              <h3 className="font-serif text-xl md:text-2xl text-foreground">Somatic Experiencing</h3>
+              <p className="text-muted-foreground text-base leading-[1.8]">
+                Levine showed that trauma lives in the body as incomplete survival responses. His work helps the nervous system gently release stored stress and return to balance.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
+                Bessel van der Kolk
+              </p>
+              <h3 className="font-serif text-xl md:text-2xl text-foreground">The Body Keeps the Score</h3>
+              <p className="text-muted-foreground text-base leading-[1.8]">
+                Van der Kolk's research transformed our understanding of how trauma is held in the body and brain — and why healing requires more than talk alone.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
+                Gabor Maté
+              </p>
+              <h3 className="font-serif text-xl md:text-2xl text-foreground">When the Body Says No</h3>
+              <p className="text-muted-foreground text-base leading-[1.8]">
+                Maté's work draws clear links between chronic stress, suppressed emotion, and physical illness — reminding us that the body always speaks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* What sessions look like */}
       <section className="border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-20 md:py-32">
