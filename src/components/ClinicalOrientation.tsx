@@ -5,18 +5,26 @@ export default function ClinicalOrientation() {
     <section className="bg-background border-b border-border">
       <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-20 md:py-32">
         <div className="max-w-[640px] space-y-8">
-          <h2 className="font-serif text-2xl md:text-3xl text-slate-700 leading-snug tracking-tight">
-            The Neurobiology of Persistent Symptoms
-          </h2>
-          <p className="text-slate-600 text-base md:text-[17px] leading-[1.8]">
-            Many chronic physical symptoms—including persistent pain, IBS, and skin flare-ups—are maintained by a nervous system stuck in a cycle of high alert. My practice focuses on the interface where the brain and body meet, utilising evidence-based interventions to resolve functional symptoms that are not organic in nature.
+          <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
+            About
           </p>
+          <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-snug tracking-tight">
+            Hi, I'm Vanesa.
+          </h2>
+          <div className="space-y-5 text-muted-foreground text-base md:text-[17px] leading-[1.8]">
+            <p>
+              I'm a psychotherapist with a special interest in the connection between emotional wellbeing, the nervous system, and physical symptoms.
+            </p>
+            <p>
+              I work with people experiencing conditions such as vaginismus, vulvodynia, chronic pain, anxiety, and stress-related symptoms. My approach is warm, collaborative, and grounded in evidence-based therapy.
+            </p>
+          </div>
           <div className="pt-2">
             <Link
-              to="/for-providers"
-              className="inline-block text-sm tracking-wide text-slate-700 border-b border-slate-400 pb-1 hover:text-slate-900 hover:border-slate-700 transition-colors"
+              to="/about"
+              className="inline-block text-sm tracking-wide text-foreground border-b border-foreground/40 pb-1 hover:border-foreground transition-colors"
             >
-              Explore the Evidence Base →
+              More about me →
             </Link>
           </div>
         </div>
