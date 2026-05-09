@@ -141,16 +141,16 @@ const ForProviders = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-10">
-          <div className="space-y-6 animate-fade-up">
-            <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-20 md:py-32">
+          <div className="max-w-2xl space-y-6 animate-fade-up">
+            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
               Mind-Body Evidence
             </p>
             <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
-              Mind-Body Evidence
+              The mind-body connection
             </h1>
-            <p className="text-muted-foreground text-lg">
-              This page summarises what the current evidence tells us about the relationship between psychological experience and chronic somatic symptoms.
+            <p className="text-muted-foreground text-lg leading-[1.8]">
+              A short overview of what current research tells us about how the nervous system, emotional experience, and chronic physical symptoms shape one another.
             </p>
           </div>
         </div>
@@ -193,34 +193,31 @@ const ForProviders = () => {
       </section>
 
       {/* Referrals */}
-      <section className="border-b border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-10">
-          <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground mb-6">
-            Referrals
-          </h2>
-          <div className="space-y-5 text-muted-foreground leading-relaxed">
-            <p>
-              I welcome referrals from GPs, gynaecologists, dermatologists, physiotherapists, and other clinicians working with patients who present with chronic somatic symptoms where investigations have returned clear results.
+      <section>
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-20 md:py-32">
+          <div className="max-w-[680px] space-y-6">
+            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
+              For clinicians
             </p>
-            <p>
-              My approach is integrative and relational, drawing on Clinical Resource Therapy, Brainspotting, and cognitive-behavioural frameworks. I work with stable, self-directed clients who are ready to explore the psychological and nervous system dimensions of their symptoms.
-            </p>
-            <p>
-              I am happy to provide brief case consultation or liaise directly regarding shared patients. Please feel free to reach out to discuss whether a referral is appropriate.
-            </p>
-          </div>
-
-          <div className="mt-10 p-6 bg-accent/30 border border-border">
-            <p className="text-foreground text-sm leading-relaxed">
-              Contact:{" "}
-              <a href="mailto:vanesa@vanesasakota.com.au" className="text-primary hover:underline">
+            <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground">
+              Referrals
+            </h2>
+            <div className="space-y-5 text-muted-foreground leading-[1.8]">
+              <p>
+                I welcome referrals from GPs, gynaecologists, dermatologists, physiotherapists, and other clinicians working with patients whose symptoms persist despite clear investigations.
+              </p>
+              <p>
+                I'm happy to have a brief conversation before a referral is made, or to liaise about shared patients. Please reach out directly.
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-x-8 gap-y-3 pt-4 text-sm">
+              <a href="mailto:vanesa@vanesasakota.com.au" className="text-foreground border-b border-foreground/40 pb-1 hover:border-foreground transition-colors">
                 vanesa@vanesasakota.com.au
-              </a>{" "}
-              ·{" "}
-              <a href="tel:0405933722" className="text-primary hover:underline">
+              </a>
+              <a href="tel:0405933722" className="text-foreground border-b border-foreground/40 pb-1 hover:border-foreground transition-colors">
                 0405 933 722
               </a>
-            </p>
+            </div>
           </div>
         </div>
       </section>
