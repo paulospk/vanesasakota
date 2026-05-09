@@ -98,8 +98,8 @@ const partTwo: Section[] = [
 ];
 
 const SectionBlock = ({ section }: { section: Section }) => (
-  <article className="border-t border-border pt-12 first:border-t-0 first:pt-0">
-    <div className="flex gap-6 items-baseline mb-6">
+  <article className="border-t border-border pt-16 first:border-t-0 first:pt-0">
+    <div className="flex gap-6 items-baseline mb-8">
       <span className="font-serif text-3xl text-primary/40 font-bold leading-none shrink-0">
         {section.number}
       </span>
@@ -118,24 +118,18 @@ const SectionBlock = ({ section }: { section: Section }) => (
 
     {section.subsections?.map((sub, i) => (
       <div key={i} className="mb-8">
-        <h4 className="font-serif text-xl text-foreground mb-3">{sub.heading}</h4>
+        <h4 className="uppercase tracking-[0.2em] text-xs font-semibold text-foreground mb-3">
+          {sub.heading}
+        </h4>
         <p className="text-muted-foreground leading-relaxed">{sub.body}</p>
       </div>
     ))}
 
     {section.references.length > 0 && (
-      <div>
-        <h4 className="font-semibold text-foreground mb-3 text-sm uppercase tracking-widest">
-          Key references to verify on PubMed
-        </h4>
-        <ul className="space-y-2">
-          {section.references.map((r, i) => (
-            <li key={i} className="text-sm text-muted-foreground leading-relaxed">
-              {r}
-            </li>
-          ))}
-        </ul>
-      </div>
+      <p className="text-xs text-muted-foreground/80 leading-relaxed mt-6 pt-4 border-t border-border/50">
+        <span className="uppercase tracking-[0.2em] font-semibold text-foreground/70 mr-2">Ref:</span>
+        {section.references.join(" · ")}
+      </p>
     )}
   </article>
 );
@@ -164,12 +158,12 @@ const ForProviders = () => {
 
       {/* Part One */}
       <section className="border-b border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-10">
-          <h2 className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-12">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-24">
+          <h2 className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-16">
             The Science
           </h2>
 
-          <div className="space-y-12">
+          <div className="space-y-20 md:space-y-24">
             {partOne.map((s) => (
               <SectionBlock key={s.number} section={s} />
             ))}
@@ -179,69 +173,21 @@ const ForProviders = () => {
 
       {/* Part Two */}
       <section className="bg-accent/20 border-b border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-10">
-          <p className="uppercase tracking-widest text-xs font-semibold text-muted-foreground mb-3">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-24">
+          <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
             Part Two
           </p>
           <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground mb-6">
             Clinical Presentations
           </h2>
-          <p className="text-muted-foreground mb-12 leading-relaxed">
+          <p className="text-muted-foreground mb-16 leading-relaxed max-w-3xl">
             The following conditions represent presentations where the psychophysiological evidence is well established, and where psychological intervention has demonstrated meaningful outcomes - particularly where medical treatment has plateaued.
           </p>
 
-          <div className="space-y-12">
+          <div className="space-y-20 md:space-y-24">
             {partTwo.map((s) => (
               <SectionBlock key={s.number} section={s} />
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Key References Table */}
-      <section className="border-b border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-10">
-          <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground mb-4">
-            Key References
-          </h2>
-          <p className="text-muted-foreground italic mb-8 leading-relaxed">
-            The following references are provided for clinicians wishing to explore the evidence base further. DOI links will be added once verified via PubMed.
-          </p>
-
-          <div className="overflow-x-auto">
-            <table className="w-full border-collapse text-sm">
-              <thead>
-                <tr className="border-b border-border">
-                  <th className="text-left font-semibold text-foreground py-3 px-3">Topic</th>
-                  <th className="text-left font-semibold text-foreground py-3 px-3">Author</th>
-                  <th className="text-left font-semibold text-foreground py-3 px-3">Title</th>
-                  <th className="text-left font-semibold text-foreground py-3 px-3">Journal</th>
-                  <th className="text-left font-semibold text-foreground py-3 px-3">Year</th>
-                </tr>
-              </thead>
-              <tbody className="text-muted-foreground">
-                {[
-                  ["Early life stress", "National Scientific Council on the Developing Child", "Early Experiences Can Alter Gene Expression and Affect Long-Term Development", "Harvard Working Paper", "2010"],
-                  ["Early life stress", "McEwen, B.S.", "Brain on stress: how the social environment gets under the skin", "PNAS", "2012"],
-                  ["Early life stress", "Shonkoff, J.P. et al.", "The lifelong effects of early childhood adversity and toxic stress", "Pediatrics", "2012"],
-                  ["HPA axis & inflammation", "Dhabhar, F.S.", "Effects of stress on immune function", "Immunologic Research", "2014"],
-                  ["HPA axis & inflammation", "Slavich, G.M. & Irwin, M.R.", "From stress to inflammation and major depressive disorder", "Psychological Bulletin", "2014"],
-                  ["Nociplastic pain", "Fitzcharles, M.A. et al.", "Nociplastic pain: towards an understanding of prevalent pain conditions", "The Lancet", "2021"],
-                  ["Nociplastic pain", "Woolf, C.J.", "Central sensitization: implications for the diagnosis and treatment of pain", "Pain", "2011"],
-                  ["Vulvodynia", "Harlow, B.L. et al.", "Prevalence of symptoms consistent with a diagnosis of vulvodynia", "American Journal of Obstetrics and Gynecology", "2014"],
-                  ["Vaginismus", "Ter Kuile, M.M. et al.", "Therapist-aided exposure for women with lifelong vaginismus", "Journal of Consulting and Clinical Psychology", "2010"],
-                  ["Psychodermatology", "Arck, P.C. & Paus, R.", "From the brain-skin connection to the mind-skin connection", "Experimental Dermatology", "2006"],
-                  ["Psychodermatology", "Jafferany, M. & Franca, K.", "Psychodermatology: basics concepts", "Acta Dermato-Venereologica", "2016"],
-                  ["Psychodermatology", "Heller, M.M. et al.", "Mind-body treatments for psoriasis", "American Journal of Clinical Dermatology", "2011"],
-                ].map((row, i) => (
-                  <tr key={i} className="border-b border-border/60 align-top">
-                    {row.map((cell, j) => (
-                      <td key={j} className="py-3 px-3 leading-relaxed">{cell}</td>
-                    ))}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
           </div>
         </div>
       </section>
