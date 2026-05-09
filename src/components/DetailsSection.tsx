@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom";
 
 const helpItems = [
-  "Vaginismus",
-  "Vulvodynia",
-  "Chronic pain",
-  "Anxiety & stress",
-  "Persistent physical symptoms",
-  "Nervous system dysregulation",
-  "Sexual pain & intimacy concerns",
-  "Mind-body symptoms",
+  "Female pelvic pain (including Vulvodynia and Vaginismus)",
+  "Stress-sensitive skin conditions — eczema, psoriasis, hair loss, chronic itching, vitiligo",
+  "Psychophysiological and nervous system-based symptom presentations",
+  "Chronic stress-related physical symptoms",
+  "IBS and functional gastrointestinal symptoms",
+  "Chronic tension and pain conditions",
+  "Nervous system hypervigilance and autonomic dysregulation",
 ];
 
 export default function DetailsSection() {
@@ -27,7 +26,7 @@ export default function DetailsSection() {
               </h2>
             </div>
             <div className="lg:col-span-7">
-              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 text-foreground text-base md:text-lg">
+              <ul className="grid grid-cols-1 gap-y-4 text-foreground text-base md:text-lg max-w-[640px]">
                 {helpItems.map((item) => (
                   <li
                     key={item}
@@ -45,16 +44,24 @@ export default function DetailsSection() {
       {/* Approach */}
       <section className="border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-20 md:py-32">
-          <div className="max-w-[680px] space-y-8">
+          <div className="max-w-[720px] space-y-6">
             <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
               Approach
             </p>
             <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-snug">
               How I work
             </h2>
-            <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
-              My work integrates evidence-based psychotherapy, nervous system awareness, and mind-body approaches to help clients better understand their symptoms, reduce fear and tension, and feel safer in their bodies.
-            </p>
+            <div className="space-y-5 text-muted-foreground text-base md:text-lg leading-[1.8]">
+              <p>
+                My approach is integrative, trauma-informed, and grounded in both neuroscience and psychotherapy. Therapy may incorporate psychoeducation, CBT, Acceptance and Commitment Therapy, somatic and body-based approaches, nervous system regulation work, EMDR, Brainspotting, Resource Therapy, attachment-informed psychotherapy, and polyvagal-informed approaches.
+              </p>
+              <p>
+                Alongside top-down cognitive approaches, I place strong importance on bottom-up work — supporting clients to develop greater safety within the body, reduce chronic states of fight-or-flight, and better understand the nervous system patterns contributing to symptom persistence.
+              </p>
+              <p>
+                I work collaboratively within a multidisciplinary framework and welcome referrals from GPs, integrative and functional medicine practitioners, dermatologists, gynaecologists, pelvic floor physiotherapists, pain specialists, and allied health practitioners.
+              </p>
+            </div>
             <div className="pt-2">
               <Link
                 to="/for-providers"
@@ -66,7 +73,6 @@ export default function DetailsSection() {
           </div>
         </div>
       </section>
-
     </>
   );
 }
