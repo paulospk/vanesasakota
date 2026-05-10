@@ -5,10 +5,10 @@ export default function ClinicalOrientation() {
         <div className="max-w-[720px] space-y-8">
           <div className="space-y-5 text-muted-foreground text-base md:text-[17px] leading-[1.8]">
             <p>
-              Vanesa is a Sydney-based psychotherapist specialising in the relationship between psychological states, stress physiology, and physical health. She holds a Bachelor of Science in Psychology from Griffith University and a Master of Psychotherapy and Counselling from Western Sydney University, where she was awarded a place on the Dean's Merit List for academic excellence.
+              I am a Sydney-based psychotherapist specialising in the relationship between psychological states, stress physiology, and physical health. I hold a Bachelor of Science in Psychology from Griffith University and a Master of Psychotherapy and Counselling from Western Sydney University, where I was awarded a place on the Dean's Merit List for academic excellence.
             </p>
             <p>
-              Her clinical focus is presentations where symptoms persist despite clear medical investigations, particularly where autonomic dysregulation, chronic stress physiology, and nervous system threat responses appear to drive or maintain physical symptoms. She works with individuals over time, tailoring her approach to each person's history, physiology, and presentation.
+              My clinical focus is presentations where symptoms persist despite clear medical investigations, particularly where autonomic dysregulation, chronic stress physiology, and nervous system threat responses appear to drive or maintain physical symptoms. I work with individuals over time, tailoring my approach to each person's history, physiology, and presentation.
             </p>
           </div>
         </div>
