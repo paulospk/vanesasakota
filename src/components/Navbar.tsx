@@ -5,7 +5,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 
 const navLinks = [
   { label: "About", href: "/" },
-  { label: "My Approach", href: "/my-approach" },
+  
   { label: "Mind-Body Evidence", href: "/for-providers" },
   { label: "FAQs", href: "/faqs" },
   { label: "Contact", href: "/contact" },
