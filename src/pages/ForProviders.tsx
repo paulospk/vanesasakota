@@ -141,7 +141,7 @@ const ForProviders = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-20 md:py-32">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
           <div className="max-w-2xl space-y-6 animate-fade-up">
             <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
               Mind-Body Evidence
@@ -158,7 +158,7 @@ const ForProviders = () => {
 
       {/* Part One */}
       <section className="border-b border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-24">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-16">
           <h2 className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-16">
             The Science
           </h2>
@@ -173,7 +173,7 @@ const ForProviders = () => {
 
       {/* Part Two */}
       <section className="bg-accent/20 border-b border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-24">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-16">
           <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
             Part Two
           </p>
@@ -194,7 +194,7 @@ const ForProviders = () => {
 
       {/* Referrals */}
       <section>
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-20 md:py-32">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
           <div className="max-w-[680px] space-y-6">
             <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
               For clinicians
