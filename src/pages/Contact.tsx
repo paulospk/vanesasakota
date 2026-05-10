@@ -21,7 +21,7 @@ const Contact = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-10 md:py-32">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
           <div className="max-w-2xl space-y-6 animate-fade-up">
             <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
               Appointments
@@ -38,7 +38,7 @@ const Contact = () => {
 
       {/* Contact details */}
       <section className="border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-10 md:py-32">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
             <div className="lg:col-span-3">
               <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
@@ -72,7 +72,7 @@ const Contact = () => {
 
       {/* Session Fees */}
       <section className="bg-muted/30 border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-10 md:py-32">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
             <div className="lg:col-span-3">
               <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
