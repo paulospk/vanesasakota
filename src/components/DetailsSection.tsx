@@ -24,7 +24,7 @@ const helpItems = [
   {
     title: "Other",
     description:
-      "Vanesa also works with a broader range of stress-sensitive and psychophysiological presentations, including nervous system dysregulation, autonomic hypervigilance, somatic anxiety, and persistent physical symptoms that lack a clear structural or organic medical explanation.",
+      "I also work with a broader range of stress-sensitive and psychophysiological presentations, including nervous system dysregulation, autonomic hypervigilance, somatic anxiety, and persistent physical symptoms that lack a clear structural or organic medical explanation.",
   },
 ];
 
