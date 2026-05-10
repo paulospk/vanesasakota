@@ -1,7 +1,7 @@
 export default function ClinicalOrientation() {
   return (
     <section className="bg-background border-b border-border">
-      <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-20 md:py-32">
+      <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
         <div className="max-w-[720px] space-y-8">
           <div className="space-y-5 text-muted-foreground text-base md:text-[17px] leading-[1.8]">
             <p>

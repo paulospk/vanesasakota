@@ -33,7 +33,7 @@ export default function DetailsSection() {
     <>
       {/* What I Help With */}
       <section className="bg-muted/30 border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-20 md:py-32">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
             <div className="lg:col-span-3">
               <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
@@ -63,7 +63,7 @@ export default function DetailsSection() {
 
       {/* Grounded in research */}
       <section className="border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-20 md:py-32">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
           <div className="max-w-[720px] space-y-6">
             <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
               Evidence base
