@@ -4,32 +4,27 @@ const helpItems = [
   {
     title: "Pelvic Health",
     description:
-      "Addressing somatic manifestations in the pelvic floor, including Vulvodynia, Vaginismus, and chronic pelvic pain.",
+      "Somatic manifestations in the pelvic floor, including vulvodynia, vaginismus, and chronic pelvic pain. The nervous system's learned protective responses can maintain symptoms long after an initial trigger has resolved.",
   },
   {
     title: "Psychodermatology",
     description:
-      "Managing stress-responsive skin conditions such as eczema, psoriasis, alopecia (hair loss), and chronic pruritus (itching).",
+      "Stress-responsive skin conditions including eczema, psoriasis, alopecia, and chronic pruritus (itch), supported by an understanding of the neuro-immune pathways linking psychological states and skin reactivity.",
   },
   {
     title: "Functional Gastrointestinal Disorders",
     description:
-      "Support for IBS and gut-brain axis dysregulation where medical tests are clear but symptoms persist.",
+      "IBS and gut-brain axis dysregulation, particularly where investigations return clear results but symptoms persist, pointing to central sensitisation and autonomic contributions to gut function.",
   },
   {
-    title: "Chronic Pain & Tension",
+    title: "Chronic Pain & Musculoskeletal Tension",
     description:
-      "Working with \"adaptive bracing\" patterns, tension-type headaches, and musculoskeletal pain linked to sustained stress.",
+      "Working with adaptive bracing patterns, tension-type headaches, and chronic musculoskeletal pain understood through a biopsychosocial and nervous system lens, rather than as structural damage or learned protective physiology.",
   },
   {
-    title: "Nervous System Dysregulation",
+    title: "Other",
     description:
-      "Specialising in autonomic hypervigilance, \"tired but wired\" states, and somatic anxiety.",
-  },
-  {
-    title: "Non-Organic Symptom Presentations",
-    description:
-      "For those experiencing persistent physical symptoms that lack a clear structural or organic medical explanation.",
+      "Vanesa also works with a broader range of stress-sensitive and psychophysiological presentations, including nervous system dysregulation, autonomic hypervigilance, somatic anxiety, and persistent physical symptoms that lack a clear structural or organic medical explanation.",
   },
 ];
 
@@ -78,13 +73,13 @@ export default function DetailsSection() {
             </h2>
             <div className="space-y-5 text-muted-foreground text-base md:text-lg leading-[1.8]">
               <p>
-                My approach is integrative, trauma-informed, and grounded in both neuroscience and psychotherapy. Therapy may incorporate psychoeducation, CBT, Acceptance and Commitment Therapy, somatic and body-based approaches, nervous system regulation work, EMDR, Brainspotting, Resource Therapy, attachment-informed psychotherapy, and polyvagal-informed approaches.
+                My work is integrative, trauma-informed, and grounded in contemporary neuroscience and relational psychotherapy. I draw on a range of modalities including CBT, Acceptance and Commitment Therapy (ACT), EMDR, Brainspotting, Resource Therapy, and attachment-informed approaches, selecting and adapting these based on what each individual needs at each stage of the work.
               </p>
               <p>
-                Alongside top-down cognitive approaches, I place strong importance on bottom-up work — supporting clients to develop greater safety within the body, reduce chronic states of fight-or-flight, and better understand the nervous system patterns contributing to symptom persistence.
+                Central to my practice is the integration of top-down and bottom-up processing. Cognitive and meaning-making work is valuable, but it is rarely sufficient on its own when the body is holding the story. Bottom-up, somatic, and polyvagal-informed approaches allow clients to work directly with nervous system states, building the capacity for safety, tolerance, and regulation from within the body itself, not just from insight.
               </p>
               <p>
-                I work collaboratively within a multidisciplinary framework and welcome referrals from GPs, integrative and functional medicine practitioners, dermatologists, gynaecologists, pelvic floor physiotherapists, pain specialists, and allied health practitioners.
+                I work within a multidisciplinary framework and welcome referrals from GPs, integrative and functional medicine practitioners, dermatologists, gynaecologists, pelvic floor physiotherapists, pain specialists, and allied health professionals. Collaborative care, particularly for complex or medically entangled presentations, is something I actively seek out rather than work around.
               </p>
             </div>
             <div className="pt-2">
