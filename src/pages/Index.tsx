@@ -29,8 +29,7 @@ const Index = () => {
                 <li className="border-b border-border/60 pb-3">Master of Psychotherapy and Counselling — Western Sydney University, 2023</li>
                 <li className="border-b border-border/60 pb-3">Bachelor of Science in Psychology — Griffith University, 2012</li>
                 <li className="border-b border-border/60 pb-3">Certificate, Clinical Resource Therapy — Resource Therapy International, 2023</li>
-                <li className="border-b border-border/60 pb-3">Registered Member, Psychotherapy and Counselling Federation of Australia (PACFA)</li>
-                <li className="pb-3">Affiliate Member, Australian Psychological Society (APS)</li>
+                <li className="pb-3">Registered Member, Psychotherapy and Counselling Federation of Australia (PACFA)</li>
               </ul>
             </div>
           </div>
