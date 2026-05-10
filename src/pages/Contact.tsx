@@ -1,6 +1,19 @@
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 
+const sessions = [
+  {
+    title: "Initial Consultation & Intake",
+    length: "90-minute comprehensive assessment",
+    fee: "$250",
+  },
+  {
+    title: "Ongoing Psychotherapy Session",
+    length: "50-minute session",
+    fee: "$220",
+  },
+];
+
 const Contact = () => {
   return (
     <div className="min-h-screen bg-background">
@@ -11,13 +24,13 @@ const Contact = () => {
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-20 md:py-32">
           <div className="max-w-2xl space-y-6 animate-fade-up">
             <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
-              Contact
+              Appointments
             </p>
             <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
-              Get in touch
+              Booking & enquiries
             </h1>
             <p className="text-muted-foreground text-lg leading-[1.8]">
-              Whether you're considering therapy for yourself or making a referral, I'd be glad to hear from you. The easiest way to reach me is by phone or email.
+              I am currently seeing clients online via Zoom, available across Australia. Whether you're considering therapy for yourself or making a referral, I'd be glad to hear from you. The easiest way to reach me is by phone or email.
             </p>
           </div>
         </div>
@@ -57,19 +70,42 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Location */}
-      <section>
+      {/* Session Fees */}
+      <section className="bg-muted/30 border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-20 md:py-32">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
             <div className="lg:col-span-3">
               <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
-                Where
+                Fees
               </p>
-              <h2 className="font-serif text-2xl md:text-3xl text-foreground">Location</h2>
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground">
+                Session fees &amp; payment
+              </h2>
             </div>
-            <div className="lg:col-span-7 max-w-[680px] text-muted-foreground leading-[1.8]">
-              <p>
-                Sessions are currently online via Zoom, available across Australia. Consulting rooms in Sydney's Eastern Suburbs and CBD are coming in 2026.
+            <div className="lg:col-span-7 max-w-[680px] space-y-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                {sessions.map((s) => (
+                  <div
+                    key={s.title}
+                    className="border border-border bg-background p-6 flex flex-col gap-3"
+                  >
+                    <h3 className="font-serif text-xl text-foreground leading-snug">
+                      {s.title}
+                    </h3>
+                    <p className="text-base md:text-lg text-foreground/80 font-medium">
+                      {s.length}
+                    </p>
+                    <p className="font-serif text-3xl text-foreground mt-auto">
+                      {s.fee}
+                    </p>
+                  </div>
+                ))}
+              </div>
+              <p className="text-muted-foreground leading-[1.8]">
+                You do not need a Mental Health Treatment Plan or a GP referral to see me. You can book directly. Private health rebates may apply depending on your level of cover — please check with your provider.
+              </p>
+              <p className="text-sm text-muted-foreground leading-[1.8]">
+                Payment is required at the time of session. A minimum of 48 hours' notice is required for cancellations or rescheduling; the full session fee applies for late cancellations or missed appointments.
               </p>
             </div>
           </div>
