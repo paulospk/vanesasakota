@@ -73,13 +73,13 @@ export default function DetailsSection() {
             </h2>
             <div className="space-y-5 text-muted-foreground text-base md:text-lg leading-[1.8]">
               <p>
-                My work is integrative, trauma-informed, and grounded in contemporary neuroscience and relational psychotherapy. I draw on a range of modalities including CBT, Acceptance and Commitment Therapy (ACT), EMDR, Brainspotting, Resource Therapy, and attachment-informed approaches, selecting and adapting these based on what each individual needs at each stage of the work.
+                My work is integrative, trauma-informed, and grounded in contemporary neuroscience and relational psychotherapy. I draw on CBT, ACT, EMDR, Brainspotting, Resource Therapy, and attachment-informed approaches, selected and adapted to what each person needs.
               </p>
               <p>
-                Central to my practice is the integration of top-down and bottom-up processing. Cognitive and meaning-making work is valuable, but it is rarely sufficient on its own when the body is holding the story. Bottom-up, somatic, and polyvagal-informed approaches allow clients to work directly with nervous system states, building the capacity for safety, tolerance, and regulation from within the body itself, not just from insight.
+                I work with both top-down and bottom-up processing. Cognitive work is valuable, but rarely sufficient on its own when the body is holding the story. Somatic and polyvagal-informed approaches allow clients to work directly with nervous system states, building safety and regulation from within the body itself.
               </p>
               <p>
-                I work within a multidisciplinary framework and welcome referrals from GPs, integrative and functional medicine practitioners, dermatologists, gynaecologists, pelvic floor physiotherapists, pain specialists, and allied health professionals. Collaborative care, particularly for complex or medically entangled presentations, is something I actively seek out rather than work around.
+                I welcome referrals from GPs, integrative and functional medicine practitioners, dermatologists, gynaecologists, pelvic floor physiotherapists, pain specialists, and allied health professionals.
               </p>
             </div>
             <div className="pt-2">
@@ -89,6 +89,25 @@ export default function DetailsSection() {
               >
                 Read more on the mind-body connection →
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Grounded in research */}
+      <section className="border-b border-border">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-20 md:py-32">
+          <div className="max-w-[720px] space-y-6">
+            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
+              Evidence base
+            </p>
+            <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-snug">
+              Grounded in research
+            </h2>
+            <div className="space-y-5 text-muted-foreground text-base md:text-lg leading-[1.8]">
+              <p>
+                My approach draws on the foundational work of Peter Levine (Somatic Experiencing), Bessel van der Kolk (trauma and the body), Gabor Maté (stress and disease), and Stephen Porges (Polyvagal Theory), alongside contemporary research in psychoneuroimmunology and central sensitisation.
+              </p>
             </div>
           </div>
         </div>
