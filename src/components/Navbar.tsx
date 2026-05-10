@@ -7,8 +7,8 @@ const navLinks = [
   { label: "About", href: "/" },
   
   { label: "Mind-Body Evidence", href: "/for-providers" },
-  { label: "FAQs", href: "/faqs" },
   { label: "Appointments", href: "/contact" },
+  { label: "FAQs", href: "/faqs" },
 ];
 
 export default function Navbar() {
