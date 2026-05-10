@@ -5,7 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import ScrollToTop from "./components/ScrollToTop.tsx";
 import Index from "./pages/Index.tsx";
-import MyApproach from "./pages/MyApproach.tsx";
+
 
 import FAQs from "./pages/FAQs.tsx";
 
@@ -26,8 +26,6 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<Navigate to="/" replace />} />
-          <Route path="/my-approach" element={<MyApproach />} />
-          
           <Route path="/faqs" element={<FAQs />} />
           
           <Route path="/for-providers" element={<ForProviders />} />
