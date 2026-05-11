@@ -7,7 +7,7 @@ const helpItems = [
       "Somatic manifestations in the pelvic floor, including vulvodynia, vaginismus, and chronic pelvic pain. The nervous system's learned protective responses can maintain symptoms long after an initial trigger has resolved.",
   },
   {
-    title: "Psychodermatology",
+    title: "Psychodermatoses",
     description:
       "Stress-responsive skin conditions including eczema, psoriasis, alopecia, and chronic pruritus (itch), supported by an understanding of the neuro-immune pathways linking psychological states and skin reactivity.",
   },
