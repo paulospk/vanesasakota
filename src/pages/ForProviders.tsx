@@ -99,10 +99,7 @@ const partTwo: Section[] = [
 
 const SectionBlock = ({ section }: { section: Section }) => (
   <article className="border-t border-border pt-16 first:border-t-0 first:pt-0">
-    <div className="flex gap-6 items-baseline mb-8">
-      <span className="font-serif text-3xl text-primary/40 font-bold leading-none shrink-0">
-        {section.number}
-      </span>
+    <div className="mb-8">
       <h3 className="font-serif text-2xl md:text-3xl tracking-tight text-foreground">
         {section.title}
       </h3>
