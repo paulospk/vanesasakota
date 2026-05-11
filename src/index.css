@@ -10,33 +10,33 @@ html {
 
 @layer base {
   :root {
-    --background: 36 28% 96%;
-    --foreground: 22 30% 13%;
+    --background: 195 30% 88%;
+    --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
-    --card-foreground: 22 30% 13%;
+    --card-foreground: 222 47% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 22 30% 13%;
+    --popover-foreground: 222 47% 11%;
 
-    --primary: 22 35% 18%;
-    --primary-foreground: 36 28% 96%;
+    --primary: 199 89% 48%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 30 18% 92%;
-    --secondary-foreground: 22 30% 13%;
+    --secondary: 210 20% 95%;
+    --secondary-foreground: 222 47% 11%;
 
-    --muted: 30 18% 92%;
-    --muted-foreground: 22 12% 38%;
+    --muted: 210 20% 95%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 22 25% 25%;
-    --accent-foreground: 36 28% 96%;
+    --accent: 199 89% 95%;
+    --accent-foreground: 199 89% 30%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 36 28% 96%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 28 18% 84%;
-    --input: 28 18% 84%;
-    --ring: 22 35% 18%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 199 89% 48%;
 
     --radius: 0rem;
 
@@ -49,7 +49,7 @@ html {
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
 
-    --hero-bg: 34 26% 93%;
+    --hero-bg: 195 30% 88%;
   }
 
   .dark {
