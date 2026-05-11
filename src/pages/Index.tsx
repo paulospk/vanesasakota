@@ -42,7 +42,7 @@ const Index = () => {
                   Resource Therapy International, 2023
                 </li>
                 <li className="text-muted-foreground">
-                  <span className="text-foreground font-medium">Registered Member</span>
+                  <span className="text-foreground font-medium">Certified Practising</span>
                   <span className="px-2 text-muted-foreground">|</span>
                   Psychotherapy and Counselling Federation of Australia (PACFA)
                 </li>
