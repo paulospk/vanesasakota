@@ -72,13 +72,24 @@ const About = () => {
                 Education &amp; Memberships
               </h2>
             </div>
-            <div className="lg:col-span-7 text-muted-foreground leading-relaxed max-w-[680px]">
-              <ul className="space-y-3">
-                <li className="border-b border-border/60 pb-3">Master of Psychotherapy and Counselling — Western Sydney University, 2023</li>
-                <li className="border-b border-border/60 pb-3">Bachelor of Science in Psychology — Griffith University, 2012</li>
-                <li className="border-b border-border/60 pb-3">Certificate, Clinical Resource Therapy — Resource Therapy International, 2023</li>
-                <li className="border-b border-border/60 pb-3">Registered Member, Psychotherapy and Counselling Federation of Australia (PACFA)</li>
-                <li className="pb-3">Affiliate Member, Australian Psychological Society (APS)</li>
+            <div className="lg:col-span-7 max-w-[680px]">
+              <ul className="space-y-6">
+                <li>
+                  <p className="text-foreground">Master of Psychotherapy and Counselling</p>
+                  <p className="text-muted-foreground text-sm mt-1">Western Sydney University, 2023 (Dean&rsquo;s Merit List)</p>
+                </li>
+                <li>
+                  <p className="text-foreground">Bachelor of Science in Psychology</p>
+                  <p className="text-muted-foreground text-sm mt-1">Griffith University, 2012</p>
+                </li>
+                <li>
+                  <p className="text-foreground">Certificate, Clinical Resource Therapy</p>
+                  <p className="text-muted-foreground text-sm mt-1">Resource Therapy International, 2023</p>
+                </li>
+                <li>
+                  <p className="text-foreground">Registered Member</p>
+                  <p className="text-muted-foreground text-sm mt-1">Psychotherapy and Counselling Federation of Australia (PACFA)</p>
+                </li>
               </ul>
             </div>
           </div>
