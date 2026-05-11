@@ -12,7 +12,7 @@ export default function HeroSection() {
               Mind-Body Psychotherapy Sydney
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl leading-relaxed max-w-[52ch]">
-              I support individuals experiencing treatment resistant symptoms, with a special interest in stress-sensitive skin conditions and female pelvic pain.
+              Supporting individuals living with treatment resistant symptoms, with a special interest in stress-sensitive skin conditions and female pelvic pain.
             </p>
           </div>
 
