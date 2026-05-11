@@ -40,12 +40,7 @@ const Contact = () => {
       <section className="border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
-            <div className="lg:col-span-3">
-              <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
-                Details
-              </p>
-              <h2 className="font-serif text-2xl md:text-3xl text-foreground">How to reach me</h2>
-            </div>
+            <div className="lg:col-span-3"></div>
             <div className="lg:col-span-7 max-w-[680px] space-y-6">
               <div className="border-b border-border/60 pb-5">
                 <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-2">Phone</p>
