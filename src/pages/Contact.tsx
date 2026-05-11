@@ -57,9 +57,6 @@ const Contact = () => {
                   vanesa@vanesasakota.com.au
                 </a>
               </div>
-              <p className="text-muted-foreground leading-[1.8]">
-                I respond to all enquiries within 24 hours.
-              </p>
             </div>
           </div>
         </div>
