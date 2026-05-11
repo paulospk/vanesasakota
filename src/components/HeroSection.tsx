@@ -8,14 +8,14 @@ export default function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left: Text */}
           <div className="space-y-8 animate-fade-up max-w-[800px]">
-            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
-              Mind-Body Psychotherapy Sydney
+            <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-accent">
+              Integrative Psychotherapy
+            </p>
+            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-primary leading-[1.1]">
+              Resolving the intersection of the nervous system and physiological health.
             </h1>
             <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
-              Sydney-based psychotherapist specialising in the relationship between psychological states, stress physiology, and physical health.
-            </p>
-            <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
-              My area of interest is working with symptoms that persist despite clear medical investigations, particularly where autonomic dysregulation, chronic stress physiology, and nervous system threat responses appear to drive or maintain physical symptoms.
+              A clinical approach to symptoms that are non-organic in nature.
             </p>
           </div>
 
