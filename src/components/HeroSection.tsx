@@ -12,7 +12,10 @@ export default function HeroSection() {
               Mind-Body Psychotherapy Sydney
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl leading-relaxed max-w-[52ch]">
-              Supporting individuals living with treatment resistant symptoms, with a special interest in stress-sensitive skin conditions and female pelvic pain.
+              Sydney-based psychotherapist specialising in the relationship between psychological states, stress physiology, and physical health.
+            </p>
+            <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
+              My area of interest is working with symptoms that persist despite clear medical investigations, particularly where autonomic dysregulation, chronic stress physiology, and nervous system threat responses appear to drive or maintain physical symptoms.
             </p>
           </div>
 
