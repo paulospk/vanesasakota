@@ -8,7 +8,7 @@ export default function ClinicalOrientation() {
               Sydney-based psychotherapist specialising in the relationship between psychological states, stress physiology, and physical health.
             </p>
             <p>
-              My clinical focus is presentations where symptoms persist despite clear medical investigations, particularly where autonomic dysregulation, chronic stress physiology, and nervous system threat responses appear to drive or maintain physical symptoms. I work with individuals over time, tailoring my approach to each person's history, physiology, and presentation.
+              My area of interest is working with symptoms that persist despite clear medical investigations, particularly where autonomic dysregulation, chronic stress physiology, and nervous system threat responses appear to drive or maintain physical symptoms.
             </p>
           </div>
         </div>
