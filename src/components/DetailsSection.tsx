@@ -12,11 +12,6 @@ const helpItems = [
       "Stress-responsive skin conditions including eczema, psoriasis, alopecia, and chronic pruritus (itch), supported by an understanding of the neuro-immune pathways linking psychological states and skin reactivity.",
   },
   {
-    title: "Functional Gastrointestinal Disorders",
-    description:
-      "IBS and gut-brain axis dysregulation, particularly where investigations return clear results but symptoms persist, pointing to central sensitisation and autonomic contributions to gut function.",
-  },
-  {
     title: "Chronic Pain & Musculoskeletal Tension",
     description:
       "Working with adaptive bracing patterns, tension-type headaches, and chronic musculoskeletal pain understood through a biopsychosocial and nervous system lens, rather than as structural damage or learned protective physiology.",
