@@ -196,9 +196,6 @@ const ForProviders = () => {
       <section>
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
           <div className="max-w-[680px] space-y-6">
-            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
-              For clinicians
-            </p>
             <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground">
               Referrals
             </h2>
