@@ -159,9 +159,6 @@ const ForProviders = () => {
       {/* Part One */}
       <section className="border-b border-border">
         <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-16">
-          <h2 className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-16">
-            The Science
-          </h2>
 
           <div className="space-y-20 md:space-y-24">
             {partOne.map((s) => (
