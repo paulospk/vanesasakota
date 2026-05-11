@@ -9,13 +9,10 @@ export default function HeroSection() {
           {/* Left: Text */}
           <div className="space-y-8 animate-fade-up max-w-[800px]">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
-              Mind-Body Psychotherapy for Stress-Linked, Treatment-Resistant Symptoms
+              Mind-Body Psychotherapy Sydney
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl leading-relaxed max-w-[52ch]">
-              Helping patients with chronic pain, pelvic health conditions, stress-sensitive skin disorders, and other psychosomatic symptoms by addressing the psychological factors that sustain physiological stress responses.
-            </p>
-            <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
-              Partnering with medical specialists to complement treatment and improve outcomes for complex, persistent conditions.
+              Supporting individuals living with treatment resistant symptoms, with a special interest in stress-sensitive skin conditions and female pelvic pain.
             </p>
           </div>
 
