@@ -2,7 +2,7 @@
 
 const helpItems = [
   {
-    title: "Pelvic Health",
+    title: "Pelvic Pain",
     description:
       "Somatic manifestations in the pelvic floor, including vulvodynia, vaginismus, and chronic pelvic pain. The nervous system's learned protective responses can maintain symptoms long after an initial trigger has resolved.",
   },
