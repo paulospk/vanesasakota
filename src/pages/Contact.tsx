@@ -6,11 +6,13 @@ const sessions = [
     title: "Initial Consultation",
     length: "90 minutes",
     fee: "$250",
+    note: "Longer so I can hear your full story and what has been happening for you.",
   },
   {
     title: "Ongoing Psychotherapy Session",
     length: "50-minute session",
     fee: "$220",
+    note: "",
   },
 ];
 
@@ -87,9 +89,14 @@ const Contact = () => {
                     <p className="text-base md:text-lg text-foreground/80 font-medium">
                       {s.length}
                     </p>
-                    <p className="font-serif text-3xl text-foreground mt-auto">
+                    <p className="font-serif text-3xl text-foreground">
                       {s.fee}
                     </p>
+                    {s.note && (
+                      <p className="text-sm text-muted-foreground leading-[1.6] mt-auto">
+                        {s.note}
+                      </p>
+                    )}
                   </div>
                 ))}
               </div>
