@@ -128,8 +128,17 @@ export default function DetailsSection() {
               Grounded in Research
             </h2>
             <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
-              This work is informed by the foundational contributions of <strong className="text-foreground font-medium">Dr. Peter Levine</strong>, <strong className="text-foreground font-medium">Dr. Bessel van der Kolk</strong>, <strong className="text-foreground font-medium">Dr. Gabor Mat&eacute;</strong>, and <strong className="text-foreground font-medium">Dr. Stephen Porges</strong>, alongside contemporary research in <strong className="text-foreground font-medium">psychoneuroimmunology</strong> and <strong className="text-foreground font-medium">central sensitisation</strong>.
+              This work draws on established frameworks in <strong className="text-foreground font-medium">somatic psychotherapy</strong>, <strong className="text-foreground font-medium">polyvagal theory</strong>, <strong className="text-foreground font-medium">psychoneuroimmunology</strong>, and <strong className="text-foreground font-medium">central sensitisation</strong>, alongside a growing body of clinical research into the mind-body connection.
             </p>
+            <div className="pt-2">
+              <a
+                href="/for-providers"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-foreground text-background text-sm font-medium tracking-wide hover:opacity-90 transition-opacity"
+              >
+                Explore the evidence
+                <span aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
