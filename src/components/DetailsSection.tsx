@@ -29,34 +29,50 @@ const pillars: { title: string; description: ReactNode }[] = [
 
 const helpItems: { title: string; description: ReactNode }[] = [
   {
-    title: "Pelvic Health & Somatic Protection",
+    title: "Anxiety & Nervous System Dysregulation",
     description: (
       <>
-        Working with the nervous system&rsquo;s <strong className="text-foreground font-medium">protective responses</strong> in conditions like <strong className="text-foreground font-medium">vulvodynia</strong> and <strong className="text-foreground font-medium">chronic pelvic pain</strong>.
+        Working with persistent <strong className="text-foreground font-medium">anxiety</strong>, hypervigilance and the <strong className="text-foreground font-medium">autonomic patterns</strong> that keep the body in a state of bracing or shutdown.
       </>
     ),
   },
   {
-    title: "The Mind-Skin Connection",
+    title: "Trauma & Medical Trauma",
     description: (
       <>
-        Addressing the <strong className="text-foreground font-medium">neuro-immune pathways</strong> behind stress-responsive conditions like <strong className="text-foreground font-medium">eczema</strong> and <strong className="text-foreground font-medium">psoriasis</strong>.
+        Supporting recovery from <strong className="text-foreground font-medium">developmental, relational and medical trauma</strong>, including the residue of distressing health experiences and dismissive clinical encounters.
       </>
     ),
   },
   {
-    title: "Chronic Pain & Adaptive Bracing",
+    title: "Burnout, Chronic Stress & Perfectionism",
     description: (
       <>
-        Shifting the lens from structural damage to <strong className="text-foreground font-medium">learned protective physiology</strong> for headaches and musculoskeletal tension.
+        Tending to <strong className="text-foreground font-medium">exhaustion, over-functioning</strong> and the internal pressure of <strong className="text-foreground font-medium">perfectionism and self-worth</strong> patterns common in high-achieving women.
       </>
     ),
   },
   {
-    title: "Psychophysiological Resolution",
+    title: "Relationships, Intimacy & Embodiment",
     description: (
       <>
-        Supporting individuals with symptoms that feel <strong className="text-foreground font-medium">non-organic</strong> or change based on emotional state.
+        Working with <strong className="text-foreground font-medium">relational difficulties</strong>, shame, emotional disconnection and the felt experience of <strong className="text-foreground font-medium">embodiment and intimacy</strong>.
+      </>
+    ),
+  },
+  {
+    title: "Pelvic Pain, Vulvodynia & Vaginismus",
+    description: (
+      <>
+        A clinical special interest in the nervous system&rsquo;s <strong className="text-foreground font-medium">protective responses</strong> underlying <strong className="text-foreground font-medium">vulvodynia</strong>, <strong className="text-foreground font-medium">vaginismus</strong> and chronic pelvic pain.
+      </>
+    ),
+  },
+  {
+    title: "Stress-Sensitive Physical Symptoms",
+    description: (
+      <>
+        Addressing symptoms shaped by <strong className="text-foreground font-medium">psychophysiological</strong> processes, including stress-responsive skin conditions and persistent pain that shifts with emotional state.
       </>
     ),
   },
