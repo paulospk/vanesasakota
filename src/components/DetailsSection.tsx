@@ -45,14 +45,6 @@ const helpItems: { title: string; description: ReactNode }[] = [
     ),
   },
   {
-    title: "Chronic Pain & Adaptive Bracing",
-    description: (
-      <>
-        Shifting the lens from structural damage to <strong className="text-foreground font-medium">learned protective physiology</strong> for headaches and musculoskeletal tension.
-      </>
-    ),
-  },
-  {
     title: "Psychophysiological Resolution",
     description: (
       <>
