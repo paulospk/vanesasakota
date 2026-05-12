@@ -40,7 +40,7 @@ const helpItems: { title: string; description: ReactNode }[] = [
     title: "The Mind-Skin Connection",
     description: (
       <>
-        Supporting the <strong className="text-foreground font-medium">emotional and psychological factors</strong> that can influence stress-responsive conditions like <strong className="text-foreground font-medium">eczema</strong>, <strong className="text-foreground font-medium">psoriasis</strong>, <strong className="text-foreground font-medium">stress-related hair loss</strong> and <strong className="text-foreground font-medium">vitiligo</strong>.
+        Working with <strong className="text-foreground font-medium">emotional and psychological factors</strong> that can influence stress-responsive conditions like <strong className="text-foreground font-medium">eczema</strong>, <strong className="text-foreground font-medium">psoriasis</strong>, <strong className="text-foreground font-medium">stress-related hair loss</strong> and <strong className="text-foreground font-medium">vitiligo</strong>.
       </>
     ),
   },
