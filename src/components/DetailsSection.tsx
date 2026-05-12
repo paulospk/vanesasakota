@@ -48,7 +48,7 @@ const helpItems: { title: string; description: ReactNode }[] = [
     title: "Psychophysiological Resolution",
     description: (
       <>
-        Supporting individuals with symptoms that feel <strong className="text-foreground font-medium">non-organic</strong> or change based on emotional state.
+        Working with <strong className="text-foreground font-medium">functional and psychophysiological symptoms</strong>: real experiences that fall outside structural or organic diagnosis.
       </>
     ),
   },
