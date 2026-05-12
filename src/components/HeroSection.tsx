@@ -12,10 +12,10 @@ export default function HeroSection() {
               Mind-Body Psychotherapy Sydney
             </h1>
             <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
-              A women&rsquo;s psychotherapy practice attending to the relationship between psychological states, stress physiology, and the lived experience of the body.
+              Sydney-based psychotherapist specialising in the relationship between psychological states, stress physiology, and physical health.
             </p>
             <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
-              I work with women navigating anxiety, trauma, burnout, relationship difficulties and emotional overwhelm, alongside a special interest in nervous system driven conditions such as pelvic pain, vulvodynia and vaginismus.
+              My area of interest is working with symptoms that persist despite clear medical investigations, particularly where autonomic dysregulation, chronic stress physiology, and nervous system threat responses appear to drive or maintain physical symptoms.
             </p>
           </div>
 

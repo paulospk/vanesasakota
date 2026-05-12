@@ -29,50 +29,34 @@ const pillars: { title: string; description: ReactNode }[] = [
 
 const helpItems: { title: string; description: ReactNode }[] = [
   {
-    title: "Anxiety & Nervous System Dysregulation",
+    title: "Pelvic Health & Somatic Protection",
     description: (
       <>
-        Working with persistent <strong className="text-foreground font-medium">anxiety</strong>, hypervigilance and the <strong className="text-foreground font-medium">autonomic patterns</strong> that keep the body in a state of bracing or shutdown.
+        Working with the nervous system&rsquo;s <strong className="text-foreground font-medium">protective responses</strong> in conditions like <strong className="text-foreground font-medium">vulvodynia</strong> and <strong className="text-foreground font-medium">chronic pelvic pain</strong>.
       </>
     ),
   },
   {
-    title: "Trauma & Medical Trauma",
+    title: "The Mind-Skin Connection",
     description: (
       <>
-        Supporting recovery from <strong className="text-foreground font-medium">developmental, relational and medical trauma</strong>, including the residue of distressing health experiences and dismissive clinical encounters.
+        Addressing the <strong className="text-foreground font-medium">neuro-immune pathways</strong> behind stress-responsive conditions like <strong className="text-foreground font-medium">eczema</strong> and <strong className="text-foreground font-medium">psoriasis</strong>.
       </>
     ),
   },
   {
-    title: "Burnout, Chronic Stress & Perfectionism",
+    title: "Chronic Pain & Adaptive Bracing",
     description: (
       <>
-        Tending to <strong className="text-foreground font-medium">exhaustion, over-functioning</strong> and the internal pressure of <strong className="text-foreground font-medium">perfectionism and self-worth</strong> patterns common in high-achieving women.
+        Shifting the lens from structural damage to <strong className="text-foreground font-medium">learned protective physiology</strong> for headaches and musculoskeletal tension.
       </>
     ),
   },
   {
-    title: "Relationships, Intimacy & Embodiment",
+    title: "Psychophysiological Resolution",
     description: (
       <>
-        Working with <strong className="text-foreground font-medium">relational difficulties</strong>, shame, emotional disconnection and the felt experience of <strong className="text-foreground font-medium">embodiment and intimacy</strong>.
-      </>
-    ),
-  },
-  {
-    title: "Pelvic Pain, Vulvodynia & Vaginismus",
-    description: (
-      <>
-        A clinical special interest in the nervous system&rsquo;s <strong className="text-foreground font-medium">protective responses</strong> underlying <strong className="text-foreground font-medium">vulvodynia</strong>, <strong className="text-foreground font-medium">vaginismus</strong> and chronic pelvic pain.
-      </>
-    ),
-  },
-  {
-    title: "Stress-Sensitive Physical Symptoms",
-    description: (
-      <>
-        Addressing symptoms shaped by <strong className="text-foreground font-medium">psychophysiological</strong> processes, including stress-responsive skin conditions and persistent pain that shifts with emotional state.
+        Supporting individuals with symptoms that feel <strong className="text-foreground font-medium">non-organic</strong> or change based on emotional state.
       </>
     ),
   },
@@ -95,7 +79,7 @@ export default function DetailsSection() {
             </div>
             <div className="lg:col-span-7 space-y-12 max-w-[680px]">
               <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
-                My practice operates on a <strong className="text-foreground font-medium">dual-pathway framework</strong>. By bridging cognitive insight with somatic and parts-based resolution, we address the nervous system from both directions to work with symptoms not organic in nature.
+                My practice operates on a <strong className="text-foreground font-medium">dual-pathway framework</strong>. By bridging cognitive insight with somatic and parts-based resolution, we address the nervous system from both directions to resolve symptoms not organic in nature.
               </p>
               <ul className="space-y-10">
                 {pillars.map((p) => (
