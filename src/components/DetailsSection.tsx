@@ -95,7 +95,7 @@ export default function DetailsSection() {
             </div>
             <div className="lg:col-span-7 space-y-12 max-w-[680px]">
               <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
-                My practice operates on a <strong className="text-foreground font-medium">dual-pathway framework</strong>. By bridging cognitive insight with somatic and parts-based resolution, we address the nervous system from both directions to resolve symptoms not organic in nature.
+                My practice operates on a <strong className="text-foreground font-medium">dual-pathway framework</strong>. By bridging cognitive insight with somatic and parts-based resolution, we address the nervous system from both directions to work with symptoms not organic in nature.
               </p>
               <ul className="space-y-10">
                 {pillars.map((p) => (
