@@ -94,7 +94,7 @@ const Contact = () => {
                 ))}
               </div>
               <p className="text-muted-foreground leading-[1.8]">
-                You do not need a Mental Health Treatment Plan or a GP referral to see me. You can book directly. Private health rebates may apply depending on your level of cover — please check with your provider.
+                You do not need a Mental Health Care Plan or a GP referral to see me. You can book directly. Private health rebates may apply depending on your level of cover — please check with your provider.
               </p>
               <p className="text-sm text-muted-foreground leading-[1.8]">
                 Payment is required at the time of session. A minimum of 48 hours' notice is required for cancellations or rescheduling; the full session fee applies for late cancellations or missed appointments.

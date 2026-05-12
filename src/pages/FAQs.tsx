@@ -9,9 +9,9 @@ import {
 
 const faqs = [
   {
-    question: "Do I need a GP referral or Mental Health Treatment Plan to see you?",
+    question: "Do I need a GP referral or Mental Health Care Plan to see you?",
     answer:
-      "No. You can book directly without a referral. A Mental Health Treatment Plan is not required and there is no waiting list. If you do have a referral from your GP or specialist, that is welcome, but it is not a prerequisite.",
+      "No. You can book directly without a referral. A Mental Health Care Plan is not required and there is no waiting list. If you do have a referral from your GP or specialist, that is welcome, but it is not a prerequisite.",
   },
   {
     question: "Can therapy actually help with physical symptoms?",
@@ -26,7 +26,7 @@ const faqs = [
   {
     question: "How much does it cost and are there rebates?",
     answer:
-      "The initial consultation is $250. Subsequent sessions are $180. You do not need a Mental Health Treatment Plan to access my services. Private health rebates may apply depending on your level of cover - please check with your provider before your first session.",
+      "The initial consultation is $250. Subsequent sessions are $180. You do not need a Mental Health Care Plan to access my services. Private health rebates may apply depending on your level of cover - please check with your provider before your first session.",
   },
   {
     question: "Do you offer Medicare rebates?",
