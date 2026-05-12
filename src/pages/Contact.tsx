@@ -6,7 +6,7 @@ const sessions = [
     title: "Initial Consultation",
     length: "90 minutes",
     fee: "$250",
-    note: "Longer so I can hear your full story and what has been happening for you.",
+    note: "An extended first session, allowing time for a thorough history and a clear understanding of your presenting concerns.",
   },
   {
     title: "Ongoing Psychotherapy Session",
