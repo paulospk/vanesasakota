@@ -3,8 +3,8 @@ import FooterSection from "@/components/FooterSection";
 
 const sessions = [
   {
-    title: "Initial Consultation & Intake",
-    length: "90-minute comprehensive assessment",
+    title: "Initial Consultation",
+    length: "90 minutes",
     fee: "$250",
   },
   {
