@@ -12,7 +12,7 @@ const sessions = [
     title: "Ongoing Psychotherapy Session",
     length: "50-minute session",
     fee: "$220",
-    note: "",
+    note: "Standard therapy session for ongoing clinical work, conducted weekly or fortnightly as appropriate.",
   },
 ];
 
