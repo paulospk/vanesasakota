@@ -107,7 +107,10 @@ export default function DetailsSection() {
                 Areas of Practice
               </h2>
             </div>
-            <div className="lg:col-span-7">
+            <div className="lg:col-span-7 space-y-10">
+              <p className="text-muted-foreground text-base md:text-lg leading-[1.8] max-w-[680px]">
+                While I hold a special interest in pelvic pain conditions such as <strong className="text-foreground font-medium">vulvodynia</strong> and <strong className="text-foreground font-medium">vaginismus</strong>, I also work with women navigating anxiety, trauma, relational difficulty, emotional overwhelm, chronic stress, and challenges connected to identity, self-worth and intimacy.
+              </p>
               <ul className="grid grid-cols-1 gap-y-12 max-w-[680px]">
                 {helpItems.map((item) => (
                   <li key={item.title}>
