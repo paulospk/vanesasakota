@@ -13,8 +13,10 @@ export default function FooterSection() {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Location</h4>
             <p className="text-sm opacity-70 leading-relaxed">
-              Currently online via Zoom.<br />
-              Rooms in Sydney CBD & Eastern Suburbs coming in 2026.
+              504/135 Macquarie St,<br />
+              Sydney NSW 2000<br />
+              <span className="italic">By appointment only.</span><br />
+              Also available online via Zoom.
             </p>
           </div>
           <div>
