@@ -13,6 +13,7 @@ export default function FooterSection() {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Location</h4>
             <p className="text-sm opacity-70 leading-relaxed">
+              BMA House (British Medical Association House)<br />
               504/135 Macquarie St,<br />
               Sydney NSW 2000<br />
               <span className="italic">By appointment only.</span>
