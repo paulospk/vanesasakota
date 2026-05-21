@@ -29,26 +29,34 @@ const pillars: { title: string; description: ReactNode }[] = [
 
 const helpItems: { title: string; description: ReactNode }[] = [
   {
-    title: "Pelvic Health & Somatic Protection",
+    title: "Anxiety, Trauma & Nervous System Dysregulation",
     description: (
       <>
-        Working with the nervous system&rsquo;s <strong className="text-foreground font-medium">protective responses</strong> in conditions like <strong className="text-foreground font-medium">vaginismus</strong>, <strong className="text-foreground font-medium">vulvodynia</strong> and <strong className="text-foreground font-medium">chronic pelvic pain</strong>.
+        Supporting women experiencing <strong className="text-foreground font-medium">anxiety</strong>, <strong className="text-foreground font-medium">trauma responses</strong>, <strong className="text-foreground font-medium">chronic stress</strong> and <strong className="text-foreground font-medium">burnout</strong>, with attention to how the nervous system holds and patterns these experiences.
       </>
     ),
   },
   {
-    title: "The Mind-Skin Connection",
+    title: "Relationships, Intimacy & Self-Worth",
     description: (
       <>
-        Working with <strong className="text-foreground font-medium">emotional and psychological factors</strong> that can influence stress-responsive conditions like <strong className="text-foreground font-medium">eczema</strong>, <strong className="text-foreground font-medium">psoriasis</strong>, <strong className="text-foreground font-medium">stress-related hair loss</strong> and <strong className="text-foreground font-medium">vitiligo</strong>.
+        Working with <strong className="text-foreground font-medium">relational difficulty</strong>, <strong className="text-foreground font-medium">shame</strong>, <strong className="text-foreground font-medium">perfectionism</strong> and concerns around <strong className="text-foreground font-medium">identity, intimacy and self-worth</strong>.
       </>
     ),
   },
   {
-    title: "Psychophysiological Resolution",
+    title: "Pelvic Pain & Medical Trauma",
     description: (
       <>
-        Working with <strong className="text-foreground font-medium">functional and psychophysiological symptoms</strong>: real experiences that fall outside structural or organic diagnosis.
+        A special interest in the protective responses underlying <strong className="text-foreground font-medium">vulvodynia</strong>, <strong className="text-foreground font-medium">vaginismus</strong> and <strong className="text-foreground font-medium">chronic pelvic pain</strong>, alongside the impact of <strong className="text-foreground font-medium">medical trauma</strong> and embodied disconnection.
+      </>
+    ),
+  },
+  {
+    title: "The Mind-Body Connection",
+    description: (
+      <>
+        Working with <strong className="text-foreground font-medium">stress-responsive</strong> and <strong className="text-foreground font-medium">psychophysiological symptoms</strong>, including conditions such as eczema, psoriasis, stress-related hair loss and vitiligo, where emotional and physiological processes intersect.
       </>
     ),
   },
@@ -99,7 +107,10 @@ export default function DetailsSection() {
                 Areas of Practice
               </h2>
             </div>
-            <div className="lg:col-span-7">
+            <div className="lg:col-span-7 space-y-10">
+              <p className="text-muted-foreground text-base md:text-lg leading-[1.8] max-w-[680px]">
+                While I hold a special interest in pelvic pain conditions such as <strong className="text-foreground font-medium">vulvodynia</strong> and <strong className="text-foreground font-medium">vaginismus</strong>, I also work with women navigating anxiety, trauma, relational difficulty, emotional overwhelm, chronic stress, and challenges connected to identity, self-worth and intimacy.
+              </p>
               <ul className="grid grid-cols-1 gap-y-12 max-w-[680px]">
                 {helpItems.map((item) => (
                   <li key={item.title}>
