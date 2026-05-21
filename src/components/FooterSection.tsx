@@ -17,7 +17,7 @@ export default function FooterSection() {
               504/135 Macquarie St,<br />
               Sydney NSW 2000
             </p>
-            <p className="text-sm opacity-70 italic mt-3">By appointment only.</p>
+            <p className="text-sm opacity-70 italic mt-3">By appointment only</p>
           </div>
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Contact</h4>
