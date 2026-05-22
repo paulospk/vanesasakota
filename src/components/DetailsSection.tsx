@@ -2,26 +2,26 @@ import type { ReactNode } from "react";
 
 const pillars: { title: string; description: ReactNode }[] = [
   {
-    title: "Top-Down Integration",
+    title: "Cognitive Processes",
     description: (
       <>
-        Utilizing <strong className="text-foreground font-medium">CBT and ACT</strong> to address thought patterns, core beliefs, and psychological flexibility.
+        Drawing on <strong className="text-foreground font-medium">Cognitive Behavioural Therapy (CBT)</strong> and <strong className="text-foreground font-medium">Acceptance and Commitment Therapy (ACT)</strong>, treatment addresses thought patterns, beliefs, emotional responses, and psychological flexibility that may influence symptom-related distress and daily functioning.
       </>
     ),
   },
   {
-    title: "The Relational Bridge",
+    title: "Emotional & Relational Processes",
     description: (
       <>
-        Incorporating <strong className="text-foreground font-medium">Resource Therapy</strong> to identify and re-resource internal states stuck in defensive or protective roles.
+        Using <strong className="text-foreground font-medium">Resource Therapy</strong>, treatment explores internal states and protective patterns that may have developed in response to stress, adversity, or perceived threat. The goal is to support greater self-awareness, emotional integration, and adaptive responding.
       </>
     ),
   },
   {
-    title: "Bottom-Up Resolution",
+    title: "Autonomic & Physiological Processes",
     description: (
       <>
-        Utilizing <strong className="text-foreground font-medium">Polyvagal Theory and Somatic Experiencing</strong> to map the neurobiology of safety while renegotiating the body&rsquo;s physiological stress response.
+        Drawing on <strong className="text-foreground font-medium">Somatic Experiencing</strong> and contemporary understandings of autonomic nervous system functioning, treatment focuses on increasing awareness of physiological stress responses and developing greater capacity for regulation, flexibility, and recovery.
       </>
     ),
   },
@@ -68,7 +68,10 @@ export default function DetailsSection() {
             </div>
             <div className="lg:col-span-7 space-y-12 max-w-[680px]">
               <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
-                My practice operates on a <strong className="text-foreground font-medium">dual-pathway framework</strong>. By bridging cognitive insight with somatic and parts-based resolution, we address the nervous system from both directions to resolve symptoms not organic in nature.
+                Persistent physical symptoms are rarely maintained by a single factor. My approach considers the interaction between cognitive, emotional, behavioural, relational, and autonomic processes that may contribute to symptom persistence following appropriate medical assessment.
+              </p>
+              <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
+                Treatment integrates evidence-based psychotherapy with somatic approaches to help individuals understand symptom patterns, reduce symptom-related distress, improve functioning, and support recovery while working alongside ongoing medical care.
               </p>
               <ul className="space-y-10">
                 {pillars.map((p) => (
