@@ -68,7 +68,10 @@ export default function DetailsSection() {
             </div>
             <div className="lg:col-span-7 space-y-12 max-w-[680px]">
               <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
-                My practice operates on a <strong className="text-foreground font-medium">dual-pathway framework</strong>. By bridging cognitive insight with somatic and parts-based resolution, we address the nervous system from both directions to resolve symptoms not organic in nature.
+                Persistent physical symptoms are rarely maintained by a single factor. My approach considers the interaction between cognitive, emotional, behavioural, relational, and autonomic processes that may contribute to symptom persistence following appropriate medical assessment.
+              </p>
+              <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
+                Treatment integrates evidence-based psychotherapy with somatic approaches to help individuals understand symptom patterns, reduce symptom-related distress, improve functioning, and support recovery while working alongside ongoing medical care.
               </p>
               <ul className="space-y-10">
                 {pillars.map((p) => (
