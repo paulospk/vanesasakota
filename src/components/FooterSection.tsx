@@ -8,7 +8,7 @@ export default function FooterSection() {
             <p className="text-sm opacity-70 leading-relaxed">
               BMA House<br />
               504/135 Macquarie St,<br />
-              Sydney NSW 2000<br />
+              Sydney NSW 2000<br /><br />
               <span className="italic">By appointment only.</span>
             </p>
           </div>
