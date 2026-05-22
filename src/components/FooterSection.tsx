@@ -10,7 +10,7 @@ export default function FooterSection() {
               Level 5, Suite 504<br />
               135 Macquarie Street<br />
               Sydney NSW 2000<br /><br />
-              <span className="italic">By appointment only.</span>
+              <span className="italic">By appointment only</span>
             </p>
           </div>
           <div>
