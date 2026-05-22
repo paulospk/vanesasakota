@@ -15,11 +15,6 @@ export default function HeroSection() {
 
           {/* Right: Image */}
           <div className="animate-fade-up space-y-4" style={{ animationDelay: "100ms" }}>
-            <img
-              src={profileImg}
-              alt="Vanesa Sakota"
-              className="w-full aspect-[4/5] object-cover object-top"
-            />
             <div className="text-left">
               <p className="font-serif text-xl md:text-2xl text-foreground">
                 Vanesa Sakota
@@ -28,6 +23,11 @@ export default function HeroSection() {
                 BSc (Psychology) MA (Psychotherapy and Counselling) PACFA
               </p>
             </div>
+            <img
+              src={profileImg}
+              alt="Vanesa Sakota"
+              className="w-full aspect-[4/5] object-cover object-top"
+            />
           </div>
         </div>
       </div>
