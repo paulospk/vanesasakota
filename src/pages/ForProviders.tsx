@@ -99,10 +99,7 @@ const partTwo: Section[] = [
 
 const SectionBlock = ({ section }: { section: Section }) => (
   <article className="border-t border-border pt-16 first:border-t-0 first:pt-0">
-    <div className="flex gap-6 items-baseline mb-8">
-      <span className="font-serif text-3xl text-primary/40 font-bold leading-none shrink-0">
-        {section.number}
-      </span>
+    <div className="mb-8">
       <h3 className="font-serif text-2xl md:text-3xl tracking-tight text-foreground">
         {section.title}
       </h3>
@@ -159,9 +156,6 @@ const ForProviders = () => {
       {/* Part One */}
       <section className="border-b border-border">
         <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-16">
-          <h2 className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-16">
-            The Science
-          </h2>
 
           <div className="space-y-20 md:space-y-24">
             {partOne.map((s) => (
@@ -174,9 +168,6 @@ const ForProviders = () => {
       {/* Part Two */}
       <section className="bg-accent/20 border-b border-border">
         <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-16">
-          <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
-            Part Two
-          </p>
           <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground mb-6">
             Clinical Presentations
           </h2>
@@ -196,9 +187,6 @@ const ForProviders = () => {
       <section>
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
           <div className="max-w-[680px] space-y-6">
-            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
-              For clinicians
-            </p>
             <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground">
               Referrals
             </h2>
