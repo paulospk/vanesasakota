@@ -46,19 +46,43 @@ const About = () => {
               <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
                 Approach
               </p>
-              <h2 className="font-serif text-2xl md:text-3xl text-foreground">How I work</h2>
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground">
+                An Integrative Systems Approach
+              </h2>
             </div>
             <div className="lg:col-span-7 max-w-[680px] space-y-5 text-muted-foreground text-base md:text-lg leading-[1.8]">
               <p>
-                Many of the people I see have spent a long time looking for answers. Their symptoms are real, often distressing, and frequently dismissed. My work begins with listening carefully and taking what you bring seriously.
+                Persistent physical symptoms are rarely maintained by a single factor. My approach considers the interaction between cognitive, emotional, behavioural, relational, and autonomic processes that may contribute to symptom persistence following appropriate medical assessment.
               </p>
               <p>
-                Together we make sense of what's happening in your body and your life — gently, at your pace. The goal is to reduce fear, settle the nervous system, and help you feel safer in your body again.
+                Treatment integrates evidence-based psychotherapy with somatic approaches to help individuals understand symptom patterns, reduce symptom-related distress, improve functioning, and support recovery while working alongside ongoing medical care.
               </p>
+
+              <div className="pt-4 space-y-6">
+                <div>
+                  <h3 className="font-serif text-xl text-foreground mb-2">Cognitive Processes</h3>
+                  <p>
+                    Drawing on Cognitive Behavioural Therapy (CBT) and Acceptance and Commitment Therapy (ACT), treatment addresses thought patterns, beliefs, emotional responses, and psychological flexibility that may influence symptom-related distress and daily functioning.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="font-serif text-xl text-foreground mb-2">Emotional &amp; Relational Processes</h3>
+                  <p>
+                    Using Resource Therapy, treatment explores internal states and protective patterns that may have developed in response to stress, adversity, or perceived threat. The goal is to support greater self-awareness, emotional integration, and adaptive responding.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="font-serif text-xl text-foreground mb-2">Autonomic &amp; Physiological Processes</h3>
+                  <p>
+                    Drawing on Somatic Experiencing and contemporary understandings of autonomic nervous system functioning, treatment focuses on increasing awareness of physiological stress responses and developing greater capacity for regulation, flexibility, and recovery.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
+
 
       {/* Education & Memberships */}
       <section>
