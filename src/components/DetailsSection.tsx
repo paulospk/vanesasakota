@@ -1,154 +1,120 @@
-import type { ReactNode } from "react";
-
-const pillars: { title: string; description: ReactNode }[] = [
+const scopeItems = [
   {
-    title: "Top-Down Integration",
-    description: (
-      <>
-        Utilizing <strong className="text-foreground font-medium">CBT and ACT</strong> to address thought patterns, core beliefs, and psychological flexibility.
-      </>
-    ),
+    title: "Somatic & Psychophysiological Syndromes",
+    body: "Chronic functional pain, idiopathic tension, unmapped somatic burning, and nervous system hypervigilance.",
   },
   {
-    title: "The Relational Bridge",
-    description: (
-      <>
-        Incorporating <strong className="text-foreground font-medium">Resource Therapy</strong> to identify and re-resource internal states stuck in defensive or protective roles.
-      </>
-    ),
+    title: "Complex Motor Reflexes & Bracing",
+    body: "Involuntary pelvic floor guarding (vaginismus), chronic systemic bracing, and functional structural blocks.",
   },
   {
-    title: "Bottom-Up Resolution",
-    description: (
-      <>
-        Utilizing <strong className="text-foreground font-medium">Polyvagal Theory and Somatic Experiencing</strong> to map the neurobiology of safety while renegotiating the body&rsquo;s physiological stress response.
-      </>
-    ),
-  },
-];
-
-const helpItems: { title: string; description: ReactNode }[] = [
-  {
-    title: "Anxiety, Trauma & Nervous System Dysregulation",
-    description: (
-      <>
-        Supporting women experiencing <strong className="text-foreground font-medium">anxiety</strong>, <strong className="text-foreground font-medium">trauma responses</strong>, <strong className="text-foreground font-medium">chronic stress</strong> and <strong className="text-foreground font-medium">burnout</strong>, with attention to how the nervous system holds and patterns these experiences.
-      </>
-    ),
+    title: "Relational & Developmental Trauma",
+    body: "Resolving early life attachment wounds, chronic boundary suppression, and environmental invalidation that manifests physically in adulthood.",
   },
   {
-    title: "Relationships, Intimacy & Self-Worth",
-    description: (
-      <>
-        Working with <strong className="text-foreground font-medium">relational difficulty</strong>, <strong className="text-foreground font-medium">shame</strong>, <strong className="text-foreground font-medium">perfectionism</strong> and concerns around <strong className="text-foreground font-medium">identity, intimacy and self-worth</strong>.
-      </>
-    ),
-  },
-  {
-    title: "Pelvic Pain & Medical Trauma",
-    description: (
-      <>
-        A special interest in the protective responses underlying <strong className="text-foreground font-medium">vulvodynia</strong>, <strong className="text-foreground font-medium">vaginismus</strong> and <strong className="text-foreground font-medium">chronic pelvic pain</strong>, alongside the impact of <strong className="text-foreground font-medium">medical trauma</strong> and embodied disconnection.
-      </>
-    ),
-  },
-  {
-    title: "The Mind-Body Connection",
-    description: (
-      <>
-        Working with <strong className="text-foreground font-medium">stress-responsive</strong> and <strong className="text-foreground font-medium">psychophysiological symptoms</strong>, including conditions such as eczema, psoriasis, stress-related hair loss and vitiligo, where emotional and physiological processes intersect.
-      </>
-    ),
+    title: "Nervous System Recalibration",
+    body: "Shifting out of rigid, self-confirming survival states (fight, flight, freeze) into psychological agility and agency.",
   },
 ];
 
 export default function DetailsSection() {
   return (
     <>
-      {/* The Systems Approach */}
+      {/* Who I Am & What I Do */}
       <section className="bg-background border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-12 md:py-24">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
-            <div className="lg:col-span-3">
-              <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
-                An Integrative Systems Approach
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-20 md:py-32">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
+            <div className="lg:col-span-4">
+              <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-espresso/60 mb-5">
+                Who I Am | What I Do
+              </p>
+              <h2 className="font-serif text-3xl md:text-4xl text-espresso leading-[1.15]">
+                An integrative practice at the edge of neuroscience and lived experience.
               </h2>
             </div>
-            <div className="lg:col-span-7 space-y-12 max-w-[680px]">
-              <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
-                My practice operates on a <strong className="text-foreground font-medium">dual-pathway framework</strong>. By bridging cognitive insight with somatic and parts-based resolution, we address the nervous system from both directions to resolve symptoms not organic in nature.
+            <div className="lg:col-span-7 lg:col-start-6 flex items-center">
+              <p className="text-chocolate/90 text-lg md:text-xl leading-[1.7] max-w-[58ch]">
+                I am an integrative psychotherapist specializing in the intersection of structural neuroscience, computational neurobiology, and lived somatic reality. My practice targets chronic, non-organic psychophysiological symptoms | conditions where the body expresses unresolved neurobiological data because emotional or relational safety has compromised the nervous system's flexibility.
               </p>
-              <ul className="space-y-10">
-                {pillars.map((p) => (
-                  <li key={p.title} className="border-l-2 border-border pl-6">
-                    <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug mb-2">
-                      {p.title}
-                    </h3>
-                    <p className="text-muted-foreground text-base leading-[1.8]">
-                      {p.description}
-                    </p>
-                  </li>
-                ))}
-              </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Clinical Focus */}
+      {/* Clinical Scope */}
       <section className="bg-secondary/40 border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-12 md:py-24">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
-            <div className="lg:col-span-3">
-              <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-muted-foreground mb-4">
-                Clinical Focus
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-20 md:py-32">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
+            <div className="lg:col-span-4">
+              <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-espresso/60 mb-5">
+                Clinical Scope of Practice
               </p>
-              <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
-                Areas of Practice
+              <h2 className="font-serif text-3xl md:text-4xl text-espresso leading-[1.15]">
+                Specialized depth, broad reach.
               </h2>
-            </div>
-            <div className="lg:col-span-7 space-y-10">
-              <p className="text-muted-foreground text-base md:text-lg leading-[1.8] max-w-[680px]">
-                While I hold a special interest in pelvic pain conditions such as <strong className="text-foreground font-medium">vulvodynia</strong> and <strong className="text-foreground font-medium">vaginismus</strong>, I also work with women navigating anxiety, trauma, relational difficulty, emotional overwhelm, chronic stress, and challenges connected to identity, self-worth and intimacy.
+              <p className="text-chocolate/80 leading-[1.8] mt-6 max-w-[36ch]">
+                While I specialize deeply in pelvic conditions, my practice supports women navigating a broad spectrum of mind-body dysregulation.
               </p>
-              <ul className="grid grid-cols-1 gap-y-12 max-w-[680px]">
-                {helpItems.map((item) => (
-                  <li key={item.title}>
-                    <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug mb-3">
-                      {item.title}
-                    </h3>
-                    <p className="text-muted-foreground text-base leading-[1.8]">
-                      {item.description}
-                    </p>
-                  </li>
-                ))}
-              </ul>
             </div>
+
+            <ul className="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-12">
+              {scopeItems.map((item, i) => (
+                <li key={item.title} className="space-y-3">
+                  <p className="font-serif text-espresso/40 text-sm tracking-wider">
+                    0{i + 1}
+                  </p>
+                  <h3 className="font-serif text-xl md:text-2xl text-espresso leading-snug">
+                    {item.title}
+                  </h3>
+                  <p className="text-chocolate/85 leading-[1.75]">
+                    {item.body}
+                  </p>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>
 
-      {/* Evidence Base */}
+      {/* Where I Practice */}
       <section className="bg-background border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-12 md:py-24">
-          <div className="max-w-[760px] space-y-6">
-            <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-muted-foreground">
-              Evidence Base
-            </p>
-            <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-snug">
-              Grounded in Research
-            </h2>
-            <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
-              This work draws on established frameworks in <strong className="text-foreground font-medium">somatic psychotherapy</strong>, <strong className="text-foreground font-medium">polyvagal theory</strong>, <strong className="text-foreground font-medium">psychoneuroimmunology</strong>, and <strong className="text-foreground font-medium">central sensitisation</strong>, alongside a growing body of clinical research into the mind-body connection.
-            </p>
-            <div className="pt-2">
-              <a
-                href="/for-providers"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-foreground text-background text-sm font-medium tracking-wide hover:opacity-90 transition-opacity"
-              >
-                Explore the evidence
-                <span aria-hidden="true">&rarr;</span>
-              </a>
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-20 md:py-32">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
+            <div className="lg:col-span-4">
+              <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-espresso/60 mb-5">
+                Where I Practice
+              </p>
+              <h2 className="font-serif text-3xl md:text-4xl text-espresso leading-[1.15]">
+                Sydney, Australia.
+              </h2>
+            </div>
+            <div className="lg:col-span-7 lg:col-start-6 space-y-10">
+              <div className="border-t border-espresso/15 pt-6">
+                <p className="uppercase tracking-[0.2em] text-[11px] font-semibold text-espresso/60 mb-3">
+                  Clinical Practice
+                </p>
+                <p className="font-serif text-2xl md:text-3xl text-espresso leading-snug">
+                  Sydney, Australia | In-person and online consultation.
+                </p>
+              </div>
+              <div className="border-t border-espresso/15 pt-6">
+                <p className="uppercase tracking-[0.2em] text-[11px] font-semibold text-espresso/60 mb-3">
+                  Referrals
+                </p>
+                <p className="font-serif text-2xl md:text-3xl text-espresso leading-snug">
+                  Co-managing patients alongside Gynaecologists, Pelvic Floor Physiotherapists, Urologists, and Pain Specialists.
+                </p>
+              </div>
+
+              <div className="pt-2">
+                <a
+                  href="/for-providers"
+                  className="inline-flex items-center gap-3 px-7 py-4 bg-espresso text-background text-sm font-medium tracking-[0.1em] uppercase hover:bg-chocolate transition-colors"
+                >
+                  For Referring Clinicians
+                  <span aria-hidden="true">&rarr;</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>

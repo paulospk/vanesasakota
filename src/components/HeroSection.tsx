@@ -1,37 +1,36 @@
 import profileImg from "@/assets/profile-hero.jpg";
 
-
 export default function HeroSection() {
   return (
     <section className="bg-hero border-b border-border">
-      <div className="max-w-[1100px] mx-auto px-5 md:px-8 pt-20 pb-16 md:pt-32 md:pb-24">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+      <div className="max-w-[1200px] mx-auto px-5 md:px-8 pt-24 pb-20 md:pt-36 md:pb-32">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-end">
           {/* Left: Text */}
-          <div className="space-y-8 animate-fade-up max-w-[800px]">
-            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
+          <div className="lg:col-span-7 space-y-10 animate-fade-up">
+            <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-espresso/70">
+              Sydney | In-Person & Online
+            </p>
+            <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight text-espresso leading-[1.02]">
               Mind-Body Psychotherapy Sydney
             </h1>
-            <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
-              Sydney-based psychotherapist working with women navigating anxiety, trauma, relational difficulty, chronic stress, and the physical symptoms that often accompany them.
-            </p>
-            <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
-              My practice integrates psychological, relational, and somatic approaches, with a particular interest in nervous system dysregulation, medical trauma, and pelvic pain conditions such as vulvodynia and vaginismus.
+            <p className="font-serif italic text-xl md:text-2xl text-chocolate leading-[1.4] max-w-[42ch]">
+              Integrative psychotherapy for complex somatic, psychophysiological and relational presentations.
             </p>
           </div>
 
           {/* Right: Image */}
-          <div className="animate-fade-up space-y-4" style={{ animationDelay: "100ms" }}>
+          <div className="lg:col-span-5 animate-fade-up space-y-5" style={{ animationDelay: "100ms" }}>
             <img
               src={profileImg}
-              alt="Vanesa Sakota"
+              alt="Vanesa Sakota, Sydney psychotherapist"
               className="w-full aspect-[4/5] object-cover object-top"
             />
             <div className="text-left">
-              <p className="font-serif text-xl md:text-2xl text-foreground">
+              <p className="font-serif text-xl md:text-2xl text-espresso">
                 Vanesa Sakota
               </p>
-              <p className="text-sm text-muted-foreground tracking-wide mt-1">
-                BSc (Psychology) MA (Psychotherapy and Counselling) PACFA
+              <p className="text-xs text-espresso/60 tracking-[0.15em] uppercase mt-2">
+                BSc Psychology | MA Psychotherapy & Counselling | PACFA
               </p>
             </div>
           </div>
