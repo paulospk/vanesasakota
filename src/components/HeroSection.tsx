@@ -11,10 +11,18 @@ export default function HeroSection() {
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
               Mind-Body Psychotherapy Sydney
             </h1>
+            <p className="text-muted-foreground text-lg md:text-xl leading-relaxed max-w-[52ch]">
+              Supporting individuals living with treatment resistant symptoms, with a special interest in stress-sensitive skin conditions and female pelvic pain.
+            </p>
           </div>
 
           {/* Right: Image */}
           <div className="animate-fade-up space-y-4" style={{ animationDelay: "100ms" }}>
+            <img
+              src={profileImg}
+              alt="Vanesa Sakota"
+              className="w-full aspect-[4/5] object-cover object-top"
+            />
             <div className="text-left">
               <p className="font-serif text-xl md:text-2xl text-foreground">
                 Vanesa Sakota
@@ -23,11 +31,6 @@ export default function HeroSection() {
                 BSc (Psychology) MA (Psychotherapy and Counselling) PACFA
               </p>
             </div>
-            <img
-              src={profileImg}
-              alt="Vanesa Sakota"
-              className="w-full aspect-[4/5] object-cover object-top"
-            />
           </div>
         </div>
       </div>

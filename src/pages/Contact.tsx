@@ -3,16 +3,14 @@ import FooterSection from "@/components/FooterSection";
 
 const sessions = [
   {
-    title: "Initial Consultation",
-    length: "90 minutes",
+    title: "Initial Consultation & Intake",
+    length: "90-minute comprehensive assessment",
     fee: "$250",
-    note: "An extended first session, allowing time for a thorough history and a clear understanding of your presenting concerns.",
   },
   {
     title: "Ongoing Psychotherapy Session",
     length: "50-minute session",
     fee: "$220",
-    note: "Standard therapy session for ongoing clinical work, conducted weekly or fortnightly as appropriate.",
   },
 ];
 
@@ -42,7 +40,12 @@ const Contact = () => {
       <section className="border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
-            <div className="lg:col-span-3"></div>
+            <div className="lg:col-span-3">
+              <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
+                Details
+              </p>
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground">How to reach me</h2>
+            </div>
             <div className="lg:col-span-7 max-w-[680px] space-y-6">
               <div className="border-b border-border/60 pb-5">
                 <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-2">Phone</p>
@@ -59,6 +62,9 @@ const Contact = () => {
                   vanesa@vanesasakota.com.au
                 </a>
               </div>
+              <p className="text-muted-foreground leading-[1.8]">
+                I respond to all enquiries within 24 hours.
+              </p>
             </div>
           </div>
         </div>
@@ -89,19 +95,14 @@ const Contact = () => {
                     <p className="text-base md:text-lg text-foreground/80 font-medium">
                       {s.length}
                     </p>
-                    <p className="font-serif text-3xl text-foreground">
+                    <p className="font-serif text-3xl text-foreground mt-auto">
                       {s.fee}
                     </p>
-                    {s.note && (
-                      <p className="text-sm text-muted-foreground leading-[1.6] mt-auto">
-                        {s.note}
-                      </p>
-                    )}
                   </div>
                 ))}
               </div>
               <p className="text-muted-foreground leading-[1.8]">
-                You do not need a Mental Health Care Plan or a GP referral to see me. You can book directly. Private health rebates may apply depending on your level of cover — please check with your provider.
+                You do not need a Mental Health Treatment Plan or a GP referral to see me. You can book directly. Private health rebates may apply depending on your level of cover — please check with your provider.
               </p>
               <p className="text-sm text-muted-foreground leading-[1.8]">
                 Payment is required at the time of session. A minimum of 48 hours' notice is required for cancellations or rescheduling; the full session fee applies for late cancellations or missed appointments.

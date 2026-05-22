@@ -74,7 +74,7 @@ export default function Navbar() {
           <DialogHeader>
             <DialogTitle className="font-serif text-2xl text-foreground">Get in Touch</DialogTitle>
             <DialogDescription className="text-muted-foreground">
-              Reach Vanesa directly. All enquiries answered within 24 hours.
+              Reach Vanesa directly — all enquiries answered within 24 hours.
             </DialogDescription>
           </DialogHeader>
           <div className="flex flex-col gap-3 mt-2">
