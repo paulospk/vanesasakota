@@ -50,12 +50,7 @@ html {
     --sidebar-ring: 217.2 91.2% 59.8%;
 
     --hero-bg: 195 30% 88%;
-
-    /* Deep Winter accents */
-    --espresso: 20 25% 14%;
-    --chocolate: 22 22% 24%;
   }
-
 
   .dark {
     --background: 222 47% 5%;

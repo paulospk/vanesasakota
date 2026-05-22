@@ -58,9 +58,6 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         hero: "hsl(var(--hero-bg))",
-        espresso: "hsl(var(--espresso))",
-        chocolate: "hsl(var(--chocolate))",
-
       },
       borderRadius: {
         lg: "var(--radius)",

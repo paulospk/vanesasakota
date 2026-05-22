@@ -1,6 +1,136 @@
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 
+type Section = {
+  number: string;
+  title: string;
+  paragraphs: string[];
+  subsections?: { heading: string; body: string }[];
+  references: string[];
+};
+
+const partOne: Section[] = [
+  {
+    number: "01",
+    title: "Early Life Experience & the Stress-Response System",
+    paragraphs: [
+      "Research over the past two decades has established that adverse childhood experiences and chronic early stress have lasting effects on how the nervous system develops and responds to threat across the lifespan. These are not psychological effects in the colloquial sense - they are measurable biological changes that shape stress reactivity, immune sensitivity, and pain processing in adulthood.",
+      "This body of evidence helps explain why a significant proportion of patients presenting with chronic somatic symptoms carry a history of early adversity, and why treatment approaches that address only the symptom level frequently show limited long-term results.",
+    ],
+    references: [
+      "National Scientific Council on the Developing Child - \"Early Experiences Can Alter Gene Expression\" (2010)",
+      "McEwen, B.S. - \"Brain on stress\" PNAS (2012)",
+      "Shonkoff, J.P. et al. - \"Lifelong effects of early childhood adversity\" Pediatrics (2012)",
+    ],
+  },
+  {
+    number: "02",
+    title: "Chronic Stress & the Body",
+    paragraphs: [
+      "The HPA axis - the body's primary stress-response system - is well understood to have downstream effects on immune function, inflammation, pain signalling, and tissue health when chronically activated. Sustained psychological stress, relational threat, and unresolved experience have all been shown to maintain this activation state.",
+      "This provides a biological framework for understanding why conditions such as chronic pelvic pain, persistent skin conditions, and treatment-resistant fatigue are increasingly recognised as having a significant psychophysiological component - even when investigations return clear results.",
+    ],
+    references: [
+      "Dhabhar, F.S. - \"Effects of stress on immune function\" Immunologic Research (2014)",
+      "Slavich, G.M. & Irwin, M.R. - \"From stress to inflammation and major depressive disorder\" Psychological Bulletin (2014)",
+    ],
+  },
+  {
+    number: "03",
+    title: "Nociplastic Pain",
+    paragraphs: [
+      "In 2017, the International Association for the Study of Pain formally recognised nociplastic pain as a third mechanistic category of pain - arising from altered nervous system processing rather than identifiable tissue damage or nerve injury. It frequently co-occurs with fatigue, sleep disruption, and psychological distress, and does not reliably respond to tissue-level interventions.",
+      "For patients who have received clear investigations, this framework offers a clinically grounded explanation - and points toward the interventions most likely to be effective.",
+    ],
+    references: [
+      "Fitzcharles, M.A. et al. - \"Nociplastic pain\" The Lancet (2021)",
+      "Woolf, C.J. - \"Central sensitization\" Pain (2011)",
+    ],
+  },
+];
+
+const partTwo: Section[] = [
+  {
+    number: "04",
+    title: "Female Pelvic Pain: Vulvodynia & Vaginismus",
+    paragraphs: [
+      "Vulvodynia and vaginismus are among the most underdiagnosed and undertreated conditions in women's health. Despite affecting an estimated 8–16% of women, they are frequently dismissed, misattributed, or treated solely at the tissue level with limited long-term success. Current evidence supports a psychophysiological model in which the mechanisms described in Part One - early stress conditioning, HPA dysregulation, and central sensitisation - are recognised as primary drivers.",
+    ],
+    subsections: [
+      {
+        heading: "Vulvodynia",
+        body: "Vulvodynia is defined as chronic vulvar pain lasting more than three months without an identifiable cause. It is best understood as a nociplastic pain condition localised to the vulvar region, driven by peripheral nerve sensitisation and central pain amplification. Psychological factors - including anxiety, catastrophising, and shame - are known to amplify pain through top-down modulation of nociception. Parts-based, somatic, and trauma-informed psychotherapy are effective treatment modalities, particularly where medical and physiotherapy interventions have plateaued.",
+      },
+      {
+        heading: "Vaginismus",
+        body: "Vaginismus is characterised by involuntary pelvic floor muscle contraction in response to anticipated or actual vaginal penetration. It is now best understood not as a muscular disorder but as a conditioned threat-avoidance reflex mediated by the autonomic nervous system. Treatment approaches that address the underlying psychological and nervous system drivers show strong outcomes. Pelvic floor physiotherapy is most effective when delivered alongside psychological support that addresses the threat response maintaining the reflex.",
+      },
+    ],
+    references: [
+      "Harlow, B.L. et al. - prevalence of vulvodynia, American Journal of Obstetrics and Gynecology (2014)",
+      "Ter Kuile, M.M. et al. - therapist-aided exposure for vaginismus, Journal of Consulting and Clinical Psychology (2010)",
+    ],
+  },
+  {
+    number: "05",
+    title: "Stress-Sensitive Skin Conditions",
+    paragraphs: [
+      "The skin and the nervous system share a common embryological origin and remain in close communication throughout life. The skin is not merely a passive physical barrier - it is a living sensory interface that reflects and responds to the body's internal psychological and physiological state. This bidirectional relationship is the basis of psychodermatology, a field that is increasingly recognised within dermatology as clinically relevant.",
+      "The same upstream mechanisms outlined in Part One drive cutaneous inflammation through several overlapping pathways. HPA dysregulation reduces the skin's anti-inflammatory capacity. Sympathetic nervous system activation drives local inflammatory responses in tissue. Central sensitisation produces chronic pruritus and sensory amplification that persists beyond the original trigger.",
+      "Conditions with strong psychodermatological evidence include eczema and atopic dermatitis, psoriasis, chronic urticaria, alopecia areata, acne, and chronic pruritus. Visible skin symptoms - particularly on exposed areas - can generate shame, anxiety, and social avoidance, which increase autonomic activation and drive further inflammation. Symptoms can sustain themselves even in the absence of new stressors, creating a self-perpetuating cycle in which psychological distress and physical symptoms reinforce one another.",
+    ],
+    references: [
+      "Arck, P.C. & Paus, R. - from the brain-skin connection to the mind-skin connection, Experimental Dermatology (2006)",
+      "Jafferany, M. & Franca, K. - psychodermatology basics, Acta Dermato-Venereologica (2016)",
+      "Heller, M.M. et al. - mind-body treatments for psoriasis, American Journal of Clinical Dermatology (2011)",
+    ],
+  },
+  {
+    number: "06",
+    title: "Other Presentations",
+    paragraphs: [
+      "The psychophysiological mechanisms described in Part One are not limited to pelvic or dermatological conditions. The same pathways - early stress conditioning, HPA dysregulation, and central sensitisation - are increasingly recognised across a broad range of chronic somatic presentations where investigations return clear results and symptoms persist.",
+      "This includes functional gastrointestinal conditions such as IBS and functional dyspepsia, chronic headache and migraine, fibromyalgia, chronic fatigue, and stress-related presentations across other systems.",
+      "Clinicians working with patients in these categories are welcome to make contact to discuss whether a referral may be appropriate.",
+    ],
+    references: [],
+  },
+];
+
+const SectionBlock = ({ section }: { section: Section }) => (
+  <article className="border-t border-border pt-16 first:border-t-0 first:pt-0">
+    <div className="mb-8">
+      <h3 className="font-serif text-2xl md:text-3xl tracking-tight text-foreground">
+        {section.title}
+      </h3>
+    </div>
+
+    <div className="space-y-5 mb-8">
+      {section.paragraphs.map((p, i) => (
+        <p key={i} className="text-muted-foreground leading-relaxed">
+          {p}
+        </p>
+      ))}
+    </div>
+
+    {section.subsections?.map((sub, i) => (
+      <div key={i} className="mb-8">
+        <h4 className="uppercase tracking-[0.2em] text-xs font-semibold text-foreground mb-3">
+          {sub.heading}
+        </h4>
+        <p className="text-muted-foreground leading-relaxed">{sub.body}</p>
+      </div>
+    ))}
+
+    {section.references.length > 0 && (
+      <p className="text-xs text-muted-foreground/80 leading-relaxed mt-6 pt-4 border-t border-border/50">
+        <span className="uppercase tracking-[0.2em] font-semibold text-foreground/70 mr-2">Ref:</span>
+        {section.references.join(" · ")}
+      </p>
+    )}
+  </article>
+);
+
 const ForProviders = () => {
   return (
     <div className="min-h-screen bg-background">
@@ -8,276 +138,66 @@ const ForProviders = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-12 md:py-24">
-          <div className="max-w-3xl space-y-6 animate-fade-up">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
+          <div className="max-w-2xl space-y-6 animate-fade-up">
             <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
-              For Referring Clinicians
+              Mind-Body Evidence
             </p>
             <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
-              Clinical Approach | The Neurobiology of Somatic Resolution
+              The mind-body connection
             </h1>
-            <p className="text-muted-foreground text-lg leading-[1.7]">
-              In contemporary clinical practice, the traditional divide between mind and body is obsolete. When localized physical interventions, lifestyle adjustments, or standard talking therapies plateau, it is typically because chronic somatic symptoms are top-down survival responses maintained by the central nervous system.
-            </p>
-            <p className="text-muted-foreground leading-[1.7]">
-              Our clinical framework maps Parts Work (Internal Family Systems) onto contemporary Predictive Coding neuroscience. We treat chronic symptoms not as structural defects or "stored trauma," but as rigid, frozen predictive models executed by the brain.
+            <p className="text-muted-foreground text-lg leading-[1.8]">
+              A short overview of what current research tells us about how the nervous system, emotional experience, and chronic physical symptoms shape one another.
             </p>
           </div>
         </div>
       </section>
 
-      {/* The Shift */}
+      {/* Part One */}
       <section className="border-b border-border">
-        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-16 md:py-24">
-          <div className="space-y-6 max-w-3xl">
-            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
-              The Shift
-            </p>
-            <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground leading-tight">
-              Prediction, Not Storage
-            </h2>
-            <p className="text-muted-foreground leading-[1.8]">
-              Recent breakthroughs in computational and systems neuroscience (Kotler, Mannino, Fox, & Friston, 2026) clarify that the body does not literally store trauma in tissue. Rather, trauma erodes the brain's metastability | its capacity to fluidly adapt, shift, and respond to context.
-            </p>
-            <p className="text-muted-foreground leading-[1.8]">
-              The nervous system becomes trapped in a loop of circular inference: the brain over-weights danger predictions, projects a threat downward, senses the body's defensive arousal, and takes that arousal as absolute proof that danger persists. The body is the messenger, not the archive.
-            </p>
-            <p className="text-muted-foreground leading-[1.8]">
-              We divide non-organic presentations into two primary neural pathways to direct targeted, in-session intervention.
-            </p>
-          </div>
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-16">
 
-          {/* Pathway 1 */}
-          <article className="mt-16 md:mt-20 max-w-3xl">
-            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
-              Pathway 01
-            </p>
-            <h3 className="font-serif text-2xl md:text-3xl tracking-tight text-foreground mb-2">
-              Localized Sensory Alarms
-            </h3>
-            <p className="text-sm text-muted-foreground italic mb-8">
-              Vulvodynia, unmapped burning, chronic pain
-            </p>
-
-            <div className="space-y-8">
-              <div>
-                <h4 className="uppercase tracking-[0.2em] text-xs font-semibold text-foreground mb-3">
-                  The Neurobiology | Somatotopic Smudging & Lost Sensory Attenuation
-                </h4>
-                <p className="text-muted-foreground leading-[1.8]">
-                  When high-volume affective distress (such as chronic boundary suppression or hidden rage) is suppressed by the prefrontal cortex, the brain's predictive engine must still account for this subcortical arousal. Lacking a clear emotional outlet, it misallocates precision | translating the ambiguous internal "noise" into a highly specific physical map of localized tissue alarm.
-                </p>
-              </div>
-              <div>
-                <h4 className="uppercase tracking-[0.2em] text-xs font-semibold text-foreground mb-3">
-                  Therapeutic Resolution | Unblending & Predictive Recalibration
-                </h4>
-                <p className="text-muted-foreground leading-[1.8]">
-                  By guiding the patient to safely unblend from the panic of the sensation and voice the experience directly from that somatic space, we shift the nervous system from avoidance to approach. This novel sensorimotor feedback allows the subcortical brain to accurately identify and discharge the hidden emotional drivers, updating its predictive map and clearing the physical tissue alarm.
-                </p>
-              </div>
-            </div>
-          </article>
-
-          {/* Pathway 2 */}
-          <article className="mt-16 md:mt-20 max-w-3xl">
-            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
-              Pathway 02
-            </p>
-            <h3 className="font-serif text-2xl md:text-3xl tracking-tight text-foreground mb-2">
-              Complex Motor Bracing
-            </h3>
-            <p className="text-sm text-muted-foreground italic mb-8">
-              Vaginismus, chronic spasm, postural guarding
-            </p>
-
-            <div className="space-y-8">
-              <div>
-                <h4 className="uppercase tracking-[0.2em] text-xs font-semibold text-foreground mb-3">
-                  The Neurobiology | Maladaptive Active Inference
-                </h4>
-                <p className="text-muted-foreground leading-[1.8]">
-                  The brain conserves processing power by taking predictive models of safety and containment learned in early caregiver attachment dynamics and applying them to adult scenarios. If early relational boundaries were chronically violated or volatile, the subcortical brain locks in a heavily weighted prior: "Closeness and vulnerability equal intrusion."
-                </p>
-              </div>
-              <div>
-                <h4 className="uppercase tracking-[0.2em] text-xs font-semibold text-foreground mb-3">
-                  Therapeutic Resolution | The Relational Corrective Experience
-                </h4>
-                <p className="text-muted-foreground leading-[1.8]">
-                  In adulthood, physical intimacy or deep vulnerability pulls up this historical script. The brain projects the childhood threat model downward, executing a literal motor defense to physically enforce a boundary | such as the pelvic floor clamping shut. Healing requires using the therapeutic alliance to retrain expectations and build somatic agency, showing the nervous system that it possesses adult autonomy to choose its boundaries in real time, rendering the involuntary physical shield obsolete.
-                </p>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      {/* Reference Matrix */}
-      <section className="bg-accent/20 border-b border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-16 md:py-24">
-          <div className="max-w-3xl mb-12">
-            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-4">
-              At a Glance
-            </p>
-            <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground leading-tight">
-              Specialist Reference Matrix
-            </h2>
-          </div>
-
-          {/* Desktop table */}
-          <div className="hidden md:block overflow-hidden rounded-sm border border-border bg-background">
-            <table className="w-full text-left">
-              <thead>
-                <tr className="border-b border-border bg-accent/30">
-                  <th className="px-6 py-4 text-xs font-semibold uppercase tracking-[0.2em] text-foreground/70 w-1/4">
-                    Presentation Type
-                  </th>
-                  <th className="px-6 py-4 text-xs font-semibold uppercase tracking-[0.2em] text-foreground/70 w-1/4">
-                    Primary Neural Pathway
-                  </th>
-                  <th className="px-6 py-4 text-xs font-semibold uppercase tracking-[0.2em] text-foreground/70 w-1/4">
-                    The Predictive Meaning
-                  </th>
-                  <th className="px-6 py-4 text-xs font-semibold uppercase tracking-[0.2em] text-foreground/70 w-1/4">
-                    In-Session Objective
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="text-sm text-muted-foreground">
-                <tr className="border-b border-border align-top">
-                  <td className="px-6 py-6">
-                    <div className="font-semibold text-foreground mb-1">Somatic Sensation</div>
-                    <div className="italic text-xs">Vulvodynia, localized burning, idiopathic pain</div>
-                  </td>
-                  <td className="px-6 py-6 leading-[1.7]">
-                    Hyper-focused interoceptive volume; sensory smudging.
-                  </td>
-                  <td className="px-6 py-6 leading-[1.7]">
-                    Brain translates a suppressed, un-vocalized emotional charge into a localized tissue alarm.
-                  </td>
-                  <td className="px-6 py-6 leading-[1.7]">
-                    <span className="font-semibold text-foreground">Expression & Processing:</span> Decoding the sensory noise into its underlying emotional driver, allowing the brain to resolve the prediction error and clear the physical map.
-                  </td>
-                </tr>
-                <tr className="align-top">
-                  <td className="px-6 py-6">
-                    <div className="font-semibold text-foreground mb-1">Motor Behavior / Reflex</div>
-                    <div className="italic text-xs">Vaginismus, chronic bracing, protective spasms</div>
-                  </td>
-                  <td className="px-6 py-6 leading-[1.7]">
-                    Maladaptive Active Inference executing a top-down motor defense.
-                  </td>
-                  <td className="px-6 py-6 leading-[1.7]">
-                    Brain uses the musculoskeletal system to enforce a protective boundary that was historically unsafe to navigate.
-                  </td>
-                  <td className="px-6 py-6 leading-[1.7]">
-                    <span className="font-semibold text-foreground">Relational Corrective Experience:</span> Utilizing the safe container of therapy to re-negotiate boundaries, restoring global metastability and flexible control.
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          {/* Mobile stacked cards */}
-          <div className="md:hidden space-y-5">
-            {[
-              {
-                title: "Somatic Sensation",
-                sub: "Vulvodynia, localized burning, idiopathic pain",
-                pathway: "Hyper-focused interoceptive volume; sensory smudging.",
-                meaning: "Brain translates a suppressed, un-vocalized emotional charge into a localized tissue alarm.",
-                objLabel: "Expression & Processing:",
-                obj: "Decoding the sensory noise into its underlying emotional driver, allowing the brain to resolve the prediction error and clear the physical map.",
-              },
-              {
-                title: "Motor Behavior / Reflex",
-                sub: "Vaginismus, chronic bracing, protective spasms",
-                pathway: "Maladaptive Active Inference executing a top-down motor defense.",
-                meaning: "Brain uses the musculoskeletal system to enforce a protective boundary that was historically unsafe to navigate.",
-                objLabel: "Relational Corrective Experience:",
-                obj: "Utilizing the safe container of therapy to re-negotiate boundaries, restoring global metastability and flexible control.",
-              },
-            ].map((row) => (
-              <div key={row.title} className="rounded-sm border border-border bg-background p-6 space-y-5">
-                <div>
-                  <div className="font-serif text-xl text-foreground">{row.title}</div>
-                  <div className="italic text-xs text-muted-foreground mt-1">{row.sub}</div>
-                </div>
-                <div>
-                  <div className="uppercase tracking-[0.18em] text-[10px] font-semibold text-foreground/70 mb-1">Primary Neural Pathway</div>
-                  <p className="text-sm text-muted-foreground leading-[1.7]">{row.pathway}</p>
-                </div>
-                <div>
-                  <div className="uppercase tracking-[0.18em] text-[10px] font-semibold text-foreground/70 mb-1">Predictive Meaning</div>
-                  <p className="text-sm text-muted-foreground leading-[1.7]">{row.meaning}</p>
-                </div>
-                <div>
-                  <div className="uppercase tracking-[0.18em] text-[10px] font-semibold text-foreground/70 mb-1">In-Session Objective</div>
-                  <p className="text-sm text-muted-foreground leading-[1.7]">
-                    <span className="font-semibold text-foreground">{row.objLabel}</span> {row.obj}
-                  </p>
-                </div>
-              </div>
+          <div className="space-y-20 md:space-y-24">
+            {partOne.map((s) => (
+              <SectionBlock key={s.number} section={s} />
             ))}
           </div>
         </div>
       </section>
 
-      {/* Referral Guidelines */}
-      <section className="border-b border-border">
-        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-16 md:py-24">
-          <div className="max-w-3xl space-y-6">
-            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
-              For Medical Partners
-            </p>
-            <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground leading-tight">
-              Referral Guidelines
-            </h2>
-            <p className="text-muted-foreground leading-[1.8]">
-              We co-manage patients alongside Gynaecologists, Pelvic Floor Physiotherapists, and Pain Specialists.
-            </p>
-          </div>
+      {/* Part Two */}
+      <section className="bg-accent/20 border-b border-border">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-16">
+          <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground mb-6">
+            Clinical Presentations
+          </h2>
+          <p className="text-muted-foreground mb-16 leading-relaxed max-w-3xl">
+            The following conditions represent presentations where the psychophysiological evidence is well established, and where psychological intervention has demonstrated meaningful outcomes - particularly where medical treatment has plateaued.
+          </p>
 
-          <div className="mt-12 max-w-3xl">
-            <h3 className="uppercase tracking-[0.2em] text-xs font-semibold text-foreground mb-6">
-              Ideal Indications for Referral
-            </h3>
-            <ul className="space-y-5">
-              {[
-                "Patients presenting with idiopathic somatic symptoms or pelvic pain where organic pathology has been fully investigated.",
-                "Patients whose physical progress in specialized physiotherapy is blocked or limited by underlying hypervigilance, anxiety, or histories of relational or developmental trauma.",
-                "Patients who experience sudden structural or sensory flare-ups directly linked to interpersonal stressors, career transitions, or life changes.",
-              ].map((item, i) => (
-                <li key={i} className="flex gap-4 text-muted-foreground leading-[1.8]">
-                  <span className="font-serif text-foreground/60 mt-1 shrink-0">0{i + 1}</span>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
+          <div className="space-y-20 md:space-y-24">
+            {partTwo.map((s) => (
+              <SectionBlock key={s.number} section={s} />
+            ))}
           </div>
-
-          <blockquote className="mt-16 max-w-3xl border-l-2 border-foreground/30 pl-6 md:pl-8">
-            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-foreground mb-3">
-              Clinical Outcome
-            </p>
-            <p className="font-serif text-xl md:text-2xl text-foreground leading-[1.5] tracking-tight">
-              We do not attempt to "excavate" structural scars. Instead, by expanding network flexibility and retraining predictive loops, we restore the nervous system's dynamic equilibrium, allowing concurrent physical and medical therapies to achieve long-term success.
-            </p>
-          </blockquote>
         </div>
       </section>
 
-      {/* Contact */}
+      {/* Referrals */}
       <section>
-        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-16 md:py-24">
-          <div className="max-w-3xl space-y-6">
-            <h2 className="font-serif text-2xl md:text-3xl tracking-tight text-foreground">
-              Discuss a referral
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
+          <div className="max-w-[680px] space-y-6">
+            <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground">
+              Referrals
             </h2>
-            <p className="text-muted-foreground leading-[1.8]">
-              I'm happy to have a brief conversation before a referral is made, or to liaise about shared patients. Please reach out directly.
-            </p>
+            <div className="space-y-5 text-muted-foreground leading-[1.8]">
+              <p>
+                I welcome referrals from GPs, gynaecologists, dermatologists, physiotherapists, and other clinicians working with patients whose symptoms persist despite clear investigations.
+              </p>
+              <p>
+                I'm happy to have a brief conversation before a referral is made, or to liaise about shared patients. Please reach out directly.
+              </p>
+            </div>
             <div className="flex flex-wrap gap-x-8 gap-y-3 pt-4 text-sm">
               <a href="mailto:vanesa@vanesasakota.com.au" className="text-foreground border-b border-foreground/40 pb-1 hover:border-foreground transition-colors">
                 vanesa@vanesasakota.com.au
