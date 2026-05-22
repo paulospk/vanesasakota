@@ -7,7 +7,8 @@ export default function FooterSection() {
             <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Location</h4>
             <p className="text-sm opacity-70 leading-relaxed">
               BMA House<br />
-              504/135 Macquarie St,<br />
+              Level 5, Suite 504<br />
+              135 Macquarie Street<br />
               Sydney NSW 2000<br /><br />
               <span className="italic">By appointment only.</span>
             </p>
