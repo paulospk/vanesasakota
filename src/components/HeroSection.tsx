@@ -12,9 +12,6 @@ export default function HeroSection() {
               Mind-Body Psychotherapy Sydney
             </h1>
             <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
-              Sydney-based psychotherapist working with women navigating anxiety, trauma, relational difficulty, chronic stress, and the physical symptoms that often accompany them.
-            </p>
-            <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
               My practice integrates psychological, relational, and somatic approaches, with a particular interest in nervous system dysregulation, medical trauma, and pelvic pain conditions such as vulvodynia and vaginismus.
             </p>
           </div>
