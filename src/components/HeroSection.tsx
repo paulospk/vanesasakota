@@ -11,9 +11,6 @@ export default function HeroSection() {
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
               Mind-Body Psychotherapy Sydney
             </h1>
-            <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
-              My practice integrates psychological, relational, and somatic approaches, with a particular interest in nervous system dysregulation, medical trauma, and pelvic pain conditions such as vulvodynia and vaginismus.
-            </p>
           </div>
 
           {/* Right: Image */}
