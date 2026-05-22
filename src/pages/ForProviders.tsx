@@ -2,108 +2,136 @@ import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 
 type Section = {
-  number: string;
   title: string;
   paragraphs: string[];
   subsections?: { heading: string; body: string }[];
-  references: string[];
+  callout?: { heading: string; body: string; citation?: string };
+  citation?: string;
 };
 
-const partOne: Section[] = [
+const sections: Section[] = [
   {
-    number: "01",
-    title: "Early Life Experience & the Stress-Response System",
+    title: "Where it begins: early relational experience",
     paragraphs: [
-      "Research over the past two decades has established that adverse childhood experiences and chronic early stress have lasting effects on how the nervous system develops and responds to threat across the lifespan. These are not psychological effects in the colloquial sense - they are measurable biological changes that shape stress reactivity, immune sensitivity, and pain processing in adulthood.",
-      "This body of evidence helps explain why a significant proportion of patients presenting with chronic somatic symptoms carry a history of early adversity, and why treatment approaches that address only the symptom level frequently show limited long-term results.",
+      "The earliest and most fundamental thing the nervous system learns is whether the world, and the people in it, are safe. This learning happens not through conscious memory but through repeated relational experience with primary caregivers. Long before language, the developing brain is building its first and most deeply weighted predictive model: what happens when I am vulnerable? What happens when I need? What happens when I feel?",
+      "When those early environments were chronically unsafe, unpredictable, emotionally invasive, or unable to meet the child's needs, the nervous system adapted. It built a high-alert architecture, calibrated to detect and manage threat as its primary task. The original ACEs study, a landmark cohort of over 17,000 adults, found dose-dependent relationships between the number of adverse childhood experiences and rates of chronic pain, fatigue, immune dysregulation, and psychological distress across the lifespan. Not because memories are stored in tissue, but because the nervous system's default operating mode was set in conditions of sustained threat. Subsequent neuroscientific work has clarified the mechanism: early adversity and toxic stress alter the architecture of developing stress-response systems, with measurable effects on HPA axis regulation, prefrontal-limbic connectivity, and inflammatory pathways.",
     ],
-    references: [
-      "National Scientific Council on the Developing Child - \"Early Experiences Can Alter Gene Expression\" (2010)",
-      "McEwen, B.S. - \"Brain on stress\" PNAS (2012)",
-      "Shonkoff, J.P. et al. - \"Lifelong effects of early childhood adversity\" Pediatrics (2012)",
+    callout: {
+      heading: "The foundational mechanism",
+      body: "Early relational experience writes the brain's most heavily weighted priors, its deepest automatic predictions about safety, boundary, and threat. Everything downstream | chronic symptoms, somatic bracing, hypervigilance | is the nervous system running software installed in childhood.",
+      citation: "Felitti et al. (1998) | Shonkoff & Garner (2012) | Kotler, Mannino, Fox & Friston (2026)",
+    },
+  },
+  {
+    title: "How the predictive brain generates symptoms",
+    paragraphs: [
+      "The brain is not a passive receiver of signals from the body. It is an active prediction engine, constantly generating expectations about what sensations mean, then comparing incoming signals against those predictions. When a mismatch occurs, a \"prediction error\", the brain either updates its model or doubles down on the original prediction by discounting the new information.",
+      "In a nervous system shaped by early chronic threat, the brain's danger predictions carry very high precision, very high confidence. New sensory evidence that contradicts them is reinterpreted rather than integrated. The system becomes locked in a self-confirming loop: it predicts threat, selectively attends to signals that confirm threat, and treats those signals as proof that threat is ongoing. This is the neurological mechanism behind hypervigilance, chronic pain amplification, and persistent somatic symptoms in the absence of structural pathology.",
+      "Neuroscientists call the healthy version of this system metastable: the brain fluidly shifts between network configurations, holds uncertainty without escalating, and updates its models in response to experience. Trauma and chronic stress erode this flexibility. The brain becomes stuck in narrow, rigid patterns. Symptoms are the output of that rigidity. It is worth noting that direct measurement of metastability specifically in PTSD and trauma populations remains an active area of research; the framework is well-supported conceptually and by adjacent findings, with direct empirical confirmation still emerging.",
+    ],
+    callout: {
+      heading: "The core finding",
+      body: "The body does not keep the score. The brain keeps predicting it. Trauma is not a memory lodged in non-innervated tissue, it is a collapse of neurological flexibility, a brain caught in self-confirming predictions it cannot yet revise.",
+      citation: "Kotler, Mannino, Fox & Friston (2026), Frontiers in Systems Neuroscience | Friston (2010) | Hellyer et al. (2015)",
+    },
+  },
+  {
+    title: "Two mechanisms from wound to symptom",
+    paragraphs: [
+      "Research suggests two distinct pathways by which unprocessed experience becomes embodied symptom. Both arise from the same predictive system, but they produce different presentations.",
+    ],
+    subsections: [
+      {
+        heading: "Mechanism 1 | Suppressed emotion translated into somatic signal",
+        body: "When an emotional charge, rage, grief, shame, terror, is neurologically suppressed because expression was unsafe, the arousal does not disappear. It remains as unresolved prediction error in the body's internal feedback system. The brain must account for this intense internal signal. Unable to resolve it emotionally, it encodes it as a localised physical sensation: burning, pressure, tightness, or pain without clear structural cause. In neuroscientific terms, the brain assigns high precision to tissue coordinates rather than to the emotional state. The interoceptive signal, internal bodily arousal, is mapped onto the body's surface rather than resolved at the level of emotional meaning. Damasio's somatic marker hypothesis describes the underlying architecture: emotional states are represented through distributed neural processing across visceral, brainstem, and cortical networks, with convergence-divergence zones coordinating the reactivation of these patterns in a context-dependent manner. The sensation is not imagined. It is a real neural output, just misdirected.",
+      },
+      {
+        heading: "Mechanism 2 | Relational wounding expressed as motor defense",
+        body: "The first domain in which a human being learns the rules of boundary, containment, safety, and intrusion is the attachment relationship with primary caregivers. The nervous system builds its deepest predictions about vulnerability in this relational context, predictions that are then generalised across domains. When early attachment required chronic self-protection against emotional invasion or physical unsafety, the developing nervous system built a durable top-down model: that which attempts to enter my boundary is a threat. In adulthood, when the person encounters a new domain of physical or relational vulnerability, the brain does not carefully evaluate the new context. It retrieves the most heavily weighted historical prior and executes it. The result is a literal motor enactment of the original boundary defense: the body physically braces or closes. The brain has generalised the relational script into a somatic one. This is why presentations like vaginismus, chronic jaw bracing, diaphragm holding, and somatic armour across the chest and shoulders so consistently trace to early relational, rather than purely physical, history, even in the absence of overt abuse.",
+      },
     ],
   },
   {
-    number: "02",
-    title: "Chronic Stress & the Body",
+    title: "Female pelvic pain: vulvodynia & vaginismus",
     paragraphs: [
-      "The HPA axis - the body's primary stress-response system - is well understood to have downstream effects on immune function, inflammation, pain signalling, and tissue health when chronically activated. Sustained psychological stress, relational threat, and unresolved experience have all been shown to maintain this activation state.",
-      "This provides a biological framework for understanding why conditions such as chronic pelvic pain, persistent skin conditions, and treatment-resistant fatigue are increasingly recognised as having a significant psychophysiological component - even when investigations return clear results.",
-    ],
-    references: [
-      "Dhabhar, F.S. - \"Effects of stress on immune function\" Immunologic Research (2014)",
-      "Slavich, G.M. & Irwin, M.R. - \"From stress to inflammation and major depressive disorder\" Psychological Bulletin (2014)",
-    ],
-  },
-  {
-    number: "03",
-    title: "Nociplastic Pain",
-    paragraphs: [
-      "In 2017, the International Association for the Study of Pain formally recognised nociplastic pain as a third mechanistic category of pain - arising from altered nervous system processing rather than identifiable tissue damage or nerve injury. It frequently co-occurs with fatigue, sleep disruption, and psychological distress, and does not reliably respond to tissue-level interventions.",
-      "For patients who have received clear investigations, this framework offers a clinically grounded explanation - and points toward the interventions most likely to be effective.",
-    ],
-    references: [
-      "Fitzcharles, M.A. et al. - \"Nociplastic pain\" The Lancet (2021)",
-      "Woolf, C.J. - \"Central sensitization\" Pain (2011)",
-    ],
-  },
-];
-
-const partTwo: Section[] = [
-  {
-    number: "04",
-    title: "Female Pelvic Pain: Vulvodynia & Vaginismus",
-    paragraphs: [
-      "Vulvodynia and vaginismus are among the most underdiagnosed and undertreated conditions in women's health. Despite affecting an estimated 8–16% of women, they are frequently dismissed, misattributed, or treated solely at the tissue level with limited long-term success. Current evidence supports a psychophysiological model in which the mechanisms described in Part One - early stress conditioning, HPA dysregulation, and central sensitisation - are recognised as primary drivers.",
+      "These two presentations are the clearest clinical illustration of the two mechanisms, which is why they reward careful distinction even though they are often grouped together.",
     ],
     subsections: [
       {
         heading: "Vulvodynia",
-        body: "Vulvodynia is defined as chronic vulvar pain lasting more than three months without an identifiable cause. It is best understood as a nociplastic pain condition localised to the vulvar region, driven by peripheral nerve sensitisation and central pain amplification. Psychological factors - including anxiety, catastrophising, and shame - are known to amplify pain through top-down modulation of nociception. Parts-based, somatic, and trauma-informed psychotherapy are effective treatment modalities, particularly where medical and physiotherapy interventions have plateaued.",
+        body: "Chronic vulvar pain without identifiable structural cause, affecting approximately 8 to 16% of women across population-based studies. Frequently misdiagnosed and undertreated. From a predictive processing perspective, this presentation often reflects the brain translating an unresolved emotional charge into localised tissue alarm, assigning high interoceptive precision to the pelvic region rather than resolving the underlying emotional data. The pain is real. Its generator is neural, not peripheral.",
       },
       {
         heading: "Vaginismus",
-        body: "Vaginismus is characterised by involuntary pelvic floor muscle contraction in response to anticipated or actual vaginal penetration. It is now best understood not as a muscular disorder but as a conditioned threat-avoidance reflex mediated by the autonomic nervous system. Treatment approaches that address the underlying psychological and nervous system drivers show strong outcomes. Pelvic floor physiotherapy is most effective when delivered alongside psychological support that addresses the threat response maintaining the reflex.",
+        body: "Involuntary contraction of the pelvic floor preventing or severely limiting penetration. Even without overt sexual trauma, this presentation consistently traces to early relational wounding. The brain has generalised its deepest attachment-level boundary prediction, \"intrusion is unsafe\", into the physical domain, and executes a literal muscular closure in response to any cue that activates that prior. It is a somatic enactment of an attachment script, not a voluntary or purely physical response.",
       },
     ],
-    references: [
-      "Harlow, B.L. et al. - prevalence of vulvodynia, American Journal of Obstetrics and Gynecology (2014)",
-      "Ter Kuile, M.M. et al. - therapist-aided exposure for vaginismus, Journal of Consulting and Clinical Psychology (2010)",
-    ],
+  },
+];
+
+type PresentationRow = {
+  presentation: string;
+  examples: string;
+  mechanism: string;
+};
+
+const presentationRows: PresentationRow[] = [
+  {
+    presentation: "Localised pain without structural cause",
+    examples: "Vulvodynia, functional chest pain, unexplained focal pain",
+    mechanism:
+      "Suppressed emotional charge encoded as high-precision interoceptive signal. The brain maps unresolvable internal arousal onto tissue coordinates.",
   },
   {
-    number: "05",
-    title: "Stress-Sensitive Skin Conditions",
-    paragraphs: [
-      "The skin and the nervous system share a common embryological origin and remain in close communication throughout life. The skin is not merely a passive physical barrier - it is a living sensory interface that reflects and responds to the body's internal psychological and physiological state. This bidirectional relationship is the basis of psychodermatology, a field that is increasingly recognised within dermatology as clinically relevant.",
-      "The same upstream mechanisms outlined in Part One drive cutaneous inflammation through several overlapping pathways. HPA dysregulation reduces the skin's anti-inflammatory capacity. Sympathetic nervous system activation drives local inflammatory responses in tissue. Central sensitisation produces chronic pruritus and sensory amplification that persists beyond the original trigger.",
-      "Conditions with strong psychodermatological evidence include eczema and atopic dermatitis, psoriasis, chronic urticaria, alopecia areata, acne, and chronic pruritus. Visible skin symptoms - particularly on exposed areas - can generate shame, anxiety, and social avoidance, which increase autonomic activation and drive further inflammation. Symptoms can sustain themselves even in the absence of new stressors, creating a self-perpetuating cycle in which psychological distress and physical symptoms reinforce one another.",
-    ],
-    references: [
-      "Arck, P.C. & Paus, R. - from the brain-skin connection to the mind-skin connection, Experimental Dermatology (2006)",
-      "Jafferany, M. & Franca, K. - psychodermatology basics, Acta Dermato-Venereologica (2016)",
-      "Heller, M.M. et al. - mind-body treatments for psoriasis, American Journal of Clinical Dermatology (2011)",
-    ],
+    presentation: "Systemic bracing or motor reflex",
+    examples: "Vaginismus, jaw bracing, diaphragm holding, pelvic floor tension",
+    mechanism:
+      "Top-down motor defense generalised from early relational threat. The brain executes the boundary script learned in attachment in a new somatic domain.",
   },
   {
-    number: "06",
-    title: "Other Presentations",
-    paragraphs: [
-      "The psychophysiological mechanisms described in Part One are not limited to pelvic or dermatological conditions. The same pathways - early stress conditioning, HPA dysregulation, and central sensitisation - are increasingly recognised across a broad range of chronic somatic presentations where investigations return clear results and symptoms persist.",
-      "This includes functional gastrointestinal conditions such as IBS and functional dyspepsia, chronic headache and migraine, fibromyalgia, chronic fatigue, and stress-related presentations across other systems.",
-      "Clinicians working with patients in these categories are welcome to make contact to discuss whether a referral may be appropriate.",
-    ],
-    references: [],
+    presentation: "Nociplastic & centralised pain",
+    examples: "Fibromyalgia, central sensitisation, chronic widespread pain",
+    mechanism:
+      "Danger priors assigned excessive precision, lowering the threshold at which incoming signals register as pain. Real physiological output from a miscalibrated predictive system.",
   },
+  {
+    presentation: "Chronic fatigue & systemic depletion",
+    examples: "ME/CFS spectrum, burnout, post-viral fatigue",
+    mechanism:
+      "Sustained hypervigilance consuming metabolic and cognitive resources. The brain's continuous threat-management in the absence of resolution depletes the system.",
+  },
+  {
+    presentation: "Gut & digestive dysregulation",
+    examples: "IBS, functional nausea, appetite dysregulation",
+    mechanism:
+      "Interoceptive signals amplified under threat priors and misread as confirmation of danger, circular inference sustaining a gut-brain feedback loop.",
+  },
+  {
+    presentation: "Stress-sensitive skin conditions",
+    examples: "Psoriasis, eczema, urticaria, rosacea",
+    mechanism:
+      "Neurogenic inflammation and HPA dysregulation driven by sustained stress-state predictions. Bidirectional: skin distress amplifies the psychological signal, reinforcing the loop.",
+  },
+];
+
+const references: string[] = [
+  "Felitti VJ et al. (1998). Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults. Am J Prev Med. 14(4):245 to 258.",
+  "Shonkoff JP & Garner AS (2012). The lifelong effects of early childhood adversity and toxic stress. Pediatrics. 129(1):e232 to 246.",
+  "Friston K (2010). The free-energy principle: a unified brain theory? Nat Rev Neurosci. 11:127 to 138.",
+  "Damasio AR (1996). The somatic marker hypothesis and the possible functions of the prefrontal cortex. Phil Trans R Soc B. 351:1413 to 1420.",
+  "Hellyer PJ et al. (2015). Cognitive flexibility through metastable neural dynamics is disrupted by damage to the structural connectome. J Neurosci. 35:9050 to 9063.",
+  "Allen M et al. (2022). In the body's eye: the computational anatomy of interoceptive inference. PLoS Comput Biol. 18:e1010490.",
+  "Mayer EA et al. (2015). Gut/brain axis and the microbiota. J Clin Invest. 125(3):926 to 938.",
+  "Harlow BL & Stewart EG (2003). A population-based assessment of chronic unexplained vulvar pain. Am J Obstet Gynecol. 188(1):S54 to 60.",
+  "IASP (2017). Nociplastic pain terminology.",
+  "Kotler S, Mannino M, Fox G & Friston K (2026). The body does not keep the score: trauma, predictive coding, and the restoration of metastability. Front. Syst. Neurosci. 20:1812957.",
 ];
 
 const SectionBlock = ({ section }: { section: Section }) => (
   <article className="border-t border-border pt-16 first:border-t-0 first:pt-0">
-    <div className="mb-8">
-      <h3 className="font-serif text-2xl md:text-3xl tracking-tight text-foreground">
-        {section.title}
-      </h3>
-    </div>
+    <h3 className="font-serif text-2xl md:text-3xl tracking-tight text-foreground mb-8">
+      {section.title}
+    </h3>
 
     <div className="space-y-5 mb-8">
       {section.paragraphs.map((p, i) => (
@@ -122,11 +150,20 @@ const SectionBlock = ({ section }: { section: Section }) => (
       </div>
     ))}
 
-    {section.references.length > 0 && (
-      <p className="text-xs text-muted-foreground/80 leading-relaxed mt-6 pt-4 border-t border-border/50">
-        <span className="uppercase tracking-[0.2em] font-semibold text-foreground/70 mr-2">Ref:</span>
-        {section.references.join(" · ")}
-      </p>
+    {section.callout && (
+      <div className="mt-8 border-l-2 border-foreground/30 pl-6 py-2">
+        <p className="uppercase tracking-[0.2em] text-xs font-semibold text-foreground mb-3">
+          {section.callout.heading}
+        </p>
+        <p className="text-foreground/90 leading-relaxed italic">
+          {section.callout.body}
+        </p>
+        {section.callout.citation && (
+          <p className="text-xs text-muted-foreground/80 mt-4">
+            {section.callout.citation}
+          </p>
+        )}
+      </div>
     )}
   </article>
 );
@@ -141,50 +178,90 @@ const ForProviders = () => {
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
           <div className="max-w-2xl space-y-6 animate-fade-up">
             <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
-              Mind-Body Evidence
+              Mind Body Science
             </p>
             <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
               The mind-body connection
             </h1>
             <p className="text-muted-foreground text-lg leading-[1.8]">
-              A short overview of what current research tells us about how the nervous system, emotional experience, and chronic physical symptoms shape one another.
+              A plain overview of what current research tells us about how early experience shapes the nervous system, and how that produces physical symptoms, drawn from the latest work in computational and systems neuroscience.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Part One */}
+      {/* Main content */}
       <section className="border-b border-border">
         <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-16">
-
           <div className="space-y-20 md:space-y-24">
-            {partOne.map((s) => (
-              <SectionBlock key={s.number} section={s} />
+            {sections.slice(0, 3).map((s) => (
+              <SectionBlock key={s.title} section={s} />
             ))}
           </div>
         </div>
       </section>
 
-      {/* Part Two */}
+      {/* Presentations table */}
       <section className="bg-accent/20 border-b border-border">
         <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-16">
           <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground mb-6">
-            Clinical Presentations
+            What this looks like across presentations
           </h2>
-          <p className="text-muted-foreground mb-16 leading-relaxed max-w-3xl">
-            The following conditions represent presentations where the psychophysiological evidence is well established, and where psychological intervention has demonstrated meaningful outcomes - particularly where medical treatment has plateaued.
+          <p className="text-muted-foreground mb-12 leading-relaxed max-w-3xl">
+            Both mechanisms operate across a wide range of conditions. The table below maps common presentations to their underlying neurological process.
           </p>
 
-          <div className="space-y-20 md:space-y-24">
-            {partTwo.map((s) => (
-              <SectionBlock key={s.number} section={s} />
+          {/* Desktop table */}
+          <div className="hidden md:block">
+            <div className="grid grid-cols-12 gap-6 border-b border-border pb-4 mb-4">
+              <p className="col-span-5 uppercase tracking-[0.2em] text-xs font-semibold text-foreground">
+                Presentation
+              </p>
+              <p className="col-span-7 uppercase tracking-[0.2em] text-xs font-semibold text-foreground">
+                The neurological mechanism
+              </p>
+            </div>
+            <div className="divide-y divide-border">
+              {presentationRows.map((row) => (
+                <div key={row.presentation} className="grid grid-cols-12 gap-6 py-6">
+                  <div className="col-span-5">
+                    <p className="text-foreground leading-snug mb-2">{row.presentation}</p>
+                    <p className="text-sm text-muted-foreground/90 italic leading-snug">
+                      {row.examples}
+                    </p>
+                  </div>
+                  <p className="col-span-7 text-muted-foreground leading-relaxed">
+                    {row.mechanism}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Mobile stacked */}
+          <div className="md:hidden divide-y divide-border border-t border-border">
+            {presentationRows.map((row) => (
+              <div key={row.presentation} className="py-6 space-y-3">
+                <p className="text-foreground leading-snug">{row.presentation}</p>
+                <p className="text-sm text-muted-foreground/90 italic leading-snug">
+                  {row.examples}
+                </p>
+                <p className="text-muted-foreground leading-relaxed">{row.mechanism}</p>
+              </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Pelvic pain section */}
+      <section className="border-b border-border">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-16">
+          <SectionBlock section={sections[3]} />
         </div>
       </section>
 
       {/* Referrals */}
-      <section>
+      <section className="border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
           <div className="max-w-[680px] space-y-6">
             <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground">
@@ -192,10 +269,7 @@ const ForProviders = () => {
             </h2>
             <div className="space-y-5 text-muted-foreground leading-[1.8]">
               <p>
-                I welcome referrals from GPs, gynaecologists, dermatologists, physiotherapists, and other clinicians working with patients whose symptoms persist despite clear investigations.
-              </p>
-              <p>
-                I'm happy to have a brief conversation before a referral is made, or to liaise about shared patients. Please reach out directly.
+                For this patient population we routinely collaborate with gynaecologists, rheumatologists, pelvic floor physiotherapists, clinical psychologists, pain specialists, and dermatologists with a particular interest in psychodermatology. We are happy to coordinate multidisciplinary referral pathways and to support patients navigating the intersection of physical and psychological care.
               </p>
             </div>
             <div className="flex flex-wrap gap-x-8 gap-y-3 pt-4 text-sm">
@@ -207,6 +281,20 @@ const ForProviders = () => {
               </a>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* References */}
+      <section>
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
+          <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground mb-8">
+            References
+          </h2>
+          <ul className="space-y-4 text-sm text-muted-foreground leading-relaxed max-w-3xl">
+            {references.map((r) => (
+              <li key={r}>{r}</li>
+            ))}
+          </ul>
         </div>
       </section>
 
