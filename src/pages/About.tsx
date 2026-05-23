@@ -9,16 +9,16 @@ const About = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-14">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
-            <div className="space-y-6 animate-fade-up max-w-[800px]">
-              <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
+            <div className="space-y-4 md:space-y-5 animate-fade-up">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
                 About
               </p>
-              <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
+              <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
                 Hi, I'm Vanesa.
               </h1>
-              <div className="space-y-5 text-muted-foreground text-lg leading-[1.8]">
+              <div className="space-y-4 text-muted-foreground text-[15px] md:text-base leading-[1.7]">
                 <p>
                   I'm a psychotherapist with a special interest in the connection between emotional wellbeing, the nervous system, and physical symptoms.
                 </p>
@@ -40,34 +40,33 @@ const About = () => {
 
       {/* How I work */}
       <section className="border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-14">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
-            <div className="lg:col-span-3">
-              <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
+            <div className="lg:col-span-3 space-y-2">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
                 Approach
               </p>
-              <h2 className="font-serif text-2xl md:text-3xl text-foreground">
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
                 An Integrative Systems Approach
               </h2>
             </div>
-            <div className="lg:col-span-7 max-w-[680px] space-y-5 text-muted-foreground text-base md:text-lg leading-[1.8]">
-
-              <div className="pt-4 space-y-6">
-                <div>
-                  <h3 className="font-serif text-xl text-foreground mb-2">Cognitive Processes</h3>
-                  <p>
+            <div className="lg:col-span-7 max-w-[640px]">
+              <div className="divide-y divide-border/60">
+                <div className="py-5 first:pt-0 space-y-2">
+                  <h3 className="font-serif text-lg md:text-xl text-foreground">Cognitive Processes</h3>
+                  <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7]">
                     Drawing on Cognitive Behavioural Therapy (CBT) and Acceptance and Commitment Therapy (ACT), treatment addresses thought patterns, beliefs, emotional responses, and psychological flexibility that may influence symptom-related distress and daily functioning.
                   </p>
                 </div>
-                <div>
-                  <h3 className="font-serif text-xl text-foreground mb-2">Emotional &amp; Relational Processes</h3>
-                  <p>
+                <div className="py-5 space-y-2">
+                  <h3 className="font-serif text-lg md:text-xl text-foreground">Emotional &amp; Relational Processes</h3>
+                  <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7]">
                     Using Resource Therapy, treatment explores internal states and protective patterns that may have developed in response to stress, adversity, or perceived threat. The goal is to support greater self-awareness, emotional integration, and adaptive responding.
                   </p>
                 </div>
-                <div>
-                  <h3 className="font-serif text-xl text-foreground mb-2">Autonomic &amp; Physiological Processes</h3>
-                  <p>
+                <div className="py-5 space-y-2">
+                  <h3 className="font-serif text-lg md:text-xl text-foreground">Autonomic &amp; Physiological Processes</h3>
+                  <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7]">
                     Drawing on Somatic Experiencing and contemporary understandings of autonomic nervous system functioning, treatment focuses on increasing awareness of physiological stress responses and developing greater capacity for regulation, flexibility, and recovery.
                   </p>
                 </div>
@@ -77,33 +76,35 @@ const About = () => {
         </div>
       </section>
 
-
       {/* Education & Memberships */}
       <section>
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-14">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
-            <div className="lg:col-span-3">
-              <h2 className="font-serif text-2xl md:text-3xl text-foreground">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
+            <div className="lg:col-span-3 space-y-2">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+                Credentials
+              </p>
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
                 Education &amp; Memberships
               </h2>
             </div>
-            <div className="lg:col-span-7 max-w-[680px]">
-              <ul className="space-y-6">
-                <li>
-                  <p className="text-foreground">Master of Psychotherapy and Counselling</p>
-                  <p className="text-muted-foreground text-sm mt-1">Western Sydney University, 2023 (Dean&rsquo;s Merit List)</p>
+            <div className="lg:col-span-7 max-w-[640px]">
+              <ul className="divide-y divide-border/60">
+                <li className="py-4 first:pt-0">
+                  <p className="text-[15px] md:text-base text-foreground">Master of Psychotherapy and Counselling</p>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Western Sydney University, 2023 — Dean&rsquo;s Merit List</p>
                 </li>
-                <li>
-                  <p className="text-foreground">Bachelor of Science in Psychology</p>
-                  <p className="text-muted-foreground text-sm mt-1">Griffith University, 2012</p>
+                <li className="py-4">
+                  <p className="text-[15px] md:text-base text-foreground">Bachelor of Science in Psychology</p>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Griffith University, 2012</p>
                 </li>
-                <li>
-                  <p className="text-foreground">Certificate, Clinical Resource Therapist</p>
-                  <p className="text-muted-foreground text-sm mt-1">Resource Therapy International, 2023</p>
+                <li className="py-4">
+                  <p className="text-[15px] md:text-base text-foreground">Certificate, Clinical Resource Therapist</p>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Resource Therapy International, 2023</p>
                 </li>
-                <li>
-                  <p className="text-foreground">Registered Member</p>
-                  <p className="text-muted-foreground text-sm mt-1">Psychotherapy and Counselling Federation of Australia (PACFA)</p>
+                <li className="py-4">
+                  <p className="text-[15px] md:text-base text-foreground">Registered Member</p>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Psychotherapy and Counselling Federation of Australia (PACFA)</p>
                 </li>
               </ul>
             </div>
