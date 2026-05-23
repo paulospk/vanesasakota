@@ -10,7 +10,7 @@ const pillars: { title: string; description: ReactNode }[] = [
     ),
   },
   {
-    title: "Emotional & Relational Processes",
+    title: "Emotional & Relational Processes | relational/emotional",
     description: (
       <>
         Using <strong className="text-foreground font-medium">Resource Therapy (Parts Work)</strong>, we explore internal emotional states and protective patterns that may have developed in response to historical stress, adversity, or a lack of environmental safety. The goal is to support greater self-awareness, emotional integration, and more adaptive responding.
