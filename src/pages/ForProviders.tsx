@@ -179,9 +179,6 @@ const ForProviders = () => {
               The Evidence Base: The Science of Psychophysiological Symptoms
             </h1>
             <div className="space-y-5 text-muted-foreground text-lg leading-[1.8]">
-              <p>
-                Persistent physical symptoms are not imaginary. They are the measurable, biological outcomes of a nervous system responding to chronic stress, trauma, and adversity. Below is the clinical research mapping exactly how these experiences manifest in the physical body, how we view these symptoms, and how lasting recovery is achieved.
-              </p>
             </div>
           </div>
         </div>
