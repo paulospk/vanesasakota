@@ -8,18 +8,18 @@ const Contact = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-14">
-          <div className="max-w-2xl space-y-6 animate-fade-up">
-            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+          <div className="max-w-xl space-y-4 md:space-y-5 animate-fade-up">
+            <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
               Appointments
             </p>
-            <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
+            <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
               Booking & Enquiries
             </h1>
-            <p className="text-muted-foreground text-lg leading-[1.8]">
+            <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
               I see clients in person at my practice in the Sydney CBD. Whether you are seeking therapy for yourself or looking to make a clinical referral, please reach out by phone or email to discuss current availability.
             </p>
-            <p className="text-muted-foreground text-lg leading-[1.8]">
+            <p className="text-muted-foreground/80 text-[13px] md:text-sm italic leading-[1.7]">
               Please note that I currently operate a waitlist for peak appointment times.
             </p>
           </div>
@@ -28,21 +28,25 @@ const Contact = () => {
 
       {/* Contact details */}
       <section className="border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-14">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-8 md:py-14">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
-            <div className="lg:col-span-3"></div>
-            <div className="lg:col-span-7 max-w-[680px] space-y-6">
-              <div className="border-b border-border/60 pb-5">
-                <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-2">Phone</p>
-                <a href="tel:+61405933722" className="text-base md:text-lg text-foreground hover:opacity-70 transition-opacity">
+            <div className="lg:col-span-3">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+                Contact
+              </p>
+            </div>
+            <div className="lg:col-span-7 max-w-[640px] divide-y divide-border/60">
+              <div className="flex items-baseline justify-between py-4 first:pt-0">
+                <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">Phone</p>
+                <a href="tel:+61405933722" className="text-[15px] md:text-base text-foreground hover:opacity-60 transition-opacity">
                   0405 933 722
                 </a>
               </div>
-              <div className="border-b border-border/60 pb-5">
-                <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-2">Email</p>
+              <div className="flex items-baseline justify-between py-4">
+                <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">Email</p>
                 <a
                   href="mailto:vanesa@vanesasakota.com.au"
-                  className="text-base md:text-lg text-foreground hover:opacity-70 transition-opacity break-all"
+                  className="text-[13px] md:text-base text-foreground hover:opacity-60 transition-opacity break-all text-right"
                 >
                   vanesa@vanesasakota.com.au
                 </a>
@@ -53,64 +57,70 @@ const Contact = () => {
       </section>
 
       {/* Fees & Structure */}
-      <section className="bg-muted/30 border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-14">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
-            <div className="lg:col-span-3">
-              <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
+      <section className="border-b border-border">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
+            <div className="lg:col-span-3 space-y-2">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
                 Fees
               </p>
-              <h2 className="font-serif text-2xl md:text-3xl text-foreground">
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
                 Fees & Structure
               </h2>
             </div>
-            <div className="lg:col-span-7 max-w-[680px] space-y-6">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                <div className="border border-border bg-background p-6 flex flex-col gap-3">
-                  <h3 className="font-serif text-xl text-foreground leading-snug">
-                    Initial Consultation
-                  </h3>
-                  <p className="text-base md:text-lg text-foreground/80 font-medium">
-                    Duration: 90 minutes
+            <div className="lg:col-span-7 max-w-[640px] space-y-10 md:space-y-12">
+
+              {/* Fee items as editorial list */}
+              <div className="divide-y divide-border/60">
+                <div className="py-5 first:pt-0 space-y-2">
+                  <div className="flex items-baseline justify-between gap-4">
+                    <h3 className="font-serif text-lg md:text-xl text-foreground">
+                      Initial Consultation
+                    </h3>
+                    <p className="font-serif text-xl md:text-2xl text-foreground tabular-nums whitespace-nowrap">
+                      $290
+                    </p>
+                  </div>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+                    90 minutes
                   </p>
-                  <p className="font-serif text-3xl text-foreground">
-                    $290
-                  </p>
-                  <p className="text-sm text-muted-foreground leading-[1.6] mt-auto">
+                  <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7] pt-1">
                     An extended first session to complete a clinical intake, discuss your history, and clarify the direction for our work together.
                   </p>
                 </div>
-                <div className="border border-border bg-background p-6 flex flex-col gap-3">
-                  <h3 className="font-serif text-xl text-foreground leading-snug">
-                    Ongoing Psychotherapy Session
-                  </h3>
-                  <p className="text-base md:text-lg text-foreground/80 font-medium">
-                    Duration: 50 minutes
+                <div className="py-5 space-y-2">
+                  <div className="flex items-baseline justify-between gap-4">
+                    <h3 className="font-serif text-lg md:text-xl text-foreground">
+                      Ongoing Psychotherapy
+                    </h3>
+                    <p className="font-serif text-xl md:text-2xl text-foreground tabular-nums whitespace-nowrap">
+                      $240
+                    </p>
+                  </div>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+                    50 minutes
                   </p>
-                  <p className="font-serif text-3xl text-foreground">
-                    $240
-                  </p>
-                  <p className="text-sm text-muted-foreground leading-[1.6] mt-auto">
+                  <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7] pt-1">
                     Regular sessions dedicated to your therapeutic process, typically scheduled on a weekly or fortnightly basis.
                   </p>
                 </div>
               </div>
 
               {/* Referrals & Rebates */}
-              <div className="space-y-4 pt-2">
-                <h3 className="font-serif text-xl text-foreground">Referrals & Rebates</h3>
-                <p className="text-muted-foreground leading-[1.8]">
+              <div className="space-y-3">
+                <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">Referrals & Rebates</p>
+                <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.75]">
                   You do not need a GP referral or a Mental Health Care Plan to book. Because this practice operates independently of the Medicare system, our work is confidential and not restricted by a capped number of sessions or rigid treatment checklists.
                 </p>
-                <p className="text-muted-foreground leading-[1.8]">
+                <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.75]">
                   Many major private health funds provide rebates for sessions with PACFA-registered clinical psychotherapists. Please check directly with your insurer to confirm if your specific policy covers psychotherapy.
                 </p>
               </div>
 
               {/* Cancellation Policy */}
-              <div className="space-y-4 pt-2">
-                <h3 className="font-serif text-xl text-foreground">Cancellation Policy</h3>
-                <p className="text-muted-foreground leading-[1.8]">
+              <div className="space-y-3">
+                <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">Cancellation Policy</p>
+                <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.75]">
                   Payment is settled at the time of your session. Because these hours are dedicated exclusively to your care, a minimum of 48 hours' notice is required for cancellations or rescheduling. This policy ensures fairness to those on the waitlist who are waiting for an opening; otherwise, the full session fee applies to late cancellations or missed appointments.
                 </p>
               </div>
