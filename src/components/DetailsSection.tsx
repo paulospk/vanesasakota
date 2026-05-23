@@ -115,6 +115,9 @@ export default function DetailsSection() {
                   </li>
                 ))}
               </ul>
+              <p className="text-muted-foreground text-sm leading-[1.8] mt-10 max-w-[680px]">
+                I welcome collaborative referrals from GPs, gynaecologists, dermatologists, physiotherapy specialists, and other clinicians. Please feel free to <a href="/contact" className="underline underline-offset-4 hover:text-foreground transition-colors">reach out directly</a> for a brief initial conversation prior to making a referral.
+              </p>
             </div>
           </div>
         </div>
@@ -149,29 +152,6 @@ export default function DetailsSection() {
         </div>
       </section>
 
-      {/* Referrals */}
-      <section className="bg-secondary/40 border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-12 md:py-24">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
-            <div className="lg:col-span-3">
-              <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-muted-foreground mb-4">
-                For Clinicians
-              </p>
-              <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
-                Referrals
-              </h2>
-            </div>
-            <div className="lg:col-span-7 space-y-6 max-w-[680px]">
-              <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
-                I welcome collaborative referrals from GPs, gynaecologists, dermatologists, physiotherapy specialists, and other clinicians working with patients whose physical symptoms persist following appropriate medical assessment and investigations.
-              </p>
-              <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
-                Recognising that complex psychophysiological symptoms are best addressed through an integrated, whole-person approach, I value interdisciplinary care and am always happy to liaise regarding shared patient management. Please feel free to reach out directly for a brief initial conversation prior to making a referral.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   );
 }
