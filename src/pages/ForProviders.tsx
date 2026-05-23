@@ -23,7 +23,7 @@ const sections: Section[] = [
         body: "Elevated Risk Profile: Individuals with higher ACE scores statistically show a higher prevalence of chronic pain, autoimmune flare-ups, and chronic fatigue.",
       },
       {
-        body: "A Distinct Factor: This strong correlation remains significant even when accounting for health behaviors like smoking, diet, or alcohol use—suggesting that the physiological impact of prolonged stress itself is a major contributing factor to adult health.",
+        body: "A Distinct Factor: This strong correlation remains significant even when accounting for health behaviors like smoking, diet, or alcohol use — suggesting that the physiological impact of prolonged stress itself is a major contributing factor to adult health.",
       },
     ],
   },
@@ -96,7 +96,7 @@ const sections: Section[] = [
         body: "Altered Volume Control: In many functional and psychophysiological symptoms, the central nervous system can undergo a process called central sensitisation, where the spinal cord and brain amplify regular bodily signals.",
       },
       {
-        body: "Real Symptoms, Intact Structure: Normal sensory inputs—such as mild touch, temperature shifts, or natural digestion—can be misprocessed by a hypersensitive nervous system and registered as pain or discomfort, even in the absence of structural tissue damage.",
+        body: "Real Symptoms, Intact Structure: Normal sensory inputs — such as mild touch, temperature shifts, or natural digestion — can be misprocessed by a hypersensitive nervous system and registered as pain or discomfort, even in the absence of structural tissue damage.",
       },
       {
         body: "A Processing Disruption: The symptoms are completely real, but they represent a functional processing error in the nervous system rather than a structural defect (like a fracture). Because the nervous system is neuroplastic, these amplified processing loops can often be systematically retrained and turned back down.",
@@ -111,32 +111,32 @@ const sections: Section[] = [
         body: "Complex physical symptoms are rarely maintained by a single factor. Lasting recovery is best supported through a biopsychosocial lens, which considers the continuous interaction between your biological health, your internal psychology, and your social or relational environment.",
       },
       {
-        body: "Furthermore, because chronic stress and nervous system dysregulation frequently develop within challenging relational contexts, contemporary models indicate that biological healing is deeply supported within a relational space. A hyper-vigilant nervous system rarely down-regulates through cognitive effort alone; it typically relies on co-regulation—the lived experience of safety within a secure, collaborative therapeutic relationship.",
+        body: "Furthermore, because chronic stress and nervous system dysregulation frequently develop within challenging relational contexts, contemporary models indicate that biological healing is deeply supported within a relational space. A hyper-vigilant nervous system rarely down-regulates through cognitive effort alone; it typically relies on co-regulation — the lived experience of safety within a secure, collaborative therapeutic relationship.",
       },
     ],
   },
 ];
 
 const SectionBlock = ({ section }: { section: Section }) => (
-  <article className="border-t border-border pt-8 md:pt-16 first:border-t-0 first:pt-0">
-    <div className="mb-4 md:mb-8 flex items-baseline gap-3 md:gap-4">
-      <span className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
+  <article className="border-t border-border/60 pt-8 md:pt-12 first:border-t-0 first:pt-0">
+    <div className="mb-5 md:mb-6 flex items-baseline gap-3 md:gap-4">
+      <span className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground tabular-nums">
         {section.number}
       </span>
-      <h3 className="font-serif text-xl md:text-3xl tracking-tight text-foreground">
+      <h3 className="font-serif text-xl md:text-2xl tracking-tight text-foreground leading-tight">
         {section.title}
       </h3>
     </div>
 
-    <div className="space-y-4 md:space-y-6">
+    <div className="space-y-4 md:space-y-5">
       {section.paragraphs.map((p, i) => (
-        <div key={i}>
+        <div key={i} className="space-y-2">
           {p.heading && (
-            <h4 className="uppercase tracking-[0.2em] text-xs font-semibold text-foreground mb-2 md:mb-3">
+            <h4 className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-foreground">
               {p.heading}
             </h4>
           )}
-          <p className="text-muted-foreground leading-relaxed text-[15px] md:text-base">{p.body}</p>
+          <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.75]">{p.body}</p>
         </div>
       ))}
     </div>
@@ -150,9 +150,12 @@ const ForProviders = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-5 md:py-14">
-          <div className="max-w-3xl animate-fade-up">
-            <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+          <div className="max-w-xl space-y-4 md:space-y-5 animate-fade-up">
+            <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+              For Providers
+            </p>
+            <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
               The Evidence Base
             </h1>
           </div>
@@ -161,38 +164,60 @@ const ForProviders = () => {
 
       {/* Sections */}
       <section className="border-b border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-12">
-          <div className="space-y-10 md:space-y-24">
-            {sections.map((s) => (
-              <SectionBlock key={s.number} section={s} />
-            ))}
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
+            <div className="lg:col-span-3 space-y-2">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+                Research
+              </p>
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
+                The Clinical Framework
+              </h2>
+            </div>
+            <div className="lg:col-span-7 max-w-[640px] space-y-10 md:space-y-14">
+              {sections.map((s) => (
+                <SectionBlock key={s.number} section={s} />
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
-
       {/* Referrals */}
       <section>
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-14">
-          <div className="max-w-[680px] space-y-4 md:space-y-6">
-            <h2 className="font-serif text-2xl md:text-4xl tracking-tight text-foreground">
-              Referrals
-            </h2>
-            <div className="space-y-4 md:space-y-5 text-muted-foreground leading-relaxed md:leading-[1.8] text-[15px] md:text-base">
-              <p>
-                I welcome collaborative referrals from GPs, gynaecologists, dermatologists, physiotherapists, and other clinicians working with patients whose physical symptoms persist following appropriate medical assessment and investigations.
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
+            <div className="lg:col-span-3 space-y-2">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+                Contact
               </p>
-              <p>
-                Recognising that complex psychophysiological symptoms are best addressed through an integrated, whole-person approach, I value interdisciplinary care and am always happy to liaise regarding shared patient management. Please feel free to reach out directly if you have any questions.
-              </p>
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
+                Referrals
+              </h2>
             </div>
-            <div className="flex flex-wrap gap-x-6 md:gap-x-8 gap-y-3 pt-2 md:pt-4 text-sm">
-              <a href="mailto:vanesa@vanesasakota.com.au" className="text-foreground border-b border-foreground/40 pb-1 hover:border-foreground transition-colors">
-                vanesa@vanesasakota.com.au
-              </a>
-              <a href="tel:0405933722" className="text-foreground border-b border-foreground/40 pb-1 hover:border-foreground transition-colors">
-                0405 933 722
-              </a>
+            <div className="lg:col-span-7 max-w-[640px] space-y-6">
+              <div className="space-y-4 text-[14px] md:text-[15px] text-muted-foreground leading-[1.75]">
+                <p>
+                  I welcome collaborative referrals from GPs, gynaecologists, dermatologists, physiotherapists, and other clinicians working with patients whose physical symptoms persist following appropriate medical assessment and investigations.
+                </p>
+                <p>
+                  Recognising that complex psychophysiological symptoms are best addressed through an integrated, whole-person approach, I value interdisciplinary care and am always happy to liaise regarding shared patient management. Please feel free to reach out directly if you have any questions.
+                </p>
+              </div>
+              <div className="divide-y divide-border/60 pt-2">
+                <div className="flex items-baseline justify-between py-4 first:pt-0">
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">Phone</p>
+                  <a href="tel:+61405933722" className="text-[15px] md:text-base text-foreground hover:opacity-60 transition-opacity">
+                    0405 933 722
+                  </a>
+                </div>
+                <div className="flex items-baseline justify-between py-4">
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">Email</p>
+                  <a href="mailto:vanesa@vanesasakota.com.au" className="text-[13px] md:text-base text-foreground hover:opacity-60 transition-opacity break-all text-right">
+                    vanesa@vanesasakota.com.au
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

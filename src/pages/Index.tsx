@@ -12,22 +12,22 @@ const Index = () => {
 
       {/* About Vanesa */}
       <section className="bg-background border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-12">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
-            <div className="lg:col-span-3">
-              <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-muted-foreground mb-4">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
+            <div className="lg:col-span-3 space-y-2">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
                 About
               </p>
-              <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
                 About Vanesa
               </h2>
             </div>
-            <div className="lg:col-span-7 max-w-[680px] space-y-4 text-base md:text-lg leading-[1.8] text-muted-foreground">
+            <div className="lg:col-span-7 max-w-[640px] space-y-4 text-[14px] md:text-[15px] leading-[1.75] text-muted-foreground">
               <p>
                 Vanesa is an integrative psychotherapist based in Sydney. She graduated with a Master of Psychotherapy and Counselling and a Bachelor of Science in Psychology, following a previous seven-year career as a Head of Product within the medical technology sector.
               </p>
               <p>
-                Vanesa completed her clinical training and placements in Sydney, developing a practice that bridges traditional talk therapy with somatic and nervous system resolution. Her framework combines top-down evidence-based modalities, including Cognitive Behavioural Therapy (CBT) and Acceptance and Commitment Therapy (ACT), with bottom-up somatic approaches—specifically Resource Therapy (Parts Work), Somatic Experiencing, and polyvagal principles—to address complex psychophysiological distress.
+                Vanesa completed her clinical training and placements in Sydney, developing a practice that bridges traditional talk therapy with somatic and nervous system resolution. Her framework combines top-down evidence-based modalities, including Cognitive Behavioural Therapy (CBT) and Acceptance and Commitment Therapy (ACT), with bottom-up somatic approaches — specifically Resource Therapy (Parts Work), Somatic Experiencing, and polyvagal principles — to address complex psychophysiological distress.
               </p>
               <p>
                 She has a special interest in the physiological manifestations of chronic stress, trauma, and early life adversity, with a particular focus on pelvic floor neuro-muscular guarding (including vaginismus, vulvodynia, and chronic pelvic pain) and the brain-skin axis (including eczema, psoriasis, and stress-related hair loss). Moreover, Vanesa specializes in broader functional and stress-responsive presentations where symptoms persist despite clear medical investigations.
@@ -44,37 +44,33 @@ const Index = () => {
 
       {/* Education & Memberships */}
       <section className="bg-background border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-12">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
-            <div className="lg:col-span-3">
-              <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-muted-foreground mb-4">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
+            <div className="lg:col-span-3 space-y-2">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
                 Credentials
               </p>
-              <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
                 Education &amp; Memberships
               </h2>
             </div>
-            <div className="lg:col-span-7 max-w-[680px]">
-              <ul className="space-y-6 text-base md:text-lg leading-[1.8]">
-                <li className="text-muted-foreground">
-                  <span className="text-foreground font-medium">Master of Psychotherapy and Counselling</span>
-                  <span className="px-2 text-muted-foreground">|</span>
-                  Western Sydney University, 2023 (Dean&rsquo;s Merit List)
+            <div className="lg:col-span-7 max-w-[640px]">
+              <ul className="divide-y divide-border/60">
+                <li className="py-4 first:pt-0">
+                  <p className="text-[15px] md:text-base text-foreground">Master of Psychotherapy and Counselling</p>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Western Sydney University, 2023 — Dean&rsquo;s Merit List</p>
                 </li>
-                <li className="text-muted-foreground">
-                  <span className="text-foreground font-medium">Bachelor of Science in Psychology</span>
-                  <span className="px-2 text-muted-foreground">|</span>
-                  Griffith University, 2012
+                <li className="py-4">
+                  <p className="text-[15px] md:text-base text-foreground">Bachelor of Science in Psychology</p>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Griffith University, 2012</p>
                 </li>
-                <li className="text-muted-foreground">
-                  <span className="text-foreground font-medium">Certificate, Clinical Resource Therapist</span>
-                  <span className="px-2 text-muted-foreground">|</span>
-                  Resource Therapy International, 2023
+                <li className="py-4">
+                  <p className="text-[15px] md:text-base text-foreground">Certificate, Clinical Resource Therapist</p>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Resource Therapy International, 2023</p>
                 </li>
-                <li className="text-muted-foreground">
-                  <span className="text-foreground font-medium">Certified Practising</span>
-                  <span className="px-2 text-muted-foreground">|</span>
-                  Psychotherapy and Counselling Federation of Australia (PACFA)
+                <li className="py-4">
+                  <p className="text-[15px] md:text-base text-foreground">Certified Practising</p>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Psychotherapy and Counselling Federation of Australia (PACFA)</p>
                 </li>
               </ul>
             </div>

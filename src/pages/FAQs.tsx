@@ -59,7 +59,7 @@ const faqs = [
       <>
         You are welcome to contact me directly by phone or email to discuss whether a referral is appropriate. I am happy to provide brief case consultation before a referral is made, and to liaise with you regarding shared patients where that is helpful. A formal referral letter is not required, though it is welcome. Contact:{" "}
         <a href="mailto:vanesa@vanesasakota.com.au" className="underline hover:no-underline">vanesa@vanesasakota.com.au</a>
-        {" "}· 0405 933 722
+        {" "}| 0405 933 722
       </>
     ),
   },
@@ -72,20 +72,20 @@ const faqs = [
 
 const FAQs = () => {
   return (
-    <div className="min-h-screen bg-hero">
+    <div className="min-h-screen bg-background">
       <Navbar />
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-12">
-          <div className="max-w-2xl animate-fade-up">
-            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-4">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+          <div className="max-w-xl space-y-4 md:space-y-5 animate-fade-up">
+            <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
               FAQs
             </p>
-            <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1] mb-6">
+            <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
               Common questions
             </h1>
-            <p className="text-muted-foreground text-lg leading-[1.8]">
+            <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
               A few things people often want to know. If yours isn't here, please reach out.
             </p>
           </div>
@@ -93,19 +93,33 @@ const FAQs = () => {
       </section>
 
       {/* FAQ Accordion */}
-      <section className="max-w-3xl mx-auto px-5 md:px-8 py-6 md:py-12">
-        <Accordion type="single" collapsible className="w-full">
-          {faqs.map((faq, index) => (
-            <AccordionItem key={index} value={`item-${index}`}>
-              <AccordionTrigger className="text-left font-serif text-base">
-                {faq.question}
-              </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground leading-relaxed">
-                {faq.answer}
-              </AccordionContent>
-            </AccordionItem>
-          ))}
-        </Accordion>
+      <section className="border-b border-border">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
+            <div className="lg:col-span-3 space-y-2">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+                Questions
+              </p>
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
+                Frequently Asked
+              </h2>
+            </div>
+            <div className="lg:col-span-7 max-w-[640px]">
+              <Accordion type="single" collapsible className="w-full">
+                {faqs.map((faq, index) => (
+                  <AccordionItem key={index} value={`item-${index}`} className="border-border/60">
+                    <AccordionTrigger className="text-left font-serif text-[15px] md:text-base text-foreground hover:no-underline">
+                      {faq.question}
+                    </AccordionTrigger>
+                    <AccordionContent className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7]">
+                      {faq.answer}
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            </div>
+          </div>
+        </div>
       </section>
 
       <FooterSection />
