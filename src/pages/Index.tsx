@@ -13,7 +13,7 @@ const Index = () => {
       <DetailsSection />
 
       {/* Education & Memberships */}
-      <section className="bg-secondary/40 border-b border-border">
+      <section className="bg-background border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-12 md:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
             <div className="lg:col-span-3">

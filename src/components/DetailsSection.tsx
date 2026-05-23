@@ -5,7 +5,7 @@ const pillars: { title: string; description: ReactNode }[] = [
     title: "Cognitive Processes",
     description: (
       <>
-        Drawing on <strong className="text-foreground font-medium">Cognitive Behavioural Therapy (CBT)</strong> and <strong className="text-foreground font-medium">Acceptance and Commitment Therapy (ACT)</strong>, treatment addresses thought patterns, beliefs, emotional responses, and psychological flexibility that may influence symptom-related distress and daily functioning.
+        Drawing on <strong className="text-foreground font-medium">Cognitive Behavioural Therapy (CBT)</strong> and <strong className="text-foreground font-medium">Acceptance and Commitment Therapy (ACT)</strong>, treatment addresses thought patterns, core beliefs, and psychological flexibility that can influence symptom-related distress and everyday functioning.
       </>
     ),
   },
@@ -13,7 +13,7 @@ const pillars: { title: string; description: ReactNode }[] = [
     title: "Emotional & Relational Processes",
     description: (
       <>
-        Using <strong className="text-foreground font-medium">Resource Therapy</strong>, treatment explores internal states and protective patterns that may have developed in response to stress, adversity, or perceived threat. The goal is to support greater self-awareness, emotional integration, and adaptive responding.
+        Using <strong className="text-foreground font-medium">Resource Therapy (Parts Work)</strong>, we explore internal emotional states and protective patterns that may have developed in response to historical stress, adversity, or a lack of environmental safety. The goal is to support greater self-awareness, emotional integration, and more adaptive responding.
       </>
     ),
   },
@@ -21,7 +21,7 @@ const pillars: { title: string; description: ReactNode }[] = [
     title: "Autonomic & Physiological Processes",
     description: (
       <>
-        Drawing on <strong className="text-foreground font-medium">Somatic Experiencing</strong> and contemporary understandings of autonomic nervous system functioning, treatment focuses on increasing awareness of physiological stress responses and developing greater capacity for regulation, flexibility, and recovery.
+        Drawing on <strong className="text-foreground font-medium">Somatic Experiencing</strong> and contemporary understandings of autonomic nervous system functioning, treatment focuses on increasing awareness of physiological stress responses, supporting the body&rsquo;s capacity for regulation, and assisting the nervous system in shifting out of chronic threat states.
       </>
     ),
   },
@@ -32,7 +32,7 @@ const helpItems: { title: string; description: ReactNode }[] = [
     title: "Pelvic Health & Somatic Protection",
     description: (
       <>
-        Working with the nervous system&rsquo;s <strong className="text-foreground font-medium">protective responses</strong> in conditions like <strong className="text-foreground font-medium">vaginismus</strong>, <strong className="text-foreground font-medium">vulvodynia</strong> and <strong className="text-foreground font-medium">chronic pelvic pain</strong>.
+        Working with the nervous system&rsquo;s involuntary <strong className="text-foreground font-medium">protective responses</strong> and muscular guarding patterns in conditions such as <strong className="text-foreground font-medium">vaginismus</strong>, <strong className="text-foreground font-medium">vulvodynia</strong>, and <strong className="text-foreground font-medium">chronic pelvic pain</strong>.
       </>
     ),
   },
@@ -40,7 +40,7 @@ const helpItems: { title: string; description: ReactNode }[] = [
     title: "The Mind-Skin Connection",
     description: (
       <>
-        Working with <strong className="text-foreground font-medium">emotional and psychological factors</strong> that can influence stress-responsive conditions like <strong className="text-foreground font-medium">eczema</strong>, <strong className="text-foreground font-medium">psoriasis</strong>, <strong className="text-foreground font-medium">stress-related hair loss</strong> and <strong className="text-foreground font-medium">vitiligo</strong>.
+        Addressing the psychological, emotional, and <strong className="text-foreground font-medium">neurogenic inflammatory factors</strong> that can influence stress-responsive conditions such as <strong className="text-foreground font-medium">eczema</strong>, <strong className="text-foreground font-medium">psoriasis</strong>, <strong className="text-foreground font-medium">stress-related hair loss</strong>, and <strong className="text-foreground font-medium">vitiligo</strong>.
       </>
     ),
   },
@@ -48,7 +48,7 @@ const helpItems: { title: string; description: ReactNode }[] = [
     title: "Psychophysiological Resolution",
     description: (
       <>
-        Working with <strong className="text-foreground font-medium">functional and psychophysiological symptoms</strong>: real experiences that fall outside structural or organic diagnosis.
+        Working with <strong className="text-foreground font-medium">functional and psychophysiological symptoms</strong>: very real physical experiences that map to altered nervous system signalling rather than structural or organic disease.
       </>
     ),
   },
@@ -68,10 +68,10 @@ export default function DetailsSection() {
             </div>
             <div className="lg:col-span-7 space-y-12 max-w-[680px]">
               <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
-                Persistent physical symptoms are rarely maintained by a single factor. My approach considers the interaction between cognitive, emotional, behavioural, relational, and autonomic processes that may contribute to symptom persistence following appropriate medical assessment.
+                Persistent physical symptoms are rarely maintained by a single factor. My approach considers the continuous interaction between cognitive, emotional, behavioural, relational, and autonomic processes that may contribute to symptom persistence following appropriate medical assessment.
               </p>
               <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
-                Treatment integrates evidence-based psychotherapy with somatic approaches to help individuals understand symptom patterns, reduce symptom-related distress, improve functioning, and support recovery while working alongside ongoing medical care.
+                Treatment integrates evidence-based psychotherapy with somatic approaches to help individuals understand symptom patterns, manage symptom-related distress, improve daily functioning, and support long-term recovery while working alongside ongoing medical care.
               </p>
               <ul className="space-y-10">
                 {pillars.map((p) => (
@@ -128,19 +128,46 @@ export default function DetailsSection() {
               Evidence Base
             </p>
             <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-snug">
-              Grounded in Research
+              Grounded in Science &amp; Research
             </h2>
             <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
-              This work draws on established frameworks in <strong className="text-foreground font-medium">somatic psychotherapy</strong>, <strong className="text-foreground font-medium">polyvagal theory</strong>, <strong className="text-foreground font-medium">psychoneuroimmunology</strong>, and <strong className="text-foreground font-medium">central sensitisation</strong>, alongside a growing body of clinical research into the mind-body connection.
+              This work is informed by established frameworks across <strong className="text-foreground font-medium">somatic psychotherapy</strong>, <strong className="text-foreground font-medium">polyvagal theory</strong>, <strong className="text-foreground font-medium">psychoneuroimmunology</strong>, and <strong className="text-foreground font-medium">central sensitisation</strong>. Contemporary clinical research offers valuable insight into how trauma, chronic stress, and adversity can interact with physical biology, mapping the complex pathways between mind and body.
+            </p>
+            <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
+              Review the clinical research surrounding how stress responses can manifest physically, how these symptoms are viewed through a whole-person lens, and the frameworks that support physical recovery.
             </p>
             <div className="pt-2">
               <a
                 href="/for-providers"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-foreground text-background text-sm font-medium tracking-wide hover:opacity-90 transition-opacity"
               >
-                Explore the evidence
+                Explore the evidence base
                 <span aria-hidden="true">&rarr;</span>
               </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Referrals */}
+      <section className="bg-secondary/40 border-b border-border">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-12 md:py-24">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
+            <div className="lg:col-span-3">
+              <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-muted-foreground mb-4">
+                For Clinicians
+              </p>
+              <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
+                Referrals
+              </h2>
+            </div>
+            <div className="lg:col-span-7 space-y-6 max-w-[680px]">
+              <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
+                I welcome collaborative referrals from GPs, gynaecologists, dermatologists, physiotherapy specialists, and other clinicians working with patients whose physical symptoms persist following appropriate medical assessment and investigations.
+              </p>
+              <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
+                Recognising that complex psychophysiological symptoms are best addressed through an integrated, whole-person approach, I value interdisciplinary care and am always happy to liaise regarding shared patient management. Please feel free to reach out directly for a brief initial conversation prior to making a referral.
+              </p>
             </div>
           </div>
         </div>
