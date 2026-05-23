@@ -85,7 +85,7 @@ const Contact = () => {
                     90 minutes
                   </p>
                   <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7] pt-1">
-                    An extended first session to complete a clinical intake, discuss your history, and clarify the direction for our work together.
+                    An extended first session to discuss your history, concern, and clarify the direction for our work together.
                   </p>
                 </div>
                 <div className="py-5 space-y-2">
