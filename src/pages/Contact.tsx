@@ -78,7 +78,7 @@ const Contact = () => {
                       Initial Consultation
                     </h3>
                     <p className="font-serif text-xl md:text-2xl text-foreground tabular-nums whitespace-nowrap">
-                      $290
+                      $250
                     </p>
                   </div>
                   <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
