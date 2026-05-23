@@ -183,7 +183,7 @@ const ForProviders = () => {
                 I welcome collaborative referrals from GPs, gynaecologists, dermatologists, physiotherapists, and other clinicians working with patients whose physical symptoms persist following appropriate medical assessment and investigations.
               </p>
               <p>
-                Recognising that complex psychophysiological symptoms are best addressed through an integrated, whole-person approach, I value interdisciplinary care and am always happy to liaise regarding shared patient management. Please feel free to reach out directly for a brief initial conversation prior to making a referral.
+                Recognising that complex psychophysiological symptoms are best addressed through an integrated, whole-person approach, I value interdisciplinary care and am always happy to liaise regarding shared patient management. Please feel free to reach out directly if you have any questions.
               </p>
             </div>
             <div className="flex flex-wrap gap-x-6 md:gap-x-8 gap-y-3 pt-2 md:pt-4 text-sm">
