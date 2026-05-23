@@ -171,14 +171,11 @@ const ForProviders = () => {
               Mind-Body Evidence
             </p>
             <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
-              The Mind-Body Pipeline: How Chronic Alarm Becomes Physical Symptoms
+              The Evidence Base: The Science of Psychophysiological Symptoms
             </h1>
             <div className="space-y-5 text-muted-foreground text-lg leading-[1.8]">
               <p>
-                When you experience persistent physical symptoms without an underlying organic cause, the distress you feel is entirely real. It is not an illusion, nor is it all in your head. Instead, it is a tangible, visible, and highly coordinated protective process executed in real time by a sensitized nervous system.
-              </p>
-              <p>
-                By looking through a modern psycho-neuro-immunological lens, we can trace a clear, evidence-based line from early life relational history down to the real-time neural software that creates and maintains non-organic physical distress.
+                Persistent physical symptoms are not imaginary. They are the measurable, biological outcomes of a nervous system responding to chronic stress, trauma, and adversity. Below is the clinical research mapping exactly how these experiences manifest in the physical body, how we view these symptoms, and how lasting recovery is achieved.
               </p>
             </div>
           </div>
@@ -196,42 +193,6 @@ const ForProviders = () => {
         </div>
       </section>
 
-      {/* Moving Forward */}
-      <section className="bg-accent/20 border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
-          <div className="max-w-3xl space-y-6">
-            <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground">
-              Moving Forward: Updating the System
-            </h2>
-            <div className="space-y-5 text-muted-foreground leading-[1.8]">
-              <p>
-                Because these symptoms are driven by a protective software loop rather than permanent, organic tissue destruction, the nervous system remains entirely capable of neuroplastic re-calibration.
-              </p>
-              <p>
-                On the ground, resolution is not about trying to forcefully excavate or purge a hidden scar from your tissues. It is a structured process of retraining the brain's prediction engine. By systematically downregulating the central threat state, working directly and relationally with the parts of the system holding the danger expectations, and introducing safe, novel sensorimotor experiences, we teach the brain to stand down its protective defenses and safely return to a state of ease, flexibility, and fluid movement.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* References */}
-      <section className="border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-16">
-          <div className="max-w-3xl space-y-6">
-            <h2 className="font-serif text-2xl md:text-3xl tracking-tight text-foreground">
-              Complete Clinical References
-            </h2>
-            <ul className="space-y-4">
-              {references.map((r, i) => (
-                <li key={i} className="text-sm text-muted-foreground leading-relaxed">
-                  {r}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
 
       {/* Referrals */}
       <section>
