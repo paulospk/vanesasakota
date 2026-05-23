@@ -70,9 +70,6 @@ export default function DetailsSection() {
               <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
                 Persistent physical symptoms are rarely maintained by a single factor. My approach considers the continuous interaction between cognitive, emotional, behavioural, relational, and autonomic processes that may contribute to symptom persistence following appropriate medical assessment.
               </p>
-              <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
-                Treatment integrates evidence-based psychotherapy with somatic approaches to help individuals understand symptom patterns, manage symptom-related distress, improve daily functioning, and support long-term recovery while working alongside ongoing medical care.
-              </p>
               <ul className="space-y-6">
                 {pillars.map((p) => (
                   <li key={p.title} className="border-l-2 border-border pl-6">
