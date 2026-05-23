@@ -54,9 +54,6 @@ const About = () => {
               <p>
                 Persistent physical symptoms are rarely maintained by a single factor. My approach considers the interaction between cognitive, emotional, behavioural, relational, and autonomic processes that may contribute to symptom persistence following appropriate medical assessment.
               </p>
-              <p>
-                Treatment integrates evidence-based psychotherapy with somatic approaches to help individuals understand symptom patterns, reduce symptom-related distress, improve functioning, and support recovery while working alongside ongoing medical care.
-              </p>
 
               <div className="pt-4 space-y-6">
                 <div>
