@@ -67,7 +67,7 @@ const Index = () => {
                   Griffith University, 2012
                 </li>
                 <li className="text-muted-foreground">
-                  <span className="text-foreground font-medium">Certificate, Clinical Resource Therapy</span>
+                  <span className="text-foreground font-medium">Certificate, Clinical Resource Therapist</span>
                   <span className="px-2 text-muted-foreground">|</span>
                   Resource Therapy International, 2023
                 </li>
