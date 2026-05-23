@@ -18,7 +18,7 @@ const pillars: { title: string; description: ReactNode }[] = [
     ),
   },
   {
-    title: "Autonomic & Physiological Processes",
+    title: "Autonomic & Physiological Processes | Bottom Up",
     description: (
       <>
         Drawing on <strong className="text-foreground font-medium">Somatic Experiencing</strong> and contemporary understandings of autonomic nervous system functioning, treatment focuses on increasing awareness of physiological stress responses, supporting the body&rsquo;s capacity for regulation, and assisting the nervous system in shifting out of chronic threat states.
