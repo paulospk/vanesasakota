@@ -128,19 +128,46 @@ export default function DetailsSection() {
               Evidence Base
             </p>
             <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-snug">
-              Grounded in Research
+              Grounded in Science &amp; Research
             </h2>
             <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
-              This work draws on established frameworks in <strong className="text-foreground font-medium">somatic psychotherapy</strong>, <strong className="text-foreground font-medium">polyvagal theory</strong>, <strong className="text-foreground font-medium">psychoneuroimmunology</strong>, and <strong className="text-foreground font-medium">central sensitisation</strong>, alongside a growing body of clinical research into the mind-body connection.
+              This work is informed by established frameworks across <strong className="text-foreground font-medium">somatic psychotherapy</strong>, <strong className="text-foreground font-medium">polyvagal theory</strong>, <strong className="text-foreground font-medium">psychoneuroimmunology</strong>, and <strong className="text-foreground font-medium">central sensitisation</strong>. Contemporary clinical research offers valuable insight into how trauma, chronic stress, and adversity can interact with physical biology, mapping the complex pathways between mind and body.
+            </p>
+            <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
+              Review the clinical research surrounding how stress responses can manifest physically, how these symptoms are viewed through a whole-person lens, and the frameworks that support physical recovery.
             </p>
             <div className="pt-2">
               <a
                 href="/for-providers"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-foreground text-background text-sm font-medium tracking-wide hover:opacity-90 transition-opacity"
               >
-                Explore the evidence
+                Explore the evidence base
                 <span aria-hidden="true">&rarr;</span>
               </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Referrals */}
+      <section className="bg-secondary/40 border-b border-border">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-12 md:py-24">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
+            <div className="lg:col-span-3">
+              <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-muted-foreground mb-4">
+                For Clinicians
+              </p>
+              <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
+                Referrals
+              </h2>
+            </div>
+            <div className="lg:col-span-7 space-y-6 max-w-[680px]">
+              <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
+                I welcome collaborative referrals from GPs, gynaecologists, dermatologists, physiotherapy specialists, and other clinicians working with patients whose physical symptoms persist following appropriate medical assessment and investigations.
+              </p>
+              <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
+                Recognising that complex psychophysiological symptoms are best addressed through an integrated, whole-person approach, I value interdisciplinary care and am always happy to liaise regarding shared patient management. Please feel free to reach out directly for a brief initial conversation prior to making a referral.
+              </p>
             </div>
           </div>
         </div>
