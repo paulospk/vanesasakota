@@ -13,20 +13,21 @@ const sections: Section[] = [
     title: "The Foundational Link: Adverse Childhood Experiences (ACEs)",
     paragraphs: [
       {
-        heading: "The Research | The CDC-Kaiser Permanente ACE Study",
-        body: "This landmark epidemiological study evaluated over 17,000 participants, tracking the direct relationship between early life adversity (such as chronic stress, abuse, neglect, or household dysfunction) and adult medical outcomes.",
+        heading: "The Research: The CDC-Kaiser Permanente ACE Study",
+        body: "This landmark epidemiological study evaluated over 17,000 participants, tracking the statistically significant relationships between early life adversity (such as chronic stress, neglect, or household dysfunction) and adult health outcomes.",
       },
       {
-        heading: "The Physical Footprint",
-        body: "Early life stress fundamentally alters adult biology. There is a direct, dose-response relationship between the amount of childhood adversity experienced and the likelihood of developing chronic physical illness in adulthood.",
+        heading: "Key Takeaways",
+        body: "",
       },
       {
-        heading: "Elevated Risk Profile",
-        body: "Individuals with higher ACE scores show statistically significant, higher rates of chronic pain, autoimmune conditions, and chronic fatigue.",
+        body: "The Physical Footprint: Research suggests that significant early life stress can alter long-term physiological development. Data indicates a strong correlation between the amount of childhood adversity experienced and the likelihood of experiencing chronic physical symptoms in adulthood.",
       },
       {
-        heading: "An Independent Cause",
-        body: "This link persists even when controlling for health behaviours like smoking, diet, or alcohol use, proving that adversity itself directly alters long-term physiological development.",
+        body: "Elevated Risk Profile: Individuals with higher ACE scores statistically show a higher prevalence of chronic pain, autoimmune flare-ups, and chronic fatigue.",
+      },
+      {
+        body: "A Distinct Factor: This strong correlation remains significant even when accounting for health behaviors like smoking, diet, or alcohol use—suggesting that the physiological impact of prolonged stress itself is a major contributing factor to adult health.",
       },
     ],
   },
@@ -35,20 +36,21 @@ const sections: Section[] = [
     title: "Biological Pathways: Psychoneuroimmunology (PNI)",
     paragraphs: [
       {
-        heading: "The Research | Neuroendocrine-Immune System Dysregulation",
-        body: "Contemporary research in PNI examines how prolonged psychological stress directly signals the nervous system, the endocrine (hormone) system, and the immune system.",
+        heading: "The Research: Neuroendocrine-Immune System Pathways",
+        body: "Contemporary research in PNI examines the complex interactions between the nervous system, the endocrine (hormone) system, and the immune system during periods of prolonged stress.",
       },
       {
-        heading: "System-Wide Inflammation",
-        body: "Chronic stress forces the nervous system to remain in a state of perpetual threat. This tells the immune system to continuously release pro-inflammatory proteins (cytokines).",
+        heading: "Key Takeaways",
+        body: "",
       },
       {
-        heading: "Sensitised Pain Pathways",
-        body: "Prolonged inflammation can result in peripheral sensitisation, causing widespread muscle tension, increased sensitivity to pain, and chronic tissue distress.",
+        body: "System-Wide Responses: When the nervous system detects persistent stress, it can trigger the immune system to release pro-inflammatory proteins (cytokines).",
       },
       {
-        heading: "Hormonal Imbalance",
-        body: "Chronic arousal alters cortisol production, which directly impairs the body's natural ability to regulate sleep, digestion, and systemic healing.",
+        body: "Sensitised Pain Pathways: Prolonged inflammatory responses are linked to peripheral sensitization, which can contribute to widespread muscle tension, heightened sensitivity to pain, and tissue distress.",
+      },
+      {
+        body: "Hormonal Fluctuations: Chronic arousal can disrupt cortisol regulation, potentially impacting the body's natural sleep cycles, digestion, and systemic recovery.",
       },
     ],
   },
@@ -57,20 +59,21 @@ const sections: Section[] = [
     title: "Somatic Protection: Pelvic Health & Autonomic Bracing",
     paragraphs: [
       {
-        heading: "The Research | Neuromuscular Guarding & Autonomic Defense Responses",
-        body: "Clinical trials exploring functional pelvic pain conditions (such as vaginismus, vulvodynia, and chronic pelvic pain) look at how the autonomic nervous system commands muscle tissue.",
+        heading: "The Research: Polyvagal Theory and Autonomic Defense Responses",
+        body: "Clinical literature exploring functional pelvic pain conditions (such as vaginismus, vulvodynia, and chronic pelvic pain) investigates how the autonomic nervous system influences muscle tension.",
       },
       {
-        heading: "The Pelvic Floor as a Shield",
-        body: "The muscles of the pelvic floor are highly sensitive to autonomic defense states (fight, flight, or freeze). When the nervous system perceives threat or vulnerability, it can trigger an involuntary, chronic bracing pattern in these tissues.",
+        heading: "Key Takeaways",
+        body: "",
       },
       {
-        heading: "Persistent Muscular Memory",
-        body: "Long after an initial injury heals or a stressful event passes, the nervous system can keep pelvic muscles locked in a defensive, hyper-toned state.",
+        body: "The Pelvic Floor as a Protective Shield: Guided by Polyvagal Theory, researchers observe that when the nervous system detects danger or vulnerability, it can trigger defensive states (fight, flight, or freeze). This can manifest as involuntary, chronic muscular bracing in the pelvic floor.",
       },
       {
-        heading: "De-Escalating the Guarding",
-        body: "Physical recovery depends on signalling safety to the autonomic nervous system to deactivate this deep muscular shielding pattern.",
+        body: "Persistent Guarding Patterns: Long after an initial physical injury has healed or a stressful period has passed, the nervous system may maintain these defensive, hyper-toned muscular patterns.",
+      },
+      {
+        body: "De-Escalating the System: Clinical approaches focus on signaling safety to the autonomic nervous system, helping the body gradually deactivate this protective shielding pattern.",
       },
     ],
   },
@@ -79,42 +82,44 @@ const sections: Section[] = [
     title: "The Brain-Skin Axis: Psychodermatological Manifestations",
     paragraphs: [
       {
-        heading: "The Research | Embryonic Origins and Cutaneous Neuropeptides",
-        body: "Dermatological and neurobiological research investigates why stress directly provokes cutaneous flare-ups in conditions like eczema, psoriasis, stress-related hair loss, and vitiligo.",
+        heading: "The Research: Embryonic Origins and Cutaneous Neuropeptides",
+        body: "Dermatological and neurobiological research investigates the pathways through which psychological stress can interact with conditions like eczema, psoriasis, stress-related hair loss, and vitiligo.",
       },
       {
-        heading: "A Shared Cellular Origin",
-        body: "In the womb, human skin and the nervous system develop from the exact same embryonic layer (the ectoderm). They remain intrinsically connected throughout life.",
+        heading: "Key Takeaways",
+        body: "",
       },
       {
-        heading: "Neurogenic Inflammation",
-        body: "Under psychological stress, the brain releases specific chemical messengers (neuropeptides) directly into the skin. This triggers localised inflammation, weakens the skin barrier, and initiates flare-ups.",
+        body: "A Shared Cellular Origin: In embryo development, human skin and the nervous system grow from the same layer (the ectoderm), remaining intrinsically connected throughout life.",
       },
       {
-        heading: "Bi-Directional Feedback",
-        body: "Because the skin behaves as a literal mirror of the autonomic nervous system, working directly with nervous system regulation helps reduce the frequency and severity of stress-responsive skin flares.",
+        body: "Neurogenic Inflammation: During periods of psychological stress, the brain can release specific chemical messengers (neuropeptides) into the skin. This can trigger localized inflammation, potentially weakening the skin barrier and contributing to symptom flare-ups.",
+      },
+      {
+        body: "Bi-Directional Feedback: Because the skin frequently reflects autonomic nervous system activity, incorporating nervous system regulation strategies may help reduce the frequency and intensity of stress-responsive skin flares.",
       },
     ],
   },
   {
     number: "05",
-    title: "Amplified Signalling: Central Sensitisation",
+    title: "Amplified Signaling: Central Sensitisation",
     paragraphs: [
       {
-        heading: "The Research | Neural Plasticity and Maladaptive Processing",
-        body: "Studies on the central nervous system demonstrate how the brain and spinal cord process everyday sensory data after periods of chronic stress or trauma.",
+        heading: "The Research: Neural Plasticity and Sensory Processing",
+        body: "Studies on the central nervous system demonstrate how the brain and spinal cord process ordinary sensory data following periods of chronic stress or trauma.",
       },
       {
-        heading: "The Faulty Volume Control",
-        body: "In functional and psychophysiological symptoms, the central nervous system undergoes a process called central sensitisation. The spinal cord and brain turn up the volume on regular bodily signals.",
+        heading: "Key Takeaways",
+        body: "",
       },
       {
-        heading: "Real Pain, Intact Structure",
-        body: "Normal sensory inputs, like mild touch, temperature shifts, or natural digestion, are misprocessed by the hypersensitive nervous system and registered as severe pain or distress.",
+        body: "Altered Volume Control: In many functional and psychophysiological symptoms, the central nervous system can undergo a process called central sensitisation, where the spinal cord and brain amplify regular bodily signals.",
       },
       {
-        heading: "A Software Distortion",
-        body: "The symptoms are completely real, but they are a functional software processing error in the nervous system rather than a structural hardware defect (like a broken bone). Because the nervous system is neuroplastic, this processing loop can be systematically retrained and turned back down.",
+        body: "Real Symptoms, Intact Structure: Normal sensory inputs—such as mild touch, temperature shifts, or natural digestion—can be misprocessed by a hypersensitive nervous system and registered as pain or discomfort, even in the absence of structural tissue damage.",
+      },
+      {
+        body: "A Processing Disruption: The symptoms are completely real, but they represent a functional processing error in the nervous system rather than a structural defect (like a fracture). Because the nervous system is neuroplastic, these amplified processing loops can often be systematically retrained and turned back down.",
       },
     ],
   },
@@ -123,10 +128,10 @@ const sections: Section[] = [
     title: "The Whole-Person Lens: Relational & Biopsychosocial Healing",
     paragraphs: [
       {
-        body: "We cannot look at physical symptoms in isolation. True recovery requires a biopsychosocial lens, meaning we look at the interaction between your biological health, your internal psychology, and your social or relational environment.",
+        body: "Complex physical symptoms are rarely maintained by a single factor. Lasting recovery is best supported through a biopsychosocial lens, which considers the continuous interaction between your biological health, your internal psychology, and your social or relational environment.",
       },
       {
-        body: "Furthermore, because chronic stress and nervous system dysregulation often develop within challenging relational contexts, true biological healing must also happen in a relational space. A hyper-vigilant nervous system cannot simply think its way into safety alone; it requires co-regulation, the lived experience of safety within a secure, collaborative therapeutic relationship.",
+        body: "Furthermore, because chronic stress and nervous system dysregulation frequently develop within challenging relational contexts, contemporary models indicate that biological healing is deeply supported within a relational space. A hyper-vigilant nervous system rarely down-regulates through cognitive effort alone; it typically relies on co-regulation—the lived experience of safety within a secure, collaborative therapeutic relationship.",
       },
     ],
   },
