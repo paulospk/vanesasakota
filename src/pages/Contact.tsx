@@ -110,7 +110,7 @@ const Contact = () => {
               <div className="space-y-3">
                 <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">Referrals & Rebates</p>
                 <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.75]">
-                  You do not need a GP referral or a Mental Health Care Plan to book. Because this practice operates independently of the Medicare system, our work is confidential and not restricted by a capped number of sessions or rigid treatment checklists.
+                  You do not need a GP referral or a Mental Health Care Plan to book. Because this practice operates independently of the Medicare system, our work is confidential and not restricted by a capped number of sessions and checklists.
                 </p>
                 <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.75]">
                   Many major private health funds provide rebates for sessions with PACFA-registered clinical psychotherapists. Please check directly with your insurer to confirm if your specific policy covers psychotherapy.
