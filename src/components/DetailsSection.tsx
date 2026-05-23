@@ -45,7 +45,7 @@ const helpItems: { title: string; description: ReactNode }[] = [
     ),
   },
   {
-    title: "Psychophysiological Resolution",
+    title: "Functional & Stress-Responsive Presentations",
     description: (
       <>
         Working with <strong className="text-foreground font-medium">functional and psychophysiological symptoms</strong>: very real physical experiences that map to altered nervous system signalling rather than structural or organic disease.
