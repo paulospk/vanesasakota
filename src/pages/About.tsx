@@ -9,8 +9,8 @@ const About = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-14">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
             <div className="space-y-6 animate-fade-up max-w-[800px]">
               <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
                 About
@@ -40,8 +40,8 @@ const About = () => {
 
       {/* How I work */}
       <section className="border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-14">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
             <div className="lg:col-span-3">
               <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground mb-3">
                 Approach
@@ -86,8 +86,8 @@ const About = () => {
 
       {/* Education & Memberships */}
       <section>
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-14">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
             <div className="lg:col-span-3">
               <h2 className="font-serif text-2xl md:text-3xl text-foreground">
                 Education &amp; Memberships

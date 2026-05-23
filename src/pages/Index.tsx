@@ -14,8 +14,8 @@ const Index = () => {
 
       {/* Education & Memberships */}
       <section className="bg-background border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-12 md:py-24">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
             <div className="lg:col-span-3">
               <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-muted-foreground mb-4">
                 Credentials

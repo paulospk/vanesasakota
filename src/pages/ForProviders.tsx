@@ -150,7 +150,7 @@ const ForProviders = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-14">
           <div className="max-w-3xl animate-fade-up">
             <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
               The Evidence Base
@@ -161,7 +161,7 @@ const ForProviders = () => {
 
       {/* Sections */}
       <section className="border-b border-border">
-        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-8 md:py-16">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-12">
           <div className="space-y-20 md:space-y-24">
             {sections.map((s) => (
               <SectionBlock key={s.number} section={s} />
@@ -173,7 +173,7 @@ const ForProviders = () => {
 
       {/* Referrals */}
       <section>
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-14">
           <div className="max-w-[680px] space-y-6">
             <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground">
               Referrals

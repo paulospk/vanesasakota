@@ -59,21 +59,21 @@ export default function DetailsSection() {
     <>
       {/* The Systems Approach */}
       <section className="bg-background border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-12 md:py-24">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
             <div className="lg:col-span-3">
               <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
                 An Integrative Systems Approach
               </h2>
             </div>
-            <div className="lg:col-span-7 space-y-12 max-w-[680px]">
+            <div className="lg:col-span-7 space-y-6 max-w-[680px]">
               <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
                 Persistent physical symptoms are rarely maintained by a single factor. My approach considers the continuous interaction between cognitive, emotional, behavioural, relational, and autonomic processes that may contribute to symptom persistence following appropriate medical assessment.
               </p>
               <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
                 Treatment integrates evidence-based psychotherapy with somatic approaches to help individuals understand symptom patterns, manage symptom-related distress, improve daily functioning, and support long-term recovery while working alongside ongoing medical care.
               </p>
-              <ul className="space-y-10">
+              <ul className="space-y-6">
                 {pillars.map((p) => (
                   <li key={p.title} className="border-l-2 border-border pl-6">
                     <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug mb-2">
@@ -92,8 +92,8 @@ export default function DetailsSection() {
 
       {/* Clinical Focus */}
       <section className="bg-secondary/40 border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-12 md:py-24">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 lg:gap-16">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
             <div className="lg:col-span-3">
               <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-muted-foreground mb-4">
                 Clinical Focus
@@ -122,7 +122,7 @@ export default function DetailsSection() {
 
       {/* Evidence Base */}
       <section className="bg-background border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-12 md:py-24">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-12">
           <div className="max-w-[760px] space-y-6">
             <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-muted-foreground">
               Evidence Base

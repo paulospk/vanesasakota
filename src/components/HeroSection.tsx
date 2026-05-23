@@ -5,9 +5,9 @@ export default function HeroSection() {
   return (
     <section className="bg-hero border-b border-border">
       <div className="max-w-[1100px] mx-auto px-5 md:px-8 pt-20 pb-16 md:pt-32 md:pb-24">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
           {/* Left: Text */}
-          <div className="space-y-8 animate-fade-up max-w-[800px]">
+          <div className="space-y-6 animate-fade-up max-w-[800px]">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
               Mind-Body Psychotherapy Sydney
             </h1>
