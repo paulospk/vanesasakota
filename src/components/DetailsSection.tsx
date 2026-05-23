@@ -115,9 +115,6 @@ export default function DetailsSection() {
                   </li>
                 ))}
               </ul>
-              <p className="text-muted-foreground text-sm leading-[1.8] mt-10 max-w-[680px]">
-                I welcome collaborative referrals from GPs, gynaecologists, dermatologists, physiotherapy specialists, and other clinicians. Please feel free to <a href="/contact" className="underline underline-offset-4 hover:text-foreground transition-colors">reach out directly</a> for a brief initial conversation prior to making a referral.
-              </p>
             </div>
           </div>
         </div>
