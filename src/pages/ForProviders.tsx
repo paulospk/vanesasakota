@@ -171,15 +171,10 @@ const ForProviders = () => {
       {/* Hero */}
       <section className="bg-hero border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
-          <div className="max-w-3xl space-y-6 animate-fade-up">
-            <p className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
-              Mind-Body Evidence
-            </p>
+          <div className="max-w-3xl animate-fade-up">
             <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
-              The Evidence Base: The Science of Psychophysiological Symptoms
+              The Evidence Base
             </h1>
-            <div className="space-y-5 text-muted-foreground text-lg leading-[1.8]">
-            </div>
           </div>
         </div>
       </section>
