@@ -51,9 +51,6 @@ const About = () => {
               </h2>
             </div>
             <div className="lg:col-span-7 max-w-[680px] space-y-5 text-muted-foreground text-base md:text-lg leading-[1.8]">
-              <p>
-                Persistent physical symptoms are rarely maintained by a single factor. My approach considers the interaction between cognitive, emotional, behavioural, relational, and autonomic processes that may contribute to symptom persistence following appropriate medical assessment.
-              </p>
 
               <div className="pt-4 space-y-6">
                 <div>

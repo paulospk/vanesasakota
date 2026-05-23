@@ -67,9 +67,6 @@ export default function DetailsSection() {
               </h2>
             </div>
             <div className="lg:col-span-7 space-y-6 max-w-[680px]">
-              <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
-                Persistent physical symptoms are rarely maintained by a single factor. My approach considers the continuous interaction between cognitive, emotional, behavioural, relational, and autonomic processes that may contribute to symptom persistence following appropriate medical assessment.
-              </p>
               <ul className="space-y-6">
                 {pillars.map((p) => (
                   <li key={p.title} className="border-l-2 border-border pl-6">
