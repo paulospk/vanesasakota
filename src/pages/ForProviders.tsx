@@ -17,10 +17,6 @@ const sections: Section[] = [
         body: "This landmark epidemiological study evaluated over 17,000 participants, tracking the statistically significant relationships between early life adversity (such as chronic stress, neglect, or household dysfunction) and adult health outcomes.",
       },
       {
-        heading: "Key Takeaways",
-        body: "",
-      },
-      {
         body: "The Physical Footprint: Research suggests that significant early life stress can alter long-term physiological development. Data indicates a strong correlation between the amount of childhood adversity experienced and the likelihood of experiencing chronic physical symptoms in adulthood.",
       },
       {
@@ -38,10 +34,6 @@ const sections: Section[] = [
       {
         heading: "The Research: Neuroendocrine-Immune System Pathways",
         body: "Contemporary research in PNI examines the complex interactions between the nervous system, the endocrine (hormone) system, and the immune system during periods of prolonged stress.",
-      },
-      {
-        heading: "Key Takeaways",
-        body: "",
       },
       {
         body: "System-Wide Responses: When the nervous system detects persistent stress, it can trigger the immune system to release pro-inflammatory proteins (cytokines).",
@@ -63,10 +55,6 @@ const sections: Section[] = [
         body: "Clinical literature exploring functional pelvic pain conditions (such as vaginismus, vulvodynia, and chronic pelvic pain) investigates how the autonomic nervous system influences muscle tension.",
       },
       {
-        heading: "Key Takeaways",
-        body: "",
-      },
-      {
         body: "The Pelvic Floor as a Protective Shield: Guided by Polyvagal Theory, researchers observe that when the nervous system detects danger or vulnerability, it can trigger defensive states (fight, flight, or freeze). This can manifest as involuntary, chronic muscular bracing in the pelvic floor.",
       },
       {
@@ -86,10 +74,6 @@ const sections: Section[] = [
         body: "Dermatological and neurobiological research investigates the pathways through which psychological stress can interact with conditions like eczema, psoriasis, stress-related hair loss, and vitiligo.",
       },
       {
-        heading: "Key Takeaways",
-        body: "",
-      },
-      {
         body: "A Shared Cellular Origin: In embryo development, human skin and the nervous system grow from the same layer (the ectoderm), remaining intrinsically connected throughout life.",
       },
       {
@@ -107,10 +91,6 @@ const sections: Section[] = [
       {
         heading: "The Research: Neural Plasticity and Sensory Processing",
         body: "Studies on the central nervous system demonstrate how the brain and spinal cord process ordinary sensory data following periods of chronic stress or trauma.",
-      },
-      {
-        heading: "Key Takeaways",
-        body: "",
       },
       {
         body: "Altered Volume Control: In many functional and psychophysiological symptoms, the central nervous system can undergo a process called central sensitisation, where the spinal cord and brain amplify regular bodily signals.",
