@@ -118,25 +118,25 @@ const sections: Section[] = [
 ];
 
 const SectionBlock = ({ section }: { section: Section }) => (
-  <article className="border-t border-border pt-16 first:border-t-0 first:pt-0">
-    <div className="mb-8 flex items-baseline gap-4">
+  <article className="border-t border-border pt-8 md:pt-16 first:border-t-0 first:pt-0">
+    <div className="mb-4 md:mb-8 flex items-baseline gap-3 md:gap-4">
       <span className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
         {section.number}
       </span>
-      <h3 className="font-serif text-2xl md:text-3xl tracking-tight text-foreground">
+      <h3 className="font-serif text-xl md:text-3xl tracking-tight text-foreground">
         {section.title}
       </h3>
     </div>
 
-    <div className="space-y-6">
+    <div className="space-y-4 md:space-y-6">
       {section.paragraphs.map((p, i) => (
         <div key={i}>
           {p.heading && (
-            <h4 className="uppercase tracking-[0.2em] text-xs font-semibold text-foreground mb-3">
+            <h4 className="uppercase tracking-[0.2em] text-xs font-semibold text-foreground mb-2 md:mb-3">
               {p.heading}
             </h4>
           )}
-          <p className="text-muted-foreground leading-relaxed">{p.body}</p>
+          <p className="text-muted-foreground leading-relaxed text-[15px] md:text-base">{p.body}</p>
         </div>
       ))}
     </div>
