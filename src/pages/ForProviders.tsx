@@ -10,91 +10,126 @@ type Section = {
 const sections: Section[] = [
   {
     number: "01",
-    title: "The Developmental Baseline: Early Relational Stress & ACEs",
+    title: "The Foundational Link: Adverse Childhood Experiences (ACEs)",
     paragraphs: [
       {
-        body: "We now know that our nervous system calibrates its baseline threat detection early in life. When a child experiences persistent relational stress, such as chronic misattunement with primary caregivers, emotional neglect, or unpredictable boundaries, the brain adapts to ensure survival. It alters the functional development of key threat-processing and somatic hubs, including the amygdala and the insular cortex.",
+        heading: "The Research | The CDC-Kaiser Permanente ACE Study",
+        body: "This landmark epidemiological study evaluated over 17,000 participants, tracking the direct relationship between early life adversity (such as chronic stress, abuse, neglect, or household dysfunction) and adult medical outcomes.",
       },
       {
-        heading: "What This Means on the Ground",
-        body: "Early life stress essentially sets the central threat-detection hardware to a permanent surveillance mode. In adulthood, this means the body operates with a structurally lower threshold for stress reactivity. The nervous system becomes highly protective, anticipating danger and preparing to defend its physical boundaries long before a conscious trigger even occurs.",
+        heading: "The Physical Footprint",
+        body: "Early life stress fundamentally alters adult biology. There is a direct, dose-response relationship between the amount of childhood adversity experienced and the likelihood of developing chronic physical illness in adulthood.",
       },
       {
-        heading: "How It Can Manifest",
-        body: "This underlying neural vulnerability often forms the bedrock for Generalized Anxiety Disorder (GAD), Panic Disorder, attachment-related anxiety, Complex PTSD (C-PTSD), and Somatic Symptom Disorder.",
+        heading: "Elevated Risk Profile",
+        body: "Individuals with higher ACE scores show statistically significant, higher rates of chronic pain, autoimmune conditions, and chronic fatigue.",
+      },
+      {
+        heading: "An Independent Cause",
+        body: "This link persists even when controlling for health behaviours like smoking, diet, or alcohol use, proving that adversity itself directly alters long-term physiological development.",
       },
     ],
   },
   {
     number: "02",
-    title: "The Neurological Highway: The HPA Axis & Central Sensitization",
+    title: "Biological Pathways: Psychoneuroimmunology (PNI)",
     paragraphs: [
       {
-        body: "When an adult system with a highly sensitive baseline encounters current life stressors or relational vulnerabilities, the brain routinely triggers the Hypothalamic-Pituitary-Adrenal (HPA) axis. This neuroendocrine pathway floods the body with stress hormones and signaling proteins. Over time, chronic activation leads to a breakdown in how the central nervous system processes everyday bodily data, inducing a state of central sensitization.",
+        heading: "The Research | Neuroendocrine-Immune System Dysregulation",
+        body: "Contemporary research in PNI examines how prolonged psychological stress directly signals the nervous system, the endocrine (hormone) system, and the immune system.",
       },
       {
-        heading: "What This Means on the Ground",
-        body: "The central nervous system enters a state of hyper-reactivity, essentially turning the internal volume knob on sensory input all the way up. The spinal cord stops filtering out background noise. Safe, normal, or minor background bodily sensations are amplified and transmitted to the brain as severe threat signals.",
+        heading: "System-Wide Inflammation",
+        body: "Chronic stress forces the nervous system to remain in a state of perpetual threat. This tells the immune system to continuously release pro-inflammatory proteins (cytokines).",
       },
       {
-        heading: "How It Can Manifest",
-        body: "This neurochemical pipeline frequently drives systemic conditions such as Fibromyalgia, Chronic Fatigue Syndrome (ME/CFS), Irritable Bowel Syndrome (IBS), functional dyspepsia, and chronic tension-type headaches.",
+        heading: "Sensitised Pain Pathways",
+        body: "Prolonged inflammation can result in peripheral sensitisation, causing widespread muscle tension, increased sensitivity to pain, and chronic tissue distress.",
+      },
+      {
+        heading: "Hormonal Imbalance",
+        body: "Chronic arousal alters cortisol production, which directly impairs the body's natural ability to regulate sleep, digestion, and systemic healing.",
       },
     ],
   },
   {
     number: "03",
-    title: "The Live System Loop: Predictive Coding & Active Inference",
+    title: "Somatic Protection: Pelvic Health & Autonomic Bracing",
     paragraphs: [
       {
-        body: "The latest peer-reviewed systems neuroscience establishes that functional symptoms are not immutable trauma memories literally stored or archived in rigid muscle fibers or deep fascia. Instead, the brain functions as a dynamic prediction engine. It relies on past data to project top-down expectations onto the body, prioritizing its deeply ingrained danger predictions over real-time sensory evidence of safety.",
+        heading: "The Research | Neuromuscular Guarding & Autonomic Defense Responses",
+        body: "Clinical trials exploring functional pelvic pain conditions (such as vaginismus, vulvodynia, and chronic pelvic pain) look at how the autonomic nervous system commands muscle tissue.",
       },
       {
-        body: "This predictive software glitch typically manifests in the body through two distinct pathways:",
+        heading: "The Pelvic Floor as a Shield",
+        body: "The muscles of the pelvic floor are highly sensitive to autonomic defense states (fight, flight, or freeze). When the nervous system perceives threat or vulnerability, it can trigger an involuntary, chronic bracing pattern in these tissues.",
       },
       {
-        heading: "Sensory Amplification (The Blurry Map)",
-        body: "Because the brain is projecting an intense expectation of danger onto a specific physical region, the neural map of that body part in the sensory cortex becomes smudged and blurred. The brain misinterprets completely safe mechanical inputs, like light touch, clothing, or minor temperature changes, and actively constructs them as an intense burning, raw, or painful sensation.",
+        heading: "Persistent Muscular Memory",
+        body: "Long after an initial injury heals or a stressful event passes, the nervous system can keep pelvic muscles locked in a defensive, hyper-toned state.",
       },
       {
-        heading: "Motor & Visceral Bracing (The Involuntary Shield)",
-        body: "If an emotional experience or interpersonal boundary feels unsafe or threatens to overwhelm the system, the brain skips conscious processing and executes an immediate physical defense, commanding local muscle groups to tightly contract, spasm, and lock down.",
-      },
-      {
-        heading: "How It Can Manifest | Sensory Amplification",
-        body: "Localized Provoked Vulvodynia (Vestibulodynia), Burning Mouth Syndrome (BMS), chronic idiopathic pruritus (unexplained skin itching), and localized atypical facial pain.",
-      },
-      {
-        heading: "How It Can Manifest | Motor & Visceral Bracing",
-        body: "Vaginismus, hypertonic pelvic floor dysfunction, temporomandibular joint (TMJ) disorders, globus pharyngeus (the feeling of a lump in the throat), tension-induced bruxism (jaw clenching), and psychogenic tremors.",
+        heading: "De-Escalating the Guarding",
+        body: "Physical recovery depends on signalling safety to the autonomic nervous system to deactivate this deep muscular shielding pattern.",
       },
     ],
   },
   {
     number: "04",
-    title: "The Self-Sustaining Cycle: Circular Inference",
+    title: "The Brain-Skin Axis: Psychodermatological Manifestations",
     paragraphs: [
       {
-        body: "Once a psychophysiological symptom manifests physically, the brain enters a state of circular inference. It projects a prediction of pain or tension, encounters the physical bracing or burning it just created, and uses that very sensation as absolute proof that the body remains under immediate threat.",
+        heading: "The Research | Embryonic Origins and Cutaneous Neuropeptides",
+        body: "Dermatological and neurobiological research investigates why stress directly provokes cutaneous flare-ups in conditions like eczema, psoriasis, stress-related hair loss, and vitiligo.",
       },
       {
-        heading: "What This Means on the Ground",
-        body: "A closed, self-sustaining feedback loop forms. The genuine physical distress triggers understandable anticipatory dread, hyperfocus, and anxiety. This emotional arousal immediately fuels the HPA axis and reinforces the brain's danger predictions. The symptom now maintains itself entirely from the top down, even when your current environment is completely safe, stable, and supportive.",
+        heading: "A Shared Cellular Origin",
+        body: "In the womb, human skin and the nervous system develop from the exact same embryonic layer (the ectoderm). They remain intrinsically connected throughout life.",
       },
       {
-        heading: "How It Can Manifest",
-        body: "Illness Anxiety Disorder (health anxiety), severe somatic hyperfocus, panic cycles triggered primarily by bodily sensations, kinesiophobia (fear of movement), and secondary chronic insomnia.",
+        heading: "Neurogenic Inflammation",
+        body: "Under psychological stress, the brain releases specific chemical messengers (neuropeptides) directly into the skin. This triggers localised inflammation, weakens the skin barrier, and initiates flare-ups.",
+      },
+      {
+        heading: "Bi-Directional Feedback",
+        body: "Because the skin behaves as a literal mirror of the autonomic nervous system, working directly with nervous system regulation helps reduce the frequency and severity of stress-responsive skin flares.",
       },
     ],
   },
-];
-
-const references = [
-  "Chrousos, G. P. (2009). Stress and disorders of the stress system. Nature Reviews Endocrinology, 5(7), 374–381.",
-  "Felitti, V. J., Anda, R. F., Nordenberg, D., Williamson, D. F., Spitz, A. M., Edwards, V., Koss, M. P., & Marks, J. S. (1998). Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults: The Adverse Childhood Experiences (ACE) Study. American Journal of Preventive Medicine, 14(4), 245–258.",
-  "Fitzcharles, M. A., Cohen, S. P., Clauw, D. J., Littlejohn, G., Usui, C., & Häuser, W. (2021). Nociplastic pain: towards an understanding of prevalent pain conditions. The Lancet, 397(10289), 2098–2110.",
-  "Kotler, S., Mannino, M., Fox, G., & Friston, K. (2026). The body does not keep the score: trauma, predictive coding, and the restoration of metastability. Frontiers in Systems Neuroscience, 20, Article 1812957.",
-  "Shonkoff, J. P., Garner, A. S., Committee on Early Childhood, Adoption, and Dependent Care, Section on Developmental and Behavioral Pediatrics, & American Academy of Pediatrics. (2012). The lifelong effects of early childhood adversity and toxic stress. Pediatrics, 129(1), e232–e246.",
+  {
+    number: "05",
+    title: "Amplified Signalling: Central Sensitisation",
+    paragraphs: [
+      {
+        heading: "The Research | Neural Plasticity and Maladaptive Processing",
+        body: "Studies on the central nervous system demonstrate how the brain and spinal cord process everyday sensory data after periods of chronic stress or trauma.",
+      },
+      {
+        heading: "The Faulty Volume Control",
+        body: "In functional and psychophysiological symptoms, the central nervous system undergoes a process called central sensitisation. The spinal cord and brain turn up the volume on regular bodily signals.",
+      },
+      {
+        heading: "Real Pain, Intact Structure",
+        body: "Normal sensory inputs, like mild touch, temperature shifts, or natural digestion, are misprocessed by the hypersensitive nervous system and registered as severe pain or distress.",
+      },
+      {
+        heading: "A Software Distortion",
+        body: "The symptoms are completely real, but they are a functional software processing error in the nervous system rather than a structural hardware defect (like a broken bone). Because the nervous system is neuroplastic, this processing loop can be systematically retrained and turned back down.",
+      },
+    ],
+  },
+  {
+    number: "06",
+    title: "The Whole-Person Lens: Relational & Biopsychosocial Healing",
+    paragraphs: [
+      {
+        body: "We cannot look at physical symptoms in isolation. True recovery requires a biopsychosocial lens, meaning we look at the interaction between your biological health, your internal psychology, and your social or relational environment.",
+      },
+      {
+        body: "Furthermore, because chronic stress and nervous system dysregulation often develop within challenging relational contexts, true biological healing must also happen in a relational space. A hyper-vigilant nervous system cannot simply think its way into safety alone; it requires co-regulation, the lived experience of safety within a secure, collaborative therapeutic relationship.",
+      },
+    ],
+  },
 ];
 
 const SectionBlock = ({ section }: { section: Section }) => (
@@ -136,14 +171,11 @@ const ForProviders = () => {
               Mind-Body Evidence
             </p>
             <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
-              The Mind-Body Pipeline: How Chronic Alarm Becomes Physical Symptoms
+              The Evidence Base: The Science of Psychophysiological Symptoms
             </h1>
             <div className="space-y-5 text-muted-foreground text-lg leading-[1.8]">
               <p>
-                When you experience persistent physical symptoms without an underlying organic cause, the distress you feel is entirely real. It is not an illusion, nor is it all in your head. Instead, it is a tangible, visible, and highly coordinated protective process executed in real time by a sensitized nervous system.
-              </p>
-              <p>
-                By looking through a modern psycho-neuro-immunological lens, we can trace a clear, evidence-based line from early life relational history down to the real-time neural software that creates and maintains non-organic physical distress.
+                Persistent physical symptoms are not imaginary. They are the measurable, biological outcomes of a nervous system responding to chronic stress, trauma, and adversity. Below is the clinical research mapping exactly how these experiences manifest in the physical body, how we view these symptoms, and how lasting recovery is achieved.
               </p>
             </div>
           </div>
@@ -161,42 +193,6 @@ const ForProviders = () => {
         </div>
       </section>
 
-      {/* Moving Forward */}
-      <section className="bg-accent/20 border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-20">
-          <div className="max-w-3xl space-y-6">
-            <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground">
-              Moving Forward: Updating the System
-            </h2>
-            <div className="space-y-5 text-muted-foreground leading-[1.8]">
-              <p>
-                Because these symptoms are driven by a protective software loop rather than permanent, organic tissue destruction, the nervous system remains entirely capable of neuroplastic re-calibration.
-              </p>
-              <p>
-                On the ground, resolution is not about trying to forcefully excavate or purge a hidden scar from your tissues. It is a structured process of retraining the brain's prediction engine. By systematically downregulating the central threat state, working directly and relationally with the parts of the system holding the danger expectations, and introducing safe, novel sensorimotor experiences, we teach the brain to stand down its protective defenses and safely return to a state of ease, flexibility, and fluid movement.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* References */}
-      <section className="border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-16">
-          <div className="max-w-3xl space-y-6">
-            <h2 className="font-serif text-2xl md:text-3xl tracking-tight text-foreground">
-              Complete Clinical References
-            </h2>
-            <ul className="space-y-4">
-              {references.map((r, i) => (
-                <li key={i} className="text-sm text-muted-foreground leading-relaxed">
-                  {r}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
 
       {/* Referrals */}
       <section>
