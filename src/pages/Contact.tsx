@@ -101,7 +101,7 @@ const Contact = () => {
                     50 minutes
                   </p>
                   <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7] pt-1">
-                    Regular sessions dedicated to your therapeutic process, typically scheduled on a weekly or fortnightly basis.
+                    Regular sessions typically scheduled on a weekly or fortnightly basis.
                   </p>
                 </div>
               </div>
