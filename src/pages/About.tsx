@@ -98,7 +98,7 @@ const About = () => {
                   <p className="text-muted-foreground text-sm mt-1">Griffith University, 2012</p>
                 </li>
                 <li>
-                  <p className="text-foreground">Certificate, Clinical Resource Therapy</p>
+                  <p className="text-foreground">Certificate, Clinical Resource Therapist</p>
                   <p className="text-muted-foreground text-sm mt-1">Resource Therapy International, 2023</p>
                 </li>
                 <li>
