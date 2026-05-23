@@ -12,12 +12,6 @@ export default function HeroSection() {
               Mind-Body Psychotherapy Sydney
             </h1>
             <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
-              Persistent physical symptoms can be complex, and experiencing them without a clear structural explanation can be challenging.
-            </p>
-            <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
-              When medical investigations rule out organic disease, research indicates that symptoms may be driven and maintained by functional changes in how the nervous system processes stress, trauma, and adversity. My practice provides a specialised, integrative approach to support individuals navigating these complex mind-body conditions.
-            </p>
-            <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
               Sydney-based psychotherapist specialising in the relationship between psychological states, stress physiology, and physical health.
             </p>
             <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
