@@ -33,7 +33,7 @@ const Index = () => {
                 She has a special interest in the physiological manifestations of chronic stress, trauma, and early life adversity, with a particular focus on pelvic floor neuro-muscular guarding (including vaginismus, vulvodynia, and chronic pelvic pain) and the brain-skin axis (including eczema, psoriasis, and stress-related hair loss). Moreover, Vanesa specializes in broader functional and stress-responsive presentations where symptoms persist despite clear medical investigations.
               </p>
               <p>
-                Vanesa takes pride in providing a grounded, highly collaborative, and relational therapeutic space aimed at assisting the nervous system in stepping down from chronic defense states. Outside of her clinical practice, she enjoys modern classic design, digital writing, and exploring the coast.
+                Vanesa takes pride in providing a grounded, highly collaborative, and relational therapeutic space aimed at assisting the nervous system in stepping down from chronic defense states. Outside of her clinical practice, she enjoys modern classic design, writing, and exploring the coast.
               </p>
             </div>
           </div>
