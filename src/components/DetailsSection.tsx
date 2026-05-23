@@ -5,7 +5,7 @@ const pillars: { title: string; description: ReactNode }[] = [
     title: "Cognitive Processes",
     description: (
       <>
-        Drawing on <strong className="text-foreground font-medium">Cognitive Behavioural Therapy (CBT)</strong> and <strong className="text-foreground font-medium">Acceptance and Commitment Therapy (ACT)</strong>, treatment addresses thought patterns, beliefs, emotional responses, and psychological flexibility that may influence symptom-related distress and daily functioning.
+        Drawing on <strong className="text-foreground font-medium">Cognitive Behavioural Therapy (CBT)</strong> and <strong className="text-foreground font-medium">Acceptance and Commitment Therapy (ACT)</strong>, treatment addresses thought patterns, core beliefs, and psychological flexibility that can influence symptom-related distress and everyday functioning.
       </>
     ),
   },
@@ -13,7 +13,7 @@ const pillars: { title: string; description: ReactNode }[] = [
     title: "Emotional & Relational Processes",
     description: (
       <>
-        Using <strong className="text-foreground font-medium">Resource Therapy</strong>, treatment explores internal states and protective patterns that may have developed in response to stress, adversity, or perceived threat. The goal is to support greater self-awareness, emotional integration, and adaptive responding.
+        Using <strong className="text-foreground font-medium">Resource Therapy (Parts Work)</strong>, we explore internal emotional states and protective patterns that may have developed in response to historical stress, adversity, or a lack of environmental safety. The goal is to support greater self-awareness, emotional integration, and more adaptive responding.
       </>
     ),
   },
@@ -21,7 +21,7 @@ const pillars: { title: string; description: ReactNode }[] = [
     title: "Autonomic & Physiological Processes",
     description: (
       <>
-        Drawing on <strong className="text-foreground font-medium">Somatic Experiencing</strong> and contemporary understandings of autonomic nervous system functioning, treatment focuses on increasing awareness of physiological stress responses and developing greater capacity for regulation, flexibility, and recovery.
+        Drawing on <strong className="text-foreground font-medium">Somatic Experiencing</strong> and contemporary understandings of autonomic nervous system functioning, treatment focuses on increasing awareness of physiological stress responses, supporting the body&rsquo;s capacity for regulation, and assisting the nervous system in shifting out of chronic threat states.
       </>
     ),
   },
@@ -32,7 +32,7 @@ const helpItems: { title: string; description: ReactNode }[] = [
     title: "Pelvic Health & Somatic Protection",
     description: (
       <>
-        Working with the nervous system&rsquo;s <strong className="text-foreground font-medium">protective responses</strong> in conditions like <strong className="text-foreground font-medium">vaginismus</strong>, <strong className="text-foreground font-medium">vulvodynia</strong> and <strong className="text-foreground font-medium">chronic pelvic pain</strong>.
+        Working with the nervous system&rsquo;s involuntary <strong className="text-foreground font-medium">protective responses</strong> and muscular guarding patterns in conditions such as <strong className="text-foreground font-medium">vaginismus</strong>, <strong className="text-foreground font-medium">vulvodynia</strong>, and <strong className="text-foreground font-medium">chronic pelvic pain</strong>.
       </>
     ),
   },
@@ -40,7 +40,7 @@ const helpItems: { title: string; description: ReactNode }[] = [
     title: "The Mind-Skin Connection",
     description: (
       <>
-        Working with <strong className="text-foreground font-medium">emotional and psychological factors</strong> that can influence stress-responsive conditions like <strong className="text-foreground font-medium">eczema</strong>, <strong className="text-foreground font-medium">psoriasis</strong>, <strong className="text-foreground font-medium">stress-related hair loss</strong> and <strong className="text-foreground font-medium">vitiligo</strong>.
+        Addressing the psychological, emotional, and <strong className="text-foreground font-medium">neurogenic inflammatory factors</strong> that can influence stress-responsive conditions such as <strong className="text-foreground font-medium">eczema</strong>, <strong className="text-foreground font-medium">psoriasis</strong>, <strong className="text-foreground font-medium">stress-related hair loss</strong>, and <strong className="text-foreground font-medium">vitiligo</strong>.
       </>
     ),
   },
@@ -48,7 +48,7 @@ const helpItems: { title: string; description: ReactNode }[] = [
     title: "Psychophysiological Resolution",
     description: (
       <>
-        Working with <strong className="text-foreground font-medium">functional and psychophysiological symptoms</strong>: real experiences that fall outside structural or organic diagnosis.
+        Working with <strong className="text-foreground font-medium">functional and psychophysiological symptoms</strong>: very real physical experiences that map to altered nervous system signalling rather than structural or organic disease.
       </>
     ),
   },
