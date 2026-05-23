@@ -208,10 +208,10 @@ const ForProviders = () => {
             </h2>
             <div className="space-y-5 text-muted-foreground leading-[1.8]">
               <p>
-                I welcome referrals from GPs, gynaecologists, dermatologists, physiotherapists, and other clinicians working with patients whose symptoms persist despite clear investigations.
+                I welcome collaborative referrals from GPs, gynaecologists, dermatologists, physiotherapists, and other clinicians working with patients whose physical symptoms persist following appropriate medical assessment and investigations.
               </p>
               <p>
-                I'm happy to have a brief conversation before a referral is made, or to liaise about shared patients. Please reach out directly.
+                Recognising that complex psychophysiological symptoms are best addressed through an integrated, whole-person approach, I value interdisciplinary care and am always happy to liaise regarding shared patient management. Please feel free to reach out directly for a brief initial conversation prior to making a referral.
               </p>
             </div>
             <div className="flex flex-wrap gap-x-8 gap-y-3 pt-4 text-sm">
