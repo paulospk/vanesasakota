@@ -118,25 +118,25 @@ const sections: Section[] = [
 ];
 
 const SectionBlock = ({ section }: { section: Section }) => (
-  <article className="border-t border-border pt-16 first:border-t-0 first:pt-0">
-    <div className="mb-8 flex items-baseline gap-4">
+  <article className="border-t border-border pt-8 md:pt-16 first:border-t-0 first:pt-0">
+    <div className="mb-4 md:mb-8 flex items-baseline gap-3 md:gap-4">
       <span className="uppercase tracking-[0.2em] text-xs font-semibold text-muted-foreground">
         {section.number}
       </span>
-      <h3 className="font-serif text-2xl md:text-3xl tracking-tight text-foreground">
+      <h3 className="font-serif text-xl md:text-3xl tracking-tight text-foreground">
         {section.title}
       </h3>
     </div>
 
-    <div className="space-y-6">
+    <div className="space-y-4 md:space-y-6">
       {section.paragraphs.map((p, i) => (
         <div key={i}>
           {p.heading && (
-            <h4 className="uppercase tracking-[0.2em] text-xs font-semibold text-foreground mb-3">
+            <h4 className="uppercase tracking-[0.2em] text-xs font-semibold text-foreground mb-2 md:mb-3">
               {p.heading}
             </h4>
           )}
-          <p className="text-muted-foreground leading-relaxed">{p.body}</p>
+          <p className="text-muted-foreground leading-relaxed text-[15px] md:text-base">{p.body}</p>
         </div>
       ))}
     </div>
@@ -150,9 +150,9 @@ const ForProviders = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-14">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-5 md:py-14">
           <div className="max-w-3xl animate-fade-up">
-            <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
+            <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.1]">
               The Evidence Base
             </h1>
           </div>
@@ -162,7 +162,7 @@ const ForProviders = () => {
       {/* Sections */}
       <section className="border-b border-border">
         <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-12">
-          <div className="space-y-20 md:space-y-24">
+          <div className="space-y-10 md:space-y-24">
             {sections.map((s) => (
               <SectionBlock key={s.number} section={s} />
             ))}
@@ -174,11 +174,11 @@ const ForProviders = () => {
       {/* Referrals */}
       <section>
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-14">
-          <div className="max-w-[680px] space-y-6">
-            <h2 className="font-serif text-3xl md:text-4xl tracking-tight text-foreground">
+          <div className="max-w-[680px] space-y-4 md:space-y-6">
+            <h2 className="font-serif text-2xl md:text-4xl tracking-tight text-foreground">
               Referrals
             </h2>
-            <div className="space-y-5 text-muted-foreground leading-[1.8]">
+            <div className="space-y-4 md:space-y-5 text-muted-foreground leading-relaxed md:leading-[1.8] text-[15px] md:text-base">
               <p>
                 I welcome collaborative referrals from GPs, gynaecologists, dermatologists, physiotherapists, and other clinicians working with patients whose physical symptoms persist following appropriate medical assessment and investigations.
               </p>
@@ -186,7 +186,7 @@ const ForProviders = () => {
                 Recognising that complex psychophysiological symptoms are best addressed through an integrated, whole-person approach, I value interdisciplinary care and am always happy to liaise regarding shared patient management. Please feel free to reach out directly for a brief initial conversation prior to making a referral.
               </p>
             </div>
-            <div className="flex flex-wrap gap-x-8 gap-y-3 pt-4 text-sm">
+            <div className="flex flex-wrap gap-x-6 md:gap-x-8 gap-y-3 pt-2 md:pt-4 text-sm">
               <a href="mailto:vanesa@vanesasakota.com.au" className="text-foreground border-b border-foreground/40 pb-1 hover:border-foreground transition-colors">
                 vanesa@vanesasakota.com.au
               </a>
