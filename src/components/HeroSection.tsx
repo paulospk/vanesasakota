@@ -14,9 +14,6 @@ export default function HeroSection() {
             <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
               Sydney-based psychotherapist specialising in the relationship between psychological states, stress physiology, and physical health.
             </p>
-            <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
-              My area of interest is working with symptoms that persist despite clear medical investigations, particularly where autonomic dysregulation, chronic stress physiology, and nervous system threat responses appear to drive or maintain physical symptoms.
-            </p>
           </div>
 
           {/* Right: Image */}
