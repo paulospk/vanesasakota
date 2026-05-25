@@ -150,10 +150,10 @@ const ForProviders = () => {
       <Helmet>
         <title>For Providers | Vanesa Sakota Psychotherapy Sydney</title>
         <meta name="description" content="Evidence base and clinical framework for referring clinicians: psychophysiological conditions, trauma-informed care and somatic psychotherapy with Vanesa Sakota in Sydney CBD." />
-        <link rel="canonical" href="https://vanesasakota.lovable.app/for-providers" />
+        <link rel="canonical" href="https://vanesasakota.com.au/for-providers" />
         <meta property="og:title" content="For Providers | Vanesa Sakota Psychotherapy" />
         <meta property="og:description" content="Evidence base and clinical framework for referring clinicians in Sydney." />
-        <meta property="og:url" content="https://vanesasakota.lovable.app/for-providers" />
+        <meta property="og:url" content="https://vanesasakota.com.au/for-providers" />
       </Helmet>
       <Navbar />
 
