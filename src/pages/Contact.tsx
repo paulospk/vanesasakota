@@ -116,6 +116,7 @@ const Contact = () => {
                       onChange={(e) => setForm({ ...form, firstName: e.target.value })}
                       maxLength={100}
                       required
+                      className="border-foreground/20 bg-white/60"
                     />
                     {errors.firstName && <p className="text-xs text-destructive">{errors.firstName}</p>}
                   </div>
@@ -129,6 +130,7 @@ const Contact = () => {
                       onChange={(e) => setForm({ ...form, lastName: e.target.value })}
                       maxLength={100}
                       required
+                      className="border-foreground/20 bg-white/60"
                     />
                     {errors.lastName && <p className="text-xs text-destructive">{errors.lastName}</p>}
                   </div>
@@ -144,6 +146,7 @@ const Contact = () => {
                     onChange={(e) => setForm({ ...form, email: e.target.value })}
                     maxLength={255}
                     required
+                    className="border-foreground/20 bg-white/60"
                   />
                   {errors.email && <p className="text-xs text-destructive">{errors.email}</p>}
                 </div>
@@ -158,6 +161,7 @@ const Contact = () => {
                     maxLength={2000}
                     rows={6}
                     required
+                    className="border-foreground/20 bg-white/60"
                   />
                   {errors.message && <p className="text-xs text-destructive">{errors.message}</p>}
                 </div>
