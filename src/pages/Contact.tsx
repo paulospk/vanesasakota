@@ -52,7 +52,7 @@ const Contact = () => {
               Appointments
             </h1>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
-              I see clients in person in Sydney CBD. For appointments or referrals, please contact me by phone, email, or the enquiry form below.
+              I see clients in person in Sydney CBD. For appointments, referrals, fees and availability please contact me by phone, email, or the enquiry form below.
             </p>
             <div className="pt-2">
               <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
