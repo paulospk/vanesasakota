@@ -116,6 +116,7 @@ const Contact = () => {
                       onChange={(e) => setForm({ ...form, firstName: e.target.value })}
                       maxLength={100}
                       required
+                      className="border-foreground/20 bg-white/60"
                     />
                     {errors.firstName && <p className="text-xs text-destructive">{errors.firstName}</p>}
                   </div>
