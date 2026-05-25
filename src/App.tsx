@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import ScrollToTop from "./components/ScrollToTop.tsx";
 import Index from "./pages/Index.tsx";
+import About from "./pages/About.tsx";
 
 
 import FAQs from "./pages/FAQs.tsx";
@@ -12,7 +13,7 @@ import FAQs from "./pages/FAQs.tsx";
 import ForProviders from "./pages/ForProviders.tsx";
 import Contact from "./pages/Contact.tsx";
 import NotFound from "./pages/NotFound.tsx";
-import { Navigate } from "react-router-dom";
+
 
 const queryClient = new QueryClient();
 
@@ -25,7 +26,8 @@ const App = () => (
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/about" element={<Navigate to="/" replace />} />
+          <Route path="/about" element={<About />} />
+
           <Route path="/faqs" element={<FAQs />} />
           
           <Route path="/for-providers" element={<ForProviders />} />
