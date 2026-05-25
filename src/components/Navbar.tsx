@@ -30,7 +30,7 @@ export default function Navbar() {
           </span>
         </span>
         <span className="text-[10px] md:text-[11px] text-muted-foreground tracking-wide mt-0.5 font-sans">
-          Integrative Psychotherapist
+          Psychotherapist
         </span>
       </Link>
 
