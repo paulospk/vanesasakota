@@ -33,7 +33,7 @@ const Index = () => {
                 Her work draws on evidence-based therapies such as CBT and ACT, alongside somatic and parts-based modalities such as Resource Therapy and Brainspotting. She engages in ongoing clinical supervision to stay current and grounded in her practice.
               </p>
               <p>
-                Vanesa offers a collaborative, and relational therapeutic space that supports emotional steadiness, flexibility, and meaningful change over time.
+                Vanesa offers a collaborative, and relational therapeutic space that supports emotional steadiness, integration and flexibility for meaningful change over time.
               </p>
               <p>
                 When she is not with her clients, she enjoys time with family, writing, and getting to a Pilates class.
