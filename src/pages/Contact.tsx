@@ -54,9 +54,6 @@ const Contact = () => {
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
               I see clients in person in Sydney CBD. For appointments, referrals, fees and availability please contact me by phone, email, or the enquiry form below.
             </p>
-            <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
-              You do not need a GP referral or a Mental Health Care Plan to book. Because this practice operates independently of the Medicare system, our work is confidential and not restricted by capped sessions.
-            </p>
           </div>
         </div>
       </section>
@@ -65,9 +62,12 @@ const Contact = () => {
       <section className="border-b border-border">
         <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-5 md:py-10">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-3 lg:gap-8">
-            <div className="lg:col-span-3">
+            <div className="lg:col-span-3 space-y-3">
               <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
                 Contact
+              </p>
+              <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
+                You do not need a GP referral or a Mental Health Care Plan to book. Because this practice operates independently of the Medicare system, our work is confidential and not restricted by capped sessions.
               </p>
             </div>
             <div className="lg:col-span-7 max-w-[640px] divide-y divide-border/60">
