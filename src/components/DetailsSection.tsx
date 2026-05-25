@@ -1,8 +1,9 @@
 import type { ReactNode } from "react";
 
-const pillars: { title: string; description: ReactNode }[] = [
+const pillars: { title: string; label?: string; description: ReactNode }[] = [
   {
-    title: "Cognitive Processes | Top Down",
+    title: "Cognitive Processes",
+    label: "Top Down",
     description: (
       <>
         Drawing on <strong className="text-foreground font-medium">Cognitive Behavioural Therapy (CBT)</strong> and <strong className="text-foreground font-medium">Acceptance and Commitment Therapy (ACT)</strong>, treatment addresses thought patterns, core beliefs, and psychological flexibility that can influence symptom-related distress and everyday functioning.
@@ -18,7 +19,8 @@ const pillars: { title: string; description: ReactNode }[] = [
     ),
   },
   {
-    title: "Autonomic & Physiological Processes | Bottom Up",
+    title: "Autonomic & Physiological Processes",
+    label: "Bottom Up",
     description: (
       <>
         Drawing on <strong className="text-foreground font-medium">Somatic Experiencing</strong> and contemporary understandings of autonomic nervous system functioning, treatment focuses on increasing awareness of physiological stress responses, supporting the body&rsquo;s capacity for regulation, and assisting the nervous system in shifting out of chronic threat states.
