@@ -1,9 +1,12 @@
 import type { ReactNode } from "react";
 
-const pillars: { title: string; label?: string; description: ReactNode }[] = [
+const pillars: { title: ReactNode; description: ReactNode }[] = [
   {
-    title: "Cognitive Processes",
-    label: "Top Down",
+    title: (
+      <>
+        Cognitive Processes | <em className="not-italic font-semibold">Top Down</em>
+      </>
+    ),
     description: (
       <>
         Drawing on <strong className="text-foreground font-medium">Cognitive Behavioural Therapy (CBT)</strong> and <strong className="text-foreground font-medium">Acceptance and Commitment Therapy (ACT)</strong>, treatment addresses thought patterns, core beliefs, and psychological flexibility that can influence symptom-related distress and everyday functioning.
@@ -19,8 +22,11 @@ const pillars: { title: string; label?: string; description: ReactNode }[] = [
     ),
   },
   {
-    title: "Autonomic & Physiological Processes",
-    label: "Bottom Up",
+    title: (
+      <>
+        Autonomic & Physiological Processes | <em className="not-italic font-semibold">Bottom Up</em>
+      </>
+    ),
     description: (
       <>
         Drawing on <strong className="text-foreground font-medium">Somatic Experiencing</strong> and contemporary understandings of autonomic nervous system functioning, treatment focuses on increasing awareness of physiological stress responses, supporting the body&rsquo;s capacity for regulation, and assisting the nervous system in shifting out of chronic threat states.
@@ -44,16 +50,11 @@ export default function DetailsSection() {
             </div>
             <div className="lg:col-span-7 space-y-6 max-w-[680px]">
               <ul className="space-y-6">
-                {pillars.map((p) => (
-                  <li key={p.title} className="border-l-2 border-border pl-6">
-                    <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug">
+                {pillars.map((p, i) => (
+                  <li key={i} className="border-l-2 border-border pl-6">
+                    <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug mb-2">
                       {p.title}
                     </h3>
-                    {p.label && (
-                      <p className="font-serif text-2xl md:text-3xl text-primary leading-tight mt-1 mb-2">
-                        {p.label}
-                      </p>
-                    )}
                     <p className="text-muted-foreground text-base leading-[1.8]">
                       {p.description}
                     </p>
