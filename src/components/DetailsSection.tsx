@@ -71,9 +71,6 @@ export default function DetailsSection() {
       <section className="bg-background border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-12">
           <div className="max-w-[760px] space-y-6">
-            <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-muted-foreground">
-              Evidence Base
-            </p>
             <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-snug">
               Grounded in Evidence
             </h2>
