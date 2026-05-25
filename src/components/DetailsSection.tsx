@@ -94,7 +94,7 @@ export default function DetailsSection() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
-                  <span>Stress-sensitive health conditions, including skin conditions</span>
+                  <span>Psychodermatoses — stress-sensitive skin conditions (eczema, psoriasis, rosacea, acne, and stress-induced hair shedding or alopecia)</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
