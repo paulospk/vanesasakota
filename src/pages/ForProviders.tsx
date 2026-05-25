@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 
@@ -146,7 +147,16 @@ const SectionBlock = ({ section }: { section: Section }) => (
 const ForProviders = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>For Providers | Vanesa Sakota Psychotherapy Sydney</title>
+        <meta name="description" content="Evidence base and clinical framework for referring clinicians: psychophysiological conditions, trauma-informed care and somatic psychotherapy with Vanesa Sakota in Sydney CBD." />
+        <link rel="canonical" href="https://vanesasakota.lovable.app/for-providers" />
+        <meta property="og:title" content="For Providers | Vanesa Sakota Psychotherapy" />
+        <meta property="og:description" content="Evidence base and clinical framework for referring clinicians in Sydney." />
+        <meta property="og:url" content="https://vanesasakota.lovable.app/for-providers" />
+      </Helmet>
       <Navbar />
+
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">

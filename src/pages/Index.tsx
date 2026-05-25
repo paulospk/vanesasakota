@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 
@@ -7,6 +8,14 @@ import FooterSection from "@/components/FooterSection";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Vanesa Sakota | Psychotherapist Sydney CBD</title>
+        <meta name="description" content="Sydney CBD psychotherapist Vanesa Sakota works with adults experiencing anxiety, trauma, chronic stress, chronic pelvic pain, vulvodynia, vaginismus and stress-responsive skin conditions." />
+        <link rel="canonical" href="https://vanesasakota.lovable.app/" />
+        <meta property="og:title" content="Vanesa Sakota | Psychotherapist Sydney CBD" />
+        <meta property="og:description" content="In-person psychotherapy in Sydney CBD for anxiety, trauma, chronic stress and stress-sensitive physical conditions." />
+        <meta property="og:url" content="https://vanesasakota.lovable.app/" />
+      </Helmet>
       <Navbar />
       <HeroSection />
 

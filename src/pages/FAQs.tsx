@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import {
@@ -63,7 +64,16 @@ const faqs = [
 const FAQs = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>FAQs | Vanesa Sakota Psychotherapy Sydney</title>
+        <meta name="description" content="Answers to common questions about psychotherapy with Vanesa Sakota in Sydney CBD: referrals, session structure, therapeutic approaches, confidentiality and fees." />
+        <link rel="canonical" href="https://vanesasakota.lovable.app/faqs" />
+        <meta property="og:title" content="FAQs | Vanesa Sakota Psychotherapy" />
+        <meta property="og:description" content="Common questions about psychotherapy with Vanesa Sakota in Sydney CBD." />
+        <meta property="og:url" content="https://vanesasakota.lovable.app/faqs" />
+      </Helmet>
       <Navbar />
+
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
