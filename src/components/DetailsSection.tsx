@@ -27,32 +27,6 @@ const pillars: { title: string; description: ReactNode }[] = [
   },
 ];
 
-const helpItems: { title: string; description: ReactNode }[] = [
-  {
-    title: "Pelvic Health & Somatic Protection",
-    description: (
-      <>
-        Working with the nervous system&rsquo;s involuntary <strong className="text-foreground font-medium">protective responses</strong> and muscular guarding patterns in conditions such as <strong className="text-foreground font-medium">vaginismus</strong>, <strong className="text-foreground font-medium">vulvodynia</strong>, and <strong className="text-foreground font-medium">chronic pelvic pain</strong>.
-      </>
-    ),
-  },
-  {
-    title: "The Mind-Skin Connection",
-    description: (
-      <>
-        Addressing the psychological, emotional, and <strong className="text-foreground font-medium">neurogenic inflammatory factors</strong> that can influence stress-responsive conditions such as <strong className="text-foreground font-medium">eczema</strong>, <strong className="text-foreground font-medium">psoriasis</strong>, <strong className="text-foreground font-medium">stress-related hair loss</strong>, and <strong className="text-foreground font-medium">vitiligo</strong>.
-      </>
-    ),
-  },
-  {
-    title: "Functional & Stress-Responsive Presentations",
-    description: (
-      <>
-        Working with <strong className="text-foreground font-medium">functional and psychophysiological symptoms</strong>: very real physical experiences that map to altered nervous system signalling rather than structural or organic disease.
-      </>
-    ),
-  },
-];
 
 export default function DetailsSection() {
   return (
