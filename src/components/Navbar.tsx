@@ -7,7 +7,7 @@ const navLinks = [
   { label: "About", href: "/" },
   
   { label: "Mind-Body Evidence", href: "/for-providers" },
-  { label: "Appointments", href: "/contact" },
+  { label: "Contact", href: "/contact" },
   { label: "FAQs", href: "/faqs" },
 ];
 
