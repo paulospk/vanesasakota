@@ -27,9 +27,6 @@ const Index = () => {
                 Vanesa is a psychotherapist based in Sydney. She holds a Master of Psychotherapy and Counselling and a Bachelor of Science in Psychology, following a previous career in medical technology. She completed her training and placements in Sydney, developing a practice that integrates traditional talk therapy with trauma-informed somatic and mind-body approaches.
               </p>
               <p>
-                Vanesa works with people experiencing persistent physical symptoms where stress physiology, emotional processes, and nervous system patterns may be contributing to symptom intensity, persistence, or distress. This includes complex symptom presentations that are not fully explained by medical investigations, as well as stress-sensitive conditions where symptoms are medically defined but influenced by nervous system arousal and stress load.
-              </p>
-              <p>
                 She has a particular interest in pelvic pain presentations, including vulvodynia, vaginismus, and chronic pelvic pain, where pelvic floor muscle guarding, threat responses, and central sensitisation processes may be relevant. She also works with stress-responsive skin and hair conditions such as eczema, psoriasis, and stress-related hair loss, where symptom flares often correlate with stress physiology and emotional load.
               </p>
               <p>
