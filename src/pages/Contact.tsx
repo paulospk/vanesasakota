@@ -49,7 +49,7 @@ const Contact = () => {
               Contact
             </p>
             <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
-              Booking & Enquiries
+              Appointments
             </h1>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
               I see clients in person at my practice in the Sydney CBD. Whether you are seeking therapy for yourself or looking to make a clinical referral, please reach out by phone or email to discuss current availability.
