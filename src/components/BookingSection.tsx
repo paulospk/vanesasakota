@@ -14,7 +14,7 @@ export default function BookingSection() {
             </p>
             <p>
               <span className="font-semibold text-foreground">Email:</span>{" "}
-              <a href="mailto:vanesa@vanesasakota.com.au" className="hover:text-foreground transition-colors">vanesa@vanesasakota.com.au</a>
+              <a href="mailto:contact@vanesasakota.com.au" className="hover:text-foreground transition-colors">contact@vanesasakota.com.au</a>
             </p>
           </div>
         </div>
