@@ -167,7 +167,7 @@ const Contact = () => {
                   />
                   {errors.message && <p className="text-xs text-destructive">{errors.message}</p>}
                 </div>
-                <Button type="submit" className="w-full md:w-auto">Send Enquiry</Button>
+                <Button type="submit" className="w-full md:w-auto">Send Message</Button>
               </form>
             </div>
           </div>
