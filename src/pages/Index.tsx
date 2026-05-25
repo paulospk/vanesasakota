@@ -27,7 +27,7 @@ const Index = () => {
                 Vanesa is a psychotherapist based in Sydney. She holds a Master of Psychotherapy and Counselling and a Bachelor of Science in Psychology, following a previous career in medical technology. She completed her training and placements in Sydney, developing a practice that integrates traditional psychotherapy with trauma-informed somatic and mind-body approaches.
               </p>
               <p>
-                She works with adults experiencing anxiety, trauma, chronic stress, and persistent physical symptoms. She has a particular interest in psychophysiological and stress-sensitive conditions, including chronic pelvic pain, vulvodynia, vaginismus, functional neurological symptoms, and stress-responsive skin conditions.
+                She works with adults experiencing anxiety, trauma, chronic stress, and persistent physical symptoms. She has a particular interest in psychophysiological and stress-sensitive conditions, including chronic pelvic pain, vulvodynia, vaginismus, and stress-responsive skin conditions.
               </p>
               <p>
                 Her work draws on evidence-based therapies such as CBT and ACT, alongside somatic and parts-based approaches including Resource Therapy and Brainspotting. She engages in ongoing clinical supervision and professional development to support safe, ethical, and effective practice.
