@@ -67,10 +67,10 @@ const FAQs = () => {
       <Helmet>
         <title>FAQs | Vanesa Sakota Psychotherapy Sydney</title>
         <meta name="description" content="Answers to common questions about psychotherapy with Vanesa Sakota in Sydney CBD: referrals, session structure, therapeutic approaches, confidentiality and fees." />
-        <link rel="canonical" href="https://vanesasakota.lovable.app/faqs" />
+        <link rel="canonical" href="https://vanesasakota.com.au/faqs" />
         <meta property="og:title" content="FAQs | Vanesa Sakota Psychotherapy" />
         <meta property="og:description" content="Common questions about psychotherapy with Vanesa Sakota in Sydney CBD." />
-        <meta property="og:url" content="https://vanesasakota.lovable.app/faqs" />
+        <meta property="og:url" content="https://vanesasakota.com.au/faqs" />
       </Helmet>
       <Navbar />
 
