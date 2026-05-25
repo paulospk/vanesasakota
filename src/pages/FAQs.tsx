@@ -11,7 +11,7 @@ const faqs = [
   {
     question: "Do I need a GP referral or Mental Health Care Plan to see you?",
     answer:
-      "No. You can book directly without a referral. A Mental Health Care Plan is not required and there is no waiting list. If you do have a referral from your GP or specialist, that is welcome, but it is not a prerequisite.",
+      "No. You can book directly without a referral. A Mental Health Care Plan is not required. If you do have a referral from your GP or specialist - it is most welcome and I will keep your referrer informed of our progress, if you wish - however the referral itself is not a requirement.",
   },
   {
     question: "Can therapy actually help with physical symptoms?",
@@ -21,17 +21,7 @@ const faqs = [
   {
     question: "What does a session actually look like?",
     answer:
-      "Sessions are 50 minutes, currently online via Zoom. The first session is a longer conversation about what brings you here and what you're hoping for. After that, sessions are collaborative — sometimes conversational, sometimes using body-based techniques like Brainspotting. You'll always know what we're doing and why.",
-  },
-  {
-    question: "How much does it cost and are there rebates?",
-    answer:
-      "The initial consultation is $250. Subsequent sessions are $180. You do not need a Mental Health Care Plan to access my services. Private health rebates may apply depending on your level of cover - please check with your provider before your first session.",
-  },
-  {
-    question: "Do you offer Medicare rebates?",
-    answer:
-      "Not currently. Medicare rebates for psychology services require registration as a psychologist. As a registered psychotherapist and counsellor, I am not Medicare-registered. Some private health funds do cover psychotherapy - it is worth checking your policy.",
+      "Sessions are 50 minutes. The first session however is a longer appointment to discuss what brings you to therapy and to cover your history. You'll always know what we're doing and why.",
   },
   {
     question: "How often should I attend sessions?",
@@ -51,7 +41,7 @@ const faqs = [
   {
     question: "What therapeutic approaches do you use?",
     answer:
-      "I draw on Clinical Resource Therapy, Brainspotting, and Cognitive Behavioural Therapy. Some of this work is conversational; some works more directly with the body and nervous system. I tailor the approach to each person — and explain things as we go.",
+      "I draw on Clinical Resource Therapy, Brainspotting, and Cognitive Behavioural Therapy. I tailor the approach to each person - and explain things as we go. There is no physical contact involved.",
   },
   {
     question: "I am a clinician - how do I refer a patient?",
@@ -86,7 +76,7 @@ const FAQs = () => {
               Common questions
             </h1>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
-              A few things people often want to know. If yours isn't here, please reach out.
+              A few things people often want to know. If your question isn't here, please reach out.
             </p>
           </div>
         </div>
