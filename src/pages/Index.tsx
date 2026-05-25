@@ -33,7 +33,10 @@ const Index = () => {
                 Her framework integrated top-down evidence-based modalities (CBT/ACT), as well as bottom-up somatic approaches such as Somatic Experiencing, Brain Spotting and Resource Therapy, a highly targeted Parts Work modality.
               </p>
               <p>
-                She has a special interest in psychophysiological manifestations of chronic stress, trauma, and early life adversity, with a particular focus on pelvic floor guarding (including vaginismus, vulvodynia, and chronic pelvic pain) and the brain-skin axis (including eczema, psoriasis, and stress-related hair loss). Moreover, Vanesa specializes in broader functional and stress-responsive presentations where symptoms persist despite clear medical investigations.
+                She works with people experiencing persistent physical symptoms that remain unexplained or unresolved despite medical investigation, with a focus on the role of the nervous system, chronic stress, and mind-body processes in health and recovery.
+              </p>
+              <p>
+                Vanesa has a particular interest in pelvic floor guarding (including vaginismus, vulvodynia, and chronic pelvic pain) and the brain-skin axis (including eczema, psoriasis, and stress-related hair loss). She also specializes in broader functional and stress-responsive presentations where symptoms persist despite clear medical investigations.
               </p>
               <p>
                 Vanesa takes pride in providing a grounded, highly collaborative, and relational therapeutic space aimed at assisting the nervous system in stepping down from chronic defense states.
