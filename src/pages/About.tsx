@@ -1,4 +1,4 @@
-import profileImg from "@/assets/profile-about.jpg";
+import profileImg from "@/assets/profile-hero.jpg";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 
@@ -9,18 +9,23 @@ const About = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 pt-20 pb-16 md:pt-32 md:pb-24">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
-            <div className="space-y-5 animate-fade-up max-w-[800px]">
+            <div className="space-y-4 md:space-y-5 animate-fade-up">
               <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
-                About Vanesa
+                About
               </p>
-              <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
-                A Different Kind of Conversation
+              <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
+                Hi, I'm Vanesa.
               </h1>
-              <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
-                Creating a safe, clinical, and supportive space to explore what lies beneath the surface.
-              </p>
+              <div className="space-y-4 text-muted-foreground text-[15px] md:text-base leading-[1.7]">
+                <p>
+                  I'm a psychotherapist with a special interest in the connection between emotional wellbeing, the nervous system, and physical symptoms.
+                </p>
+                <p>
+                  I work with people experiencing conditions such as vaginismus, vulvodynia, chronic pain, anxiety, and stress-related symptoms. My approach is warm, collaborative, and grounded in evidence-based therapy.
+                </p>
+              </div>
             </div>
             <div className="animate-fade-up" style={{ animationDelay: "100ms" }}>
               <img
@@ -33,31 +38,39 @@ const About = () => {
         </div>
       </section>
 
-      {/* About Vanesa */}
-      <section className="bg-background border-b border-border">
+      {/* How I work */}
+      <section className="border-b border-border">
         <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
             <div className="lg:col-span-3 space-y-2">
               <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
-                About
+                Approach
               </p>
               <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
-                About Vanesa
+                An Integrative Systems Approach
               </h2>
             </div>
-            <div className="lg:col-span-7 max-w-[640px] space-y-4 text-[14px] md:text-[15px] leading-[1.75] text-muted-foreground">
-              <p>
-                Vanesa is an integrative psychotherapist based in Sydney. She graduated with a Master of Psychotherapy and Counselling and a Bachelor of Science in Psychology, following a previous seven-year career as a Head of Product within the medical technology sector.
-              </p>
-              <p>
-                Vanesa completed her clinical training and placements in Sydney, developing a practice that bridges traditional talk therapy with somatic and nervous system resolution. Her framework combines top-down evidence-based modalities, including Cognitive Behavioural Therapy (CBT) and Acceptance and Commitment Therapy (ACT), with bottom-up somatic approaches | specifically Resource Therapy (Parts Work), Somatic Experiencing, and polyvagal principles | to address complex psychophysiological distress.
-              </p>
-              <p>
-                She has a special interest in the physiological manifestations of chronic stress, trauma, and early life adversity, with a particular focus on pelvic floor neuro-muscular guarding (including vaginismus, vulvodynia, and chronic pelvic pain) and the brain-skin axis (including eczema, psoriasis, and stress-related hair loss). Moreover, Vanesa specializes in broader functional and stress-responsive presentations where symptoms persist despite clear medical investigations.
-              </p>
-              <p>
-                Vanesa takes pride in providing a grounded, highly collaborative, and relational therapeutic space aimed at assisting the nervous system in stepping down from chronic defense states. Outside of her clinical practice, she enjoys modern classic design, writing, and reformer pilates.
-              </p>
+            <div className="lg:col-span-7 max-w-[640px]">
+              <div className="divide-y divide-border/60">
+                <div className="py-5 first:pt-0 space-y-2">
+                  <h3 className="font-serif text-lg md:text-xl text-foreground">Cognitive Processes</h3>
+                  <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7]">
+                    Drawing on Cognitive Behavioural Therapy (CBT) and Acceptance and Commitment Therapy (ACT), treatment addresses thought patterns, beliefs, emotional responses, and psychological flexibility that may influence symptom-related distress and daily functioning.
+                  </p>
+                </div>
+                <div className="py-5 space-y-2">
+                  <h3 className="font-serif text-lg md:text-xl text-foreground">Emotional &amp; Relational Processes</h3>
+                  <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7]">
+                    Using Resource Therapy, treatment explores internal states and protective patterns that may have developed in response to stress, adversity, or perceived threat. The goal is to support greater self-awareness, emotional integration, and adaptive responding.
+                  </p>
+                </div>
+                <div className="py-5 space-y-2">
+                  <h3 className="font-serif text-lg md:text-xl text-foreground">Autonomic &amp; Physiological Processes</h3>
+                  <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7]">
+                    Drawing on Somatic Experiencing and contemporary understandings of autonomic nervous system functioning, treatment focuses on increasing awareness of physiological stress responses and developing greater capacity for regulation, flexibility, and recovery.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -90,7 +103,7 @@ const About = () => {
                   <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Resource Therapy International, 2023</p>
                 </li>
                 <li className="py-4">
-                  <p className="text-[15px] md:text-base text-foreground">Certified Practising</p>
+                  <p className="text-[15px] md:text-base text-foreground">Registered Member</p>
                   <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Psychotherapy and Counselling Federation of Australia (PACFA)</p>
                 </li>
               </ul>

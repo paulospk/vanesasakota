@@ -4,13 +4,12 @@ import { Link } from "react-router-dom";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 
 const navLinks = [
-  { label: "About", href: "/about" },
+  { label: "About", href: "/" },
   
   { label: "Mind-Body Evidence", href: "/for-providers" },
   { label: "Appointments", href: "/contact" },
   { label: "FAQs", href: "/faqs" },
 ];
-
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
