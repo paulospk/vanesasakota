@@ -82,7 +82,7 @@ export default function DetailsSection() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
-                  <span>Endometriosis, vulvodynia and vaginismus</span>
+                  <span>Vulvodynia and vaginismus</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
