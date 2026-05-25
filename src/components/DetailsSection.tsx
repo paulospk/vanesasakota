@@ -58,35 +58,6 @@ export default function DetailsSection() {
         </div>
       </section>
 
-      {/* Clinical Focus */}
-      <section className="bg-secondary/40 border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-12">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
-            <div className="lg:col-span-3">
-              <p className="uppercase tracking-[0.25em] text-[11px] font-semibold text-muted-foreground mb-4">
-                Clinical Focus
-              </p>
-              <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
-                Areas of Practice
-              </h2>
-            </div>
-            <div className="lg:col-span-7">
-              <ul className="grid grid-cols-1 gap-y-12 max-w-[680px]">
-                {helpItems.map((item) => (
-                  <li key={item.title}>
-                    <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug mb-3">
-                      {item.title}
-                    </h3>
-                    <p className="text-muted-foreground text-base leading-[1.8]">
-                      {item.description}
-                    </p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Evidence Base */}
       <section className="bg-background border-b border-border">
