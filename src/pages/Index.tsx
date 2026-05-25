@@ -24,19 +24,16 @@ const Index = () => {
             </div>
             <div className="lg:col-span-7 max-w-[640px] space-y-4 text-[14px] md:text-[15px] leading-[1.75] text-muted-foreground">
               <p>
-                Vanesa is a psychotherapist based in Sydney. She holds a Master of Psychotherapy and Counselling and a Bachelor of Science in Psychology, following a previous career in medical technology. She completed her training and placements in Sydney, developing a practice that integrates traditional talk therapy with trauma-informed somatic and mind-body approaches.
+                Vanesa is a psychotherapist based in Sydney. She holds a Master of Psychotherapy and Counselling and a Bachelor of Science in Psychology, following a previous career in medical technology. She completed her training and placements in Sydney, developing a practice that integrates traditional psychotherapy with trauma-informed somatic and mind-body approaches.
               </p>
               <p>
-                She has a particular interest in pelvic pain presentations, including vulvodynia, vaginismus, and chronic pelvic pain, where pelvic floor muscle guarding, threat responses, and central sensitisation processes may be relevant. She also works with stress-responsive skin and hair conditions such as eczema, psoriasis, and stress-related hair loss, where symptom flares often correlate with stress physiology and emotional load.
+                She works with adults experiencing anxiety, trauma, chronic stress, and persistent physical symptoms. She has a particular interest in psychophysiological and stress-sensitive conditions, including chronic pelvic pain, vulvodynia, vaginismus, functional neurological symptoms, and stress-responsive skin conditions.
               </p>
               <p>
-                Her work draws on evidence-based therapies such as CBT and ACT, alongside somatic and parts-based modalities such as Resource Therapy and Brainspotting. She engages in ongoing clinical supervision to stay current and grounded in her practice.
+                Her work draws on evidence-based therapies such as CBT and ACT, alongside somatic and parts-based approaches including Resource Therapy and Brainspotting. She engages in ongoing clinical supervision and professional development to support safe, ethical, and effective practice.
               </p>
               <p>
-                Vanesa offers a collaborative, and relational therapeutic space that supports emotional steadiness, integration and flexibility for meaningful change over time.
-              </p>
-              <p>
-                When she is not with her clients, she enjoys time with family, writing, and getting to a Pilates class.
+                Vanesa offers a collaborative and relational therapeutic space that supports emotional steadiness, greater self-understanding, and meaningful change over time.
               </p>
             </div>
           </div>

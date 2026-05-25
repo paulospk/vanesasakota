@@ -65,6 +65,50 @@ export default function DetailsSection() {
           </div>
         </div>
       </section>
+      {/* I Commonly Work With */}
+      <section className="bg-background border-b border-border">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
+            <div className="lg:col-span-3">
+              <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
+                I Commonly Work With
+              </h2>
+            </div>
+            <div className="lg:col-span-7 max-w-[680px]">
+              <ul className="space-y-3 text-muted-foreground text-base leading-[1.8]">
+                <li className="flex items-start gap-3">
+                  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
+                  <span>Chronic pelvic pain</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
+                  <span>Endometriosis, vulvodynia and vaginismus</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
+                  <span>Persistent physical symptoms not fully explained by medical testing</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
+                  <span>Functional neurological symptoms</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
+                  <span>Stress-sensitive health conditions, including skin conditions</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
+                  <span>Health anxiety and symptom-related distress</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
+                  <span>Trauma and chronic stress</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
       {/* Evidence Base */}
