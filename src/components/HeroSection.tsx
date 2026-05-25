@@ -11,7 +11,7 @@ export default function HeroSection() {
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
               Mind-Body Psychotherapy Sydney
             </h1>
-            <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-[52ch]">
+            <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75] max-w-[52ch]">
               Sydney-based psychotherapist specialising in the relationship between psychological states, stress physiology, and physical health.
             </p>
           </div>

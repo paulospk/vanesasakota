@@ -18,11 +18,11 @@ const Index = () => {
               <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
                 About
               </p>
-              <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
+              <h2 className="font-serif text-3xl md:text-4xl text-foreground tracking-tight leading-tight">
                 About Vanesa
               </h2>
             </div>
-            <div className="lg:col-span-7 max-w-[640px] space-y-4 text-[14px] md:text-[15px] leading-[1.75] text-muted-foreground">
+            <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
               <p>
                 Vanesa is a psychotherapist based in Sydney. She holds a Master of Psychotherapy and Counselling and a Bachelor of Science in Psychology, following a previous career in medical technology. She completed her training and placements in Sydney, developing a practice that integrates traditional psychotherapy with trauma-informed somatic and mind-body approaches.
               </p>
@@ -50,11 +50,11 @@ const Index = () => {
               <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
                 Credentials
               </p>
-              <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
+              <h2 className="font-serif text-3xl md:text-4xl text-foreground tracking-tight leading-tight">
                 Education &amp; Memberships
               </h2>
             </div>
-            <div className="lg:col-span-7 max-w-[640px]">
+            <div className="lg:col-span-7 max-w-[680px]">
               <ul className="divide-y divide-border/60">
                 <li className="py-4 first:pt-0">
                   <p className="text-[15px] md:text-base text-foreground">Master of Psychotherapy and Counselling</p>
