@@ -54,9 +54,6 @@ const Contact = () => {
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
               I see clients in person at my practice in the Sydney CBD. Whether you are seeking therapy for yourself or looking to make a clinical referral, please reach out by phone or email to discuss current availability.
             </p>
-            <p className="text-muted-foreground/80 text-[13px] md:text-sm italic leading-[1.7]">
-              Please note that I currently operate a waitlist for peak appointment times.
-            </p>
             <div className="pt-2 space-y-4">
               <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
                 You do not need a GP referral or a Mental Health Care Plan to book. Because this practice operates independently of the Medicare system, our work is confidential and not restricted by a capped number of sessions and checklists.
