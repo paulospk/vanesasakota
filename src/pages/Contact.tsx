@@ -57,6 +57,14 @@ const Contact = () => {
             <p className="text-muted-foreground/80 text-[13px] md:text-sm italic leading-[1.7]">
               Please note that I currently operate a waitlist for peak appointment times.
             </p>
+            <div className="pt-2 space-y-4">
+              <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
+                You do not need a GP referral or a Mental Health Care Plan to book. Because this practice operates independently of the Medicare system, our work is confidential and not restricted by a capped number of sessions and checklists.
+              </p>
+              <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
+                Many major private health funds provide rebates for sessions with PACFA-registered clinical psychotherapists. Please check directly with your insurer to confirm if your specific policy covers psychotherapy.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -172,29 +180,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Referrals & Rebates */}
-      <section className="border-b border-border">
-        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
-            <div className="lg:col-span-3 space-y-2">
-              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
-                Information
-              </p>
-              <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
-                Referrals & Rebates
-              </h2>
-            </div>
-            <div className="lg:col-span-7 max-w-[640px] space-y-4">
-              <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.75]">
-                You do not need a GP referral or a Mental Health Care Plan to book. Because this practice operates independently of the Medicare system, our work is confidential and not restricted by a capped number of sessions and checklists.
-              </p>
-              <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.75]">
-                Many major private health funds provide rebates for sessions with PACFA-registered clinical psychotherapists. Please check directly with your insurer to confirm if your specific policy covers psychotherapy.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <FooterSection />
     </div>
