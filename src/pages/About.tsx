@@ -16,14 +16,26 @@ const About = () => {
                 About
               </p>
               <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
-                Hi, I'm Vanesa.
+                About Vanesa
               </h1>
               <div className="space-y-4 text-muted-foreground text-[15px] md:text-base leading-[1.7]">
                 <p>
-                  I'm a psychotherapist with a special interest in the connection between emotional wellbeing, the nervous system, and physical symptoms.
+                  Vanesa is an integrative psychotherapist based in Sydney. She holds a Master of Psychotherapy and Counselling and a Bachelor of Science in Psychology, following a previous career in medical technology.
                 </p>
                 <p>
-                  I work with people experiencing conditions such as vaginismus, vulvodynia, chronic pain, anxiety, and stress-related symptoms. My approach is warm, collaborative, and grounded in evidence-based therapy.
+                  Vanesa completed her clinical training and placements in Sydney, developing a practice that bridges traditional talk therapy with somatic and nervous system resolution.
+                </p>
+                <p>
+                  Her framework integrated top-down evidence-based modalities (CBT/ACT), as well as bottom-up somatic approaches such as Somatic Experiencing, Brain Spotting and Resource Therapy — a highly targeted Parts Work modality.
+                </p>
+                <p>
+                  She has a special interest in psychophysiological manifestations of chronic stress, trauma, and early life adversity, with a particular focus on pelvic floor guarding (including vaginismus, vulvodynia, and chronic pelvic pain) and the brain-skin axis (including eczema, psoriasis, and stress-related hair loss). Moreover, Vanesa specializes in broader functional and stress-responsive presentations where symptoms persist despite clear medical investigations.
+                </p>
+                <p>
+                  Vanesa takes pride in providing a grounded, highly collaborative, and relational therapeutic space aimed at assisting the nervous system in stepping down from chronic defense states.
+                </p>
+                <p>
+                  Outside of her practice, she enjoys family time, writing and a tough reformer pilates class.
                 </p>
               </div>
             </div>
