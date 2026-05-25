@@ -52,7 +52,7 @@ const Contact = () => {
               Appointments
             </h1>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
-              I see clients in person at my practice in the Sydney CBD. Whether you are seeking therapy for yourself or looking to make a clinical referral, please reach out by phone or email to discuss current availability.
+              I see clients in person in Sydney CBD. For appointments or referrals, please contact me by phone, email, or the enquiry form below.
             </p>
             <div className="pt-2 space-y-4">
               <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
