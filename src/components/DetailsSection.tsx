@@ -55,7 +55,7 @@ export default function DetailsSection() {
                     <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug mb-2">
                       {p.title}
                     </h3>
-                    <p className="text-muted-foreground text-base leading-[1.8]">
+                    <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75]">
                       {p.description}
                     </p>
                   </li>
