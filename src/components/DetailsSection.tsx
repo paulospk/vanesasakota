@@ -57,33 +57,6 @@ const helpItems: { title: string; description: ReactNode }[] = [
 export default function DetailsSection() {
   return (
     <>
-      {/* The Systems Approach */}
-      <section className="bg-background border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-12">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
-            <div className="lg:col-span-3">
-              <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
-                An Integrative Systems Approach
-              </h2>
-            </div>
-            <div className="lg:col-span-7 space-y-6 max-w-[680px]">
-              <ul className="space-y-6">
-                {pillars.map((p) => (
-                  <li key={p.title} className="border-l-2 border-border pl-6">
-                    <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug mb-2">
-                      {p.title}
-                    </h3>
-                    <p className="text-muted-foreground text-base leading-[1.8]">
-                      {p.description}
-                    </p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Clinical Focus */}
       <section className="bg-secondary/40 border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-12">
@@ -105,6 +78,33 @@ export default function DetailsSection() {
                     </h3>
                     <p className="text-muted-foreground text-base leading-[1.8]">
                       {item.description}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The Systems Approach */}
+      <section className="bg-background border-b border-border">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
+            <div className="lg:col-span-3">
+              <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
+                An Integrative Systems Approach
+              </h2>
+            </div>
+            <div className="lg:col-span-7 space-y-6 max-w-[680px]">
+              <ul className="space-y-6">
+                {pillars.map((p) => (
+                  <li key={p.title} className="border-l-2 border-border pl-6">
+                    <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug mb-2">
+                      {p.title}
+                    </h3>
+                    <p className="text-muted-foreground text-base leading-[1.8]">
+                      {p.description}
                     </p>
                   </li>
                 ))}
