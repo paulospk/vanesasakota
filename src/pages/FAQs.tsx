@@ -67,15 +67,15 @@ const FAQs = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
-          <div className="max-w-xl space-y-4 md:space-y-5 animate-fade-up">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-6 md:py-14">
+          <div className="max-w-xl space-y-2 md:space-y-4 animate-fade-up">
             <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
               FAQs
             </p>
-            <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
+            <h1 className="font-serif text-2xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
               Common questions
             </h1>
-            <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
+            <p className="text-muted-foreground text-sm md:text-base leading-relaxed md:leading-[1.7]">
               A few things people often want to know. If your question isn't here, please reach out.
             </p>
           </div>
@@ -84,30 +84,28 @@ const FAQs = () => {
 
       {/* FAQ Accordion */}
       <section className="border-b border-border">
-        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
-            <div className="lg:col-span-3 space-y-2">
-              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
-                Questions
-              </p>
-              <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
-                Frequently Asked
-              </h2>
-            </div>
-            <div className="lg:col-span-7 max-w-[640px]">
-              <Accordion type="single" collapsible className="w-full">
-                {faqs.map((faq, index) => (
-                  <AccordionItem key={index} value={`item-${index}`} className="border-border/60">
-                    <AccordionTrigger className="text-left font-serif text-[15px] md:text-base text-foreground hover:no-underline">
-                      {faq.question}
-                    </AccordionTrigger>
-                    <AccordionContent className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7]">
-                      {faq.answer}
-                    </AccordionContent>
-                  </AccordionItem>
-                ))}
-              </Accordion>
-            </div>
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-6 md:py-14">
+          <div className="mb-5 md:mb-8">
+            <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground mb-1">
+              Questions
+            </p>
+            <h2 className="font-serif text-xl md:text-3xl text-foreground tracking-tight leading-tight">
+              Frequently Asked
+            </h2>
+          </div>
+          <div className="max-w-[640px]">
+            <Accordion type="single" collapsible className="w-full">
+              {faqs.map((faq, index) => (
+                <AccordionItem key={index} value={`item-${index}`} className="border-border/60">
+                  <AccordionTrigger className="text-left font-serif text-sm md:text-base text-foreground hover:no-underline py-3 md:py-4">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-sm text-muted-foreground leading-relaxed">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </div>
       </section>
