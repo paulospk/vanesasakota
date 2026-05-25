@@ -78,6 +78,10 @@ export default function DetailsSection() {
               <ul className="space-y-3 text-muted-foreground text-[15px] md:text-base leading-[1.75]">
                 <li className="flex items-start gap-3">
                   <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
+                  <span>Persistent physical symptoms not fully explained by medical testing</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
                   <span>Chronic pelvic pain</span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -86,19 +90,11 @@ export default function DetailsSection() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
-                  <span>Persistent physical symptoms not fully explained by medical testing</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
                   <span>Functional neurological symptoms</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
                   <span>Psychodermatoses — stress-sensitive skin conditions (eczema, psoriasis, rosacea, acne, and stress-induced hair shedding or alopecia)</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
-                  <span>Health anxiety and symptom-related distress</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
