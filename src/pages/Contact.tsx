@@ -33,7 +33,7 @@ const Contact = () => {
     const { firstName, lastName, email, message } = result.data;
     const subject = encodeURIComponent(`Enquiry from ${firstName} ${lastName}`);
     const body = encodeURIComponent(`Name: ${firstName} ${lastName}\nEmail: ${email}\n\n${message}`);
-    window.location.href = `mailto:vanesa@vanesasakota.com.au?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:contact@vanesasakota.com.au?subject=${subject}&body=${body}`;
     toast({ title: "Opening your email", description: "Your enquiry has been prepared in your email client." });
   };
 
@@ -78,10 +78,10 @@ const Contact = () => {
                 <div className="flex items-baseline justify-between py-3">
                   <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">Email</p>
                   <a
-                    href="mailto:vanesa@vanesasakota.com.au"
+                    href="mailto:contact@vanesasakota.com.au"
                     className="text-[13px] md:text-base text-foreground hover:opacity-60 transition-opacity break-all text-right"
                   >
-                    vanesa@vanesasakota.com.au
+                    contact@vanesasakota.com.au
                   </a>
                 </div>
               </div>
