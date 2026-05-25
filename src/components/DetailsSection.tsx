@@ -118,10 +118,10 @@ export default function DetailsSection() {
             <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-snug">
               Grounded in Evidence
             </h2>
-            <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
+            <p className="text-muted-foreground text-[14px] md:text-[15px] leading-[1.75]">
               My approach is informed by established frameworks across <strong className="text-foreground font-medium">somatic psychotherapy</strong>, <strong className="text-foreground font-medium">polyvagal theory</strong>, <strong className="text-foreground font-medium">psychoneuroimmunology</strong>, and <strong className="text-foreground font-medium">central sensitisation</strong>. Contemporary clinical research offers valuable insight into how trauma, chronic stress, and adversity can interact with physical biology, mapping the complex pathways between mind and body.
             </p>
-            <p className="text-muted-foreground text-base md:text-lg leading-[1.8]">
+            <p className="text-muted-foreground text-[14px] md:text-[15px] leading-[1.75]">
               Review the clinical research surrounding how stress responses can manifest physically, how these symptoms are viewed through a whole-person lens, and the frameworks that support physical recovery.
             </p>
             <div className="pt-2">
