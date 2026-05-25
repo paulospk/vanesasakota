@@ -1,42 +1,7 @@
-import { useState } from "react";
-import { z } from "zod";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
-import { toast } from "@/hooks/use-toast";
-
-const enquirySchema = z.object({
-  firstName: z.string().trim().nonempty({ message: "First name is required" }).max(100),
-  lastName: z.string().trim().nonempty({ message: "Last name is required" }).max(100),
-  email: z.string().trim().email({ message: "Invalid email address" }).max(255),
-  message: z.string().trim().nonempty({ message: "Message is required" }).max(2000),
-});
 
 const Contact = () => {
-  const [form, setForm] = useState({ firstName: "", lastName: "", email: "", message: "" });
-  const [errors, setErrors] = useState<Record<string, string>>({});
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    const result = enquirySchema.safeParse(form);
-    if (!result.success) {
-      const fieldErrors: Record<string, string> = {};
-      result.error.issues.forEach((issue) => {
-        if (issue.path[0]) fieldErrors[issue.path[0] as string] = issue.message;
-      });
-      setErrors(fieldErrors);
-      return;
-    }
-    setErrors({});
-    const { firstName, lastName, email, message } = result.data;
-    const subject = encodeURIComponent(`Enquiry from ${firstName} ${lastName}`);
-    const body = encodeURIComponent(`Name: ${firstName} ${lastName}\nEmail: ${email}\n\n${message}`);
-    window.location.href = `mailto:contact@vanesasakota.com.au?subject=${subject}&body=${body}`;
-    toast({ title: "Opening your email", description: "Your enquiry has been prepared in your email client." });
-  };
-
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
