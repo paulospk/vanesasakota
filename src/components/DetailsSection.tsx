@@ -50,16 +50,11 @@ export default function DetailsSection() {
             </div>
             <div className="lg:col-span-7 space-y-6 max-w-[680px]">
               <ul className="space-y-6">
-                {pillars.map((p) => (
-                  <li key={p.title} className="border-l-2 border-border pl-6">
-                    <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug">
+                {pillars.map((p, i) => (
+                  <li key={i} className="border-l-2 border-border pl-6">
+                    <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug mb-2">
                       {p.title}
                     </h3>
-                    {p.label && (
-                      <p className="font-serif text-2xl md:text-3xl text-primary leading-tight mt-1 mb-2">
-                        {p.label}
-                      </p>
-                    )}
                     <p className="text-muted-foreground text-base leading-[1.8]">
                       {p.description}
                     </p>
