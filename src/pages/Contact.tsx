@@ -17,7 +17,7 @@ const Contact = () => {
               Appointments
             </h1>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
-              I offer in-person sessions at my practice in the Sydney CBD. For inquiries regarding current availability, fees, or referrals, please reach out via phone or email.
+              I offer in-person sessions at my practice in Sydney CBD. For inquiries regarding current availability, fees, or referrals, please reach out via phone or email.
             </p>
           </div>
         </div>
