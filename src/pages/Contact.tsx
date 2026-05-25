@@ -43,43 +43,41 @@ const Contact = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
-          <div className="max-w-xl space-y-4 md:space-y-5 animate-fade-up">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-6 md:py-16">
+          <div className="max-w-xl space-y-3 md:space-y-5 animate-fade-up">
             <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
               Contact
             </p>
             <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
               Appointments
             </h1>
-            <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
+            <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
               I see clients in person in Sydney CBD. For appointments, referrals, fees and availability please contact me by phone, email, or the enquiry form below.
             </p>
-            <div className="pt-2">
-              <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
-                You do not need a GP referral or a Mental Health Care Plan to book. Because this practice operates independently of the Medicare system, our work is confidential and not restricted by capped sessions.
-              </p>
-            </div>
+            <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
+              You do not need a GP referral or a Mental Health Care Plan to book. Because this practice operates independently of the Medicare system, our work is confidential and not restricted by capped sessions.
+            </p>
           </div>
         </div>
       </section>
 
       {/* Contact details */}
       <section className="border-b border-border">
-        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-8 md:py-14">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-5 md:py-10">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-3 lg:gap-8">
             <div className="lg:col-span-3">
               <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
                 Contact
               </p>
             </div>
             <div className="lg:col-span-7 max-w-[640px] divide-y divide-border/60">
-              <div className="flex items-baseline justify-between py-4 first:pt-0">
+              <div className="flex items-baseline justify-between py-3 first:pt-0">
                 <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">Phone</p>
                 <a href="tel:+61405933722" className="text-[15px] md:text-base text-foreground hover:opacity-60 transition-opacity">
                   0405 933 722
                 </a>
               </div>
-              <div className="flex items-baseline justify-between py-4">
+              <div className="flex items-baseline justify-between py-3">
                 <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">Email</p>
                 <a
                   href="mailto:vanesa@vanesasakota.com.au"
@@ -95,8 +93,8 @@ const Contact = () => {
 
       {/* Enquiry form */}
       <section className="border-b border-border">
-        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-6 md:py-16">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-4 lg:gap-8">
             <div className="lg:col-span-3 space-y-2">
               <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
                 Enquiry
