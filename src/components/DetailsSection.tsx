@@ -4,7 +4,7 @@ const pillars: { title: ReactNode; description: ReactNode }[] = [
   {
     title: (
       <>
-        Cognitive Processes | <em className="not-italic font-semibold">Top Down</em>
+        Cognitive Processes | <em className="font-bold italic">Top Down</em>
       </>
     ),
     description: (
@@ -24,7 +24,7 @@ const pillars: { title: ReactNode; description: ReactNode }[] = [
   {
     title: (
       <>
-        Autonomic & Physiological Processes | <em className="not-italic font-semibold">Bottom Up</em>
+        Autonomic & Physiological Processes | <em className="font-bold italic">Bottom Up</em>
       </>
     ),
     description: (
