@@ -75,7 +75,7 @@ export default function DetailsSection() {
               </h2>
             </div>
             <div className="lg:col-span-7 max-w-[680px]">
-              <ul className="space-y-3 text-muted-foreground text-base leading-[1.8]">
+              <ul className="space-y-3 text-muted-foreground text-[15px] md:text-base leading-[1.75]">
                 <li className="flex items-start gap-3">
                   <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
                   <span>Chronic pelvic pain</span>
