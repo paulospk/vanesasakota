@@ -51,6 +51,7 @@ const About = () => {
       </section>
 
       {/* How I work */}
+      {/* How I work */}
       <section className="border-b border-border">
         <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
@@ -65,21 +66,39 @@ const About = () => {
             <div className="lg:col-span-7 max-w-[640px]">
               <div className="divide-y divide-border/60">
                 <div className="py-5 first:pt-0 space-y-2">
-                  <h3 className="font-serif text-lg md:text-xl text-foreground">Cognitive Processes</h3>
+                  <h3 className="font-serif text-lg md:text-xl text-foreground">Cognitive Processes | Top Down</h3>
                   <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7]">
-                    Drawing on Cognitive Behavioural Therapy (CBT) and Acceptance and Commitment Therapy (ACT), treatment addresses thought patterns, beliefs, emotional responses, and psychological flexibility that may influence symptom-related distress and daily functioning.
+                    Drawing on Cognitive Behavioural Therapy (CBT) and Acceptance and Commitment Therapy (ACT), treatment addresses thought patterns, core beliefs, and psychological flexibility that can influence symptom-related distress and everyday functioning.
                   </p>
                 </div>
                 <div className="py-5 space-y-2">
                   <h3 className="font-serif text-lg md:text-xl text-foreground">Emotional &amp; Relational Processes</h3>
                   <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7]">
-                    Using Resource Therapy, treatment explores internal states and protective patterns that may have developed in response to stress, adversity, or perceived threat. The goal is to support greater self-awareness, emotional integration, and adaptive responding.
+                    Using Resource Therapy (Parts Work), we explore internal emotional states and protective patterns that may have developed in response to historical stress, adversity, or a lack of environmental safety. The goal is to support greater self-awareness, emotional integration, and more adaptive responding.
                   </p>
                 </div>
                 <div className="py-5 space-y-2">
-                  <h3 className="font-serif text-lg md:text-xl text-foreground">Autonomic &amp; Physiological Processes</h3>
+                  <h3 className="font-serif text-lg md:text-xl text-foreground">Autonomic &amp; Physiological Processes | Bottom Up</h3>
                   <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7]">
-                    Drawing on Somatic Experiencing and contemporary understandings of autonomic nervous system functioning, treatment focuses on increasing awareness of physiological stress responses and developing greater capacity for regulation, flexibility, and recovery.
+                    Drawing on Somatic Experiencing and contemporary understandings of autonomic nervous system functioning, treatment focuses on increasing awareness of physiological stress responses, supporting the body&rsquo;s capacity for regulation, and assisting the nervous system in shifting out of chronic threat states.
+                  </p>
+                </div>
+                <div className="py-5 space-y-2">
+                  <h3 className="font-serif text-lg md:text-xl text-foreground">Emotional Awareness &amp; Expression Therapy (EAET)</h3>
+                  <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7]">
+                    Developed specifically for chronic pain by leading mind-body medicine pioneers Dr. Howard Schubiner and Dr. Mark Lumley, EAET is a neuro-somatic framework. Unlike therapies focused solely on adapting to discomfort, EAET treats centralized or neuroplastic symptoms as potentially reversible. By identifying and safely processing hidden emotional stressors, we work to deactivate the central nervous system&rsquo;s chronic threat response.
+                  </p>
+                </div>
+                <div className="py-5 space-y-2">
+                  <h3 className="font-serif text-lg md:text-xl text-foreground">Resource Therapy (Advanced Parts Work)</h3>
+                  <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7]">
+                    Founded by Australian psychologist Professor Gordon Emmerson, Resource Therapy is a trauma-informed, psychodynamic framework deeply rooted in relational and attachment concepts. It operates on the premise that our personality is composed of distinct internal parts. In chronic illness, physical symptoms can manifest as a somatic defense mechanism &mdash; the body speaking what a part cannot voice. By safely addressing underlying attachment wounds and internal conflicts, we reduce the systemic tension driving physical pain.
+                  </p>
+                </div>
+                <div className="py-5 space-y-2">
+                  <h3 className="font-serif text-lg md:text-xl text-foreground">Supportive CBT &amp; Acceptance and Commitment Therapy (ACT)</h3>
+                  <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.7]">
+                    To support this deeper processing, I integrate elements of Cognitive Behavioral Therapy (CBT) and ACT as vital grounding frameworks. While EAET and Parts Work target symptom resolution, CBT and ACT provide the essential structural support. They offer practical tools to navigate daily stress, defuse from catastrophic thoughts about pain, and build the psychological flexibility needed to safely engage with your body&rsquo;s healing process.
                   </p>
                 </div>
               </div>
