@@ -22,10 +22,10 @@ const pillars: { title: ReactNode; description: ReactNode }[] = [
     ),
   },
   {
-    title: "Supportive CBT & Acceptance and Commitment Therapy (ACT)",
+    title: "Supportive Cognitive Behavioural Therapy (CBT) & Acceptance and Commitment Therapy (ACT)",
     description: (
       <>
-        To support this deeper processing, I integrate elements of <strong className="text-foreground font-medium">Cognitive Behavioral Therapy (CBT)</strong> and <strong className="text-foreground font-medium">ACT</strong> as vital grounding frameworks. While EAET and Parts Work target symptom resolution, CBT and ACT provide the essential structural support. They offer practical tools to navigate daily stress, defuse from catastrophic thoughts about pain, and build the psychological flexibility needed to safely engage with your body's healing process.
+        To support this deeper processing, I integrate elements of <strong className="text-foreground font-medium">CBT</strong> and <strong className="text-foreground font-medium">ACT</strong> as vital grounding frameworks. While EAET and Parts Work target symptom resolution, CBT and ACT provide the essential structural support. They offer practical tools to navigate daily stress, defuse from catastrophic thoughts about pain, and build the psychological flexibility needed to safely engage with your body's healing process.
       </>
     ),
   },
