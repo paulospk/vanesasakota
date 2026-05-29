@@ -17,7 +17,7 @@ const pillars: { title: ReactNode; description: ReactNode }[] = [
     title: "Resource Therapy (Advanced Parts Work)",
     description: (
       <>
-        Founded by Australian psychologist <strong className="text-foreground font-medium">Professor Gordon Emmerson</strong>, Resource Therapy is a trauma-informed, psychodynamic framework deeply rooted in relational and attachment concepts. It operates on the premise that our personality is composed of distinct internal parts. In chronic illness, physical symptoms can manifest as a somatic defense mechanism — the body speaking what a part cannot voice. By safely addressing underlying attachment wounds and internal conflicts, we reduce the systemic tension driving physical pain.
+        Founded by Australian psychologist <strong className="text-foreground font-medium">Professor Gordon Emmerson</strong>, Resource Therapy is a trauma-informed, psychodynamic framework deeply rooted in relational and attachment concepts. In chronic illness, physical symptoms can manifest as a somatic defense mechanism | the body speaking what a state cannot voice. By safely addressing underlying attachment wounds and internal conflicts, we reduce the systemic tension driving physical pain.
       </>
     ),
   },
