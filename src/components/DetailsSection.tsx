@@ -13,7 +13,6 @@ const pillars: { title: ReactNode; description: ReactNode }[] = [
       </>
     ),
   },
-  },
   {
     title: "Emotional & Relational Processes",
     description: (
