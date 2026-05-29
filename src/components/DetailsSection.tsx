@@ -12,7 +12,7 @@ const pillars: { title: ReactNode; description: ReactNode }[] = [
         Drawing on <strong className="text-foreground font-medium">Cognitive Behavioural Therapy (CBT)</strong> and <strong className="text-foreground font-medium">Acceptance and Commitment Therapy (ACT)</strong>, treatment addresses thought patterns, core beliefs, and psychological flexibility that can influence symptom-related distress and everyday functioning.
       </>
     ),
-    ),
+  },
   },
   {
     title: "Emotional & Relational Processes",
