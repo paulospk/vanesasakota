@@ -20,22 +20,19 @@ const About = () => {
               </h1>
               <div className="space-y-4 text-muted-foreground text-[15px] md:text-base leading-[1.7]">
                 <p>
-                  Vanesa is a psychotherapist based in Sydney. She holds a Master of Psychotherapy and Counselling and a Bachelor of Science in Psychology, following a previous career in medical technology. She completed her training and placements in Sydney, developing a practice that integrates traditional talk therapy with trauma-informed somatic and mind-body approaches.
+                  I am a psychotherapist based in Sydney, holding a Master's degree in Psychotherapy and Counselling and a Bachelor of Science in Psychology. Prior to transitioning into clinical practice, I spent several years in leadership roles within the medical technology sector.
                 </p>
                 <p>
-                  Vanesa works with people experiencing persistent physical symptoms where stress, emotional experience, and nervous system patterns can play a role in how symptoms are felt and maintained. This includes both complex presentations that are not fully explained by medical investigations, and stress-sensitive conditions where symptoms are medically recognised but fluctuate with stress and arousal.
+                  I completed my clinical training and placements in Sydney, developing an integrative framework that bridges relational psychotherapy with modern pain neuroscience and neuro-somatic tools. Rather than focusing strictly on traditional talk therapy, my practice looks closely at the connection between the mind and the nervous system, focusing on down-regulating chronic threat responses and supporting real symptom resolution.
                 </p>
                 <p>
-                  She has a particular interest in pelvic pain presentations, including vulvodynia, vaginismus, and chronic pelvic pain, where pelvic floor muscle guarding, threat responses, and central sensitisation processes may be relevant. She also works with stress-responsive skin and hair conditions such as eczema, psoriasis, and stress-related hair loss, where symptom flares often correlate with stress physiology and emotional load.
+                  I work primarily with adults navigating chronic stress, anxiety, trauma, and persistent physical symptoms. I have a dedicated interest in psychophysiological and stress-sensitive conditions | including centralized chronic pain, chronic pelvic pain syndromes (such as vulvodynia and vaginismus), and stress-responsive dermatological conditions.
                 </p>
                 <p>
-                  Her work draws on evidence-based therapies such as CBT and ACT, alongside somatic and parts-based modalities such as Resource Therapy and Brainspotting with ongoing clinical supervision to stay current and grounded in her practice.
+                  My approach combines clinical rigor with a genuine, collaborative partnership. We work together to uncover the underlying physiological, emotional, and relational factors driving your symptoms, focusing on helping your system regain safety and supporting long-term recovery.
                 </p>
                 <p>
-                  Vanesa offers a collaborative, and relational therapeutic space that supports emotional steadiness, flexibility, and meaningful change over time.
-                </p>
-                <p>
-                  When she is not with her clients, she enjoys time with family, writing, and getting to a Pilates class.
+                  When I am not with my clients, I enjoy time with family, writing, and getting to a Pilates class.
                 </p>
               </div>
             </div>
