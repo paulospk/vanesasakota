@@ -4,32 +4,28 @@ const pillars: { title: ReactNode; description: ReactNode }[] = [
   {
     title: (
       <>
-        Cognitive Processes | <em className="font-bold italic">Top Down</em>
+        Emotional Awareness & Expression Therapy (EAET)
       </>
     ),
     description: (
       <>
-        Drawing on <strong className="text-foreground font-medium">Cognitive Behavioural Therapy (CBT)</strong> and <strong className="text-foreground font-medium">Acceptance and Commitment Therapy (ACT)</strong>, treatment addresses thought patterns, core beliefs, and psychological flexibility that can influence symptom-related distress and everyday functioning.
+        Developed specifically for chronic pain by leading mind-body medicine pioneers <strong className="text-foreground font-medium">Dr. Howard Schubiner</strong> and <strong className="text-foreground font-medium">Dr. Mark Lumley</strong>, EAET is a neuro-somatic framework. Unlike therapies focused solely on adapting to discomfort, EAET treats centralized or neuroplastic symptoms as potentially reversible. By identifying and safely processing hidden emotional stressors, we work to deactivate the central nervous system's chronic threat response.
       </>
     ),
   },
   {
-    title: "Emotional & Relational Processes",
+    title: "Resource Therapy (Advanced Parts Work)",
     description: (
       <>
-        Using <strong className="text-foreground font-medium">Resource Therapy (Parts Work)</strong>, we explore internal emotional states and protective patterns that may have developed in response to historical stress, adversity, or a lack of environmental safety. The goal is to support greater self-awareness, emotional integration, and more adaptive responding.
+        Founded by Australian psychologist <strong className="text-foreground font-medium">Professor Gordon Emmerson</strong>, Resource Therapy is a trauma-informed, psychodynamic framework deeply rooted in relational and attachment concepts. It operates on the premise that our personality is composed of distinct internal parts. In chronic illness, physical symptoms can manifest as a somatic defense mechanism — the body speaking what a part cannot voice. By safely addressing underlying attachment wounds and internal conflicts, we reduce the systemic tension driving physical pain.
       </>
     ),
   },
   {
-    title: (
-      <>
-        Autonomic & Physiological Processes | <em className="font-bold italic">Bottom Up</em>
-      </>
-    ),
+    title: "Supportive CBT & Acceptance and Commitment Therapy (ACT)",
     description: (
       <>
-        Drawing on <strong className="text-foreground font-medium">Somatic Experiencing</strong> and contemporary understandings of autonomic nervous system functioning, treatment focuses on increasing awareness of physiological stress responses, supporting the body&rsquo;s capacity for regulation, and assisting the nervous system in shifting out of chronic threat states.
+        To support this deeper processing, I integrate elements of <strong className="text-foreground font-medium">Cognitive Behavioral Therapy (CBT)</strong> and <strong className="text-foreground font-medium">ACT</strong> as vital grounding frameworks. While EAET and Parts Work target symptom resolution, CBT and ACT provide the essential structural support. They offer practical tools to navigate daily stress, defuse from catastrophic thoughts about pain, and build the psychological flexibility needed to safely engage with your body's healing process.
       </>
     ),
   },
