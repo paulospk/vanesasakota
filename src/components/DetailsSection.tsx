@@ -9,7 +9,7 @@ const pillars: { title: ReactNode; description: ReactNode }[] = [
     ),
     description: (
       <>
-        Developed specifically for chronic pain by leading mind-body medicine pioneers <strong className="text-foreground font-medium">Dr. Howard Schubiner</strong> and <strong className="text-foreground font-medium">Dr. Mark Lumley</strong>, EAET is a neuro-somatic framework. Unlike therapies focused solely on adapting to discomfort, EAET treats centralized or neuroplastic symptoms as potentially reversible. By identifying and safely processing hidden emotional stressors, we work to deactivate the central nervous system's chronic threat response.
+        Developed specifically for chronic pain by leading mind-body medicine pioneers <strong className="text-foreground font-medium">Dr. Howard Schubiner</strong> and <strong className="text-foreground font-medium">Dr. Mark Lumley</strong>, EAET is a neuro-somatic framework. Instead of focusing on adapting to discomfort, EAET works by identifying and safely processing hidden emotional stressors in order to deactivate the central nervous system's chronic threat response.
       </>
     ),
   },
