@@ -12,7 +12,7 @@ export default function HeroSection() {
               Mind-Body Psychotherapy Sydney
             </h1>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75] max-w-[52ch]">
-              Sydney-based psychotherapist specialising in the relationship between psychological states, stress physiology, and physical health.
+              Sydney-based psychotherapist working with chronic stress, trauma, and psychophysiological symptoms.
             </p>
           </div>
 
