@@ -42,7 +42,7 @@ const Index = () => {
                 Her work draws on evidence-based therapies such as EAET, ACT alongside somatic and targeted parts-based approaches including Resource Therapy and Brainspotting. She maintains an active commitment to clinical supervision and continuing professional development to remain grounded in her practice.
               </p>
               <p>
-                Vanesa offers a collaborative and relational therapeutic space that supports emotional steadiness, greater self-understanding, and meaningful change over time.
+                Vanesa offers a collaborative and relational therapeutic space that supports emotional steadiness, awareness and integration for meaningful change over time.
               </p>
             </div>
           </div>
