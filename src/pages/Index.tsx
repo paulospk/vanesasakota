@@ -39,7 +39,7 @@ const Index = () => {
                 She works with adults experiencing anxiety, trauma, chronic stress, and persistent physical symptoms. She has a particular interest in psychophysiological and stress-sensitive conditions, including chronic pelvic pain, vulvodynia, vaginismus, and stress-responsive skin conditions.
               </p>
               <p>
-                Her work draws on evidence-based therapies such as CBT and ACT, alongside somatic and parts-based approaches including Resource Therapy and Brainspotting. She engages in ongoing clinical supervision and professional development to support safe, ethical, and effective practice.
+                Her work draws on evidence-based therapies such as EAET, ACT alongside somatic and targeted parts-based approaches including Resource Therapy and Brainspotting. She engages in ongoing clinical supervision and professional development to support safe, ethical, and effective practice.
               </p>
               <p>
                 Vanesa offers a collaborative and relational therapeutic space that supports emotional steadiness, greater self-understanding, and meaningful change over time.
