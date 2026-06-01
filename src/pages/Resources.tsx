@@ -80,21 +80,21 @@ type Book = {
 
 const accessible: Book[] = [
   {
-    cover: "https://covers2.booksamillion.com/covers/bam/0/14/312/774/0143127748_b.jpg",
+    cover: "https://covers.openlibrary.org/b/isbn/9780143127741-L.jpg",
     title: "The Body Keeps the Score",
     author: "Bessel van der Kolk",
     description: "How trauma reshapes brain, body, and self | and the range of approaches that support recovery.",
     href: "https://www.booktopia.com.au/the-body-keeps-the-score-bessel-van-der-kolk/book/9780143127741.html",
   },
   {
-    cover: "https://covers3.booksamillion.com/covers/bam/0/80/507/369/0805073698_b.jpg",
+    cover: "https://covers.openlibrary.org/b/isbn/9780805073690-L.jpg",
     title: "Why Zebras Don't Get Ulcers",
     author: "Robert Sapolsky",
     description: "The biology of stress | why the human capacity for anticipation and rumination produces particular vulnerability to chronic stress illness.",
     href: "https://www.booktopia.com.au/why-zebras-don-t-get-ulcers-robert-m-sapolsky/book/9780805073690.html",
   },
   {
-    cover: "https://covers4.booksamillion.com/covers/bam/0/47/092/335/0470923350_b.jpg",
+    cover: "https://covers.openlibrary.org/b/isbn/9780470923351-L.jpg",
     title: "When the Body Says No",
     author: "Gabor Maté",
     description: "The connection between emotional suppression, chronic stress, and serious illness | approached with compassion and clinical depth.",
@@ -104,14 +104,14 @@ const accessible: Book[] = [
 
 const deeper: Book[] = [
   {
-    cover: "https://covers3.booksamillion.com/covers/bam/1/55/643/233/155643233X_b.jpg",
+    cover: "https://covers.openlibrary.org/b/isbn/9781556432330-L.jpg",
     title: "Waking the Tiger",
     author: "Peter Levine",
     description: "Somatic experiencing | how trauma is stored in the body and how the body's own processes can facilitate its resolution.",
     href: "https://www.booktopia.com.au/waking-the-tiger-peter-a-levine/book/9781556432330.html",
   },
   {
-    cover: "https://covers1.booksamillion.com/covers/bam/0/39/370/787/0393707873_b.jpg",
+    cover: "https://covers.openlibrary.org/b/isbn/9780393707878-L.jpg",
     title: "The Pocket Guide to the Polyvagal Theory",
     author: "Stephen Porges",
     description: "An accessible introduction to neuroception, autonomic states, and the conditions that support healing.",
@@ -136,31 +136,22 @@ const EntryCard = ({ entry }: { entry: Entry }) => (
 
 const BookRow = ({ book }: { book: Book }) => (
   <article className="grid grid-cols-[100px_1fr] md:grid-cols-[140px_1fr] gap-5 md:gap-8 items-start border-t border-border/60 pt-6 first:border-t-0 first:pt-0">
-    <a href={book.href} target="_blank" rel="noopener noreferrer" className="block">
-      <img
-        src={book.cover}
-        alt={`${book.title} cover`}
-        loading="lazy"
-        className="w-full h-auto rounded-sm shadow-sm border border-border/60"
-      />
-    </a>
+    <img
+      src={book.cover}
+      alt={`${book.title} cover`}
+      loading="lazy"
+      className="w-full h-auto rounded-sm shadow-sm border border-border/60"
+    />
     <div className="space-y-2">
       <h4 className="font-serif text-xl md:text-2xl text-foreground leading-snug">{book.title}</h4>
       <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
         {book.author}
       </p>
       <p className="text-muted-foreground text-[14px] md:text-[15px] leading-[1.75]">{book.description}</p>
-      <a
-        href={book.href}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center gap-1 text-[13px] md:text-sm text-foreground hover:opacity-60 transition-opacity pt-1"
-      >
-        Find this book <span aria-hidden="true">&rarr;</span>
-      </a>
     </div>
   </article>
 );
+
 
 const Resources = () => {
   return (
