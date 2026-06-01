@@ -10,6 +10,7 @@ import Index from "./pages/Index.tsx";
 import FAQs from "./pages/FAQs.tsx";
 
 import ForProviders from "./pages/ForProviders.tsx";
+import Resources from "./pages/Resources.tsx";
 import Contact from "./pages/Contact.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import { Navigate } from "react-router-dom";
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/faqs" element={<FAQs />} />
           
           <Route path="/for-providers" element={<ForProviders />} />
+          <Route path="/resources" element={<Resources />} />
           <Route path="/contact" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

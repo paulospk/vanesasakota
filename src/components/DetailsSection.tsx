@@ -99,25 +99,51 @@ export default function DetailsSection() {
       </section>
 
 
-      {/* Evidence Base */}
+      {/* A way of seeing */}
       <section className="bg-background border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-12">
-          <div className="max-w-[760px] space-y-6">
-            <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-snug">
-              Grounded in Evidence
-            </h2>
-            <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75]">
-              My approach is informed by established frameworks across <strong className="text-foreground font-medium">somatic psychotherapy</strong>, <strong className="text-foreground font-medium">polyvagal theory</strong>, <strong className="text-foreground font-medium">psychoneuroimmunology</strong>, and <strong className="text-foreground font-medium">central sensitisation</strong>. Contemporary clinical research offers valuable insight into how trauma, chronic stress, and adversity can interact with physical biology, mapping the complex pathways between mind and body.
-            </p>
-            <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75]">
-              Review the clinical research surrounding how stress responses can manifest physically, how these symptoms are viewed through a whole-person lens, and the frameworks that support physical recovery.
-            </p>
+          <div className="space-y-8 md:space-y-10">
+            <div className="max-w-[760px] space-y-4">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+                A way of seeing
+              </p>
+              <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-snug">
+                The lens I bring to your symptoms
+              </h2>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+              {[
+                {
+                  label: "Seminal work",
+                  body: "The studies and frameworks that changed how we understand stress, early experience, and the body.",
+                },
+                {
+                  label: "Current research",
+                  body: "Ongoing work expanding the picture | the brain–skin axis, interoception, allostatic load.",
+                },
+                {
+                  label: "Reading",
+                  body: "Books I return to and recommend, for anyone curious about mind–body health.",
+                },
+              ].map((c) => (
+                <div key={c.label} className="border-l-2 border-border pl-5 py-1">
+                  <h3 className="font-serif text-lg md:text-xl text-foreground leading-snug mb-2">
+                    {c.label}
+                  </h3>
+                  <p className="text-muted-foreground text-[14px] md:text-[15px] leading-[1.7]">
+                    {c.body}
+                  </p>
+                </div>
+              ))}
+            </div>
+
             <div className="pt-2">
               <a
-                href="/for-providers"
+                href="/resources"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-foreground text-background text-sm font-medium tracking-wide hover:opacity-90 transition-opacity"
               >
-                Explore the evidence base
+                Explore the resource library
                 <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
