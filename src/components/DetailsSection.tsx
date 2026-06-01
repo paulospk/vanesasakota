@@ -39,7 +39,10 @@ export default function DetailsSection() {
       <section className="bg-background border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-12">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
-            <div className="lg:col-span-3">
+            <div className="lg:col-span-3 space-y-2">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+                Approach
+              </p>
               <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
                 An Integrative Systems Approach
               </h2>
@@ -65,7 +68,10 @@ export default function DetailsSection() {
       <section className="bg-background border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-12">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
-            <div className="lg:col-span-3">
+            <div className="lg:col-span-3 space-y-2">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+                Focus
+              </p>
               <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
                 I Work With
               </h2>
