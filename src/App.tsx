@@ -10,6 +10,7 @@ import Index from "./pages/Index.tsx";
 import FAQs from "./pages/FAQs.tsx";
 
 import ForProviders from "./pages/ForProviders.tsx";
+import Resources from "./pages/Resources.tsx";
 import Contact from "./pages/Contact.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import { Navigate } from "react-router-dom";
