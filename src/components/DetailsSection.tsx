@@ -67,7 +67,7 @@ export default function DetailsSection() {
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-8">
             <div className="lg:col-span-3">
               <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-tight">
-                I Commonly Work With
+                I Work With
               </h2>
             </div>
             <div className="lg:col-span-7 max-w-[680px]">
