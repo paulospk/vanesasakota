@@ -53,7 +53,7 @@ const current: Entry[] = [
   {
     title: "The brain–skin axis",
     meta: "Arck, Paus et al. · 2006–present",
-    body: "Dermatological and neurological research has established direct pathways between psychological stress and skin inflammation | altering barrier function, immune cell behaviour, and neuropeptide levels. Relevant to psoriasis, eczema, rosacea, acne, and stress-related alopecia.",
+    body: "Dermatological and neurological research has established direct pathways between psychological stress and skin inflammation, altering barrier function, immune cell behaviour, and neuropeptide levels. Relevant to psoriasis, eczema, rosacea, acne, and stress-related alopecia.",
     tag: "Skin & nervous system",
   },
   {
