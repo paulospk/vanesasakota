@@ -33,16 +33,19 @@ const Index = () => {
             </div>
             <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
               <p>
-                Vanesa is a psychotherapist based in Sydney. She holds a Master of Psychotherapy and Counselling and a Bachelor of Science in Psychology, following a previous career in medical technology. She completed her training and placements in Sydney, developing a practice that integrates traditional psychotherapy with trauma-informed somatic and mind-body approaches.
+                I&rsquo;m a Sydney-based psychotherapist working with adults experiencing anxiety, trauma, chronic stress, and persistent physical symptoms.
               </p>
               <p>
-                She works with adults experiencing anxiety, trauma, chronic stress, and persistent physical symptoms. She has a particular interest in psychophysiological and stress-sensitive conditions, including chronic pelvic pain, vulvodynia, vaginismus, and stress-responsive skin conditions.
+                I have a particular interest in psychophysiological and stress-sensitive conditions | including chronic pelvic pain, vulvodynia, vaginismus, and stress-responsive skin conditions such as psoriasis, eczema, and acne. These are presentations where the relationship between the nervous system, early experience, and the body is often central to both what&rsquo;s happening and what helps.
               </p>
               <p>
-                Her work draws on evidence-based therapies such as EAET, ACT alongside somatic and targeted parts-based approaches including Resource Therapy and Brainspotting. She maintains an active commitment to clinical supervision and continuing professional development to remain grounded in her practice.
+                My practice draws on trauma-informed mind-body approaches, alongside EAET, targeted parts-based work and CBT/ACT. These frameworks sit within a broader biopsychosocial understanding of health | one that considers the whole person rather than the presenting symptom in isolation.
               </p>
               <p>
-                Vanesa offers a collaborative and relational therapeutic space that supports emotional steadiness, awareness and integration for meaningful change over time.
+                I maintain ongoing clinical supervision and a commitment to professional development, and collaborate with GPs, gynaecologists, dermatologists, and other specialists as part of an integrative approach to care.
+              </p>
+              <p>
+                The therapeutic space I offer is relational and unhurried | oriented toward steadiness, growing self-awareness, and integration that allows for meaningful change.
               </p>
             </div>
           </div>
