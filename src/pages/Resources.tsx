@@ -14,7 +14,7 @@ const seminal: Entry[] = [
   {
     title: "Adverse Childhood Experiences (ACE) Study",
     meta: "Felitti, Anda et al. · Kaiser Permanente / CDC · 1998",
-    body: "A landmark epidemiological study of over 17,000 adults, establishing a dose-response relationship between early adversity and adult physical health outcomes | cardiovascular disease, autoimmune conditions, chronic pain, and more. The study reframed health-risk behaviours as adaptations to overwhelming early environments rather than individual failings.",
+    body: "A landmark epidemiological study of over 17,000 adults, establishing a dose-response relationship between early adversity and adult physical health outcomes, including cardiovascular disease, autoimmune conditions, chronic pain, and more. The study reframed health-risk behaviours as adaptations to overwhelming early environments rather than individual failings.",
     tag: "Early experience",
   },
   {
