@@ -99,38 +99,31 @@ export default function DetailsSection() {
       </section>
 
 
-      {/* Understanding Symptoms Through a Broader Lens */}
+      {/* Evidence Base */}
       <section className="bg-background border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-6 md:py-12">
           <div className="max-w-[760px] space-y-6">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground leading-snug">
-              Understanding Symptoms Through a Broader Lens
+              Grounded in Evidence
             </h2>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75]">
-              Many of the people I work with live with symptoms that do not fit neatly into a single category. Some have clear medical diagnoses. Others have undergone extensive investigations yet continue to experience distressing symptoms that affect daily life.
+              My approach is informed by established frameworks across <strong className="text-foreground font-medium">somatic psychotherapy</strong>, <strong className="text-foreground font-medium">polyvagal theory</strong>, <strong className="text-foreground font-medium">psychoneuroimmunology</strong>, and <strong className="text-foreground font-medium">central sensitisation</strong>. Contemporary clinical research offers valuable insight into how trauma, chronic stress, and adversity can interact with physical biology, mapping the complex pathways between mind and body.
             </p>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75]">
-              My work is informed by a biopsychosocial perspective, which recognises that biological, psychological, and social factors are constantly interacting. Research across fields such as trauma, attachment, stress physiology, psychoneuroimmunology, pain science, and nervous system functioning suggests that our experiences, relationships, emotions, and physiology are deeply interconnected.
-            </p>
-            <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75]">
-              This perspective does not suggest that symptoms are &ldquo;all in the mind&rdquo;. Rather, it encourages a broader and more integrated understanding of how symptoms may develop, persist, or intensify over time.
-            </p>
-            <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75]">
-              For those interested in exploring these ideas further, I have compiled a collection of influential research, contemporary findings, and recommended readings that have helped shape my clinical thinking.
+              Review the clinical research surrounding how stress responses can manifest physically, how these symptoms are viewed through a whole-person lens, and the frameworks that support physical recovery.
             </p>
             <div className="pt-2">
               <a
                 href="/for-providers"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-foreground text-background text-sm font-medium tracking-wide hover:opacity-90 transition-opacity"
               >
-                Explore Mind-Body Research &amp; Resources
+                Explore the evidence base
                 <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </div>
         </div>
       </section>
-
 
     </>
   );
