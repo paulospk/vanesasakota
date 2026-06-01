@@ -83,7 +83,7 @@ const accessible: Book[] = [
     cover: "https://covers.openlibrary.org/b/isbn/9780143127741-L.jpg",
     title: "The Body Keeps the Score",
     author: "Bessel van der Kolk",
-    description: "How trauma reshapes brain, body, and self | and the range of approaches that support recovery.",
+    description: "How trauma reshapes brain, body, and self, and the range of approaches that support recovery.",
     href: "https://www.booktopia.com.au/the-body-keeps-the-score-bessel-van-der-kolk/book/9780143127741.html",
   },
   {
