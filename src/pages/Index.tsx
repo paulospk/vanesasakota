@@ -10,11 +10,12 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Vanesa Sakota | Psychotherapist Sydney CBD</title>
-        <meta name="description" content="Sydney CBD psychotherapist Vanesa Sakota works with adults experiencing anxiety, trauma, chronic stress, chronic pelvic pain, vulvodynia, vaginismus and stress-responsive skin conditions." />
+        <meta name="description" content="In-person psychotherapy in Sydney CBD for anxiety, trauma, chronic stress, chronic pelvic pain, vulvodynia, vaginismus and stress-responsive skin conditions. PACFA registered." />
         <link rel="canonical" href="https://vanesasakota.com.au/" />
         <meta property="og:title" content="Vanesa Sakota | Psychotherapist Sydney CBD" />
-        <meta property="og:description" content="In-person psychotherapy in Sydney CBD for anxiety, trauma, chronic stress and stress-sensitive physical conditions." />
+        <meta property="og:description" content="In-person psychotherapy in Sydney CBD for anxiety, trauma, chronic stress and stress-sensitive physical conditions. PACFA registered." />
         <meta property="og:url" content="https://vanesasakota.com.au/" />
+        <meta property="og:image" content="https://vanesasakota.com.au/og-image.jpg" />
       </Helmet>
       <Navbar />
       <HeroSection />
