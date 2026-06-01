@@ -21,7 +21,7 @@ const Index = () => {
 
       {/* About Vanesa */}
       <section className="bg-background border-b border-border">
-        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-10 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
             <div className="lg:col-span-3 space-y-2">
               <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
@@ -56,7 +56,7 @@ const Index = () => {
 
       {/* Education & Memberships */}
       <section className="bg-background border-b border-border">
-        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-10 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
             <div className="lg:col-span-3 space-y-2">
               <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
