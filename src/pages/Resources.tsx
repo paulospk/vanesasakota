@@ -97,7 +97,7 @@ const accessible: Book[] = [
     cover: "https://covers.openlibrary.org/b/isbn/9780470923351-L.jpg",
     title: "When the Body Says No",
     author: "Gabor Maté",
-    description: "The connection between emotional suppression, chronic stress, and serious illness | approached with compassion and clinical depth.",
+    description: "The connection between emotional suppression, chronic stress, and serious illness, approached with compassion and clinical depth.",
     href: "https://www.booktopia.com.au/when-the-body-says-no-gabor-mat-/book/9780470923351.html",
   },
 ];
