@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import profileImg from "@/assets/profile-hero.jpg";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
@@ -5,7 +6,16 @@ import FooterSection from "@/components/FooterSection";
 const About = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>About Vanesa Sakota | Integrative Psychotherapist Sydney CBD</title>
+        <meta name="description" content="Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD with a Master of Psychotherapy from Western Sydney University. Integrative approach combining CBT, ACT, Somatic Experiencing and Resource Therapy." />
+        <link rel="canonical" href="https://vanesasakota.com.au/about" />
+        <meta property="og:title" content="About Vanesa Sakota | Integrative Psychotherapist Sydney CBD" />
+        <meta property="og:description" content="PACFA-registered psychotherapist in Sydney CBD. Master of Psychotherapy, Western Sydney University. Integrative mind-body approach." />
+        <meta property="og:url" content="https://vanesasakota.com.au/about" />
+      </Helmet>
       <Navbar />
+
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
