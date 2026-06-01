@@ -7,10 +7,10 @@ const Contact = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Contact | Vanesa Sakota Psychotherapy Sydney CBD</title>
-        <meta name="description" content="Contact Vanesa Sakota for in-person psychotherapy appointments in Sydney CBD. Reach out by phone or email for current availability, fees and referrals." />
+        <meta name="description" content="Book an in-person psychotherapy appointment with Vanesa Sakota in Sydney CBD. Located at BMA House, 135 Macquarie Street. No GP referral required. Call 0405 933 722." />
         <link rel="canonical" href="https://vanesasakota.com.au/contact" />
-        <meta property="og:title" content="Contact | Vanesa Sakota Psychotherapy" />
-        <meta property="og:description" content="In-person psychotherapy appointments in Sydney CBD. Contact by phone or email." />
+        <meta property="og:title" content="Contact | Vanesa Sakota Psychotherapy Sydney CBD" />
+        <meta property="og:description" content="In-person psychotherapy appointments in Sydney CBD. BMA House, 135 Macquarie Street. No referral required." />
         <meta property="og:url" content="https://vanesasakota.com.au/contact" />
       </Helmet>
       <Navbar />
