@@ -26,7 +26,7 @@ const seminal: Entry[] = [
   {
     title: "Psychoneuroimmunology (PNI)",
     meta: "Ader & Cohen · 1975 · expanded field",
-    body: "The discovery of bidirectional communication between the nervous, endocrine, and immune systems established a biological basis for the mind–body relationship. Psychological experience produces measurable physiological change | a finding that underpins much of what followed.",
+    body: "The discovery of bidirectional communication between the nervous, endocrine, and immune systems established a biological basis for the mind–body relationship. Psychological experience produces measurable physiological change, a finding that underpins much of what followed.",
     tag: "Mind–body",
   },
   {
