@@ -45,7 +45,7 @@ const Index = () => {
                 I maintain ongoing clinical supervision and a commitment to professional development, and collaborate with GPs, gynaecologists, dermatologists, and other specialists as part of an integrative approach to care.
               </p>
               <p>
-                The therapeutic space I offer is relational and unhurried | oriented toward steadiness, growing self-awareness, and integration that allows for meaningful change.
+                The therapeutic space I offer is relational and unhurried, oriented toward steadiness, growing self-awareness, and integration that allows for meaningful change.
               </p>
             </div>
           </div>
