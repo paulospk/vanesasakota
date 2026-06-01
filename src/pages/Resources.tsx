@@ -32,7 +32,7 @@ const seminal: Entry[] = [
   {
     title: "The HPA axis and chronic stress",
     meta: "McEwen, Selye, Sapolsky · various",
-    body: "Research into the hypothalamic-pituitary-adrenal axis mapped the biological mechanisms by which sustained stress | via cortisol, adrenaline, and inflammatory pathways | becomes dysregulating over time. The foundation for understanding why chronic stress produces illness rather than simply discomfort.",
+    body: "Research into the hypothalamic-pituitary-adrenal axis mapped the biological mechanisms by which sustained stress, via cortisol, adrenaline, and inflammatory pathways, becomes dysregulating over time. The foundation for understanding why chronic stress produces illness rather than simply discomfort.",
     tag: "Stress biology",
   },
   {
