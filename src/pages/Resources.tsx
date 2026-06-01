@@ -47,7 +47,7 @@ const current: Entry[] = [
   {
     title: "Allostatic load",
     meta: "McEwen & Stellar · 1993 · ongoing",
-    body: "The cumulative biological cost of repeated or chronic stress, measurable across cardiovascular, metabolic, and immune systems. Useful for understanding why reducing a current stressor does not automatically undo physiological dysregulation | the body maintains a running total.",
+    body: "The cumulative biological cost of repeated or chronic stress, measurable across cardiovascular, metabolic, and immune systems. Useful for understanding why reducing a current stressor does not automatically undo physiological dysregulation. The body maintains a running total.",
     tag: "Stress biology",
   },
   {
