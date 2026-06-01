@@ -38,7 +38,7 @@ const seminal: Entry[] = [
   {
     title: "Central sensitisation",
     meta: "Woolf · 1983 · expanded by Yunus and others",
-    body: "A sensitised nervous system amplifies signals | including pain and threat detection | in the absence of new tissue damage. Central to understanding fibromyalgia, IBS, chronic pelvic pain, chronic fatigue, and stress-responsive skin conditions. A neurological rather than imagined phenomenon.",
+    body: "A sensitised nervous system amplifies signals, including pain and threat detection, in the absence of new tissue damage. Central to understanding fibromyalgia, IBS, chronic pelvic pain, chronic fatigue, and stress-responsive skin conditions. A neurological rather than imagined phenomenon.",
     tag: "Chronic symptoms",
   },
 ];
