@@ -26,7 +26,7 @@ const About = () => {
                   I completed my clinical training and placements in Sydney, developing an integrative framework that bridges relational psychotherapy with modern pain neuroscience and neuro-somatic tools. Rather than focusing strictly on traditional talk therapy, my practice looks closely at the connection between the mind and the nervous system, focusing on down-regulating chronic threat responses and supporting real symptom resolution.
                 </p>
                 <p>
-                  I work primarily with adults navigating chronic stress, anxiety, trauma, and persistent physical symptoms. I have a dedicated interest in psychophysiological and stress-sensitive conditions | including centralized chronic pain, chronic pelvic pain syndromes (such as vulvodynia and vaginismus), and stress-responsive dermatological conditions.
+                  I work primarily with adults navigating chronic stress, anxiety, trauma, and persistent physical symptoms. I have a dedicated interest in psychophysiological and stress-sensitive conditions, including centralized chronic pain, chronic pelvic pain syndromes (such as vulvodynia and vaginismus), and stress-responsive dermatological conditions.
                 </p>
                 <p>
                   My approach combines clinical rigor with a genuine, collaborative partnership. We work together to uncover the underlying physiological, emotional, and relational factors driving your symptoms, focusing on helping your system regain safety and supporting long-term recovery.

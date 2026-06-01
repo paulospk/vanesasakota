@@ -36,16 +36,16 @@ const Index = () => {
                 I am a Sydney-based psychotherapist working with adults experiencing anxiety, trauma, chronic stress, and persistent physical symptoms.
               </p>
               <p>
-                I have a particular interest in psychophysiological and stress-sensitive conditions | including chronic pelvic pain, vulvodynia, vaginismus, and stress-responsive skin conditions such as psoriasis, eczema, and acne. These are presentations where the relationship between the nervous system, early experience, and the body is often central to both what&rsquo;s happening and what helps.
+                I have a particular interest in psychophysiological and stress-sensitive conditions, including chronic pelvic pain, vulvodynia, vaginismus, and stress-responsive skin conditions such as psoriasis, eczema, and acne. These are presentations where the relationship between the nervous system, early experience, and the body is often central to both what&rsquo;s happening and what helps.
               </p>
               <p>
-                My practice draws on trauma-informed mind-body approaches, alongside EAET, targeted parts-based work and CBT/ACT. These frameworks sit within a broader biopsychosocial understanding of health | one that considers the whole person rather than the presenting symptom in isolation.
+                My practice draws on trauma-informed mind-body approaches, alongside EAET, targeted parts-based work and CBT/ACT. These frameworks sit within a broader biopsychosocial understanding of health, one that considers the whole person rather than the presenting symptom in isolation.
               </p>
               <p>
                 I maintain ongoing clinical supervision and a commitment to professional development, and collaborate with GPs, gynaecologists, dermatologists, and other specialists as part of an integrative approach to care.
               </p>
               <p>
-                The therapeutic space I offer is relational and unhurried | oriented toward steadiness, growing self-awareness, and integration that allows for meaningful change.
+                The therapeutic space I offer is relational and unhurried, oriented toward steadiness, growing self-awareness, and integration that allows for meaningful change.
               </p>
             </div>
           </div>
