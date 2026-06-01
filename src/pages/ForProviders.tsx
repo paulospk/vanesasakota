@@ -2,143 +2,122 @@ import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 
-type Section = {
+type Topic = {
   number: string;
   title: string;
-  paragraphs: { heading?: string; body: string }[];
+  paragraphs: string[];
 };
 
-const sections: Section[] = [
+const topics: Topic[] = [
   {
     number: "01",
-    title: "The Foundational Link: Adverse Childhood Experiences (ACEs)",
+    title: "Adverse Childhood Experiences (ACEs)",
     paragraphs: [
-      {
-        heading: "The Research: The CDC-Kaiser Permanente ACE Study",
-        body: "This landmark epidemiological study evaluated over 17,000 participants, tracking the statistically significant relationships between early life adversity (such as chronic stress, neglect, or household dysfunction) and adult health outcomes.",
-      },
-      {
-        body: "The Physical Footprint: Research suggests that significant early life stress can alter long-term physiological development. Data indicates a strong correlation between the amount of childhood adversity experienced and the likelihood of experiencing chronic physical symptoms in adulthood.",
-      },
-      {
-        body: "Elevated Risk Profile: Individuals with higher ACE scores statistically show a higher prevalence of chronic pain, autoimmune flare-ups, and chronic fatigue.",
-      },
-      {
-        body: "A Distinct Factor: This strong correlation remains significant even when accounting for health behaviors like smoking, diet, or alcohol use — suggesting that the physiological impact of prolonged stress itself is a major contributing factor to adult health.",
-      },
+      "The Adverse Childhood Experiences (ACE) Study drew attention to the relationship between childhood adversity and long-term health outcomes. It helped shift conversations about health by highlighting how early life experiences can influence physical and psychological wellbeing across the lifespan.",
+      "While adversity alone does not determine future health, the study contributed to a growing recognition that experiences such as chronic stress, neglect, instability, and trauma may have lasting physiological as well as psychological effects.",
     ],
   },
   {
     number: "02",
-    title: "Biological Pathways: Psychoneuroimmunology (PNI)",
+    title: "Psychoneuroimmunology (PNI)",
     paragraphs: [
-      {
-        heading: "The Research: Neuroendocrine-Immune System Pathways",
-        body: "Contemporary research in PNI examines the complex interactions between the nervous system, the endocrine (hormone) system, and the immune system during periods of prolonged stress.",
-      },
-      {
-        body: "System-Wide Responses: When the nervous system detects persistent stress, it can trigger the immune system to release pro-inflammatory proteins (cytokines).",
-      },
-      {
-        body: "Sensitised Pain Pathways: Prolonged inflammatory responses are linked to peripheral sensitization, which can contribute to widespread muscle tension, heightened sensitivity to pain, and tissue distress.",
-      },
-      {
-        body: "Hormonal Fluctuations: Chronic arousal can disrupt cortisol regulation, potentially impacting the body's natural sleep cycles, digestion, and systemic recovery.",
-      },
+      "Psychoneuroimmunology explores the interaction between the nervous system, immune system, endocrine system, and psychological processes.",
+      "This field has challenged traditional assumptions that emotional and physical health operate independently. Research suggests that stress, emotions, immune functioning, and physiology are interconnected and continuously influencing one another.",
     ],
   },
   {
     number: "03",
-    title: "Somatic Protection: Pelvic Health & Autonomic Bracing",
+    title: "Stress Physiology & the HPA Axis",
     paragraphs: [
-      {
-        heading: "The Research: Polyvagal Theory and Autonomic Defense Responses",
-        body: "Clinical literature exploring functional pelvic pain conditions (such as vaginismus, vulvodynia, and chronic pelvic pain) investigates how the autonomic nervous system influences muscle tension.",
-      },
-      {
-        body: "The Pelvic Floor as a Protective Shield: Guided by Polyvagal Theory, researchers observe that when the nervous system detects danger or vulnerability, it can trigger defensive states (fight, flight, or freeze). This can manifest as involuntary, chronic muscular bracing in the pelvic floor.",
-      },
-      {
-        body: "Persistent Guarding Patterns: Long after an initial physical injury has healed or a stressful period has passed, the nervous system may maintain these defensive, hyper-toned muscular patterns.",
-      },
-      {
-        body: "De-Escalating the System: Clinical approaches focus on signaling safety to the autonomic nervous system, helping the body gradually deactivate this protective shielding pattern.",
-      },
+      "The body's stress response is essential for survival. When we perceive threat, a complex network involving the nervous system and endocrine system helps prepare us to respond.",
+      "Research into stress physiology has expanded our understanding of how prolonged activation of these systems may influence sleep, energy, inflammation, pain, emotional wellbeing, and physical symptoms. This work has contributed significantly to modern understandings of chronic stress and its impact on health.",
     ],
   },
   {
     number: "04",
-    title: "The Brain-Skin Axis: Psychodermatological Manifestations",
+    title: "Pain Science & Central Sensitisation",
     paragraphs: [
-      {
-        heading: "The Research: Embryonic Origins and Cutaneous Neuropeptides",
-        body: "Dermatological and neurobiological research investigates the pathways through which psychological stress can interact with conditions like eczema, psoriasis, stress-related hair loss, and vitiligo.",
-      },
-      {
-        body: "A Shared Cellular Origin: In embryo development, human skin and the nervous system grow from the same layer (the ectoderm), remaining intrinsically connected throughout life.",
-      },
-      {
-        body: "Neurogenic Inflammation: During periods of psychological stress, the brain can release specific chemical messengers (neuropeptides) into the skin. This can trigger localized inflammation, potentially weakening the skin barrier and contributing to symptom flare-ups.",
-      },
-      {
-        body: "Bi-Directional Feedback: Because the skin frequently reflects autonomic nervous system activity, incorporating nervous system regulation strategies may help reduce the frequency and intensity of stress-responsive skin flares.",
-      },
+      "Contemporary pain research has transformed our understanding of how pain is experienced.",
+      "Pain is now understood as an output of the nervous system rather than a direct measure of tissue damage alone. In some cases, the nervous system can become increasingly sensitised, amplifying pain signals and bodily sensations.",
+      "This research has provided important insights into chronic pain conditions and persistent symptoms that cannot always be fully explained by structural findings.",
     ],
   },
   {
     number: "05",
-    title: "Amplified Signaling: Central Sensitisation",
+    title: "Attachment, Relationships & Regulation",
     paragraphs: [
-      {
-        heading: "The Research: Neural Plasticity and Sensory Processing",
-        body: "Studies on the central nervous system demonstrate how the brain and spinal cord process ordinary sensory data following periods of chronic stress or trauma.",
-      },
-      {
-        body: "Altered Volume Control: In many functional and psychophysiological symptoms, the central nervous system can undergo a process called central sensitisation, where the spinal cord and brain amplify regular bodily signals.",
-      },
-      {
-        body: "Real Symptoms, Intact Structure: Normal sensory inputs — such as mild touch, temperature shifts, or natural digestion — can be misprocessed by a hypersensitive nervous system and registered as pain or discomfort, even in the absence of structural tissue damage.",
-      },
-      {
-        body: "A Processing Disruption: The symptoms are completely real, but they represent a functional processing error in the nervous system rather than a structural defect (like a fracture). Because the nervous system is neuroplastic, these amplified processing loops can often be systematically retrained and turned back down.",
-      },
-    ],
-  },
-  {
-    number: "06",
-    title: "The Whole-Person Lens: Relational & Biopsychosocial Healing",
-    paragraphs: [
-      {
-        body: "Complex physical symptoms are rarely maintained by a single factor. Lasting recovery is best supported through a biopsychosocial lens, which considers the continuous interaction between your biological health, your internal psychology, and your social or relational environment.",
-      },
-      {
-        body: "Furthermore, because chronic stress and nervous system dysregulation frequently develop within challenging relational contexts, contemporary models indicate that biological healing is deeply supported within a relational space. A hyper-vigilant nervous system rarely down-regulates through cognitive effort alone; it typically relies on co-regulation — the lived experience of safety within a secure, collaborative therapeutic relationship.",
-      },
+      "Human beings develop and regulate within relationships.",
+      "Research into attachment, interpersonal neurobiology, and therapeutic alliance highlights the role that connection, safety, belonging, and relational experiences can play in emotional and physiological wellbeing.",
+      "These perspectives help us understand how relationships may influence both resilience and vulnerability across the lifespan.",
     ],
   },
 ];
 
-const SectionBlock = ({ section }: { section: Section }) => (
+const emergingAreas = [
+  "Chronic pelvic pain",
+  "Vulvodynia and vaginismus",
+  "Psychodermatology",
+  "Persistent physical symptoms",
+  "Functional neurological symptoms",
+  "Trauma and chronic illness",
+  "Nervous system regulation",
+  "Chronic stress and inflammation",
+  "Mind-body approaches to pain and symptom management",
+];
+
+const books: { title: string; author: string; description: string }[] = [
+  {
+    title: "The Body Keeps the Score",
+    author: "Bessel van der Kolk",
+    description: "An influential exploration of how trauma reshapes the brain, body, and nervous system, and the pathways through which healing can occur.",
+  },
+  {
+    title: "When the Body Says No",
+    author: "Gabor Maté",
+    description: "Examines the links between chronic stress, emotional suppression, and the development of physical illness.",
+  },
+  {
+    title: "The Myth of Normal",
+    author: "Gabor Maté",
+    description: "A wide-ranging look at how modern culture, stress, and early experience shape long-term health and wellbeing.",
+  },
+  {
+    title: "Waking the Tiger",
+    author: "Peter Levine",
+    description: "Introduces a somatic understanding of trauma and the body's innate capacity to discharge and recover from overwhelming experiences.",
+  },
+  {
+    title: "The Way Out",
+    author: "Alan Gordon",
+    description: "A practical guide to understanding neuroplastic pain and the role of the nervous system in chronic symptoms.",
+  },
+  {
+    title: "Explain Pain",
+    author: "David Butler & Lorimer Moseley",
+    description: "An accessible primer on modern pain science and how the nervous system shapes the experience of pain.",
+  },
+  {
+    title: "Attached",
+    author: "Amir Levine & Rachel Heller",
+    description: "An approachable introduction to attachment theory and how early relational patterns influence adult relationships.",
+  },
+];
+
+const TopicBlock = ({ topic }: { topic: Topic }) => (
   <article className="border-t border-border/60 pt-8 md:pt-12 first:border-t-0 first:pt-0">
     <div className="mb-5 md:mb-6 flex items-baseline gap-3 md:gap-4">
       <span className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground tabular-nums">
-        {section.number}
+        {topic.number}
       </span>
       <h3 className="font-serif text-xl md:text-2xl tracking-tight text-foreground leading-tight">
-        {section.title}
+        {topic.title}
       </h3>
     </div>
-
     <div className="space-y-4 md:space-y-5">
-      {section.paragraphs.map((p, i) => (
-        <div key={i} className="space-y-2">
-          {p.heading && (
-            <h4 className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-foreground">
-              {p.heading}
-            </h4>
-          )}
-          <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.75]">{p.body}</p>
-        </div>
+      {topic.paragraphs.map((p, i) => (
+        <p key={i} className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.75]">
+          {p}
+        </p>
       ))}
     </div>
   </article>
@@ -148,32 +127,58 @@ const ForProviders = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>For Providers | Vanesa Sakota Psychotherapy Sydney</title>
-        <meta name="description" content="Evidence base and clinical framework for referring clinicians: psychophysiological conditions, trauma-informed care and somatic psychotherapy with Vanesa Sakota in Sydney CBD." />
+        <title>Mind-Body Research & Resources | Vanesa Sakota Psychotherapy Sydney</title>
+        <meta name="description" content="A curated collection of research, perspectives, and recommended reading on trauma, stress physiology, attachment, pain science, and mind-body health." />
         <link rel="canonical" href="https://vanesasakota.com.au/for-providers" />
-        <meta property="og:title" content="For Providers | Vanesa Sakota Psychotherapy" />
-        <meta property="og:description" content="Evidence base and clinical framework for referring clinicians in Sydney." />
+        <meta property="og:title" content="Mind-Body Research & Resources | Vanesa Sakota Psychotherapy" />
+        <meta property="og:description" content="Research and reading on trauma, stress physiology, attachment, and mind-body health." />
         <meta property="og:url" content="https://vanesasakota.com.au/for-providers" />
       </Helmet>
       <Navbar />
 
-
       {/* Hero */}
       <section className="bg-hero border-b border-border">
         <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
-          <div className="max-w-xl space-y-4 md:space-y-5 animate-fade-up">
+          <div className="max-w-2xl space-y-4 md:space-y-5 animate-fade-up">
             <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
-              For Providers
+              Resources
             </p>
             <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
-              The Evidence Base
+              Mind-Body Research &amp; Resources
             </h1>
           </div>
         </div>
       </section>
 
-      {/* Sections */}
-      <section className="border-b border-border">
+      {/* Introduction */}
+      <section className="bg-background border-b border-border">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
+            <div className="lg:col-span-3 space-y-2">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+                Introduction
+              </p>
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
+                The way we understand health and illness continues to evolve.
+              </h2>
+            </div>
+            <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
+              <p>
+                Historically, medicine and psychology were often viewed as separate domains. Increasingly, however, research across neuroscience, stress physiology, psychoneuroimmunology, trauma studies, pain science, attachment theory, and behavioural medicine points towards a more integrated understanding of human health.
+              </p>
+              <p>
+                The resources below are not intended to provide definitive explanations for any individual's symptoms. Rather, they represent influential perspectives that have helped shape contemporary thinking about the relationship between the body, mind, nervous system, relationships, and environment.
+              </p>
+              <p>
+                These ideas continue to inform my own clinical practice and may be useful for those interested in understanding symptoms through a broader biopsychosocial lens.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Foundational Perspectives */}
+      <section className="bg-background border-b border-border">
         <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
             <div className="lg:col-span-3 space-y-2">
@@ -181,53 +186,108 @@ const ForProviders = () => {
                 Research
               </p>
               <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
-                The Clinical Framework
+                Foundational Perspectives
               </h2>
             </div>
-            <div className="lg:col-span-7 max-w-[640px] space-y-10 md:space-y-14">
-              {sections.map((s) => (
-                <SectionBlock key={s.number} section={s} />
-              ))}
+            <div className="lg:col-span-7 max-w-[680px] space-y-10 md:space-y-14">
+              <p className="text-[15px] md:text-base text-muted-foreground leading-[1.75]">
+                The following areas of research have significantly influenced contemporary understandings of persistent symptoms, stress-related illness, trauma, and recovery.
+              </p>
+              <div className="space-y-10 md:space-y-14">
+                {topics.map((t) => (
+                  <TopicBlock key={t.number} topic={t} />
+                ))}
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Referrals */}
+      {/* Current Research & Emerging Areas */}
+      <section className="bg-background border-b border-border">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
+            <div className="lg:col-span-3 space-y-2">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+                Emerging
+              </p>
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
+                Current Research &amp; Emerging Areas
+              </h2>
+            </div>
+            <div className="lg:col-span-7 max-w-[680px] space-y-6">
+              <p className="text-[15px] md:text-base text-muted-foreground leading-[1.75]">
+                Research continues to expand our understanding of the complex relationship between stress, physiology, emotions, behaviour, and health.
+              </p>
+              <p className="text-[15px] md:text-base text-muted-foreground leading-[1.75]">
+                Areas of particular interest include:
+              </p>
+              <ul className="space-y-3 text-muted-foreground text-[15px] md:text-base leading-[1.75]">
+                {emergingAreas.map((area) => (
+                  <li key={area} className="flex items-start gap-3">
+                    <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
+                    <span>{area}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Books & Recommended Reading */}
+      <section className="bg-background border-b border-border">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
+            <div className="lg:col-span-3 space-y-2">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+                Reading
+              </p>
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
+                Books &amp; Recommended Reading
+              </h2>
+            </div>
+            <div className="lg:col-span-7 max-w-[680px] space-y-6">
+              <p className="text-[15px] md:text-base text-muted-foreground leading-[1.75]">
+                The books below have contributed significantly to contemporary discussions around trauma, stress physiology, attachment, chronic symptoms, and mind-body health. They are offered as educational resources for those wishing to explore these topics in greater depth.
+              </p>
+              <ul className="divide-y divide-border/60">
+                {books.map((b) => (
+                  <li key={b.title} className="py-5 first:pt-0 space-y-1.5">
+                    <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                      <p className="font-serif text-lg md:text-xl text-foreground leading-snug">{b.title}</p>
+                      <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+                        {b.author}
+                      </p>
+                    </div>
+                    <p className="text-[14px] md:text-[15px] text-muted-foreground leading-[1.75]">{b.description}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Final Note */}
       <section>
         <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
             <div className="lg:col-span-3 space-y-2">
               <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
-                Contact
+                A Note
               </p>
               <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
-                Referrals
+                Every person's experience is unique.
               </h2>
             </div>
-            <div className="lg:col-span-7 max-w-[640px] space-y-6">
-              <div className="space-y-4 text-[14px] md:text-[15px] text-muted-foreground leading-[1.75]">
-                <p>
-                  I welcome collaborative referrals from GPs, gynaecologists, dermatologists, physiotherapists, and other clinicians working with patients whose physical symptoms persist following appropriate medical assessment and investigations.
-                </p>
-                <p>
-                  Recognising that complex psychophysiological symptoms are best addressed through an integrated, whole-person approach, I value interdisciplinary care and am always happy to liaise regarding shared patient management. Please feel free to reach out directly if you have any questions.
-                </p>
-              </div>
-              <div className="divide-y divide-border/60 pt-2">
-                <div className="flex items-baseline justify-between py-4 first:pt-0">
-                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">Phone</p>
-                  <a href="tel:+61405933722" className="text-[15px] md:text-base text-foreground hover:opacity-60 transition-opacity">
-                    0405 933 722
-                  </a>
-                </div>
-                <div className="flex items-baseline justify-between py-4">
-                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">Email</p>
-                  <a href="mailto:contact@vanesasakota.com.au" className="text-[13px] md:text-base text-foreground hover:opacity-60 transition-opacity break-all text-right">
-                    contact@vanesasakota.com.au
-                  </a>
-                </div>
-              </div>
+            <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
+              <p>
+                While research can provide useful frameworks for understanding symptoms, no single model fully explains human suffering or recovery. My intention is not to reduce people to theories, diagnoses, or research findings, but to remain curious about the many biological, psychological, relational, and environmental factors that may be shaping their experience.
+              </p>
+              <p>
+                This broader perspective sits at the heart of how I approach psychotherapy.
+              </p>
             </div>
           </div>
         </div>
