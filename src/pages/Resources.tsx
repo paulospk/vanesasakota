@@ -65,7 +65,7 @@ const current: Entry[] = [
   {
     title: "Relational neuroscience and co-regulation",
     meta: "Cozolino, Siegel, Schore · various",
-    body: "The nervous system develops within relationship and continues to regulate through it. Attunement, safety, and relational repair are not simply interpersonal | they are biological events with measurable neurological correlates.",
+    body: "The nervous system develops within relationship and continues to regulate through it. Attunement, safety, and relational repair are not simply interpersonal; they are biological events with measurable neurological correlates.",
     tag: "Regulation · relationship",
   },
 ];
