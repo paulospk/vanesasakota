@@ -59,7 +59,7 @@ const current: Entry[] = [
   {
     title: "Interoception and predictive processing",
     meta: "Critchley, Seth, Khalsa · 2000s–present",
-    body: "The brain actively predicts bodily signals rather than passively receiving them. When that predictive model is shaped by chronic threat or early adversity, symptoms emerge as a function of the model itself | which means the model can be updated through treatment.",
+    body: "The brain actively predicts bodily signals rather than passively receiving them. When that predictive model is shaped by chronic threat or early adversity, symptoms emerge as a function of the model itself, which means the model can be updated through treatment.",
     tag: "Perception · prediction",
   },
   {
