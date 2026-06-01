@@ -157,17 +157,11 @@ const Resources = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Resource Library | Vanesa Sakota Psychotherapy Sydney</title>
-        <meta
-          name="description"
-          content="A biopsychosocial resource library: seminal research, current thinking, and recommended reading on chronic stress, trauma, and mind–body health."
-        />
+        <title>Resources | Vanesa Sakota Psychotherapy Sydney CBD</title>
+        <meta name="description" content="Curated resources on anxiety, trauma, chronic pelvic pain, nervous system regulation and psychophysiological health from Vanesa Sakota, psychotherapist Sydney CBD." />
         <link rel="canonical" href="https://vanesasakota.com.au/resources" />
-        <meta property="og:title" content="Resource Library | Vanesa Sakota Psychotherapy" />
-        <meta
-          property="og:description"
-          content="Seminal research, current thinking, and recommended reading on whole-person health."
-        />
+        <meta property="og:title" content="Resources | Vanesa Sakota Psychotherapy Sydney CBD" />
+        <meta property="og:description" content="Resources on anxiety, trauma, chronic pelvic pain and nervous system regulation." />
         <meta property="og:url" content="https://vanesasakota.com.au/resources" />
       </Helmet>
       <Navbar />
