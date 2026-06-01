@@ -36,7 +36,7 @@ const Index = () => {
                 I am a Sydney-based psychotherapist working with adults experiencing anxiety, trauma, chronic stress, and persistent physical symptoms.
               </p>
               <p>
-                I have a particular interest in psychophysiological and stress-sensitive conditions, including chronic pelvic pain, vulvodynia, vaginismus, and stress-responsive skin conditions such as psoriasis, eczema, and acne. These are presentations where the relationship between the nervous system, early experience, and the body is often central to both what&rsquo;s happening and what helps.
+                I have a particular interest in psychophysiological and stress-sensitive conditions, including chronic pelvic pain, vulvodynia, vaginismus, and stress-responsive skin conditions such as psoriasis, eczema, and acne. These are presentations where the relationship between the nervous system, early experience, and the body is often central to both what is happening and what helps.
               </p>
               <p>
                 My practice draws on trauma-informed mind-body approaches, alongside EAET, targeted parts-based work and CBT/ACT. These frameworks sit within a broader biopsychosocial understanding of health, one that considers the whole person rather than the presenting symptom in isolation.
