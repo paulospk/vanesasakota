@@ -183,8 +183,8 @@ const Resources = () => {
               A biopsychosocial lens
             </h1>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75] max-w-[640px]">
-              Seminal research, current thinking, and recommended reading that inform a whole-person view of health
-              | one that holds biological, psychological, and social dimensions together rather than apart.
+              Seminal research, current thinking, and recommended reading that inform a whole-person view of health,
+              one that holds biological, psychological, and social dimensions together rather than apart.
             </p>
           </div>
         </div>
