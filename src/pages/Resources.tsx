@@ -20,7 +20,7 @@ const seminal: Entry[] = [
   {
     title: "Polyvagal Theory",
     meta: "Stephen Porges · 1994–present",
-    body: "Porges proposed that the autonomic nervous system continuously and unconsciously scans the environment for cues of safety | a process he termed neuroception. Chronic symptoms including fatigue, dissociation, and pain are understood as protective nervous system states rather than pathology.",
+    body: "Porges proposed that the autonomic nervous system continuously and unconsciously scans the environment for cues of safety, a process he termed neuroception. Chronic symptoms including fatigue, dissociation, and pain are understood as protective nervous system states rather than pathology.",
     tag: "Nervous system · safety",
   },
   {
