@@ -107,7 +107,7 @@ const deeper: Book[] = [
     cover: "https://covers.openlibrary.org/b/isbn/9781556432330-L.jpg",
     title: "Waking the Tiger",
     author: "Peter Levine",
-    description: "Somatic experiencing | how trauma is stored in the body and how the body's own processes can facilitate its resolution.",
+    description: "Somatic experiencing: how trauma is stored in the body and how the body's own processes can facilitate its resolution.",
     href: "https://www.booktopia.com.au/waking-the-tiger-peter-a-levine/book/9781556432330.html",
   },
   {
