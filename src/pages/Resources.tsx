@@ -90,7 +90,7 @@ const accessible: Book[] = [
     cover: "https://covers.openlibrary.org/b/isbn/9780805073690-L.jpg",
     title: "Why Zebras Don't Get Ulcers",
     author: "Robert Sapolsky",
-    description: "The biology of stress | why the human capacity for anticipation and rumination produces particular vulnerability to chronic stress illness.",
+    description: "The biology of stress, and why the human capacity for anticipation and rumination produces particular vulnerability to chronic stress illness.",
     href: "https://www.booktopia.com.au/why-zebras-don-t-get-ulcers-robert-m-sapolsky/book/9780805073690.html",
   },
   {
