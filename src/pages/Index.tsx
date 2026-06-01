@@ -33,7 +33,7 @@ const Index = () => {
             </div>
             <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
               <p>
-                I&rsquo;m a Sydney-based psychotherapist working with adults experiencing anxiety, trauma, chronic stress, and persistent physical symptoms.
+                I am a Sydney-based psychotherapist working with adults experiencing anxiety, trauma, chronic stress, and persistent physical symptoms.
               </p>
               <p>
                 I have a particular interest in psychophysiological and stress-sensitive conditions | including chronic pelvic pain, vulvodynia, vaginismus, and stress-responsive skin conditions such as psoriasis, eczema, and acne. These are presentations where the relationship between the nervous system, early experience, and the body is often central to both what&rsquo;s happening and what helps.
