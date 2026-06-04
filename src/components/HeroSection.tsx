@@ -14,6 +14,9 @@ export default function HeroSection() {
             <p className="font-serif text-xl md:text-2xl text-foreground leading-tight">
               Vanesa Sakota
             </p>
+            <p className="text-sm text-muted-foreground leading-snug">
+              BSc (Psychology) MA (Psychotherapy and Counselling) PACFA
+            </p>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75] max-w-[52ch]">
               Sydney-based psychotherapist working with chronic stress, trauma, and psychophysiological symptoms.
             </p>
