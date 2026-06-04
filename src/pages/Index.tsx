@@ -34,10 +34,10 @@ const Index = () => {
             </div>
             <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
               <p>
-                I am a registered psychotherapist working with adults experiencing anxiety, trauma, chronic stress, and persistent physical symptoms not fully explained by medical testing.
+                I am a registered psychotherapist working with adults experiencing <strong className="text-foreground font-medium">anxiety</strong>, <strong className="text-foreground font-medium">trauma</strong>, <strong className="text-foreground font-medium">chronic stress</strong>, and <strong className="text-foreground font-medium">persistent physical symptoms not fully explained by medical testing</strong>.
               </p>
               <p>
-                My clinical focus centers on psychophysiological and stress-sensitive conditions, including chronic pelvic pain, vulvodynia, vaginismus, and stress-responsive skin conditions such as psoriasis, eczema, atopic dermatitis, hives, etc. These presentations frequently highlight a complex interplay between the nervous system, early experience, and somatic expression, requiring a careful and measured therapeutic approach.
+                My clinical focus centers on psychophysiological and stress-sensitive conditions, including <strong className="text-foreground font-medium">chronic pelvic pain</strong>, <strong className="text-foreground font-medium">vulvodynia</strong>, <strong className="text-foreground font-medium">vaginismus</strong>, and stress-responsive skin conditions such as <strong className="text-foreground font-medium">psoriasis</strong>, <strong className="text-foreground font-medium">eczema</strong>, <strong className="text-foreground font-medium">atopic dermatitis</strong>, <strong className="text-foreground font-medium">hives</strong>, etc. These presentations frequently highlight a complex interplay between the nervous system, early experience, and somatic expression, requiring a careful and measured therapeutic approach.
               </p>
               <p>
                 My practice integrates trauma-informed, mind-body approaches alongside Emotional Awareness and Expression Therapy (EAET), targeted Parts Work, and grounding cognitive frameworks. These modalities are applied within a structured biopsychosocial framework, ensuring that treatment considers the whole person rather than addressing a presenting symptom in isolation.
