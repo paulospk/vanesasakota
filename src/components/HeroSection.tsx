@@ -20,7 +20,7 @@ export default function HeroSection() {
               </p>
             </div>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75] max-w-[52ch]">
-              Sydney-based psychotherapist working with chronic stress, trauma, and psychophysiological symptoms.
+              Trauma-informed registered psychotherapist working with individuals experiencing chronic stress, trauma and psychophysiological symptoms.
             </p>
           </div>
 
