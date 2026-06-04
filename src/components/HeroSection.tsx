@@ -11,11 +11,12 @@ export default function HeroSection() {
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
               Mind-Body Psychotherapy Sydney
             </h1>
-            <div className="space-y-0.5">
-              <p className="font-serif text-lg md:text-xl text-foreground leading-tight">
-                Vanesa Sakota, <span className="text-muted-foreground">BSc, MPsych&amp;Couns, PACFA</span>
-              </p>
-            </div>
+            <p className="font-serif text-xl md:text-2xl text-foreground leading-tight">
+              Vanesa Sakota
+            </p>
+            <p className="text-sm text-muted-foreground leading-snug">
+              BSc (Psychology) MA (Psychotherapy and Counselling) PACFA
+            </p>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75] max-w-[52ch]">
               Sydney-based psychotherapist working with chronic stress, trauma, and psychophysiological symptoms.
             </p>
