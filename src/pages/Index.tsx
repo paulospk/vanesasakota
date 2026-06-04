@@ -37,7 +37,7 @@ const Index = () => {
                 I am a registered psychotherapist working with adults experiencing anxiety, trauma, chronic stress, and persistent physical symptoms not fully explained by medical testing.
               </p>
               <p>
-                My clinical focus centers on psychophysiological and stress-sensitive conditions, including chronic pelvic pain, vulvodynia, vaginismus, and stress-responsive skin conditions such as psoriasis, eczema, and acne. These presentations frequently highlight a complex interplay between the nervous system, early experience, and somatic expression, requiring a careful and measured therapeutic approach.
+                My clinical focus centers on psychophysiological and stress-sensitive conditions, including chronic pelvic pain, vulvodynia, vaginismus, and stress-responsive skin conditions such as psoriasis, eczema, atopic dermatitis, hives, etc. These presentations frequently highlight a complex interplay between the nervous system, early experience, and somatic expression, requiring a careful and measured therapeutic approach.
               </p>
               <p>
                 My practice integrates trauma-informed, mind-body approaches alongside Emotional Awareness and Expression Therapy (EAET), targeted Parts Work, and grounding cognitive frameworks. These modalities are applied within a structured biopsychosocial framework, ensuring that treatment considers the whole person rather than addressing a presenting symptom in isolation.
