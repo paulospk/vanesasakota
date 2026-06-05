@@ -83,7 +83,10 @@ type Book = {
   author: string;
   description: string;
   href: string;
+  tags?: string[];
+  buyLabel?: string;
 };
+
 
 const accessible: Book[] = [
   {
@@ -113,10 +116,19 @@ const accessible: Book[] = [
     author: "Alan Gordon & Alon Ziv",
     description: "A practical, accessible breakdown of how the brain creates chronic pain, and how neuroplastic techniques can help rewire the nervous system to unlearn persistent symptoms.",
     href: "https://www.booktopia.com.au/the-way-out-alan-gordon/book/9780593086834.html",
+  {
+    cover: "https://covers.booktopia.com.au/big/9780648575306/being-me.jpg",
+    title: "Being Me: Healing Your Attachment Wounds and Becoming Whole",
+    author: "Maree B. Even",
+    description: "Uses attachment theory and neuroscience to explain what children need from early relationships to develop a secure sense of self, and what can happen when those needs aren't met. Written accessibly for general readers, it offers a path toward healing disconnection, emotional difficulty, and relational patterns rooted in early experience. Relevant for clients exploring attachment, developmental trauma, and identity.",
+    href: "https://www.booktopia.com.au/being-me-maree-b-even/prod9780648575306.html",
+    tags: ["Attachment", "Developmental trauma"],
+    buyLabel: "Find this book",
   },
 ];
 
 const deeper: Book[] = [
+
   {
     cover: "https://covers.openlibrary.org/b/isbn/9781556432330-L.jpg",
     title: "Waking the Tiger",
@@ -176,9 +188,34 @@ const BookRow = ({ book }: { book: Book }) => (
         {book.author}
       </p>
       <p className="text-muted-foreground text-[14px] md:text-[15px] leading-[1.75]">{book.description}</p>
+      {book.tags && book.tags.length > 0 && (
+        <div className="flex flex-wrap gap-2 pt-1">
+          {book.tags.map((t) => (
+            <span
+              key={t}
+              className="inline-block text-[11px] tracking-[0.15em] uppercase font-medium text-foreground bg-hero border border-border rounded-full px-3 py-1"
+            >
+              {t}
+            </span>
+          ))}
+        </div>
+      )}
+      {book.buyLabel && (
+        <div className="pt-3">
+          <a
+            href={book.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center text-[11px] tracking-[0.2em] uppercase font-medium text-foreground border border-border rounded-full px-4 py-2 hover:bg-hero transition-colors"
+          >
+            {book.buyLabel}
+          </a>
+        </div>
+      )}
     </div>
   </article>
 );
+
 
 
 const Resources = () => {
