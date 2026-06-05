@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import ifsChronicPainCover from "@/assets/ifs-chronic-pain-cover.jpg.asset.json";
 
 type Entry = {
   title: string;
@@ -101,7 +102,7 @@ const accessible: Book[] = [
     href: "https://www.booktopia.com.au/when-the-body-says-no-gabor-mat-/book/9780470923351.html",
   },
   {
-    cover: "https://covers.openlibrary.org/b/isbn/9780593086834-L.jpg",
+    cover: "https://covers.openlibrary.org/b/id/13333153-L.jpg",
     title: "The Way Out",
     author: "Alan Gordon & Alon Ziv",
     description: "A practical, accessible breakdown of how the brain creates chronic pain, and how neuroplastic techniques can help rewire the nervous system to unlearn persistent symptoms.",
@@ -125,14 +126,14 @@ const deeper: Book[] = [
     href: "https://www.booktopia.com.au/the-pocket-guide-to-the-polyvagal-theory-stephen-w-porges/book/9780393707878.html",
   },
   {
-    cover: "https://covers.openlibrary.org/b/isbn/9780987342669-L.jpg",
+    cover: "https://covers.openlibrary.org/b/id/7333597-L.jpg",
     title: "Explain Pain",
     author: "David Butler & G. Lorimer Moseley",
     description: "An essential, evidence-based exploration of modern pain biology, illustrating how the nervous system learns to protect the body through persistent pain and sensitization.",
     href: "https://www.booktopia.com.au/explain-pain-david-butler/book/9780987342669.html",
   },
   {
-    cover: "https://covers.openlibrary.org/b/isbn/9781032063232-L.jpg",
+    cover: ifsChronicPainCover.url,
     title: "Internal Family Systems Therapy for Chronic Pain",
     author: "Richard C. Schwartz",
     description: "A clinical guide to applying Parts Work to somatic presentations, exploring how the body acts out internal conflicts and how to safely negotiate with protective physical symptoms.",
