@@ -126,7 +126,7 @@ const deeper: Book[] = [
     href: "https://www.booktopia.com.au/the-pocket-guide-to-the-polyvagal-theory-stephen-w-porges/book/9780393707878.html",
   },
   {
-    cover: "https://covers.openlibrary.org/b/isbn/9780987342669-L.jpg",
+    cover: "https://covers.openlibrary.org/b/id/7333597-L.jpg",
     title: "Explain Pain",
     author: "David Butler & G. Lorimer Moseley",
     description: "An essential, evidence-based exploration of modern pain biology, illustrating how the nervous system learns to protect the body through persistent pain and sensitization.",
