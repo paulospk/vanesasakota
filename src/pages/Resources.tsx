@@ -133,7 +133,7 @@ const deeper: Book[] = [
     href: "https://www.booktopia.com.au/explain-pain-david-butler/book/9780987342669.html",
   },
   {
-    cover: "https://covers.openlibrary.org/b/isbn/9781032063232-L.jpg",
+    cover: ifsChronicPainCover.url,
     title: "Internal Family Systems Therapy for Chronic Pain",
     author: "Richard C. Schwartz",
     description: "A clinical guide to applying Parts Work to somatic presentations, exploring how the body acts out internal conflicts and how to safely negotiate with protective physical symptoms.",
