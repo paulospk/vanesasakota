@@ -102,7 +102,7 @@ const accessible: Book[] = [
     href: "https://www.booktopia.com.au/when-the-body-says-no-gabor-mat-/book/9780470923351.html",
   },
   {
-    cover: "https://covers.openlibrary.org/b/isbn/9780593086834-L.jpg",
+    cover: "https://covers.openlibrary.org/b/id/13333153-L.jpg",
     title: "The Way Out",
     author: "Alan Gordon & Alon Ziv",
     description: "A practical, accessible breakdown of how the brain creates chronic pain, and how neuroplastic techniques can help rewire the nervous system to unlearn persistent symptoms.",
