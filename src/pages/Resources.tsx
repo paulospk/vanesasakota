@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import ifsChronicPainCover from "@/assets/ifs-chronic-pain-cover.jpg.asset.json";
 
 type Entry = {
   title: string;
