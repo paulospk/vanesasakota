@@ -26,19 +26,19 @@ const seminal: Entry[] = [
   },
   {
     title: "Psychoneuroimmunology (PNI)",
-    meta: "Ader & Cohen · 1975 · expanded field",
+    meta: "Ader & Cohen · 1975",
     body: "The discovery of bidirectional communication between the nervous, endocrine, and immune systems established a biological basis for the mind–body relationship. Psychological experience produces measurable physiological change, a finding that underpins much of what followed.",
     tag: "Mind–body",
   },
   {
     title: "The HPA axis and chronic stress",
-    meta: "McEwen, Selye, Sapolsky · various",
-    body: "Research into the hypothalamic-pituitary-adrenal axis mapped the biological mechanisms by which sustained stress, via cortisol, adrenaline, and inflammatory pathways, becomes dysregulating over time. The foundation for understanding why chronic stress produces illness rather than simply discomfort.",
+    meta: "Selye · 1936–1950",
+    body: "Hans Selye's general adaptation syndrome established the biological basis of the stress response, identifying the HPA axis as the body's primary mechanism for managing threat. McEwen and Sapolsky later extended this work to show how sustained activation produces measurable neurological and physiological damage, the foundation for understanding why chronic stress produces illness rather than simply discomfort.",
     tag: "Stress biology",
   },
   {
     title: "Central sensitisation",
-    meta: "Woolf · 1983 · expanded by Yunus and others",
+    meta: "Woolf · 1983 · Yunus · 1990s",
     body: "A sensitised nervous system amplifies signals, including pain and threat detection, in the absence of new tissue damage. Central to understanding fibromyalgia, IBS, chronic pelvic pain, chronic fatigue, and stress-responsive skin conditions. A neurological rather than imagined phenomenon.",
     tag: "Chronic symptoms",
   },
@@ -71,7 +71,7 @@ const current: Entry[] = [
   },
   {
     title: "Relational neuroscience and co-regulation",
-    meta: "Cozolino, Siegel, Schore · various",
+    meta: "Cozolino, Siegel, Schore · 1990s–present",
     body: "The nervous system develops within relationship and continues to regulate through it. Attunement, safety, and relational repair are not simply interpersonal; they are biological events with measurable neurological correlates.",
     tag: "Regulation · relationship",
   },
