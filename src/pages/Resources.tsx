@@ -48,14 +48,20 @@ const current: Entry[] = [
   {
     title: "Allostatic load",
     meta: "McEwen & Stellar · 1993 · ongoing",
-    body: "The cumulative biological cost of repeated or chronic stress, measurable across cardiovascular, metabolic, and immune systems. Useful for understanding why reducing a current stressor does not automatically undo physiological dysregulation. The body maintains a running total.",
-    tag: "Stress biology",
+    body: "The cumulative biological cost of repeated or chronic stress, measurable across cardiovascular, metabolic, immune, and endocrine systems, particularly through HPA axis dysregulation and cortisol burden. Useful for understanding why reducing a current stressor does not automatically undo physiological dysregulation. The body maintains a running total.",
+    tag: "Stress biology · endocrine",
+  },
+  {
+    title: "The HPA axis and emotional memory",
+    meta: "McEwen, Sapolsky, de Kloet · 1990s–present",
+    body: "Glucocorticoids, primarily cortisol, modulate synaptic plasticity in the hippocampus and amygdala, linking chronic stress to shifts in emotional memory encoding, threat sensitivity, and sustained anxiety. Relevant to trauma, depression, and treatment-resistant presentations.",
+    tag: "Endocrine · stress · memory",
   },
   {
     title: "The brain–skin axis",
     meta: "Arck, Paus et al. · 2006–present",
-    body: "Dermatological and neurological research has established direct pathways between psychological stress and skin inflammation, altering barrier function, immune cell behaviour, and neuropeptide levels. Relevant to psoriasis, eczema, rosacea, acne, and stress-related alopecia.",
-    tag: "Skin & nervous system",
+    body: "Dermatological and neurological research has established direct pathways between psychological stress and skin inflammation, altering barrier function, immune cell behaviour, neuropeptide levels, and cortisol. Relevant to psoriasis, eczema, rosacea, acne, and stress-related alopecia.",
+    tag: "Skin · nervous system · endocrine",
   },
   {
     title: "Interoception and predictive processing",
@@ -200,7 +206,7 @@ const Resources = () => {
             </h1>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75] max-w-[640px]">
               Seminal research, current thinking, and recommended reading that inform a whole-person view of health,
-              one that holds biological, psychological, and social dimensions together rather than apart.
+              one that holds biological, psychological, social, and endocrine dimensions together rather than apart.
             </p>
           </div>
         </div>
