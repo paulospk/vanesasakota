@@ -116,7 +116,9 @@ const accessible: Book[] = [
     author: "Alan Gordon & Alon Ziv",
     description: "A practical, accessible breakdown of how the brain creates chronic pain, and how neuroplastic techniques can help rewire the nervous system to unlearn persistent symptoms.",
     href: "https://www.booktopia.com.au/the-way-out-alan-gordon/book/9780593086834.html",
+  },
   {
+
     cover: "https://covers.booktopia.com.au/big/9780648575306/being-me.jpg",
     title: "Being Me: Healing Your Attachment Wounds and Becoming Whole",
     author: "Maree B. Even",
