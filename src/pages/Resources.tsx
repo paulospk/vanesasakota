@@ -124,8 +124,8 @@ const accessible: Book[] = [
     author: "Maree B. Even",
     description: "Uses attachment theory and neuroscience to explain what children need from early relationships to develop a secure sense of self, and what can happen when those needs aren't met. Written accessibly for general readers, it offers a path toward healing disconnection, emotional difficulty, and relational patterns rooted in early experience. Relevant for clients exploring attachment, developmental trauma, and identity.",
     href: "https://www.booktopia.com.au/being-me-maree-b-even/prod9780648575306.html",
-    tags: ["Attachment", "Developmental trauma"],
-    buyLabel: "Find this book",
+
+
   },
 ];
 
