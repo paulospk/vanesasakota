@@ -90,6 +90,13 @@ type Book = {
 
 const accessible: Book[] = [
   {
+    cover: "https://covers.openlibrary.org/b/isbn/9780470923351-L.jpg",
+    title: "When the Body Says No",
+    author: "Gabor Maté",
+    description: "The connection between emotional suppression, chronic stress, and serious illness, approached with compassion and clinical depth.",
+    href: "https://www.booktopia.com.au/when-the-body-says-no-gabor-mat-/book/9780470923351.html",
+  },
+  {
     cover: "https://covers.openlibrary.org/b/isbn/9780143127741-L.jpg",
     title: "The Body Keeps the Score",
     author: "Bessel van der Kolk",
@@ -104,28 +111,11 @@ const accessible: Book[] = [
     href: "https://www.booktopia.com.au/why-zebras-don-t-get-ulcers-robert-m-sapolsky/book/9780805073690.html",
   },
   {
-    cover: "https://covers.openlibrary.org/b/isbn/9780470923351-L.jpg",
-    title: "When the Body Says No",
-    author: "Gabor Maté",
-    description: "The connection between emotional suppression, chronic stress, and serious illness, approached with compassion and clinical depth.",
-    href: "https://www.booktopia.com.au/when-the-body-says-no-gabor-mat-/book/9780470923351.html",
-  },
-  {
-    cover: "https://covers.openlibrary.org/b/id/13333153-L.jpg",
-    title: "The Way Out",
-    author: "Alan Gordon & Alon Ziv",
-    description: "A practical, accessible breakdown of how the brain creates chronic pain, and how neuroplastic techniques can help rewire the nervous system to unlearn persistent symptoms.",
-    href: "https://www.booktopia.com.au/the-way-out-alan-gordon/book/9780593086834.html",
-  },
-  {
-
     cover: "https://covers.booktopia.com.au/big/9780648575306/being-me.jpg",
     title: "Being Me: Healing Your Attachment Wounds and Becoming Whole",
     author: "Maree B. Even",
     description: "Uses attachment theory and neuroscience to explain what children need from early relationships to develop a secure sense of self, and what can happen when those needs aren't met. Written accessibly for general readers, it offers a path toward healing disconnection, emotional difficulty, and relational patterns rooted in early experience. Relevant for clients exploring attachment, developmental trauma, and identity.",
     href: "https://www.booktopia.com.au/being-me-maree-b-even/prod9780648575306.html",
-
-
   },
 ];
 
