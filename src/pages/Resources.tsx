@@ -142,13 +142,6 @@ const deeper: Book[] = [
     description: "An essential, evidence-based exploration of modern pain biology, illustrating how the nervous system learns to protect the body through persistent pain and sensitization.",
     href: "https://www.booktopia.com.au/explain-pain-david-butler/book/9780987342669.html",
   },
-  {
-    cover: ifsChronicPainCover.url,
-    title: "Internal Family Systems Therapy for Chronic Pain",
-    author: "Richard C. Schwartz",
-    description: "A clinical guide to applying Parts Work to somatic presentations, exploring how the body acts out internal conflicts and how to safely negotiate with protective physical symptoms.",
-    href: "https://www.booktopia.com.au/internal-family-systems-therapy-for-shame-and-guilt-martha-sweezy/book/9781032063232.html",
-  },
 ];
 
 const EntryCard = ({ entry }: { entry: Entry }) => (
