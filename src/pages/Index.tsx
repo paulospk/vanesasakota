@@ -43,7 +43,7 @@ const Index = () => {
                 My practice integrates trauma-informed, mind-body approaches alongside Emotional Awareness and Expression Therapy (EAET), targeted Parts Work, and grounding cognitive frameworks. These modalities are applied within a structured biopsychosocial framework, ensuring that treatment considers the whole person rather than addressing a presenting symptom in isolation.
               </p>
               <p>
-                The therapeutic space I maintain is intentional, relational, and unhurried, prioritizing clinical steadiness, self-awareness, and the pacing necessary for safe and sustainable integration.
+                The therapeutic space I offer is person-centered, intentional, relational, and unhurried, prioritizing clinical steadiness, self-awareness, and the pacing necessary for safe and sustainable integration.
               </p>
             </div>
           </div>
