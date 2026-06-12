@@ -16,7 +16,7 @@ export default function FooterSection() {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Contact</h4>
             <p className="text-sm opacity-70">Phone: 0405 933 722</p>
-            <p className="text-sm opacity-70">Email: <a href="mailto:contact@vanesasakota.com.au" className="hover:opacity-100 hover:underline transition-opacity">contact@vanesasakota.com.au</a></p>
+            <p className="text-sm opacity-70">Email: <a href="mailto:vanesa@vanesasakota.com.au" className="hover:opacity-100 hover:underline transition-opacity">vanesa@vanesasakota.com.au</a></p>
           </div>
         </div>
         <div className="border-t border-card/10 mt-8 pt-6">

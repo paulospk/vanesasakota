@@ -53,15 +53,15 @@ const Contact = () => {
                 <div className="flex items-baseline justify-between py-3">
                   <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">Email</p>
                   <a
-                    href="mailto:contact@vanesasakota.com.au"
+                    href="mailto:vanesa@vanesasakota.com.au"
                     className="text-[13px] md:text-base text-foreground hover:opacity-60 transition-opacity break-all text-right"
                   >
-                    contact@vanesasakota.com.au
+                    vanesa@vanesasakota.com.au
                   </a>
                 </div>
               </div>
               <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
-                You do not need a GP referral or a Mental Health Care Plan to book. Because this practice operates independently of the Medicare system, our work is confidential and not restricted to capped sessions.
+                You do not need a GP referral or a Mental Health Care Plan to see me. Since this practice operates independently of the Medicare system, our work is confidential and not restricted to capped sessions.
               </p>
             </div>
           </div>

@@ -92,7 +92,7 @@ export default function Navbar() {
               Send a Text
             </a>
             <a
-              href="mailto:contact@vanesasakota.com.au"
+              href="mailto:vanesa@vanesasakota.com.au"
               className="flex items-center justify-center gap-3 border border-foreground text-foreground px-5 py-4 text-base font-medium hover:bg-foreground hover:text-card transition-colors"
             >
               <Mail size={18} />
