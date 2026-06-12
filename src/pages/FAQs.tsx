@@ -49,7 +49,7 @@ const faqs = [
     answer: (
       <>
         You are welcome to contact me directly by phone or email to discuss whether a referral is appropriate. I am happy to provide brief case consultation before a referral is made, and to liaise with you regarding shared patients where that is helpful. A formal referral letter is not required, though it is welcome. Contact:{" "}
-        <a href="mailto:contact@vanesasakota.com.au" className="underline hover:no-underline">contact@vanesasakota.com.au</a>
+        <a href="mailto:vanesa@vanesasakota.com.au" className="underline hover:no-underline">vanesa@vanesasakota.com.au</a>
         {" "}| 0405 933 722
       </>
     ),

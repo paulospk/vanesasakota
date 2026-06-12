@@ -38,7 +38,7 @@ const routes = [
             "PACFA-registered psychotherapist in Sydney CBD specialising in anxiety, trauma, chronic stress and psychophysiological conditions including chronic pelvic pain and stress-responsive skin conditions.",
           url: BASE_URL,
           telephone: "+61405933722",
-          email: "contact@vanesasakota.com.au",
+          email: "vanesa@vanesasakota.com.au",
           hasCredential: [
             {
               "@type": "EducationalOccupationalCredential",
@@ -68,7 +68,7 @@ const routes = [
             "In-person psychotherapy in Sydney CBD for anxiety, trauma, chronic stress, chronic pelvic pain, vulvodynia, vaginismus and stress-responsive skin conditions.",
           url: BASE_URL,
           telephone: "+61405933722",
-          email: "contact@vanesasakota.com.au",
+          email: "vanesa@vanesasakota.com.au",
           priceRange: "$$",
           image: `${BASE_URL}/og-image.jpg`,
           address: {

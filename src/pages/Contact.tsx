@@ -53,10 +53,10 @@ const Contact = () => {
                 <div className="flex items-baseline justify-between py-3">
                   <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">Email</p>
                   <a
-                    href="mailto:contact@vanesasakota.com.au"
+                    href="mailto:vanesa@vanesasakota.com.au"
                     className="text-[13px] md:text-base text-foreground hover:opacity-60 transition-opacity break-all text-right"
                   >
-                    contact@vanesasakota.com.au
+                    vanesa@vanesasakota.com.au
                   </a>
                 </div>
               </div>
