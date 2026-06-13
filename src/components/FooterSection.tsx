@@ -19,7 +19,10 @@ export default function FooterSection() {
             <p className="text-sm opacity-70">Email: <a href="mailto:vanesa@vanesasakota.com.au" className="hover:opacity-100 hover:underline transition-opacity">vanesa@vanesasakota.com.au</a></p>
           </div>
         </div>
-        <div className="border-t border-card/10 mt-8 pt-6">
+        <div className="border-t border-card/10 mt-8 pt-6 space-y-4">
+          <p className="text-sm opacity-60 italic leading-relaxed max-w-2xl">
+            I acknowledge the Gadigal people of the Eora Nation, the Traditional Custodians of the land on which I live and work. I pay my respects to Elders past and present.
+          </p>
           <p className="text-sm opacity-40">
             © {new Date().getFullYear()} Vanesa Sakota Psychotherapy. All rights reserved.
           </p>
