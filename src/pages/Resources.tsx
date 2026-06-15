@@ -15,31 +15,31 @@ const seminal: Entry[] = [
   {
     title: "Adverse Childhood Experiences (ACE) Study",
     meta: "Felitti, Anda et al. · Kaiser Permanente / CDC · 1998",
-    body: "A landmark epidemiological study of over 17,000 adults, establishing a dose-response relationship between early adversity and adult physical health outcomes, including cardiovascular disease, autoimmune conditions, chronic pain, and more. The study reframed health-risk behaviours as adaptations to overwhelming early environments rather than individual failings.",
+    body: "A study of 17,000 people found that difficult early experiences like neglect, instability, and abuse quietly shape the body's biology over decades, showing up later as heart disease, autoimmune conditions, and chronic pain. Not metaphorically. Physiologically.",
     tag: "Early experience",
   },
   {
     title: "Polyvagal Theory",
     meta: "Stephen Porges · 1994–present",
-    body: "Porges proposed that the autonomic nervous system continuously and unconsciously scans the environment for cues of safety, a process he termed neuroception. Chronic symptoms including fatigue, dissociation, and pain are understood as protective nervous system states rather than pathology.",
+    body: "The nervous system is always listening, scanning for cues of safety or danger beneath conscious awareness. When it concludes the environment isn't safe, it shifts into protective states: shutdown, dissociation, exhaustion. Symptoms, in this view, are the body doing its job.",
     tag: "Nervous system · safety",
   },
   {
     title: "Psychoneuroimmunology (PNI)",
     meta: "Ader & Cohen · 1975",
-    body: "The discovery of bidirectional communication between the nervous, endocrine, and immune systems established a biological basis for the mind–body relationship. Psychological experience produces measurable physiological change, a finding that underpins much of what followed.",
+    body: "For a long time, the mind and the immune system were treated as separate systems. This field established they aren't. Psychological experience produces measurable changes in immune and endocrine function. The mind-body divide was always more assumption than anatomy.",
     tag: "Mind–body",
   },
   {
     title: "The HPA axis and chronic stress",
     meta: "Selye · 1936–1950",
-    body: "Hans Selye's general adaptation syndrome established the biological basis of the stress response, identifying the HPA axis as the body's primary mechanism for managing threat. McEwen and Sapolsky later extended this work to show how sustained activation produces measurable neurological and physiological damage, the foundation for understanding why chronic stress produces illness rather than simply discomfort.",
+    body: "Stress has a biology, one that evolved to help us survive short-term threat. The problem is what happens when that system never switches off. Sustained activation produces neurological and physiological wear that accumulates quietly, until it doesn't.",
     tag: "Stress biology",
   },
   {
     title: "Central sensitisation",
     meta: "Woolf · 1983 · Yunus · 1990s",
-    body: "A sensitised nervous system amplifies signals, including pain and threat detection, in the absence of new tissue damage. Central to understanding fibromyalgia, IBS, chronic pelvic pain, chronic fatigue, and stress-responsive skin conditions. A neurological rather than imagined phenomenon.",
+    body: "In some people, the nervous system becomes sensitised, amplifying signals of pain and threat even when there's no new injury or cause. The tissue is fine. The alarm system isn't. This helps explain conditions like fibromyalgia, chronic pelvic pain, and IBS that investigations consistently fail to account for.",
     tag: "Chronic symptoms",
   },
 ];
