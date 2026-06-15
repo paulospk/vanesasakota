@@ -48,31 +48,31 @@ const current: Entry[] = [
   {
     title: "Allostatic load",
     meta: "McEwen & Stellar · 1993 · ongoing",
-    body: "The cumulative biological cost of repeated or chronic stress, measurable across cardiovascular, metabolic, immune, and endocrine systems, particularly through HPA axis dysregulation and cortisol burden. Useful for understanding why reducing a current stressor does not automatically undo physiological dysregulation. The body maintains a running total.",
+    body: "Stress has a cumulative cost. Each experience of threat or dysregulation adds to a running biological total across the cardiovascular, immune, and endocrine systems. This is why removing a current stressor doesn't automatically restore someone to baseline. The body keeps the score over time.",
     tag: "Stress biology · endocrine",
   },
   {
     title: "The HPA axis and emotional memory",
     meta: "McEwen, Sapolsky, de Kloet · 1990s–present",
-    body: "Glucocorticoids, primarily cortisol, modulate synaptic plasticity in the hippocampus and amygdala, linking chronic stress to shifts in emotional memory encoding, threat sensitivity, and sustained anxiety. Relevant to trauma, depression, and treatment-resistant presentations.",
+    body: "Cortisol doesn't just respond to stress in the moment. It also shapes how stress gets remembered. Research has traced how chronic cortisol exposure alters memory encoding in the hippocampus and amygdala, making threat feel more present and more likely. Relevant to trauma, persistent anxiety, and why some presentations resist treatment.",
     tag: "Endocrine · stress · memory",
   },
   {
     title: "The brain–skin axis",
     meta: "Arck, Paus et al. · 2006–present",
-    body: "Dermatological and neurological research has established direct pathways between psychological stress and skin inflammation, altering barrier function, immune cell behaviour, neuropeptide levels, and cortisol. Relevant to psoriasis, eczema, rosacea, acne, and stress-related alopecia.",
+    body: "The skin and the nervous system develop from the same embryonic tissue, and they never stop communicating. Psychological stress has measurable effects on skin inflammation, barrier function, and immune behaviour. This helps explain the stress-responsiveness of conditions like eczema, rosacea, psoriasis, and acne.",
     tag: "Skin · nervous system · endocrine",
   },
   {
     title: "Interoception and predictive processing",
     meta: "Critchley, Seth, Khalsa · 2000s–present",
-    body: "The brain actively predicts bodily signals rather than passively receiving them. When that predictive model is shaped by chronic threat or early adversity, symptoms emerge as a function of the model itself, which means the model can be updated through treatment.",
+    body: "The brain doesn't wait to receive signals from the body. It actively predicts them. When that predictive model has been shaped by chronic threat or early adversity, symptoms can emerge from the model itself rather than from new physical events. Which also means the model can change.",
     tag: "Perception · prediction",
   },
   {
     title: "Relational neuroscience and co-regulation",
     meta: "Cozolino, Siegel, Schore · 1990s–present",
-    body: "The nervous system develops within relationship and continues to regulate through it. Attunement, safety, and relational repair are not simply interpersonal; they are biological events with measurable neurological correlates.",
+    body: "The nervous system develops inside relationship and continues to be regulated through it. Attunement, safety, and relational repair are not just psychological experiences. They are biological events with measurable neurological correlates.",
     tag: "Regulation · relationship",
   },
 ];
