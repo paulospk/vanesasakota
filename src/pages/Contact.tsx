@@ -64,10 +64,19 @@ const Contact = () => {
           </div>
         </div>
       </section>
-
-
+      {/* Crisis disclaimer */}
+      <section className="bg-background">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-8 md:py-12">
+          <div className="max-w-2xl mx-auto text-center">
+            <p className="text-sm md:text-[15px] leading-relaxed text-muted-foreground">
+              Your well-being is incredibly important. Please note that this practice is not equipped for crisis or acute care, and messages or calls may not be answered immediately. If you are experiencing a mental health emergency or need urgent, immediate support, please lean into a safe resource right away: contact Lifeline on 13 11 14 or dial 000.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <FooterSection />
+
     </div>
   );
 };
