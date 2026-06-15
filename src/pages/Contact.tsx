@@ -60,9 +60,6 @@ const Contact = () => {
                   </a>
                 </div>
               </div>
-              <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
-                You do not need a GP referral or a Mental Health Care Plan to see me. Since this practice operates independently of the Medicare system, our work is confidential and not restricted to capped sessions.
-              </p>
             </div>
           </div>
         </div>
