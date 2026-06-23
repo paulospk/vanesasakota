@@ -1,7 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
-import vanesaPortrait from "@/assets/vanesa-portrait.jpg.asset.json";
 
 const Contact = () => {
   return (
@@ -43,15 +42,7 @@ const Contact = () => {
                 Contact
               </p>
             </div>
-            <div className="lg:col-span-7 max-w-[640px] space-y-6">
-              <figure className="w-full">
-                <img
-                  src={vanesaPortrait.url}
-                  alt="Vanesa Sakota, psychotherapist in Sydney CBD"
-                  className="w-full max-w-[360px] h-auto object-cover rounded-sm"
-                  loading="lazy"
-                />
-              </figure>
+            <div className="lg:col-span-7 max-w-[640px] space-y-3">
               <div className="divide-y divide-border/60">
                 <div className="flex items-baseline justify-between py-3 first:pt-0">
                   <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">Phone</p>
