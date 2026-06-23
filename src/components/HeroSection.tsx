@@ -1,5 +1,4 @@
 import profileImg from "@/assets/profile-hero.jpg";
-import vanesaPortrait from "@/assets/vanesa-portrait.jpg.asset.json";
 
 
 export default function HeroSection() {
@@ -25,20 +24,13 @@ export default function HeroSection() {
             </p>
           </div>
 
-          {/* Right: Images */}
+          {/* Right: Image */}
           <div className="animate-fade-up" style={{ animationDelay: "100ms" }}>
-            <div className="grid grid-cols-2 gap-4">
-              <img
-                src={profileImg}
-                alt="Vanesa Sakota"
-                className="w-full aspect-[4/5] object-cover object-top"
-              />
-              <img
-                src={vanesaPortrait.url}
-                alt="Vanesa Sakota"
-                className="w-full aspect-[4/5] object-cover object-top"
-              />
-            </div>
+            <img
+              src={profileImg}
+              alt="Vanesa Sakota"
+              className="w-full aspect-[4/5] object-cover object-top"
+            />
           </div>
         </div>
       </div>
