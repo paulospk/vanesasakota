@@ -37,12 +37,8 @@ const Contact = () => {
       {/* Contact details */}
       <section className="border-b border-border">
         <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-5 md:py-10">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-3 lg:gap-8">
-            <div className="lg:col-span-3">
-              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
-                Contact
-              </p>
-            </div>
+          <div className="max-w-[640px] mx-auto lg:max-w-none lg:grid lg:grid-cols-10 lg:gap-8">
+            <div className="lg:col-span-3 hidden lg:block" />
             <div className="lg:col-span-7 max-w-[640px] space-y-6">
               <figure className="w-full">
                 <img
