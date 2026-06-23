@@ -25,13 +25,20 @@ export default function HeroSection() {
             </p>
           </div>
 
-          {/* Right: Image */}
+          {/* Right: Images */}
           <div className="animate-fade-up" style={{ animationDelay: "100ms" }}>
-            <img
-              src={profileImg}
-              alt="Vanesa Sakota"
-              className="w-full aspect-[4/5] object-cover object-top"
-            />
+            <div className="grid grid-cols-2 gap-4">
+              <img
+                src={profileImg}
+                alt="Vanesa Sakota"
+                className="w-full aspect-[4/5] object-cover object-top"
+              />
+              <img
+                src={vanesaPortrait.url}
+                alt="Vanesa Sakota"
+                className="w-full aspect-[4/5] object-cover object-top"
+              />
+            </div>
           </div>
         </div>
       </div>
