@@ -1,4 +1,5 @@
 import profileImg from "@/assets/profile-hero.jpg";
+import vanesaPortrait from "@/assets/vanesa-portrait.jpg.asset.json";
 
 
 export default function HeroSection() {
