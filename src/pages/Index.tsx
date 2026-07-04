@@ -43,7 +43,7 @@ const Index = () => {
                 An Integrative Framework
               </h3>
               <p>
-                From a psychotherapeutic perspective, these symptoms often sit at the intersection of a sensitive nervous system, early relational experience, and the ways the body holds unprocessed stress. My approach explores how stress, history, and the body's natural defences may be reinforcing one another — rather than treating mind and body as separate.
+                From a psychotherapeutic perspective, these symptoms often sit at the intersection of a sensitive nervous system, (early) relational experiences, and the ways the body handles unprocessed emotional stress. My approach explores how stress, history, and the body's natural defences may be reinforcing one another - rather than treating mind and body as separate.
               </p>
             </div>
           </div>
