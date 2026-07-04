@@ -38,7 +38,7 @@ export default function DetailsSection() {
           </div>
           <div className="lg:col-span-7 space-y-6 max-w-[680px]">
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75]">
-              Because these presentations involve overlapping physical and emotional layers, it can be helpful to look beyond traditional talk therapy alone. My practice gently incorporates evidence-based, mind-body approaches within a supportive psychological framework, choosing and adapting modalities according to what each person's unique experience calls for:
+              Because these presentations involve overlapping physical and emotional layers, I draw on a range of evidence-based, mind-body approaches within a supportive psychological framework — adapting the modality to what each person's experience calls for:
             </p>
             <ul className="space-y-6">
               {pillars.map((p, i) => (
@@ -53,7 +53,7 @@ export default function DetailsSection() {
               ))}
             </ul>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75]">
-              What I aim to offer is a space that is steady, intentional, and unhurried, where there is room to notice, to reflect, and to explore the connection between the body and the mind at a pace that feels safe and sustainable for you.
+              What I offer is a space that's steady, intentional, and unhurried — room to notice, reflect, and explore the connection between body and mind at your own pace.
             </p>
           </div>
         </div>
