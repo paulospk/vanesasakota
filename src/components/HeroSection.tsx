@@ -9,6 +9,10 @@ export default function HeroSection() {
           <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="2" result="noise" seed="3" />
           <feDisplacementMap in="SourceGraphic" in2="noise" scale="4" />
         </filter>
+        <filter id="sketchy-mobile">
+          <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="2" result="noise" seed="3" />
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" />
+        </filter>
       </svg>
       <style>{`
         #sketch-text {
