@@ -10,9 +10,9 @@ import {
 
 const faqs = [
   {
-    question: "Do I need a GP referral or Mental Health Care Plan to see you?",
+    question: "Do I need a referral or Mental Health Care Plan to see you?",
     answer:
-      "No. You can book directly without a referral. A Mental Health Care Plan is not required. If you do have a referral from your GP or specialist - it is most welcome and I will keep your referrer informed of our progress, if you wish - however the referral itself is not a requirement.",
+      "You don't need a referral to see me. If you do have a referral from your GP or specialist - it is most welcome and I will keep your referrer informed of our progress if you wish.",
   },
   {
     question: "Can therapy actually help with physical symptoms?",
