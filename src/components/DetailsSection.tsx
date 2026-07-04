@@ -3,28 +3,23 @@ import type { ReactNode } from "react";
 const pillars: { title: ReactNode; description: ReactNode }[] = [
   {
     title: "Emotional Awareness & Expression Therapy (EAET)",
-    description:
-      "To explore the connection between previously inhibited emotions and chronic stress patterns, working safely to process hidden stressors.",
+    description: "processing hidden emotional stressors",
   },
   {
     title: "Somatic Experiencing & Brainspotting",
-    description:
-      'To gently track internal physical sensations and identify specific eye positions ("brainspots") that correspond with deep-seated stress, allowing the subcortical brain and nervous system to process and release bound tension.',
+    description: "releasing bound physical tension",
   },
   {
     title: "Resource Therapy (Parts Work)",
-    description:
-      "A trauma-informed framework to understand the different psychological and physical ways we adapt to protect ourselves from internal conflict or stress.",
+    description: "understanding internal conflict and protection",
   },
   {
     title: "Imagery Rescripting",
-    description:
-      "To gently re-enter and update early memories or relational experiences that may be maintaining a heightened sense of physiological vulnerability.",
+    description: "updating early memories held in the body",
   },
   {
     title: "Grounding Frameworks (CBT & ACT)",
-    description:
-      "To provide practical tools to navigate daily stress, defuse from overwhelming thoughts about physical symptoms, and build the psychological flexibility needed to feel safe in your body.",
+    description: "practical tools for daily stability",
   },
 ];
 

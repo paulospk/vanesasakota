@@ -43,10 +43,7 @@ const Index = () => {
                 An Integrative Framework
               </h3>
               <p>
-                From a psychotherapeutic perspective, these symptoms are often understood as sitting at the intersection of a sensitive nervous system, early relational experiences, and the ways the body can hold unprocessed stress.
-              </p>
-              <p>
-                When we experience sustained stress, the autonomic nervous system can remain in a state of heightened alert. Because communication between the mind and body is bidirectional, this persistent physiological tension can heavily influence our emotional well-being, everyday function, and how we perceive physical discomfort. Rather than viewing emotional health and physical patterns as separate, my approach gently explores how stress, history, and the body's natural defense responses may be reinforcing one another.
+                From a psychotherapeutic perspective, these symptoms often sit at the intersection of a sensitive nervous system, early relational experience, and the ways the body holds unprocessed stress. My approach explores how stress, history, and the body's natural defences may be reinforcing one another — rather than treating mind and body as separate.
               </p>
             </div>
           </div>
