@@ -28,7 +28,7 @@ const Contact = () => {
               Appointments
             </h1>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
-              I'm available for face to face sessions on Thursdays and Friday with more days opening soon. Please feel free to contact me by email, and I will reply within 24 hours.
+              I'm available for in person sessions on Mondays and Fridays in the city. Please feel free to contact me by email, and I will reply within 24 hours.
             </p>
           </div>
         </div>
