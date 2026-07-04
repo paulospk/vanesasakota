@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Menu, X, Phone, MessageSquare, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
+import mindBodyMark from "@/assets/mindbody-mark.png.asset.json";
 
 const navLinks = [
   { label: "Home", href: "/" },
