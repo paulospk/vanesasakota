@@ -12,7 +12,7 @@ const faqs = [
   {
     question: "Do I need a referral or Mental Health Care Plan to see you?",
     answer:
-      "You don't need a referral to see me. If you do have a referral from your GP or specialist - it is most welcome and I will keep your referrer informed of our progress if you wish.",
+      "No, you don't need a referral to see me. If you do have a referral from your GP or specialist - it is most welcome and I will keep your referrer informed of our progress if you wish.",
   },
   {
     question: "Can therapy actually help with physical symptoms?",
