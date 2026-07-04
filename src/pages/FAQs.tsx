@@ -30,16 +30,6 @@ const faqs = [
       "For most people, weekly sessions are recommended in the early stages of therapy, particularly when working with chronic symptoms or trauma. As things shift, sessions typically move to fortnightly or as needed. This is something we can discuss and adjust.",
   },
   {
-    question: "I am a clinician - how do I refer a patient?",
-    answer: (
-      <>
-        You are welcome to contact me directly by phone or email to discuss whether a referral is appropriate. I am happy to provide brief case consultation before a referral is made, and to liaise with you regarding shared patients where that is helpful. A formal referral letter is not required, though it is welcome. Contact:{" "}
-        <a href="mailto:vanesa@vanesasakota.com.au" className="underline hover:no-underline">vanesa@vanesasakota.com.au</a>
-        {" "}| 0405 933 722
-      </>
-    ),
-  },
-  {
     question: "What is your cancellation policy?",
     answer:
       "I ask for at least 48 hours notice to cancel or reschedule a session. Late cancellations or missed appointments may be charged at the full session rate.",
