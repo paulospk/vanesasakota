@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Menu, X, Phone, MessageSquare, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
+import mindBodyMark from "@/assets/mindbody-mark.png.asset.json";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -21,15 +22,20 @@ export default function Navbar() {
 
   return (
     <nav className="border-b border-border py-3 pl-4 pr-3 md:py-4 md:px-8 flex justify-between items-center bg-hero/80 backdrop-blur-md sticky top-0 z-50">
-      <Link to="/" className="flex flex-col leading-tight">
-        <span className="font-serif font-medium text-base md:text-xl tracking-tight text-foreground">
-          Vanesa Sakota
-          <span className="ml-2 text-[10px] md:text-[11px] text-muted-foreground tracking-wide font-sans align-middle">
-            MA, BSc, PACFA Reg.
+      <Link to="/" className="flex items-center gap-3">
+        <img
+          src={mindBodyMark.url}
+          alt="mind.body — Vanesa Sakota Psychotherapy"
+          className="h-9 md:h-11 w-auto select-none"
+          draggable={false}
+        />
+        <span className="flex flex-col leading-tight border-l border-foreground/15 pl-3">
+          <span className="font-serif font-medium text-sm md:text-base tracking-tight text-foreground">
+            Vanesa Sakota
           </span>
-        </span>
-        <span className="text-[10px] md:text-[11px] text-muted-foreground tracking-wide mt-0.5 font-sans">
-          Psychotherapist
+          <span className="text-[10px] md:text-[11px] text-muted-foreground tracking-wide mt-0.5 font-sans">
+            Psychotherapist · MA, BSc, PACFA Reg.
+          </span>
         </span>
       </Link>
 
