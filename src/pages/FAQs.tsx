@@ -69,15 +69,7 @@ const FAQs = () => {
 
       {/* FAQ Accordion */}
       <section className="border-b border-border">
-        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-6 md:py-14">
-          <div className="mb-5 md:mb-8">
-            <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground mb-1">
-              Questions
-            </p>
-            <h2 className="font-serif text-xl md:text-3xl text-foreground tracking-tight leading-tight">
-              Frequently Asked
-            </h2>
-          </div>
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-6 md:py-10">
           <div className="max-w-[640px]">
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((faq, index) => (
