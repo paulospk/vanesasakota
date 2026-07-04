@@ -27,7 +27,7 @@ const faqs = [
   {
     question: "How often should I attend sessions?",
     answer:
-      "For most people, weekly sessions are recommended in the early stages of therapy, particularly when working with chronic symptoms or trauma. As things shift, sessions typically move to fortnightly. This is something we will discuss and adjust based on where you are and what you are working toward.",
+      "For most people, weekly sessions are recommended in the early stages of therapy, particularly when working with chronic symptoms or trauma. As things shift, sessions typically move to fortnightly or as needed. This is something we can discuss and adjust.",
   },
   {
     question: "How long will I need to be in therapy?",
