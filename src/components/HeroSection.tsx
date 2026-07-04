@@ -1,5 +1,5 @@
 import profileImg from "@/assets/profile-hero.jpg";
-
+import mindBodyMark from "@/assets/mindbody-mark.png.asset.json";
 
 export default function HeroSection() {
   return (
@@ -8,9 +8,17 @@ export default function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
           {/* Left: Text */}
           <div className="space-y-6 animate-fade-up max-w-[800px]">
-            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
-              Mind-Body Psychotherapy Sydney
-            </h1>
+            <div className="space-y-2">
+              <img
+                src={mindBodyMark.url}
+                alt="mind.body — Vanesa Sakota Psychotherapy"
+                className="h-16 md:h-20 lg:h-24 w-auto select-none"
+                draggable={false}
+              />
+              <p className="font-serif text-lg md:text-xl text-foreground/80">
+                Psychotherapy Sydney
+              </p>
+            </div>
             <div className="space-y-1">
               <p className="font-serif text-xl md:text-2xl text-foreground leading-tight">
                 Vanesa Sakota
