@@ -30,11 +30,6 @@ const faqs = [
       "For most people, weekly sessions are recommended in the early stages of therapy, particularly when working with chronic symptoms or trauma. As things shift, sessions typically move to fortnightly or as needed. This is something we can discuss and adjust.",
   },
   {
-    question: "What therapeutic approaches do you use?",
-    answer:
-      "I draw on Clinical Resource Therapy, Brainspotting, and Cognitive Behavioural Therapy. I tailor the approach to each person - and explain things as we go. There is no physical contact involved.",
-  },
-  {
     question: "I am a clinician - how do I refer a patient?",
     answer: (
       <>
