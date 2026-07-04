@@ -30,11 +30,6 @@ const faqs = [
       "For most people, weekly sessions are recommended in the early stages of therapy, particularly when working with chronic symptoms or trauma. As things shift, sessions typically move to fortnightly or as needed. This is something we can discuss and adjust.",
   },
   {
-    question: "How long will I need to be in therapy?",
-    answer:
-      "This depends on what you are bringing and what you are hoping to achieve. Some people notice meaningful change within a few months. Others are working with more complex or longstanding presentations and benefit from longer-term support. I will always be transparent about this as we go, and the decision about how long to continue is always yours.",
-  },
-  {
     question: "Is everything confidential?",
     answer:
       "Yes, with the standard exceptions required by law. Confidentiality would only be broken if there were serious concerns about your safety or the safety of another person, or if required by a court order. Everything else stays between us. I practise in accordance with the PACFA Code of Ethics 2017. If you ever have a concern about the service you have received, you are welcome to raise it with me directly or contact PACFA via pacfa.org.au.",
