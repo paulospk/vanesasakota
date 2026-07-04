@@ -17,7 +17,7 @@ const faqs = [
   {
     question: "Can therapy actually help with physical symptoms?",
     answer:
-      "Yes - and there's strong research behind it. Many chronic symptoms, including pelvic pain, sensitive skin conditions, and persistent fatigue, are shaped by the nervous system and emotional patterns held in the body. Therapy that works with both the mind and body can lead to real, lasting change, especially when medical treatment has reached a limit.",
+      "Yes - there's strong research behind it. Many chronic symptoms, including pelvic pain, sensitive skin conditions, and persistent fatigue, are shaped by the nervous system and emotional patterns. Therapy that works with both the mind and body can lead to meaningful change and improve quality of life.",
   },
   {
     question: "What does a session actually look like?",
