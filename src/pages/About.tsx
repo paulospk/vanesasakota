@@ -118,10 +118,6 @@ const About = () => {
                   <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Griffith University, 2012</p>
                 </li>
                 <li className="py-4">
-                  <p className="text-[15px] md:text-base text-foreground">Certificate, Clinical Resource Therapist</p>
-                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Resource Therapy International, 2023</p>
-                </li>
-                <li className="py-4">
                   <p className="text-[15px] md:text-base text-foreground">Registered Member</p>
                   <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Psychotherapy and Counselling Federation of Australia (PACFA)</p>
                 </li>
