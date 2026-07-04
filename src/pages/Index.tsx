@@ -34,16 +34,19 @@ const Index = () => {
             </div>
             <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
               <p>
-                I am a registered psychotherapist working with adults experiencing <strong className="text-foreground font-medium">anxiety</strong>, <strong className="text-foreground font-medium">depression</strong>, <strong className="text-foreground font-medium">chronic stress</strong>, and <strong className="text-foreground font-medium">persistent physical symptoms not fully explained by medical testing</strong>.
+                I am a registered psychotherapist working with adults experiencing anxiety, depression, chronic stress, and persistent physical symptoms not fully explained by medical testing.
               </p>
               <p>
-                My clinical focus centers on psychophysiological and stress-sensitive conditions, including <strong className="text-foreground font-medium">chronic pelvic pain</strong>, <strong className="text-foreground font-medium">vulvodynia</strong>, <strong className="text-foreground font-medium">vaginismus</strong>, and stress-responsive skin conditions such as <strong className="text-foreground font-medium">psoriasis</strong>, <strong className="text-foreground font-medium">eczema</strong>, <strong className="text-foreground font-medium">atopic dermatitis</strong>, <strong className="text-foreground font-medium">hives</strong>, etc. These, and other, non-organic presentations frequently highlight a complex interplay between the nervous system, early experience, and somatic expression, requiring a careful and measured therapeutic approach.
+                My clinical focus centers on supporting individuals navigating the emotional and psychological impact of psychophysiological and stress-sensitive conditions. This includes chronic pain, gastrointestinal difficulties, stress-responsive skin conditions (such as psoriasis, eczema, atopic dermatitis, and hives), and female pelvic and sexual pain (including vulvodynia and vaginismus).
+              </p>
+              <h3 className="font-serif text-2xl md:text-3xl text-foreground leading-tight pt-6">
+                An Integrative Framework
+              </h3>
+              <p>
+                From a psychotherapeutic perspective, these symptoms are often understood as sitting at the intersection of a sensitive nervous system, early relational experiences, and the ways the body can hold unprocessed stress.
               </p>
               <p>
-                My practice integrates trauma-informed, mind-body approaches alongside Emotional Awareness and Expression Therapy (EAET), targeted Parts Work, and grounding cognitive frameworks. These modalities are applied within a structured biopsychosocial framework, ensuring that treatment considers the whole person rather than addressing a presenting symptom in isolation.
-              </p>
-              <p>
-                The therapeutic space I offer is person-centered, intentional, relational, and unhurried, prioritizing clinical steadiness, self-awareness, and the pacing necessary for safe and sustainable integration.
+                When we experience sustained stress, the autonomic nervous system can remain in a state of heightened alert. Because communication between the mind and body is bidirectional, this persistent physiological tension can heavily influence our emotional well-being, everyday function, and how we perceive physical discomfort. Rather than viewing emotional health and physical patterns as separate, my approach gently explores how stress, history, and the body's natural defense responses may be reinforcing one another.
               </p>
             </div>
           </div>
