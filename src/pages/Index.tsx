@@ -37,7 +37,7 @@ const Index = () => {
                 I am a registered psychotherapist working with adults experiencing <strong>anxiety</strong>, <strong>depression</strong>, <strong>chronic stress</strong>, and <strong>persistent physical symptoms not fully explained by medical testing</strong>.
               </p>
               <p>
-                My clinical focus centers on supporting individuals navigating the emotional and psychological impact of psychophysiological and stress-sensitive conditions. This includes <strong>chronic pain</strong>, <strong>gastrointestinal difficulties</strong>, <strong>stress-responsive skin conditions</strong> (such as <strong>psoriasis</strong>, <strong>eczema</strong>, <strong>atopic dermatitis</strong>, and <strong>hives</strong>), and <strong>female pelvic and sexual pain</strong> (including <strong>vulvodynia</strong> and <strong>vaginismus</strong>).
+                My clinical centers on supporting individuals navigating the emotional and psychological impact of psychophysiological and stress-sensitive conditions. This includes <strong>chronic pain</strong>, <strong>gastrointestinal difficulties</strong>, <strong>stress-responsive skin conditions</strong> (such as <strong>psoriasis</strong>, <strong>eczema</strong>, <strong>atopic dermatitis</strong>, and <strong>hives</strong>), and <strong>female pain</strong> (including <strong>vulvodynia</strong> and <strong>vaginismus</strong>).
               </p>
               <h3 className="font-serif text-2xl md:text-3xl text-foreground leading-tight pt-6">
                 An Integrative Framework
