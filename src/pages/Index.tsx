@@ -34,7 +34,7 @@ const Index = () => {
             </div>
             <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
               <p>
-                I am a registered psychotherapist working with adults experiencing <strong>anxiety</strong>, <strong>depression</strong>, <strong>relationship issues</strong>, <strong>chronic stress</strong>, as well as supporting those living with <strong>persistent physical symptoms where medical tests are clear or inconclusive, yet symptoms remain</strong>.
+                I am a registered psychotherapist working with adults experiencing <strong>anxiety</strong>, <strong>depression</strong>, <strong>relationship issues</strong>, <strong>chronic stress</strong> with special interest in working with people living with <strong>persistent physical symptoms where medical tests are clear or inconclusive, yet symptoms remain</strong>.
               </p>
               <p>
                 Here, my work centers around supporting individuals navigating the emotional roots and psychological load of <strong>chronic pain</strong> and <strong>stress-sensitive conditions</strong>. This typically includes <strong>gastrointestinal and digestive difficulties</strong>, <strong>female pelvic pain</strong> such as <strong>vulvodynia</strong> and <strong>vaginismus</strong>, and <strong>stress-responsive skin conditions</strong> including <strong>atopic dermatitis</strong>, <strong>psoriasis</strong>, <strong>chronic urticaria</strong>, and <strong>hyperhidrosis</strong>, as well as somatic symptoms like <strong>tension headaches</strong>, <strong>chronic fatigue</strong>, and <strong>nervous system depletion</strong>.
