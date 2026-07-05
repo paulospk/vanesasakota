@@ -34,10 +34,10 @@ const Index = () => {
             </div>
             <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
               <p>
-                I am a registered psychotherapist working with adults experiencing <strong>anxiety</strong>, <strong>depression</strong>, <strong>chronic stress</strong>, and <strong>persistent physical symptoms not fully explained by medical testing</strong>.
+                I am a registered psychotherapist working with adults experiencing <strong>anxiety</strong>, <strong>depression</strong>, <strong>relationship issues</strong>, <strong>chronic stress</strong>, as well as supporting those living with <strong>persistent physical symptoms where medical tests are clear or inconclusive, yet symptoms remain</strong>.
               </p>
               <p>
-                My work centers around supporting individuals navigating the emotional roots and psychological impact of somatic pain and stress-sensitive conditions. This includes <strong>chronic pain</strong>, <strong>female pelvic pain</strong> (<strong>vulvodynia</strong> and <strong>vaginismus</strong>), <strong>gastrointestinal difficulties</strong>, <strong>stress-responsive skin conditions</strong> such as <strong>psoriasis</strong>, <strong>eczema</strong>, <strong>atopic dermatitis</strong>, etc.
+                Here, my work centers around supporting individuals navigating the emotional roots and psychological load of <strong>chronic pain</strong> and <strong>stress-sensitive conditions</strong>. This typically includes <strong>gastrointestinal and digestive difficulties</strong>, <strong>female pelvic pain</strong> such as <strong>vulvodynia</strong> and <strong>vaginismus</strong>, and <strong>stress-responsive skin conditions</strong> including <strong>atopic dermatitis</strong>, <strong>psoriasis</strong>, <strong>chronic urticaria</strong>, and <strong>hyperhidrosis</strong>, as well as somatic symptoms like <strong>tension headaches</strong>, <strong>chronic fatigue</strong>, and <strong>nervous system depletion</strong>.
               </p>
               <h3 className="font-serif text-2xl md:text-3xl text-foreground leading-tight pt-6">
                 An Integrative Framework
