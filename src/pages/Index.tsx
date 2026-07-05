@@ -34,10 +34,13 @@ const Index = () => {
             </div>
             <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
               <p>
-                I am a registered psychotherapist working with adults experiencing <strong>anxiety</strong>, <strong>depression</strong>, <strong>relationship issues</strong>, and <strong>perinatal mental health concerns</strong>. I hold a special interest in supporting individuals living with <strong>persistent physical symptoms where medical tests are clear or inconclusive, yet symptoms remain</strong>.
+                I work with adults navigating <strong>anxiety</strong>, <strong>depression</strong>, <strong>relationship difficulties</strong>, and <strong>chronic stress</strong>, as well as <strong>women through the perinatal period</strong>.
               </p>
               <p>
-                My work centers around supporting individuals navigating the emotional roots of <strong>chronic pain</strong>, <strong>life transitions</strong>, and <strong>stress-sensitive conditions</strong>. This typically includes <strong>gastrointestinal and digestive difficulties</strong>, <strong>female pelvic pain</strong> (such as <strong>vulvodynia</strong> and <strong>vaginismus</strong>), and <strong>stress-responsive skin conditions</strong> (including <strong>atopic dermatitis</strong>, <strong>psoriasis</strong>, <strong>chronic urticaria</strong>, and <strong>hyperhidrosis</strong>), as well as somatic symptoms like <strong>tension headaches</strong>, <strong>chronic fatigue</strong>, and <strong>nervous system depletion</strong>.
+                I have a particular interest in supporting people living with <strong>persistent physical symptoms</strong> — where medical investigations have been clear or inconclusive, yet the symptoms remain. This includes <strong>functional gastric symptoms</strong>, <strong>female pelvic pain</strong> (such as <strong>vulvodynia</strong> and <strong>vaginismus</strong>), <strong>stress-responsive skin conditions</strong> (including <strong>atopic dermatitis</strong>, <strong>psoriasis</strong>, <strong>chronic urticaria</strong>, and <strong>hyperhidrosis</strong>), <strong>tension headaches</strong>, <strong>chronic fatigue</strong>, and other somatic presentations linked to <strong>nervous system dysregulation</strong>.
+              </p>
+              <p>
+                My approach centers on understanding how <strong>stress</strong>, <strong>emotional experience</strong>, and the <strong>nervous system</strong> interact with the body — working alongside, not in place of, appropriate medical care — to help clients build new capacity for <strong>regulation and relief</strong>.
               </p>
               <h3 className="font-serif text-2xl md:text-3xl text-foreground leading-tight pt-6">
                 An Integrative Framework
