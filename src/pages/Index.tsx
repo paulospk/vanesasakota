@@ -34,7 +34,7 @@ const Index = () => {
             </div>
             <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
               <p>
-                I work with adults navigating <strong>anxiety</strong>, <strong>depression</strong>, <strong>relationship difficulties</strong>, and <strong>chronic stress</strong>, as well as <strong>women through the perinatal period</strong>.
+                I work with adults navigating <strong>anxiety</strong>, <strong>depression</strong>, <strong>relationship difficulties</strong>, <strong>chronic stress</strong>, as well supporting women navigating the <strong>perinatal period</strong>.
               </p>
               <p>
                 I have a particular interest in supporting people living with <strong>persistent physical symptoms</strong> — where medical investigations have been clear or inconclusive, yet the symptoms remain. This includes <strong>functional gastric symptoms</strong>, <strong>female pelvic pain</strong> (such as <strong>vulvodynia</strong> and <strong>vaginismus</strong>), <strong>stress-responsive skin conditions</strong> (including <strong>atopic dermatitis</strong>, <strong>psoriasis</strong>, <strong>chronic urticaria</strong>, and <strong>hyperhidrosis</strong>), <strong>tension headaches</strong>, <strong>chronic fatigue</strong>, and other somatic presentations linked to <strong>nervous system dysregulation</strong>.
