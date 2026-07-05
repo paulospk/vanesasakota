@@ -34,7 +34,7 @@ const Index = () => {
             </div>
             <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
               <p>
-                I am a registered psychotherapist working with adults experiencing <strong>anxiety</strong>, <strong>depression</strong>, <strong>relationship issues</strong>, <strong>chronic stress</strong> with special interest in working with people living with <strong>persistent physical symptoms where medical tests are clear or inconclusive, yet symptoms remain</strong>.
+                I am a registered psychotherapist working with adults experiencing <strong>anxiety</strong>, <strong>depression</strong>, <strong>relationship issues</strong>, and <strong>perinatal mental health concerns</strong>. I hold a special interest in supporting individuals living with <strong>persistent physical symptoms where medical tests are clear or inconclusive, yet symptoms remain</strong>.
               </p>
               <h3 className="font-serif text-2xl md:text-3xl text-foreground leading-tight pt-6">
                 An Integrative Framework
