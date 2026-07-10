@@ -10,16 +10,16 @@ const pillars: { title: ReactNode; description: ReactNode }[] = [
     description: "understanding internal conflict and protection",
   },
   {
-    title: "Brainspotting",
-    description: "releasing bound physical tension",
-  },
-  {
     title: "Imagery Rescripting",
     description: "updating early memories held in the body",
   },
   {
     title: "Grounding Frameworks (CBT & ACT)",
     description: "practical tools for daily stability",
+  },
+  {
+    title: "Brainspotting",
+    description: "releasing bound physical tension",
   },
 ];
 
