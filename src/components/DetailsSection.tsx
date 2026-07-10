@@ -6,12 +6,12 @@ const pillars: { title: ReactNode; description: ReactNode }[] = [
     description: "processing hidden emotional stressors",
   },
   {
-    title: "Brainspotting",
-    description: "releasing bound physical tension",
-  },
-  {
     title: "Resource Therapy (Parts Work)",
     description: "understanding internal conflict and protection",
+  },
+  {
+    title: "Brainspotting",
+    description: "releasing bound physical tension",
   },
   {
     title: "Imagery Rescripting",
