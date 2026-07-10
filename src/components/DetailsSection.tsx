@@ -6,7 +6,7 @@ const pillars: { title: ReactNode; description: ReactNode }[] = [
     description: "processing hidden emotional stressors",
   },
   {
-    title: "Somatic Experiencing & Brainspotting",
+    title: "Brainspotting",
     description: "releasing bound physical tension",
   },
   {
