@@ -20,33 +20,6 @@ const Index = () => {
       <Navbar />
       <HeroSection />
 
-      {/* About teaser */}
-      <section className="bg-background border-b border-border">
-        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-10 md:py-20">
-          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
-            <div className="lg:col-span-3 space-y-2">
-              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
-                Profile
-              </p>
-              <h2 className="font-serif text-3xl md:text-4xl text-foreground tracking-tight leading-tight">
-                About Vanesa
-              </h2>
-            </div>
-            <div className="lg:col-span-7 max-w-[680px] space-y-6 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
-              <p>
-                I came to this work by a winding path, through psychology, seven years in health tech, and a deliberate return to training that focused as much on who I am as a therapist as what I know.
-              </p>
-              <a
-                href="/about"
-                className="inline-block border border-foreground text-foreground px-5 py-3 text-sm font-medium hover:bg-foreground hover:text-card transition-colors"
-              >
-                Read my full story
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Who I Work With */}
       <section className="bg-background border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-10 md:py-20">
