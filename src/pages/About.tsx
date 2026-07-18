@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import profileImg from "@/assets/vanesa-contact-2026.jpg.asset.json";
+import profileImg from "@/assets/room-3.jpg.asset.json";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 
@@ -46,7 +46,7 @@ const About = () => {
             <div className="animate-fade-up" style={{ animationDelay: "100ms" }}>
               <img
                 src={profileImg.url}
-                alt="Vanesa Sakota, psychotherapist in Sydney CBD"
+                alt="Vanesa Sakota's therapy room"
                 className="w-full aspect-[4/3] object-cover"
               />
             </div>

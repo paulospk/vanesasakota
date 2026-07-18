@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
-import vanesaPortrait from "@/assets/room-3.jpg.asset.json";
+import vanesaPortrait from "@/assets/vanesa-contact-2026.jpg.asset.json";
 
 const Contact = () => {
   return (
@@ -43,7 +43,7 @@ const Contact = () => {
               <figure className="w-full">
                 <img
                             src={vanesaPortrait.url}
-                  alt="Vanesa Sakota's therapy room"
+                  alt="Vanesa Sakota, psychotherapist in Sydney CBD"
                   className="w-full max-w-[360px] h-auto object-cover rounded-sm"
                   loading="lazy"
                 />
