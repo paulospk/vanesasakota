@@ -34,21 +34,25 @@ const Index = () => {
             </div>
             <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
               <p>
-                I work with adults living with <strong>anxiety</strong>, <strong>depression</strong>, <strong>relationship difficulties</strong> and <strong>chronic stress</strong>.
+                I've been drawn to understanding people for as long as I can remember: how we think, why we do what we do, what sits underneath our behaviour. It was never really a decision so much as a pull, so I studied psychology straight out of high school at Griffith University in Brisbane.
               </p>
               <p>
-                I also have a particular interest in supporting individuals living with <strong>persistent physical symptoms</strong> where medical investigations have been clear or inconclusive, yet the symptoms remain. This includes <strong>functional gastric symptoms</strong>, <strong>female pelvic pain</strong>, <strong>vulvodynia</strong>, <strong>vaginismus</strong>, <strong>stress-responsive skin conditions</strong> (<strong>atopic dermatitis</strong>, <strong>psoriasis</strong>, <strong>chronic urticaria</strong>, <strong>hyperhidrosis</strong>, etc), <strong>tension headaches</strong>, <strong>chronic fatigue</strong>, and other somatic presentations linked to <strong>nervous system dysregulation</strong>.
+                But when I finished my degree, I made a choice that ended up shaping everything that came after: I decided I wasn't ready to practise. I was in my early twenties, and I couldn't picture myself sitting across from someone decades into a life I hadn't yet lived, and offering them something real. I trusted that instinct, and I moved to Sydney instead, without a clear plan beyond knowing there was more life to live first.
               </p>
               <p>
-                My approach centers on understanding how <strong>stress</strong>, <strong>emotional experience</strong>, and the <strong>nervous system</strong> interact with the body — working alongside, not in place of, appropriate medical care — to help clients build new capacity for <strong>regulation and relief</strong>.
+                What followed was seven years in health tech, as part of a startup building medical software, where I eventually became Head of Product. It was an intense, formative chapter: pitching to investors, travelling globally, building something from the ground up, succeeding faster than I expected to. Eventually that chapter came to an end, and I found myself needing to rebuild and recalibrate. In that process, I realised the pull back to psychology had never really left. It had just been waiting.
+              </p>
+              <p>
+                Too much time had passed for a straightforward Master's in Psychology, so I chose a Master of Psychotherapy and Counselling at Western Sydney University instead, a decision I'm genuinely glad I made. Unlike more conventional training, this program was highly experiential and trauma-informed, with a real emphasis on developing the person of the therapist, not just accumulating techniques. It asked as much of me personally as it did academically, and I think that's exactly what makes for good therapy: the person doing the work has to have done their own work too. I completed the degree in 2023 and have been in private practice since.
               </p>
               <h3 className="font-serif text-2xl md:text-3xl text-foreground leading-tight pt-6">
-                An Integrative Framework
+                How I work
               </h3>
               <p>
-                From a psychotherapeutic perspective, these symptoms often sit at the intersection of a sensitive nervous system, (early) relational experiences, and the ways the body handles unprocessed emotional stress. My approach explores how stress, history, and the body's natural defences may be reinforcing one another - rather than treating mind and body as separate.
+                From a psychotherapeutic perspective, these symptoms often sit at the intersection of a sensitive nervous system, (early) relational experiences, and the ways the body handles unprocessed emotional stress. My approach explores how stress, history, and the body's natural defences may be reinforcing one another, rather than treating mind and body as separate.
               </p>
             </div>
+
           </div>
         </div>
       </section>
