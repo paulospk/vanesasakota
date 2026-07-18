@@ -42,7 +42,7 @@ const Contact = () => {
             <div className="lg:col-span-7 max-w-[640px] space-y-6">
               <figure className="w-full">
                 <img
-                            src={vanesaPortrait}
+                            src={vanesaPortrait.url}
                   alt="Vanesa Sakota, psychotherapist in Sydney CBD"
                   className="w-full max-w-[360px] h-auto object-cover rounded-sm"
                   loading="lazy"
