@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
-import vanesaPortrait from "@/assets/vanesa-portrait-2026.jpg.asset.json";
+import vanesaPortrait from "@/assets/vanesa-contact-2026.jpg.asset.json";
 
 const Contact = () => {
   return (
