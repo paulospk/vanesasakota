@@ -38,7 +38,7 @@ export default function DetailsSection() {
           </div>
           <div className="lg:col-span-7 space-y-6 max-w-[680px]">
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75]">
-              Because these presentations involve overlapping physical and emotional layers, I draw on a range of evidence-based, mind-body approaches within a supportive psychological framework — adapting the modality to what each person's experience calls for:
+              My approach draws on:
             </p>
             <ul className="space-y-6">
               {pillars.map((p, i) => (
