@@ -72,9 +72,6 @@ export default function DetailsSection() {
                 </li>
               ))}
             </ul>
-            <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75]">
-              What I offer is a space that's steady, intentional, and unhurried — room to notice, reflect, and explore the connection between body and mind at your own pace.
-            </p>
           </div>
         </div>
       </div>
