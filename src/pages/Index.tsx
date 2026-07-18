@@ -20,7 +20,7 @@ const Index = () => {
       <Navbar />
       <HeroSection />
 
-      {/* About Vanesa */}
+      {/* About teaser */}
       <section className="bg-background border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-10 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
@@ -32,27 +32,45 @@ const Index = () => {
                 About Vanesa
               </h2>
             </div>
-            <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
+            <div className="lg:col-span-7 max-w-[680px] space-y-6 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
               <p>
-                I've been drawn to understanding people for as long as I can remember: how we think, why we do what we do, what sits underneath our behaviour. It was never really a decision so much as a pull, so I studied psychology straight out of high school at Griffith University in Brisbane.
+                I came to this work by a winding path, through psychology, seven years in health tech, and a deliberate return to training that focused as much on who I am as a therapist as what I know.
               </p>
-              <p>
-                But when I finished my degree, I made a choice that ended up shaping everything that came after: I decided I wasn't ready to practise. I was in my early twenties, and I couldn't picture myself sitting across from someone decades into a life I hadn't yet lived, and offering them something real. I trusted that instinct, and I moved to Sydney instead, without a clear plan beyond knowing there was more life to live first.
-              </p>
-              <p>
-                What followed was seven years in health tech, as part of a startup building medical software, where I eventually became Head of Product. It was an intense, formative chapter: pitching to investors, travelling globally, building something from the ground up, succeeding faster than I expected to. Eventually that chapter came to an end, and I found myself needing to rebuild and recalibrate. In that process, I realised the pull back to psychology had never really left. It had just been waiting.
-              </p>
-              <p>
-                Too much time had passed for a straightforward Master's in Psychology, so I chose a Master of Psychotherapy and Counselling at Western Sydney University instead, a decision I'm genuinely glad I made. Unlike more conventional training, this program was highly experiential and trauma-informed, with a real emphasis on developing the person of the therapist, not just accumulating techniques. It asked as much of me personally as it did academically, and I think that's exactly what makes for good therapy: the person doing the work has to have done their own work too. I completed the degree in 2023 and have been in private practice since.
-              </p>
-              <h3 className="font-serif text-2xl md:text-3xl text-foreground leading-tight pt-6">
-                How I work
-              </h3>
-              <p>
-                From a psychotherapeutic perspective, these symptoms often sit at the intersection of a sensitive nervous system, (early) relational experiences, and the ways the body handles unprocessed emotional stress. My approach explores how stress, history, and the body's natural defences may be reinforcing one another, rather than treating mind and body as separate.
-              </p>
+              <a
+                href="/about"
+                className="inline-block border border-foreground text-foreground px-5 py-3 text-sm font-medium hover:bg-foreground hover:text-card transition-colors"
+              >
+                Read my full story
+              </a>
             </div>
+          </div>
+        </div>
+      </section>
 
+      {/* Who I Work With */}
+      <section className="bg-background border-b border-border">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-10 md:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
+            <div className="lg:col-span-3 space-y-2">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+                Focus
+              </p>
+              <h2 className="font-serif text-3xl md:text-4xl text-foreground tracking-tight leading-tight">
+                Who I Work With
+              </h2>
+            </div>
+            <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
+              <p>I work with adults across a broad range of experiences, including:</p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>Anxiety and depression</li>
+                <li>Trauma, including complex and developmental trauma</li>
+                <li>Addiction and unwanted behavioural patterns</li>
+                <li>Internal conflict and difficulty managing overwhelming emotions</li>
+                <li>Chronic stress and burnout</li>
+                <li>Grief and loss</li>
+                <li>Chronic pelvic pain, vulvodynia, vaginismus, and other nociplastic pain</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

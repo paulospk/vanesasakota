@@ -41,6 +41,12 @@ const About = () => {
                 <p>
                   Too much time had passed for a straightforward Master's in Psychology, so I chose a Master of Psychotherapy and Counselling at Western Sydney University instead, a decision I'm genuinely glad I made. Unlike more conventional training, this program was highly experiential and trauma-informed, with a real emphasis on developing the person of the therapist, not just accumulating techniques. It asked as much of me personally as it did academically, and I think that's exactly what makes for good therapy: the person doing the work has to have done their own work too. I completed the degree in 2023 and have been in private practice since.
                 </p>
+                <h2 className="font-serif text-2xl md:text-3xl text-foreground leading-tight pt-6">
+                  How I work
+                </h2>
+                <p>
+                  From a psychotherapeutic perspective, these symptoms often sit at the intersection of a sensitive nervous system, (early) relational experiences, and the ways the body handles unprocessed emotional stress. My approach explores how stress, history, and the body's natural defences may be reinforcing one another, rather than treating mind and body as separate.
+                </p>
               </div>
             </div>
             <div className="animate-fade-up" style={{ animationDelay: "100ms" }}>
