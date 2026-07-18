@@ -3,23 +3,43 @@ import type { ReactNode } from "react";
 const pillars: { title: ReactNode; description: ReactNode }[] = [
   {
     title: "Emotional Awareness & Expression Therapy (EAET)",
-    description: "processing hidden emotional stressors",
+    description: (
+      <>
+        Developed specifically for chronic pain by leading mind-body medicine pioneers <strong className="text-foreground font-medium">Dr. Howard Schubiner</strong> and <strong className="text-foreground font-medium">Dr. Mark Lumley</strong>, EAET is a neuro-somatic framework. Instead of focusing on adapting to discomfort, EAET works by identifying and safely processing hidden emotional stressors in order to deactivate the central nervous system's chronic threat response.
+      </>
+    ),
   },
   {
     title: "Resource Therapy (Parts Work)",
-    description: "understanding internal conflict and protection",
+    description: (
+      <>
+        Founded by Australian psychologist <strong className="text-foreground font-medium">Professor Gordon Emmerson</strong>, Resource Therapy is a trauma-informed, psychodynamic framework deeply rooted in relational and attachment concepts. In chronic illness, physical symptoms can manifest as a somatic defense mechanism, the body speaking what a part cannot voice. By safely addressing underlying attachment wounds and internal conflicts, we aim to reduce systemic tension driving physical pain.
+      </>
+    ),
   },
   {
     title: "Imagery Rescripting",
-    description: "updating early memories held in the body",
+    description: (
+      <>
+        To gently re-enter and update early memories or relational experiences that may be maintaining a heightened sense of physiological vulnerability.
+      </>
+    ),
   },
   {
     title: "Grounding Frameworks (CBT & ACT)",
-    description: "practical tools for daily stability",
+    description: (
+      <>
+        To support this deeper processing, I integrate elements of <strong className="text-foreground font-medium">CBT</strong> and <strong className="text-foreground font-medium">ACT</strong> as vital grounding frameworks. While EAET and Parts Work target symptom resolution, CBT and ACT provide the essential structural support. They offer practical tools to navigate daily stress, defuse from overwhelming thoughts, and build the psychological flexibility needed to feel safe in your body.
+      </>
+    ),
   },
   {
     title: "Brainspotting",
-    description: "releasing bound physical tension",
+    description: (
+      <>
+        To gently track internal physical sensations and identify specific eye positions ("brainspots") that correspond with deep-seated stress, allowing the subcortical brain and nervous system to process and release bound tension.
+      </>
+    ),
   },
 ];
 
