@@ -1,4 +1,4 @@
-import profileImg from "@/assets/profile-hero.jpg";
+import profileImg from "@/assets/vanesa-portrait-2026.jpg.asset.json";
 
 
 export default function HeroSection() {
