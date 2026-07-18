@@ -30,19 +30,16 @@ const About = () => {
               </h1>
               <div className="space-y-4 text-muted-foreground text-[15px] md:text-base leading-[1.7]">
                 <p>
-                  I am a psychotherapist based in Sydney, holding a Master's degree in Psychotherapy and Counselling and a Bachelor of Science in Psychology. Prior to transitioning into clinical practice, I spent several years in leadership roles within the medical technology sector.
+                  I've been drawn to understanding people for as long as I can remember: how we think, why we do what we do, what sits underneath our behaviour. It was never really a decision so much as a pull, so I studied psychology straight out of high school at Griffith University in Brisbane.
                 </p>
                 <p>
-                  I completed my clinical training and placements in Sydney, developing an integrative framework that bridges relational psychotherapy with modern pain neuroscience and neuro-somatic tools. Rather than focusing strictly on traditional talk therapy, my practice looks closely at the connection between the mind and the nervous system, focusing on down-regulating chronic threat responses and supporting real symptom resolution.
+                  But when I finished my degree, I made a choice that ended up shaping everything that came after: I decided I wasn't ready to practise. I was in my early twenties, and I couldn't picture myself sitting across from someone decades into a life I hadn't yet lived, and offering them something real. I trusted that instinct, and I moved to Sydney instead, without a clear plan beyond knowing there was more life to live first.
                 </p>
                 <p>
-                  I work primarily with adults navigating chronic stress, anxiety, trauma, and persistent physical symptoms. I have a dedicated interest in psychophysiological and stress-sensitive conditions, including centralized chronic pain, chronic pelvic pain syndromes (such as vulvodynia and vaginismus), and stress-responsive dermatological conditions.
+                  What followed was seven years in health tech, as part of a startup building medical software, where I eventually became Head of Product. It was an intense, formative chapter: pitching to investors, travelling globally, building something from the ground up, succeeding faster than I expected to. Eventually that chapter came to an end, and I found myself needing to rebuild and recalibrate. In that process, I realised the pull back to psychology had never really left. It had just been waiting.
                 </p>
                 <p>
-                  My approach combines clinical rigor with a genuine, collaborative partnership. We work together to uncover the underlying physiological, emotional, and relational factors driving your symptoms, focusing on helping your system regain safety and supporting long-term recovery.
-                </p>
-                <p>
-                  When I am not with my clients, I enjoy time with family, writing, and getting to a Pilates class.
+                  Too much time had passed for a straightforward Master's in Psychology, so I chose a Master of Psychotherapy and Counselling at Western Sydney University instead, a decision I'm genuinely glad I made. Unlike more conventional training, this program was highly experiential and trauma-informed, with a real emphasis on developing the person of the therapist, not just accumulating techniques. It asked as much of me personally as it did academically, and I think that's exactly what makes for good therapy: the person doing the work has to have done their own work too. I completed the degree in 2023 and have been in private practice since.
                 </p>
               </div>
             </div>
