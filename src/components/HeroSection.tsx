@@ -1,4 +1,4 @@
-import profileImg from "@/assets/vanesa-portrait-2026.jpg.asset.json";
+const profileImg = { url: "/images/vanesa-portrait-2026.jpg" };
 
 
 export default function HeroSection() {
