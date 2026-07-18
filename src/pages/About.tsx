@@ -46,7 +46,7 @@ const About = () => {
             <div className="animate-fade-up" style={{ animationDelay: "100ms" }}>
               <img
                 src={profileImg.url}
-                alt="Vanesa Sakota's therapy room"
+                alt="Vanesa Sakota, psychotherapist in Sydney CBD"
                 className="w-full aspect-[4/3] object-cover"
               />
             </div>

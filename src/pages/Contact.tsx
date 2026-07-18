@@ -43,7 +43,7 @@ const Contact = () => {
               <figure className="w-full">
                 <img
                             src={vanesaPortrait.url}
-                  alt="Vanesa Sakota, psychotherapist in Sydney CBD"
+                  alt="Vanesa Sakota's therapy room"
                   className="w-full max-w-[360px] h-auto object-cover rounded-sm"
                   loading="lazy"
                 />
