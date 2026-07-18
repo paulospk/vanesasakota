@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import profileImg from "@/assets/room-3.jpg.asset.json";
+import profileImg from "@/assets/vanesa-contact-2026.jpg.asset.json";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 
