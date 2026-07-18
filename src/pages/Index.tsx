@@ -20,7 +20,7 @@ const Index = () => {
       <Navbar />
       <HeroSection />
 
-      {/* Who I Work With */}
+      {/* How I Can Help */}
       <section className="bg-background border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-10 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
@@ -29,7 +29,7 @@ const Index = () => {
                 Focus
               </p>
               <h2 className="font-serif text-3xl md:text-4xl text-foreground tracking-tight leading-tight">
-                Who I Work With
+                How I Can Help
               </h2>
             </div>
             <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
