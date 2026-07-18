@@ -37,7 +37,7 @@ const pillars: { title: ReactNode; description: ReactNode }[] = [
     title: "Brainspotting",
     description: (
       <>
-        To gently track internal physical sensations and identify specific eye positions ("brainspots") that correspond with deep-seated stress, allowing the subcortical brain and nervous system to process and release bound tension.
+        A derivative of EMDR, Brainspotting gently tracks internal physical sensations and identifies specific eye positions ("brainspots") that correspond with deep-seated stress, allowing the subcortical brain and nervous system to process and release bound tension.
       </>
     ),
   },
