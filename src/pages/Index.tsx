@@ -41,7 +41,7 @@ const Index = () => {
                 <li>Internal conflict and difficulty managing overwhelming emotions</li>
                 <li>Chronic stress and burnout</li>
                 <li>Grief and loss</li>
-                <li>Chronic pelvic pain, vulvodynia, vaginismus, and other nociplastic pain</li>
+                <li>Nociplastic pain including chronic pelvic pain, vulvodynia and vaginismus</li>
               </ul>
             </div>
           </div>
