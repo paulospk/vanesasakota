@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import profileImg from "@/assets/profile-hero.jpg";
+import profileImg from "@/assets/vanesa-portrait-2026.jpg.asset.json";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 
@@ -48,7 +48,7 @@ const About = () => {
             </div>
             <div className="animate-fade-up" style={{ animationDelay: "100ms" }}>
               <img
-                src={profileImg}
+                src={profileImg.url}
                 alt="Vanesa Sakota"
                 className="w-full aspect-[4/5] object-cover object-top"
               />

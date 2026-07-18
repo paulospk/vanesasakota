@@ -1,4 +1,4 @@
-import profileImg from "@/assets/profile-hero.jpg";
+import profileImg from "@/assets/vanesa-portrait-2026.jpg.asset.json";
 
 
 export default function HeroSection() {
@@ -27,7 +27,7 @@ export default function HeroSection() {
           {/* Right: Image */}
           <div className="animate-fade-up" style={{ animationDelay: "100ms" }}>
             <img
-              src={profileImg}
+              src={profileImg.url}
               alt="Vanesa Sakota"
               className="w-full aspect-[4/5] object-cover object-top"
             />
