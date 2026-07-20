@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 const vanesaPortrait = { url: "/images/vanesa-contact-2026.jpg" };
@@ -29,6 +30,13 @@ const Contact = () => {
             </h1>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
               I'm available for in person sessions on Mondays and Fridays in the city. Please feel free to contact me by email, and I will reply within 24 hours.
+            </p>
+            <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
+              No GP referral or Mental Health Care Plan is required to book. If you have questions about fees or what to expect before your first session, visit the{" "}
+              <Link to="/faqs" className="text-foreground hover:opacity-60 transition-opacity">
+                FAQs page
+              </Link>
+              .
             </p>
           </div>
         </div>
