@@ -20,7 +20,7 @@ export default function HeroSection() {
               </p>
             </div>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75] max-w-[52ch]">
-              Trauma-informed registered psychotherapist working with adults living with anxiety, depression, trauma, addiction, chronic stress, and chronic pain conditions.
+              Trauma-informed registered psychotherapist working with adults living with anxiety, depression, trauma, addiction, stress, and chronic pain conditions.
             </p>
           </div>
 
