@@ -18,6 +18,14 @@ const pillars: { title: ReactNode; description: ReactNode }[] = [
     ),
   },
   {
+    title: "Brainspotting",
+    description: (
+      <>
+        A brain-body trauma therapy related to EMDR, using a fixed eye position to access what talking alone doesn't always reach.
+      </>
+    ),
+  },
+  {
     title: "Resource Therapy (Parts Work)",
     description: (
       <>
