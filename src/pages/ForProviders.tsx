@@ -24,7 +24,7 @@ const sections: Section[] = [
         body: "Elevated Risk Profile: Individuals with higher ACE scores statistically show a higher prevalence of chronic pain, autoimmune flare-ups, and chronic fatigue.",
       },
       {
-        body: "A Distinct Factor: This strong correlation remains significant even when accounting for health behaviors like smoking, diet, or alcohol use — suggesting that the physiological impact of prolonged stress itself is a major contributing factor to adult health.",
+        body: "A Distinct Factor: This strong correlation remains significant even when accounting for health behaviors like smoking, diet, or alcohol use; suggesting that the physiological impact of prolonged stress itself is a major contributing factor to adult health.",
       },
     ],
   },
@@ -97,7 +97,7 @@ const sections: Section[] = [
         body: "Altered Volume Control: In many functional and psychophysiological symptoms, the central nervous system can undergo a process called central sensitisation, where the spinal cord and brain amplify regular bodily signals.",
       },
       {
-        body: "Real Symptoms, Intact Structure: Normal sensory inputs — such as mild touch, temperature shifts, or natural digestion — can be misprocessed by a hypersensitive nervous system and registered as pain or discomfort, even in the absence of structural tissue damage.",
+        body: "Real Symptoms, Intact Structure: Normal sensory inputs, such as mild touch, temperature shifts, or natural digestion, can be misprocessed by a hypersensitive nervous system and registered as pain or discomfort, even in the absence of structural tissue damage.",
       },
       {
         body: "A Processing Disruption: The symptoms are completely real, but they represent a functional processing error in the nervous system rather than a structural defect (like a fracture). Because the nervous system is neuroplastic, these amplified processing loops can often be systematically retrained and turned back down.",
@@ -112,7 +112,7 @@ const sections: Section[] = [
         body: "Complex physical symptoms are rarely maintained by a single factor. Lasting recovery is best supported through a biopsychosocial lens, which considers the continuous interaction between your biological health, your internal psychology, and your social or relational environment.",
       },
       {
-        body: "Furthermore, because chronic stress and nervous system dysregulation frequently develop within challenging relational contexts, contemporary models indicate that biological healing is deeply supported within a relational space. A hyper-vigilant nervous system rarely down-regulates through cognitive effort alone; it typically relies on co-regulation — the lived experience of safety within a secure, collaborative therapeutic relationship.",
+        body: "Furthermore, because chronic stress and nervous system dysregulation frequently develop within challenging relational contexts, contemporary models indicate that biological healing is deeply supported within a relational space. A hyper-vigilant nervous system rarely down-regulates through cognitive effort alone; it typically relies on co-regulation: the lived experience of safety within a secure, collaborative therapeutic relationship.",
       },
     ],
   },
