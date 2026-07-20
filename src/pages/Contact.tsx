@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 const vanesaPortrait = { url: "/images/vanesa-contact-2026.jpg" };
