@@ -88,7 +88,7 @@ const Index = () => {
               <ul className="divide-y divide-border/60">
                 <li className="py-4 first:pt-0">
                   <p className="text-[15px] md:text-base text-foreground">Master of Psychotherapy and Counselling</p>
-                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Western Sydney University, 2023 — Dean&rsquo;s Merit List</p>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Western Sydney University, 2023: Dean&rsquo;s Merit List</p>
                 </li>
                 <li className="py-4">
                   <p className="text-[15px] md:text-base text-foreground">Bachelor of Science in Psychology</p>
