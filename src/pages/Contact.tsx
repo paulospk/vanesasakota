@@ -31,6 +31,13 @@ const Contact = () => {
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
               I'm available for in person sessions on Mondays and Fridays in the city. Please feel free to contact me by email, and I will reply within 24 hours.
             </p>
+            <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
+              No GP referral or Mental Health Care Plan is required to book. If you have questions about fees or what to expect before your first session, visit the{" "}
+              <Link to="/faqs" className="text-foreground hover:opacity-60 transition-opacity underline underline-offset-2">
+                FAQs page
+              </Link>
+              .
+            </p>
           </div>
         </div>
       </section>
