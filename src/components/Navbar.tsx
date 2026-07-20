@@ -6,6 +6,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 const navLinks = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
+  { label: "Approach", href: "/approach" },
   { label: "Resources", href: "/resources" },
   { label: "Contact", href: "/contact" },
   { label: "FAQs", href: "/faqs" },
