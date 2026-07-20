@@ -33,7 +33,7 @@ const Contact = () => {
             </p>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
               No GP referral or Mental Health Care Plan is required to book. If you have questions about fees or what to expect before your first session, visit the{" "}
-              <Link to="/faqs" className="text-foreground hover:opacity-60 transition-opacity underline underline-offset-2">
+              <Link to="/faqs" className="text-foreground hover:opacity-60 transition-opacity">
                 FAQs page
               </Link>
               .
