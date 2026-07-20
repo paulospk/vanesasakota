@@ -41,10 +41,10 @@ const FAQs = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>FAQs | Vanesa Sakota Psychotherapy Sydney CBD</title>
-        <meta name="description" content="Common questions about seeing Vanesa Sakota for psychotherapy in Sydney CBD — no GP referral needed, fees, session length, confidentiality and whether therapy helps physical symptoms." />
+        <meta name="description" content="Common questions about seeing Vanesa Sakota for psychotherapy in Sydney CBD: no GP referral needed, fees, session length, confidentiality and whether therapy helps physical symptoms." />
         <link rel="canonical" href="https://vanesasakota.com.au/faqs" />
         <meta property="og:title" content="FAQs | Vanesa Sakota Psychotherapy Sydney CBD" />
-        <meta property="og:description" content="Common questions about psychotherapy with Vanesa Sakota — referrals, fees, session structure and working with physical symptoms." />
+        <meta property="og:description" content="Common questions about psychotherapy with Vanesa Sakota: referrals, fees, session structure and working with physical symptoms." />
         <meta property="og:url" content="https://vanesasakota.com.au/faqs" />
       </Helmet>
       <Navbar />

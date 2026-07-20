@@ -20,6 +20,28 @@ const Index = () => {
       <Navbar />
       <HeroSection />
 
+      {/* My Philosophy */}
+      <section className="bg-background border-b border-border">
+        <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-10 md:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
+            <div className="lg:col-span-3 space-y-2">
+              <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
+                Philosophy
+              </p>
+              <h2 className="font-serif text-3xl md:text-4xl text-foreground tracking-tight leading-tight">
+                My Philosophy
+              </h2>
+            </div>
+            <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
+              <p>I believe good therapy looks at the whole person, not just the symptom in front of us. My approach is integrative, grounded in a biopsychosocial lens: your brain, your body, your relationships, and the environment you live in are all part of the picture.</p>
+              <p>I draw on established tools like Cognitive Behavioural Therapy, alongside more holistic work that engages the nervous system, the different parts of you, and the deeper patterns keeping symptoms in place. I have a particular interest in supporting people whose symptoms have felt stuck or treatment-resistant, even after trying everything else.</p>
+              <p>This way of understanding healing has been shaped by the work of leading voices in the trauma field today, including Gabor Maté, Bessel van der Kolk, and Peter Levine: all pointing to the same truth; healing happens not only in the mind, but in the body, the nervous system, and the story we carry.</p>
+              <p>My goal isn't just to help you manage symptoms: it's to get to the root of what's driving them, and support the parts of you that need integration, so you can feel more whole.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* How I Can Help */}
       <section className="bg-background border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-10 md:py-20">
@@ -66,7 +88,7 @@ const Index = () => {
               <ul className="divide-y divide-border/60">
                 <li className="py-4 first:pt-0">
                   <p className="text-[15px] md:text-base text-foreground">Master of Psychotherapy and Counselling</p>
-                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Western Sydney University, 2023 — Dean&rsquo;s Merit List</p>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Western Sydney University, 2023: Dean&rsquo;s Merit List</p>
                 </li>
                 <li className="py-4">
                   <p className="text-[15px] md:text-base text-foreground">Bachelor of Science in Psychology</p>
