@@ -42,7 +42,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* How I Can Help */}
+      {/* Experience Working With */}
       <section className="bg-background border-b border-border">
         <div className="max-w-[1100px] mx-auto px-5 md:px-8 py-10 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 lg:gap-8">
@@ -51,20 +51,46 @@ const Index = () => {
                 Focus
               </p>
               <h2 className="font-serif text-3xl md:text-4xl text-foreground tracking-tight leading-tight">
-                How I Can Help
+                Experience Working With
               </h2>
             </div>
-            <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
+            <div className="lg:col-span-7 max-w-[680px] space-y-8 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
               <p>I work with adults across a broad range of experiences, including:</p>
-              <ul className="list-disc pl-5 space-y-2">
-                <li>Anxiety and depression</li>
-                <li>Trauma, including complex and developmental trauma</li>
-                <li>Addiction and unwanted behavioural patterns</li>
-                <li>Internal conflict and difficulty managing overwhelming emotions</li>
-                <li>Chronic stress and burnout</li>
-                <li>Grief and loss</li>
-                <li>Nociplastic pain including chronic pelvic pain, vulvodynia and vaginismus</li>
-              </ul>
+
+              <div className="space-y-2">
+                <h3 className="font-serif text-lg md:text-xl text-foreground">Mood &amp; Anxiety</h3>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li>Anxiety and depression, including OCD and specific phobias</li>
+                  <li>Chronic stress and burnout</li>
+                  <li>Grief, loss, feeling stuck or confused, and rumination</li>
+                </ul>
+              </div>
+
+              <div className="space-y-2">
+                <h3 className="font-serif text-lg md:text-xl text-foreground">Trauma &amp; the Body</h3>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li>Trauma, including developmental trauma</li>
+                  <li>Nociplastic pain, including chronic pelvic pain, vulvodynia, and vaginismus</li>
+                  <li>Perinatal mental health, including preconception support</li>
+                </ul>
+              </div>
+
+              <div className="space-y-2">
+                <h3 className="font-serif text-lg md:text-xl text-foreground">Behavioural &amp; Relational Patterns</h3>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li>Addiction and unwanted behavioural patterns</li>
+                  <li>Disordered eating, including binge eating and purging</li>
+                  <li>Relationship and attachment difficulties</li>
+                </ul>
+              </div>
+
+              <div className="space-y-2">
+                <h3 className="font-serif text-lg md:text-xl text-foreground">Self &amp; Identity</h3>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li>Self-esteem, self-criticism, and perfectionism</li>
+                  <li>Internal conflict and difficulty managing overwhelming emotions</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
