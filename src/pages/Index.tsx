@@ -81,6 +81,7 @@ const Index = () => {
                 <ul className="list-disc pl-5 space-y-2">
                   <li>Addiction and unwanted behavioural patterns</li>
                   <li>Disordered eating, including binge eating and purging</li>
+                  <li>Body-focused repetitive behaviours, including skin-picking</li>
                   <li>Relationship and attachment difficulties</li>
                 </ul>
               </div>
