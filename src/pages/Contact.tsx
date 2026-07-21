@@ -37,17 +37,30 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Contact details */}
+      {/* Contact form + details */}
       <section className="border-b border-border">
-        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-5 md:py-10">
-          <div className="max-w-[640px] mx-auto lg:max-w-none lg:grid lg:grid-cols-10 lg:gap-8">
-            <div className="lg:col-span-3 hidden lg:block" />
-            <div className="lg:col-span-7 max-w-[640px] space-y-6">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-8 md:py-14">
+          <div className="lg:grid lg:grid-cols-10 lg:gap-12">
+            {/* Form column */}
+            <div className="lg:col-span-6">
+              <div className="mb-6">
+                <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground mb-2">
+                  Send a message
+                </p>
+                <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight leading-tight">
+                  Get in touch
+                </h2>
+              </div>
+              <ContactForm />
+            </div>
+
+            {/* Details column */}
+            <div className="lg:col-span-4 mt-12 lg:mt-0 space-y-6">
               <figure className="w-full">
                 <img
-                            src={vanesaPortrait.url}
+                  src={vanesaPortrait.url}
                   alt="Vanesa Sakota, psychotherapist in Sydney CBD"
-                  className="w-full max-w-[360px] h-auto object-cover rounded-sm"
+                  className="w-full max-w-[320px] h-auto object-cover rounded-sm"
                   loading="lazy"
                 />
               </figure>
@@ -72,6 +85,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+
       {/* Crisis disclaimer */}
       <section className="bg-background">
         <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-8 md:py-12">
