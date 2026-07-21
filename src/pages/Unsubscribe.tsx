@@ -109,7 +109,7 @@ const Unsubscribe = () => {
           )}
         </div>
       </main>
-      <Footer />
+      <FooterSection />
     </div>
   );
 };
