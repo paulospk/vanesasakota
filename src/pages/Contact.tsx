@@ -66,7 +66,7 @@ const Contact = () => {
                   loading="lazy"
                 />
               </figure>
-              <div className="divide-y divide-border/60 max-w-[320px] ml-auto">
+              <div className="divide-y divide-border/60 max-w-[320px]">
                 <div className="flex items-baseline justify-between py-3 first:pt-0">
                   <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">Phone</p>
                   <a href="tel:+61405933722" className="text-[15px] md:text-base text-foreground hover:opacity-60 transition-opacity">
