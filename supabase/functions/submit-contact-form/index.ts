@@ -7,7 +7,6 @@ const REFERRAL_OPTIONS = [
   'Referral from GP or clinician',
   'PACFA directory',
   'Word of mouth',
-  'Instagram',
   'Other',
 ] as const;
 
