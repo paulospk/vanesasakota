@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import FooterSection from "@/components/FooterSection";
 import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
 
