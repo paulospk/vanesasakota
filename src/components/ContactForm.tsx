@@ -180,7 +180,7 @@ export default function ContactForm() {
 
       <div>
         <label htmlFor="referral_source" className={labelClass}>
-          How did you find out about me?
+          Referral source
         </label>
         <select
           id="referral_source"
