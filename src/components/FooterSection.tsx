@@ -15,7 +15,7 @@ export default function FooterSection() {
       badgeId: string | number;
       image: { content: string; dimensions: { width: number; height: number } };
     }) => {
-      if (String(data.badgeId) !== "14" || !anchor) return;
+      if (String(data.badgeId) !== "13" || !anchor) return;
       anchor.style.display = "block";
       anchor.style.backgroundRepeat = "no-repeat";
       anchor.style.backgroundImage = `url("data:image/svg+xml;base64,${data.image.content}")`;
@@ -30,7 +30,7 @@ export default function FooterSection() {
     script.id = scriptId;
     script.type = "text/javascript";
     script.src =
-      "https://www.psychologytoday.com/api/verified-seal/seals/14/profile/1712769?callback=sxcallback";
+      "https://www.psychologytoday.com/api/verified-seal/seals/13/profile/1712769?callback=sxcallback";
 
     document.body.appendChild(script);
 
