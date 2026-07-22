@@ -240,9 +240,9 @@ export default function ContactForm() {
           {status === "submitting" ? "Sending..." : "Send message"}
         </button>
         <p className="text-xs text-muted-foreground mt-4 leading-relaxed">
-          Your details are stored securely and used only to respond to your enquiry. Please avoid
-          sharing sensitive clinical information in this form; we can discuss that safely once we're in
-          contact.
+          Your details are only used to respond to your enquiry, and are not shared with third parties.
+          Please avoid sharing sensitive clinical information in this form; we can discuss that safely
+          once we're in contact.
         </p>
       </div>
     </form>
