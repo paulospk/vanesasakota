@@ -30,7 +30,7 @@ const Contact = () => {
               Appointments
             </h1>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
-              I'm available for in person sessions on Mondays and Fridays in the city. Please feel free to contact me by email, and I will reply within 24 hours.
+              I offer in-person sessions in the Sydney CBD, as well as online sessions for clients across Australia and internationally. Please feel free to contact me by email, and I will reply within 24 hours.
             </p>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
               No GP referral or Mental Health Care Plan is required to book. For questions about fees or availability, please get in touch.
