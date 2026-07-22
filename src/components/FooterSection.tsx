@@ -1,4 +1,26 @@
+import { useEffect, useRef } from "react";
+
 export default function FooterSection() {
+  const sealRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!sealRef.current) return;
+    const container = sealRef.current;
+    if (container.querySelector("script[data-badge='14']")) return;
+
+    const script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://member.psychologytoday.com/verified-seal.js";
+    script.dataset.badge = "14";
+    script.dataset.id = "1712769";
+    script.dataset.code = "aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy8xNC9wcm9maWxlLzE3MTI3Njk/Y2FsbGJhY2s9c3hjYWxsYmFjaw==";
+
+    container.appendChild(script);
+    return () => {
+      container.removeChild(script);
+    };
+  }, []);
+
   return (
     <footer className="bg-foreground text-card">
       <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-10">
