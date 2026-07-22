@@ -1,23 +1,46 @@
 import { useEffect, useRef } from "react";
 
 export default function FooterSection() {
-  const sealRef = useRef<HTMLDivElement>(null);
+  const sealRef = useRef<HTMLAnchorElement>(null);
 
   useEffect(() => {
     if (!sealRef.current) return;
-    const container = sealRef.current;
-    if (container.querySelector("script[data-badge='14']")) return;
+
+    const anchor = sealRef.current;
+    const scriptId = "pt-verified-seal-callback";
+    if (document.getElementById(scriptId)) return;
+
+    const callback = (data: {
+      name: string;
+      badgeId: string | number;
+      image: { content: string; dimensions: { width: number; height: number } };
+    }) => {
+      if (String(data.badgeId) !== "14" || !anchor) return;
+      anchor.style.display = "block";
+      anchor.style.backgroundRepeat = "no-repeat";
+      anchor.style.backgroundImage = `url("data:image/svg+xml;base64,${data.image.content}")`;
+      anchor.style.width = `${data.image.dimensions.width}px`;
+      anchor.style.height = `${data.image.dimensions.height}px`;
+      anchor.title = data.name;
+    };
+
+    (window as unknown as Record<string, unknown>).sxcallback = callback;
 
     const script = document.createElement("script");
+    script.id = scriptId;
     script.type = "text/javascript";
-    script.src = "https://member.psychologytoday.com/verified-seal.js";
-    script.dataset.badge = "14";
-    script.dataset.id = "1712769";
-    script.dataset.code = "aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy8xNC9wcm9maWxlLzE3MTI3Njk/Y2FsbGJhY2s9c3hjYWxsYmFjaw==";
+    script.src =
+      "https://www.psychologytoday.com/api/verified-seal/seals/14/profile/1712769?callback=sxcallback";
 
-    container.appendChild(script);
+    document.body.appendChild(script);
+
     return () => {
-      container.removeChild(script);
+      script.remove();
+      delete (window as unknown as Record<string, unknown>).sxcallback;
+      anchor.style.backgroundImage = "";
+      anchor.style.width = "";
+      anchor.style.height = "";
+      anchor.title = "";
     };
   }, []);
 
