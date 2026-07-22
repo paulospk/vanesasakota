@@ -57,13 +57,12 @@ export default function FooterSection() {
               Sydney NSW 2000<br /><br />
               <span className="italic">By appointment only</span>
             </p>
-            <div ref={sealRef} className="mt-4">
-              <a
-                href="https://www.psychologytoday.com/profile/1712769"
-                className="sx-verified-seal"
-                aria-label="Psychology Today verified profile"
-              />
-            </div>
+            <a
+              ref={sealRef}
+              href="https://www.psychologytoday.com/profile/1712769"
+              className="sx-verified-seal inline-block mt-4"
+              aria-label="Psychology Today verified profile"
+            />
           </div>
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Contact</h4>
