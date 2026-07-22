@@ -37,7 +37,7 @@ const Index = () => {
               <p>I draw on established tools like Cognitive Behavioural Therapy, alongside more holistic work that engages the nervous system, the different parts of you, and the deeper patterns keeping symptoms in place. I have a particular interest in supporting people whose symptoms have felt stuck or treatment-resistant, even after trying everything else.</p>
               <p>In practice, this often means addressing the physiological footprint of chronic stress: HPA axis dysregulation, allostatic load, and the psychoneuroimmune pathways linked to central sensitisation and nociplastic pain, alongside the psychological and relational patterns that keep the nervous system stuck in a threat response.</p>
             <p>This way of understanding healing has been shaped by the work of leading voices in the trauma field today, including Bessel van der Kolk and Peter Levine, whose work points to healing as something that happens not only in the mind, but in the body, the nervous system, and the story we carry.</p>
-              <p>My goal isn't just to help you manage symptoms, but to understand what's driving them, and support the different parts of you in working together with more ease.</p>
+              <p>My goal isn't just to help you manage symptoms, but to understand what's driving them.</p>
             </div>
           </div>
         </div>
