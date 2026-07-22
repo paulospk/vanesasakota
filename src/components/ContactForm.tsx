@@ -6,6 +6,7 @@ const REFERRAL_OPTIONS = [
   "Google search",
   "Referral from GP or clinician",
   "PACFA directory",
+  "Psychology Today",
   "Word of mouth",
   "Other",
 ] as const;
