@@ -1,4 +1,49 @@
+import { useEffect, useRef } from "react";
+
 export default function FooterSection() {
+  const sealRef = useRef<HTMLAnchorElement>(null);
+
+  useEffect(() => {
+    if (!sealRef.current) return;
+
+    const anchor = sealRef.current;
+    const scriptId = "pt-verified-seal-callback";
+    if (document.getElementById(scriptId)) return;
+
+    const callback = (data: {
+      name: string;
+      badgeId: string | number;
+      image: { content: string; dimensions: { width: number; height: number } };
+    }) => {
+      if (String(data.badgeId) !== "14" || !anchor) return;
+      anchor.style.display = "block";
+      anchor.style.backgroundRepeat = "no-repeat";
+      anchor.style.backgroundImage = `url("data:image/svg+xml;base64,${data.image.content}")`;
+      anchor.style.width = `${data.image.dimensions.width}px`;
+      anchor.style.height = `${data.image.dimensions.height}px`;
+      anchor.title = data.name;
+    };
+
+    (window as unknown as Record<string, unknown>).sxcallback = callback;
+
+    const script = document.createElement("script");
+    script.id = scriptId;
+    script.type = "text/javascript";
+    script.src =
+      "https://www.psychologytoday.com/api/verified-seal/seals/14/profile/1712769?callback=sxcallback";
+
+    document.body.appendChild(script);
+
+    return () => {
+      script.remove();
+      delete (window as unknown as Record<string, unknown>).sxcallback;
+      anchor.style.backgroundImage = "";
+      anchor.style.width = "";
+      anchor.style.height = "";
+      anchor.title = "";
+    };
+  }, []);
+
   return (
     <footer className="bg-foreground text-card">
       <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-10">
@@ -12,6 +57,12 @@ export default function FooterSection() {
               Sydney NSW 2000<br /><br />
               <span className="italic">By appointment only</span>
             </p>
+            <a
+              ref={sealRef}
+              href="https://www.psychologytoday.com/profile/1712769"
+              className="sx-verified-seal inline-block mt-4"
+              aria-label="Psychology Today verified profile"
+            />
           </div>
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Contact</h4>
