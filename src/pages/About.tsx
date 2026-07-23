@@ -30,16 +30,16 @@ const About = () => {
               </h1>
               <div className="space-y-4 text-muted-foreground text-[15px] md:text-base leading-[1.7]">
                 <p>
-                  Driven by a lifelong curiosity about human behavior, Vanesa completed her undergraduate training in Psychological Science at <strong className="text-foreground font-semibold">Griffith University</strong> in <strong className="text-foreground font-semibold">2008</strong>. Recognizing early on that effective therapy requires both academic knowledge and lived maturity, she intentionally took time to gain real-world experience before entering clinical practice.
+                  Driven by a lifelong curiosity about human behavior, Vanesa completed her undergraduate training in Psychological Science at Griffith University in 2008. Recognizing early on that effective therapy requires both academic knowledge and lived maturity, she intentionally took time to gain real-world experience before entering clinical practice.
                 </p>
                 <p>
-                  This journey led to a dynamic <strong className="text-foreground font-semibold">seven-year</strong> career in health tech, where Vanesa served as <strong className="text-foreground font-semibold">Head of Product</strong> for an Australian medical software startup. Leading international teams, navigating high-stakes environments, and building solutions from the ground up provided her with a unique understanding of systemic pressure, high-performance burnout, and personal recalibration.
+                  This journey led to a dynamic seven-year career in health tech, where Vanesa served as Head of Product for an Australian medical software startup. Leading international teams, navigating high-stakes environments, and building solutions from the ground up provided her with a unique understanding of systemic pressure, high-performance burnout, and personal recalibration.
                 </p>
                 <p>
-                  Returning to her original calling, Vanesa completed a <strong className="text-foreground font-semibold">Master of Psychotherapy and Counselling</strong> at <strong className="text-foreground font-semibold">Western Sydney University</strong> in <strong className="text-foreground font-semibold">2023</strong>. This program was rigorous, highly experiential and emphasized trauma-informed practice and the critical development of the therapist’s inner capacity.
+                  Returning to her original calling, Vanesa completed a Master of Psychotherapy and Counselling at Western Sydney University in 2023. This program was rigorous, highly experiential and emphasized trauma-informed practice and the critical development of the therapist’s inner capacity.
                 </p>
                 <p>
-                  Trained directly by <strong className="text-foreground font-semibold">Penny Gardner</strong> (<em><strong className="text-foreground font-semibold">A Safe Place for Change</strong></em>) and under the ongoing clinical supervision of senior psychologist <strong className="text-foreground font-semibold">Philipa Thornton</strong>, Vanessa brings clinical precision, rich real-world context, and deep empathy to her private practice, offering a grounded, collaborative space where lived experience meets rigorous clinical care.
+                  Trained directly by Penny Gardner (<em>A Safe Place for Change</em>) and under the ongoing clinical supervision of senior psychologist Philipa Thornton, Vanessa brings clinical precision, rich real-world context, and deep empathy to her private practice, offering a grounded, collaborative space where lived experience meets rigorous clinical care.
                 </p>
               </div>
             </div>
@@ -69,16 +69,16 @@ const About = () => {
             <div className="lg:col-span-7 max-w-[640px]">
               <ul className="divide-y divide-border/60">
                 <li className="py-4 first:pt-0">
-                  <p className="text-[15px] md:text-base text-foreground"><strong>Master of Psychotherapy and Counselling</strong></p>
-                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2"><strong className="text-foreground font-semibold">Western Sydney University</strong>, <strong className="text-foreground font-semibold">2023</strong>: <strong className="text-foreground font-semibold">Dean&rsquo;s Merit List</strong></p>
+                  <p className="text-[15px] md:text-base text-foreground">Master of Psychotherapy and Counselling</p>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Western Sydney University, 2023: Dean&rsquo;s Merit List</p>
                 </li>
                 <li className="py-4">
-                  <p className="text-[15px] md:text-base text-foreground"><strong>Bachelor of Science in Psychology</strong></p>
-                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2"><strong className="text-foreground font-semibold">Griffith University</strong>, <strong className="text-foreground font-semibold">2012</strong></p>
+                  <p className="text-[15px] md:text-base text-foreground">Bachelor of Science in Psychology</p>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Griffith University, 2012</p>
                 </li>
                 <li className="py-4">
-                  <p className="text-[15px] md:text-base text-foreground"><strong>Registered Psychotherapist</strong></p>
-                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2"><strong className="text-foreground font-semibold">Psychotherapy and Counselling Federation of Australia (PACFA)</strong></p>
+                  <p className="text-[15px] md:text-base text-foreground">Registered Psychotherapist</p>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Psychotherapy and Counselling Federation of Australia (PACFA)</p>
                 </li>
               </ul>
             </div>
