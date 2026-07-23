@@ -30,7 +30,7 @@ const About = () => {
               </h1>
               <div className="space-y-4 text-muted-foreground text-[15px] md:text-base leading-[1.7]">
                 <p>
-                  Driven by a lifelong curiosity about human behavior, Vanesa completed her undergraduate training in Psychology at <strong className="font-semibold text-foreground">Griffith University</strong> in <strong className="font-semibold text-foreground">2008</strong>. Recognizing early on that effective therapy requires both academic knowledge and lived maturity, she intentionally took time to gain real-world experience before entering clinical practice.
+                  Driven by a lifelong curiosity about human behaviour, Vanesa completed her undergraduate training in Psychology at <strong className="font-semibold text-foreground">Griffith University</strong> in <strong className="font-semibold text-foreground">2008</strong>. Recognizing early on that effective therapy requires both academic knowledge and lived maturity, she intentionally took time to gain real-world experience before entering clinical practice.
                 </p>
                 <p>
                   This journey led to a dynamic <strong className="font-semibold text-foreground">seven-year career in health tech</strong>, where Vanesa served as <strong className="font-semibold text-foreground">Head of Product</strong> for an <strong className="font-semibold text-foreground">Australian medical software startup</strong>. Leading international teams, navigating high-stakes environments, and building solutions from the ground up provided her with a unique understanding of systemic pressure, high-performance burnout, and personal recalibration.
