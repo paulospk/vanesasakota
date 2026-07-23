@@ -69,16 +69,16 @@ const About = () => {
             <div className="lg:col-span-7 max-w-[640px]">
               <ul className="divide-y divide-border/60">
                 <li className="py-4 first:pt-0">
-                  <p className="text-[15px] md:text-base text-foreground">Master of Psychotherapy and Counselling</p>
-                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Western Sydney University, 2023: Dean&rsquo;s Merit List</p>
+                  <p className="text-[15px] md:text-base text-foreground"><strong>Master of Psychotherapy and Counselling</strong></p>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2"><strong className="text-foreground font-semibold">Western Sydney University</strong>, <strong className="text-foreground font-semibold">2023</strong>: <strong className="text-foreground font-semibold">Dean&rsquo;s Merit List</strong></p>
                 </li>
                 <li className="py-4">
-                  <p className="text-[15px] md:text-base text-foreground">Bachelor of Science in Psychology</p>
-                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Griffith University, 2012</p>
+                  <p className="text-[15px] md:text-base text-foreground"><strong>Bachelor of Science in Psychology</strong></p>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2"><strong className="text-foreground font-semibold">Griffith University</strong>, <strong className="text-foreground font-semibold">2012</strong></p>
                 </li>
                 <li className="py-4">
-                  <p className="text-[15px] md:text-base text-foreground">Registered Psychotherapist</p>
-                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Psychotherapy and Counselling Federation of Australia (PACFA)</p>
+                  <p className="text-[15px] md:text-base text-foreground"><strong>Registered Psychotherapist</strong></p>
+                  <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2"><strong className="text-foreground font-semibold">Psychotherapy and Counselling Federation of Australia (PACFA)</strong></p>
                 </li>
               </ul>
             </div>
