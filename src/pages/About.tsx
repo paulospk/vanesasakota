@@ -30,16 +30,16 @@ const About = () => {
               </h1>
               <div className="space-y-4 text-muted-foreground text-[15px] md:text-base leading-[1.7]">
                 <p>
-                  I've been drawn to understanding people for as long as I can remember, how we think, why we do what we do, what's underneath our behaviour. It was never really a decision so much as a natural pull, so I studied psychology straight out of high school at Griffith University in Brisbane, in 2008.
+                  Driven by a lifelong curiosity about human behavior, Vanesa completed her undergraduate training in Psychological Science at Griffith University in 2008. Recognizing early on that effective therapy requires both academic knowledge and lived maturity, she intentionally took time to gain real-world experience before entering clinical practice.
                 </p>
                 <p>
-                  I finished my training, but instinctively felt I was too green to practise. I was in my early twenties, and I couldn't picture myself sitting across from someone decades into a life I hadn't lived yet, offering them something real. So I trusted that instinct, and moved to Sydney instead, without a clear plan beyond knowing there was more life to live first.
+                  This journey led to a dynamic seven-year career in health tech, where Vanesa served as Head of Product for an Australian medical software startup. Leading international teams, navigating high-stakes environments, and building solutions from the ground up provided her with a unique understanding of systemic pressure, high-performance burnout, and personal recalibration.
                 </p>
                 <p>
-                  What followed was a seven-year tenure in health tech, as part of a startup building medical software, where I eventually became Head of Product. It was an intense, formative chapter, travelling globally, building something from the ground up, pitching to investors, and succeeding faster than I expected to. Eventually that chapter came to an end, and I found myself needing to rebuild and recalibrate. In that process, I realised it was time to go back to where it all started for me.
+                  Returning to her original calling, Vanesa completed a Master of Psychotherapy and Counselling at Western Sydney University in 2023. This program was rigorous, highly experiential and emphasized trauma-informed practice and the critical development of the therapist’s inner capacity.
                 </p>
                 <p>
-                  Too much time had passed for a straightforward Master's in Psychology, so I chose a Master of Psychotherapy and Counselling at Western Sydney University instead, a decision I'm genuinely glad I made. Unlike more conventional training, this program was highly experiential and trauma-informed, with a real emphasis on developing the <em>person of the therapist</em>. It provided plenty of technique, but it also asked as much of me personally as it did academically, and I think that's exactly what makes for good therapy: the person doing the work has to have done their own work too. I completed the degree in 2023 and have been in private practice since. I was personally trained by Penny Gardner, author of <em>A Safe Place for Change</em>, and today remain in ongoing supervision with psychologist Philipa Thornton, for which I'm grateful.
+                  Trained directly by Penny Gardner (author of <em>A Safe Place for Change</em>) and today under the ongoing supervision of senior psychologist Philipa Thornton, Vanesa brings a grounded, deeply empathetic, and refined approach to her private practice, firmly believing that a therapist can only guide clients as far as she has walked herself.
                 </p>
               </div>
             </div>
