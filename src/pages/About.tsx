@@ -39,7 +39,7 @@ const About = () => {
                   Returning to her original calling, Vanesa completed a Master of Psychotherapy and Counselling at Western Sydney University in 2023. This program was rigorous, highly experiential and emphasized trauma-informed practice and the critical development of the therapist’s inner capacity.
                 </p>
                 <p>
-                  Trained directly by Penny Gardner (author of <em>A Safe Place for Change</em>) and today under the ongoing supervision of senior psychologist Philipa Thornton, Vanesa brings a grounded, deeply empathetic, and refined approach to her private practice, firmly believing that a therapist can only guide clients as far as she has walked herself.
+                  Trained directly by Penny Gardner (<em>A Safe Place for Change</em>) and under the ongoing clinical supervision of senior psychologist Philipa Thornton, Vanessa brings clinical precision, rich real-world context, and deep empathy to her private practice, offering a grounded, collaborative space where lived experience meets rigorous clinical care.
                 </p>
               </div>
             </div>
