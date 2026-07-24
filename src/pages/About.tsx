@@ -44,7 +44,7 @@ const About = () => {
                 <p>
                   Trained directly by <strong className="font-semibold text-foreground">Penny Gardner</strong>, the author of <em>A Safe Place for Change</em>, and under the ongoing clinical supervision of psychologist <strong className="font-semibold text-foreground">Philipa Thornton</strong>, Vanesa draws on rich real-world context, clinical rigour and deep empathy to her private practice.
                 </p>
-                <p className="italic">
+                <p>
                   Outside of work, Vanesa values spending time with her family, staying active through strength training, and getting out in nature as much as possible.
                 </p>
               </div>
