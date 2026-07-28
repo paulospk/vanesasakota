@@ -58,7 +58,10 @@ const Index = () => {
             <div className="lg:col-span-7 max-w-[680px] space-y-8 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
               <p>I work with adults across a broad range of experiences, including:</p>
 
-              <div className="space-y-2">
+              <div
+                className="space-y-2 rounded-[14px] p-5 md:p-6"
+                style={{ backgroundColor: "hsl(var(--tint-sage))" }}
+              >
                 <h3 className="font-serif text-lg md:text-xl text-foreground">Mood &amp; Anxiety</h3>
                 <ul className="list-disc pl-5 space-y-2">
                   <li>Anxiety and depression, including OCD and specific phobias</li>
@@ -67,7 +70,10 @@ const Index = () => {
                 </ul>
               </div>
 
-              <div className="space-y-2">
+              <div
+                className="space-y-2 rounded-[14px] p-5 md:p-6"
+                style={{ backgroundColor: "hsl(var(--tint-terracotta))" }}
+              >
                 <h3 className="font-serif text-lg md:text-xl text-foreground">Trauma &amp; the Body</h3>
                 <ul className="list-disc pl-5 space-y-2">
                   <li>Trauma, including developmental trauma</li>
@@ -76,7 +82,10 @@ const Index = () => {
                 </ul>
               </div>
 
-              <div className="space-y-2">
+              <div
+                className="space-y-2 rounded-[14px] p-5 md:p-6"
+                style={{ backgroundColor: "hsl(var(--tint-blush))" }}
+              >
                 <h3 className="font-serif text-lg md:text-xl text-foreground">Behavioural &amp; Relational Patterns</h3>
                 <ul className="list-disc pl-5 space-y-2">
                   <li>Addiction and unwanted behavioural patterns</li>
@@ -86,7 +95,10 @@ const Index = () => {
                 </ul>
               </div>
 
-              <div className="space-y-2">
+              <div
+                className="space-y-2 rounded-[14px] p-5 md:p-6"
+                style={{ backgroundColor: "hsl(var(--tint-sand))" }}
+              >
                 <h3 className="font-serif text-lg md:text-xl text-foreground">Self &amp; Identity</h3>
                 <ul className="list-disc pl-5 space-y-2">
                   <li>Self-esteem, self-criticism, and perfectionism</li>
