@@ -26,11 +26,16 @@ export default function HeroSection() {
 
           {/* Right: Image */}
           <div className="animate-fade-up" style={{ animationDelay: "100ms" }}>
-            <img
-              src={profileImg.url}
-              alt="Vanesa Sakota"
-              className="w-full aspect-[4/5] object-cover object-top"
-            />
+            <div
+              className="rounded-[20px] p-3 md:p-4 shadow-sm"
+              style={{ background: "var(--hero-portrait-gradient)" }}
+            >
+              <img
+                src={profileImg.url}
+                alt="Vanesa Sakota"
+                className="w-full aspect-[4/5] object-cover object-top rounded-[16px]"
+              />
+            </div>
           </div>
         </div>
       </div>
