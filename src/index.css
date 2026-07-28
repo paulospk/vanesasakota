@@ -38,7 +38,16 @@ html {
     --input: 214 32% 91%;
     --ring: 199 89% 48%;
 
-    --radius: 0rem;
+    --radius: 0.75rem;
+
+    /* Soft category tints for area-of-focus cards */
+    --tint-terracotta: 18 55% 93%;
+    --tint-sage: 130 25% 92%;
+    --tint-blush: 350 55% 95%;
+    --tint-sand: 40 45% 93%;
+
+    /* Hero portrait gradient */
+    --hero-portrait-gradient: linear-gradient(135deg, hsl(199 60% 88%), hsl(195 30% 82%) 55%, hsl(18 45% 90%));
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
