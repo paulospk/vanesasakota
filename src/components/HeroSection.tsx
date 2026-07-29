@@ -9,7 +9,7 @@ export default function HeroSection() {
           {/* Left: Text */}
           <div className="space-y-6 animate-fade-up max-w-[800px]">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
-              Mind-Body Psychotherapy Sydney
+              Evidence-Based Psychotherapy Sydney
             </h1>
             <div className="space-y-1">
               <p className="font-serif text-xl md:text-2xl text-foreground leading-tight">
@@ -20,7 +20,7 @@ export default function HeroSection() {
               </p>
             </div>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75] max-w-[52ch]">
-              Trauma-informed registered psychotherapist working with adults living with anxiety, depression, trauma, addiction, stress, and chronic pain conditions.
+              A trauma-informed, registered psychotherapist supporting the whole person — mind, body, relationships, and life experience. Working with adults experiencing anxiety, depression, trauma, addiction, stress, and chronic pain.
             </p>
           </div>
 
