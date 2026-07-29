@@ -12,7 +12,7 @@ export default function HeroSection() {
               Evidence-Based Psychotherapy Sydney
             </h1>
             <div className="space-y-1">
-              <p className="font-serif text-xl md:text-2xl text-foreground leading-tight">
+              <p className="font-serif font-semibold text-2xl md:text-3xl lg:text-4xl text-foreground leading-tight">
                 Vanesa Sakota
               </p>
               <p className="text-sm text-muted-foreground leading-snug">
