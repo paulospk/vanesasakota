@@ -19,9 +19,6 @@ export default function HeroSection() {
                 BSc (Psychology) MA (Psychotherapy and Counselling)
               </p>
             </div>
-            <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75] max-w-[52ch]">
-              A trauma-informed and culturally sensitive psychotherapist working with adults living with anxiety, depression, trauma, addiction, stress, and chronic pain.
-            </p>
           </div>
 
           {/* Right: Image */}
