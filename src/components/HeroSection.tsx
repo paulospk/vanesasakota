@@ -20,7 +20,7 @@ export default function HeroSection() {
               </p>
             </div>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75] max-w-[52ch]">
-              A trauma-informed, registered psychotherapist supporting the whole person — mind, body, relationships, and life experience. Working with adults experiencing anxiety, depression, trauma, addiction, stress, and chronic pain.
+              A trauma-informed and culturally sensitive psychotherapist working with adults living with anxiety, depression, trauma, addiction, stress, and chronic pain.
             </p>
           </div>
 
