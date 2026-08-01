@@ -18,6 +18,9 @@ export default function HeroSection() {
               <p className="text-sm text-muted-foreground leading-snug">
                 BA (Psychology) MA (Psychotherapy and Counselling) PACFA
               </p>
+              <p className="text-sm text-muted-foreground leading-snug pt-1">
+                Individual and Couples Therapy
+              </p>
             </div>
           </div>
 
