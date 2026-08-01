@@ -9,7 +9,7 @@ export default function HeroSection() {
           {/* Left: Text */}
           <div className="space-y-6 animate-fade-up max-w-[800px]">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight text-foreground leading-[1.1]">
-              Evidence-Based Psychotherapy Sydney
+              Evidence-Based Integrative Psychotherapy Sydney
             </h1>
             <div className="space-y-1">
               <p className="font-serif font-semibold text-2xl md:text-3xl lg:text-4xl text-foreground leading-tight">
