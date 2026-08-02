@@ -92,7 +92,7 @@ async function main() {
 
   let browser;
   try {
-    browser = await chromium.launch();
+    browser = await chromium.launch({ args: ["--no-sandbox", "--disable-dev-shm-usage"] });
   } catch (err) {
     console.warn(
       `⚠ Could not launch Chromium (${err.message.split("\n")[0]}) — skipping HTML prerender.`
