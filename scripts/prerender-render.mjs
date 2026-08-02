@@ -122,17 +122,20 @@ async function main() {
         : path.join(DIST, route.slice(1), "index.html");
 
     const html = fs.readFileSync(outFile, "utf-8");
-    const replaced = html.replace(
-      /(<div id="root">)[\s\S]*?(<\/div>)(?=\s*<script)/,
-      (_m, open, close) => `${open}${rootHtml}${close}`
-    );
+    const start = html.indexOf('<div id="root">');
+    const bodyEnd = html.indexOf("</body>", start);
 
-    if (replaced === html) {
-      console.warn(`  ⚠  ${route} — could not inject rendered HTML`);
-    } else {
-      fs.writeFileSync(outFile, replaced);
-      console.log(`  ✓  ${route} (${Math.round(rootHtml.length / 1024)} kB rendered)`);
+    if (start === -1 || bodyEnd === -1) {
+      console.warn(`  ⚠  ${route} — could not locate #root, left as-is`);
+      continue;
     }
+
+    const before = html.slice(0, start);
+    const after = html.slice(bodyEnd);
+    const replaced = `${before}<div id="root">${rootHtml}</div>\n  ${after}`;
+
+    fs.writeFileSync(outFile, replaced);
+    console.log(`  ✓  ${route} (${Math.round(rootHtml.length / 1024)} kB rendered)`);
   }
 
   await browser.close();
