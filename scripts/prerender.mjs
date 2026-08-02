@@ -162,6 +162,20 @@ const routes = [
       "Curated resources on anxiety, trauma, chronic pelvic pain, nervous system regulation and psychophysiological health from Vanesa Sakota, psychotherapist Sydney CBD.",
     jsonLd: null,
   },
+  {
+    path: "/about",
+    title: "About Vanesa Sakota | Integrative Psychotherapist Sydney CBD",
+    description:
+      "Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD with a Master of Psychotherapy from Western Sydney University, working with an integrative mind-body approach.",
+    jsonLd: null,
+  },
+  {
+    path: "/approach",
+    title: "The Approach | Vanesa Sakota Psychotherapy Sydney",
+    description:
+      "An integrative mind-body psychotherapy approach drawing on EAET, Clinical Parts Therapy, Imagery Rescripting, CBT and ACT, in Sydney CBD.",
+    jsonLd: null,
+  },
 ];
 
 // ── HTML builder ──────────────────────────────────────────────────────────────
