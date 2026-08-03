@@ -16,7 +16,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.resolve(__dirname, "../dist");
-const BASE_URL = "https://vanesasakota.com.au";
+const BASE_URL = "https://www.vanesasakota.com.au";
 
 // ── Route manifest ────────────────────────────────────────────────────────────
 

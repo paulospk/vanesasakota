@@ -209,10 +209,10 @@ const Resources = () => {
       <Helmet>
         <title>Resources | Vanesa Sakota Psychotherapy Sydney CBD</title>
         <meta name="description" content="Curated resources on anxiety, trauma, chronic pelvic pain, nervous system regulation and psychophysiological health from Vanesa Sakota, psychotherapist Sydney CBD." />
-        <link rel="canonical" href="https://vanesasakota.com.au/resources" />
+        <link rel="canonical" href="https://www.vanesasakota.com.au/resources" />
         <meta property="og:title" content="Resources | Vanesa Sakota Psychotherapy Sydney CBD" />
         <meta property="og:description" content="Resources on anxiety, trauma, chronic pelvic pain and nervous system regulation." />
-        <meta property="og:url" content="https://vanesasakota.com.au/resources" />
+        <meta property="og:url" content="https://www.vanesasakota.com.au/resources" />
       </Helmet>
       <Navbar />
 
