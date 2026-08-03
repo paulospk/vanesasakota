@@ -1,4 +1,5 @@
-const profileImg = { url: "/images/vanesa-portrait-2026.jpg" };
+
+
 
 
 export default function HeroSection() {
