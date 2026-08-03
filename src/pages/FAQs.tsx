@@ -71,6 +71,7 @@ const FAQs = () => {
       <section className="border-b border-border">
         <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-6 md:py-10">
           <div className="max-w-[640px]">
+            <h2 className="sr-only">Frequently asked questions</h2>
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((faq, index) => (
                 <AccordionItem key={index} value={`item-${index}`} className="border-border/60">
