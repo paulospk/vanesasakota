@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import ContactForm from "@/components/ContactForm";
-const vanesaPortrait = { url: "/images/vanesa-contact-2026.jpg" };
+
 
 
 const Contact = () => {
@@ -59,12 +59,19 @@ const Contact = () => {
             {/* Details column */}
             <div className="lg:col-span-4 mt-12 lg:mt-0 space-y-6">
               <figure className="w-full">
-                <img
-                  src={vanesaPortrait.url}
-                  alt="Vanesa Sakota, psychotherapist in Sydney CBD"
-                  className="w-full max-w-[320px] h-auto object-cover rounded-sm"
-                  loading="lazy"
-                />
+                <picture>
+                  <source srcSet="/images/contact-640.webp" type="image/webp" />
+                  <img
+                    src="/images/contact-640.jpg"
+                    alt="Vanesa Sakota, psychotherapist in Sydney CBD"
+                    width={640}
+                    height={853}
+                    className="w-full max-w-[320px] h-auto object-cover rounded-sm"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </picture>
+
               </figure>
               <div className="divide-y divide-border/60 max-w-[320px]">
                 <div className="flex items-baseline justify-between py-3 first:pt-0">
