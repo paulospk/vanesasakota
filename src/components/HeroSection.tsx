@@ -30,11 +30,19 @@ export default function HeroSection() {
               className="rounded-[20px] p-3 md:p-4 shadow-sm"
               style={{ background: "var(--hero-portrait-gradient)" }}
             >
-              <img
-                src={profileImg.url}
-                alt="Vanesa Sakota"
-                className="w-full aspect-[4/5] object-cover object-top rounded-[16px]"
-              />
+              <picture>
+                <source srcSet="/images/hero-1040.webp" type="image/webp" />
+                <img
+                  src="/images/hero-1040.jpg"
+                  alt="Vanesa Sakota"
+                  width={1040}
+                  height={1387}
+                  fetchPriority="high"
+                  decoding="async"
+                  className="w-full aspect-[4/5] object-cover object-top rounded-[16px]"
+                />
+              </picture>
+
             </div>
           </div>
         </div>
