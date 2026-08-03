@@ -63,9 +63,9 @@ const Index = () => {
               >
                 <h3 className="font-serif text-lg md:text-xl text-foreground">Mood &amp; Anxiety</h3>
                 <ul className="list-disc pl-5 space-y-2">
-                  <li>Anxiety and depression, including OCD and specific phobias</li>
-                  <li>Chronic stress and burnout</li>
-                  <li>Grief, loss, feeling stuck or confused, and rumination</li>
+                  <li><strong className="text-foreground font-medium">Anxiety</strong> and <strong className="text-foreground font-medium">depression</strong>, including <strong className="text-foreground font-medium">OCD</strong> and <strong className="text-foreground font-medium">specific phobias</strong></li>
+                  <li><strong className="text-foreground font-medium">Chronic stress</strong> and <strong className="text-foreground font-medium">burnout</strong></li>
+                  <li><strong className="text-foreground font-medium">Grief</strong>, <strong className="text-foreground font-medium">loss</strong>, feeling stuck or confused, and <strong className="text-foreground font-medium">rumination</strong></li>
                 </ul>
               </div>
 
@@ -75,9 +75,9 @@ const Index = () => {
               >
                 <h3 className="font-serif text-lg md:text-xl text-foreground">Trauma &amp; the Body</h3>
                 <ul className="list-disc pl-5 space-y-2">
-                  <li>Trauma, including developmental trauma</li>
-                  <li>Nociplastic pain, including chronic pelvic pain, vulvodynia, and vaginismus</li>
-                  <li>Perinatal mental health, including preconception support</li>
+                  <li><strong className="text-foreground font-medium">Trauma</strong>, including <strong className="text-foreground font-medium">developmental trauma</strong></li>
+                  <li><strong className="text-foreground font-medium">Nociplastic pain</strong>, including <strong className="text-foreground font-medium">chronic pelvic pain</strong>, <strong className="text-foreground font-medium">vulvodynia</strong>, and <strong className="text-foreground font-medium">vaginismus</strong></li>
+                  <li><strong className="text-foreground font-medium">Perinatal mental health</strong>, including preconception support</li>
                 </ul>
               </div>
 
@@ -87,10 +87,10 @@ const Index = () => {
               >
                 <h3 className="font-serif text-lg md:text-xl text-foreground">Behavioural &amp; Relational Patterns</h3>
                 <ul className="list-disc pl-5 space-y-2">
-                  <li>Addiction and unwanted behavioural patterns</li>
-                  <li>Disordered eating, including binge eating and purging</li>
-                  <li>Body-focused repetitive behaviours, including skin-picking</li>
-                  <li>Relationship and attachment difficulties</li>
+                  <li><strong className="text-foreground font-medium">Addiction</strong> and unwanted behavioural patterns</li>
+                  <li><strong className="text-foreground font-medium">Disordered eating</strong>, including <strong className="text-foreground font-medium">binge eating</strong> and <strong className="text-foreground font-medium">purging</strong></li>
+                  <li><strong className="text-foreground font-medium">Body-focused repetitive behaviours</strong>, including <strong className="text-foreground font-medium">skin-picking</strong></li>
+                  <li><strong className="text-foreground font-medium">Relationship</strong> and <strong className="text-foreground font-medium">attachment difficulties</strong></li>
                 </ul>
               </div>
 
@@ -100,8 +100,8 @@ const Index = () => {
               >
                 <h3 className="font-serif text-lg md:text-xl text-foreground">Self &amp; Identity</h3>
                 <ul className="list-disc pl-5 space-y-2">
-                  <li>Self-esteem, self-criticism, and perfectionism</li>
-                  <li>Internal conflict and difficulty managing overwhelming emotions</li>
+                  <li><strong className="text-foreground font-medium">Self-esteem</strong>, <strong className="text-foreground font-medium">self-criticism</strong>, and <strong className="text-foreground font-medium">perfectionism</strong></li>
+                  <li><strong className="text-foreground font-medium">Internal conflict</strong> and difficulty managing <strong className="text-foreground font-medium">overwhelming emotions</strong></li>
                 </ul>
               </div>
             </div>
