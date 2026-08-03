@@ -9,10 +9,10 @@ const About = () => {
       <Helmet>
         <title>About Vanesa Sakota | Integrative Psychotherapist Sydney CBD</title>
         <meta name="description" content="Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD with a Master of Psychotherapy from Western Sydney University. Integrative approach combining CBT, ACT, Somatic Experiencing and Resource Therapy." />
-        <link rel="canonical" href="https://vanesasakota.com.au/about" />
+        <link rel="canonical" href="https://www.vanesasakota.com.au/about" />
         <meta property="og:title" content="About Vanesa Sakota | Integrative Psychotherapist Sydney CBD" />
         <meta property="og:description" content="PACFA-registered psychotherapist in Sydney CBD. Master of Psychotherapy, Western Sydney University. Integrative mind-body approach." />
-        <meta property="og:url" content="https://vanesasakota.com.au/about" />
+        <meta property="og:url" content="https://www.vanesasakota.com.au/about" />
       </Helmet>
       <Navbar />
 

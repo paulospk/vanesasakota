@@ -150,10 +150,10 @@ const ForProviders = () => {
       <Helmet>
         <title>For Providers | Vanesa Sakota Psychotherapy Sydney</title>
         <meta name="description" content="Referral information and evidence base for GPs, gynaecologists, dermatologists and physiotherapists. Psychotherapy for chronic pelvic pain, stress-responsive skin conditions and trauma in Sydney CBD." />
-        <link rel="canonical" href="https://vanesasakota.com.au/for-providers" />
+        <link rel="canonical" href="https://www.vanesasakota.com.au/for-providers" />
         <meta property="og:title" content="For Providers | Vanesa Sakota Psychotherapy Sydney" />
         <meta property="og:description" content="Evidence base and referral information for clinicians. Psychotherapy for chronic pelvic pain, vulvodynia, stress-responsive skin and trauma in Sydney CBD." />
-        <meta property="og:url" content="https://vanesasakota.com.au/for-providers" />
+        <meta property="og:url" content="https://www.vanesasakota.com.au/for-providers" />
       </Helmet>
       <Navbar />
 

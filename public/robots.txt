@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vanesasakota.com.au/sitemap.xml
+Sitemap: https://www.vanesasakota.com.au/sitemap.xml
