@@ -110,7 +110,13 @@ async function main() {
   for (const route of routes) {
     const url = `${origin}${route}`;
     await page.goto(url, { waitUntil: "networkidle" });
-    await page.waitForSelector("#root > *", { timeout: 15000 });
+    await page.waitForFunction(
+      () => {
+        const root = document.getElementById("root");
+        return root && root.textContent && root.textContent.trim().length > 50;
+      },
+      { timeout: 15000 }
+    );
 
     const rootHtml = await page.evaluate(
       () => document.getElementById("root").innerHTML
