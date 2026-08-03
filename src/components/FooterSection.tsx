@@ -49,7 +49,7 @@ export default function FooterSection() {
       <div className="max-w-[1200px] mx-auto px-5 md:px-8 py-6 md:py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Location</h4>
+            <h2 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Location</h2>
             <p className="text-sm opacity-70 leading-relaxed">
               BMA House<br />
               Level 5, Suite 504<br />
@@ -65,7 +65,7 @@ export default function FooterSection() {
             />
           </div>
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Contact</h4>
+            <h2 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Contact</h2>
             <p className="text-sm opacity-70">Phone: 0405 933 722</p>
             <p className="text-sm opacity-70">Email: <a href="mailto:vanesa@vanesasakota.com.au" className="hover:opacity-100 hover:underline transition-opacity">vanesa@vanesasakota.com.au</a></p>
           </div>
@@ -74,7 +74,7 @@ export default function FooterSection() {
           <p className="text-sm opacity-60 italic leading-relaxed max-w-2xl">
             I acknowledge the Gadigal people of the Eora Nation, the Traditional Custodians of the land on which I live and work. I pay my respects to Elders past and present.
           </p>
-          <p className="text-sm opacity-40">
+          <p className="text-sm opacity-60">
             © {new Date().getFullYear()} Vanesa Sakota Psychotherapy. All rights reserved.
           </p>
         </div>

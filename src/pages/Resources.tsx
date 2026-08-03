@@ -146,7 +146,7 @@ const deeper: Book[] = [
 
 const EntryCard = ({ entry }: { entry: Entry }) => (
   <article className="border border-border bg-card rounded-lg p-6 md:p-7 space-y-3">
-    <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug">{entry.title}</h3>
+    <h2 className="font-serif text-xl md:text-2xl text-foreground leading-snug">{entry.title}</h2>
     <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
       {entry.meta}
     </p>
@@ -168,7 +168,7 @@ const BookRow = ({ book }: { book: Book }) => (
       className="w-full h-auto rounded-sm shadow-sm border border-border/60"
     />
     <div className="space-y-2">
-      <h4 className="font-serif text-xl md:text-2xl text-foreground leading-snug">{book.title}</h4>
+      <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug">{book.title}</h3>
       <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
         {book.author}
       </p>
@@ -278,9 +278,9 @@ const Resources = () => {
             <TabsContent value="reading" className="mt-0">
               <div className="space-y-12 md:space-y-16">
                 <div className="space-y-6 md:space-y-8">
-                  <h3 className="font-serif text-2xl md:text-3xl text-foreground leading-tight">
+                  <h2 className="font-serif text-2xl md:text-3xl text-foreground leading-tight">
                     Accessible reading
-                  </h3>
+                  </h2>
                   <div className="space-y-6 md:space-y-8">
                     {accessible.map((b) => (
                       <BookRow key={b.title} book={b} />
@@ -288,9 +288,9 @@ const Resources = () => {
                   </div>
                 </div>
                 <div className="space-y-6 md:space-y-8">
-                  <h3 className="font-serif text-2xl md:text-3xl text-foreground leading-tight">
+                  <h2 className="font-serif text-2xl md:text-3xl text-foreground leading-tight">
                     Deeper reading
-                  </h3>
+                  </h2>
                   <div className="space-y-6 md:space-y-8">
                     {deeper.map((b) => (
                       <BookRow key={b.title} book={b} />
