@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-const profileImg = { url: "/images/room-3.jpg" };
+
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 
