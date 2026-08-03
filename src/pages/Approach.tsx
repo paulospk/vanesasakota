@@ -83,9 +83,9 @@ const Approach = () => {
             <ul className="space-y-6">
               {pillars.map((p, i) => (
                 <li key={i}>
-                  <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug mb-2">
+                  <h2 className="font-serif text-xl md:text-2xl text-foreground leading-snug mb-2">
                     {p.title}
-                  </h3>
+                  </h2>
                   <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75]">
                     {p.description}
                   </p>
