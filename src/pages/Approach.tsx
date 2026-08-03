@@ -29,6 +29,14 @@ const pillars: { title: ReactNode; description: ReactNode }[] = [
     ),
   },
   {
+    title: "Emotion-Focused Therapy (EFT)",
+    description: (
+      <>
+        A process-oriented, evidence-based approach developed by <strong className="text-foreground font-medium">Dr. Leslie Greenberg</strong>. EFT works from the understanding that emotions are adaptive guides that, when accessed and processed safely, can lead to meaningful change. In therapy, we slow down to attend to your emotional experience as it arises, helping unhelpful patterns shift and supporting a more secure sense of self.
+      </>
+    ),
+  },
+  {
     title: "Brainspotting",
     description: (
       <>
@@ -51,10 +59,10 @@ const Approach = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>The Approach | Vanesa Sakota Psychotherapy Sydney</title>
-        <meta name="description" content="An integrative mind-body psychotherapy approach drawing on EAET, Clinical Parts Therapy, Imagery Rescripting, Brainspotting, CBT and ACT." />
+        <meta name="description" content="An integrative mind-body psychotherapy approach drawing on EAET, Clinical Parts Therapy, Imagery Rescripting, Brainspotting, EFT, CBT and ACT." />
         <link rel="canonical" href="https://www.vanesasakota.com.au/approach" />
         <meta property="og:title" content="The Approach | Vanesa Sakota Psychotherapy Sydney" />
-        <meta property="og:description" content="An integrative mind-body psychotherapy approach drawing on EAET, Clinical Parts Therapy, Imagery Rescripting, Brainspotting, CBT and ACT." />
+        <meta property="og:description" content="An integrative mind-body psychotherapy approach drawing on EAET, Clinical Parts Therapy, Imagery Rescripting, Brainspotting, EFT, CBT and ACT." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/approach" />
       </Helmet>
       <Navbar />
