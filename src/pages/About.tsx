@@ -50,11 +50,19 @@ const About = () => {
               </div>
             </div>
             <div className="animate-fade-up" style={{ animationDelay: "100ms" }}>
-              <img
-                src={profileImg.url}
-                alt="Vanesa Sakota's therapy room"
-                className="w-full aspect-[4/3] object-cover"
-              />
+              <picture>
+                <source srcSet="/images/room-1040.webp" type="image/webp" />
+                <img
+                  src="/images/room-1040.jpg"
+                  alt="Vanesa Sakota's therapy room"
+                  width={1040}
+                  height={1387}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full aspect-[4/3] object-cover"
+                />
+              </picture>
+
             </div>
           </div>
         </div>
