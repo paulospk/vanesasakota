@@ -21,7 +21,7 @@ export default function FooterSection() {
       anchor.style.backgroundImage = `url("data:image/svg+xml;base64,${data.image.content}")`;
       anchor.style.width = `${data.image.dimensions.width}px`;
       anchor.style.height = `${data.image.dimensions.height}px`;
-      anchor.title = data.name;
+      anchor.title = "Psychology Today Verified Profile";
     };
 
     (window as unknown as Record<string, unknown>).sxcallback = callback;

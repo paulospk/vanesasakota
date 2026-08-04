@@ -21,7 +21,7 @@ export default function DetailsSection() {
               to="/approach"
               className="inline-block text-[15px] md:text-base text-foreground border-b border-foreground/40 hover:border-foreground transition-colors pb-0.5"
             >
-              Read more about my approach
+              Learn about my therapeutic approach
             </Link>
           </div>
         </div>

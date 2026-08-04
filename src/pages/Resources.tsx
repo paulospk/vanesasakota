@@ -146,7 +146,7 @@ const deeper: Book[] = [
 
 const EntryCard = ({ entry }: { entry: Entry }) => (
   <article className="border border-border bg-card rounded-lg p-6 md:p-7 space-y-3">
-    <h2 className="font-serif text-xl md:text-2xl text-foreground leading-snug">{entry.title}</h2>
+    <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug">{entry.title}</h3>
     <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
       {entry.meta}
     </p>
