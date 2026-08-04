@@ -21,7 +21,7 @@ export default function FooterSection() {
       anchor.style.backgroundImage = `url("data:image/svg+xml;base64,${data.image.content}")`;
       anchor.style.width = `${data.image.dimensions.width}px`;
       anchor.style.height = `${data.image.dimensions.height}px`;
-      anchor.title = data.name;
+      anchor.title = "Psychology Today Verified Profile";
     };
 
     (window as unknown as Record<string, unknown>).sxcallback = callback;
@@ -61,8 +61,10 @@ export default function FooterSection() {
               ref={sealRef}
               href="https://www.psychologytoday.com/profile/1712769"
               className="sx-verified-seal inline-block mt-4"
-              aria-label="Psychology Today verified profile"
+              title="Psychology Today Verified Profile"
+              aria-label="Psychology Today Verified Profile"
             />
+
           </div>
           <div>
             <h2 className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-50">Contact</h2>
