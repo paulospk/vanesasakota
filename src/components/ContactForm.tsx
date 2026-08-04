@@ -124,8 +124,8 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} noValidate className="space-y-5">
-      {/* Honeypot */}
-      <div aria-hidden="true" className="absolute -left-[9999px] w-px h-px overflow-hidden">
+      {/* Honeypot: hidden from sighted users and assistive tech */}
+      <div aria-hidden="true" hidden style={{ display: "none" }}>
         <label htmlFor="website">Leave this field empty</label>
         <input
           id="website"
