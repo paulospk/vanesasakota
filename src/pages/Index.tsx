@@ -34,7 +34,9 @@ const Index = () => {
             </div>
             <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
               <p>I believe good therapy looks at the whole person, not just the symptom in front of us. My approach is integrative, grounded in a biopsychosocial lens: your brain, your body, your relationships, and the environment you live in are all part of the picture.</p>
-              <p>I draw on established tools like Cognitive Behavioural Therapy, alongside an integrative approach grounded in what we know about the nervous system, working with autonomic regulation, the different parts of you, and the deeper patterns keeping symptoms in place. I have a particular interest in working with people whose symptoms have felt stuck or treatment-resistant, even after trying everything else.</p>
+              <p>I draw on established tools like Cognitive Behavioural Therapy, alongside an integrative approach grounded in what we know about the nervous system, working with autonomic regulation, the different parts of you, and the deeper patterns keeping symptoms in place.</p>
+              <h3 className="font-serif text-lg md:text-xl text-foreground pt-2">Special Interest</h3>
+              <p>I have a particular interest in working with people whose symptoms have felt stuck or treatment-resistant, even after trying everything else.</p>
               <p>In practice, this often means looking at the physiological footprint of psychological stress: HPA axis dysregulation, allostatic load and pathways linked to nociplastic pain, alongside the relational patterns that keep the nervous system stuck in a threat response.</p>
             <p>This way of understanding healing has been shaped by the work of leading voices in the trauma field today, including Bessel van der Kolk and Peter Levine. My goal isn't just to help you manage symptoms, but to understand what's driving them.</p>
             </div>
