@@ -213,7 +213,25 @@ const Resources = () => {
         <meta property="og:title" content="Resources | Vanesa Sakota Psychotherapy Sydney CBD" />
         <meta property="og:description" content="Resources on anxiety, trauma, chronic pelvic pain and nervous system regulation." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/resources" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            name: "Resources",
+            url: "https://www.vanesasakota.com.au/resources",
+            description:
+              "Curated books and research on trauma, chronic stress, pain science and nervous system regulation.",
+            hasPart: [...accessible, ...deeper].map((book) => ({
+              "@type": "Book",
+              name: book.title,
+              author: { "@type": "Person", name: book.author },
+              image: book.cover,
+              url: book.href,
+            })),
+          })}
+        </script>
       </Helmet>
+
       <Navbar />
 
       {/* Hero */}
