@@ -92,7 +92,7 @@ const Index = () => {
                   <li><strong className="text-foreground font-medium">Addiction</strong> and unwanted behavioural patterns</li>
                   
                   <li><strong className="text-foreground font-medium">Body-focused repetitive behaviours</strong>, including <strong className="text-foreground font-medium">skin-picking</strong></li>
-                  <li><strong className="text-foreground font-medium">Relationship</strong> and <strong className="text-foreground font-medium">attachment difficulties</strong></li>
+                  <li><strong className="text-foreground font-medium">Relationship difficulties</strong></li>
                 </ul>
               </div>
 
