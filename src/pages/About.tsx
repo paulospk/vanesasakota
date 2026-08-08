@@ -45,7 +45,7 @@ const About = () => {
                   Trained directly by academic and psychotherapist Mrs <strong className="font-semibold text-foreground">Penny Gardner</strong>, the author of <em>A Safe Place for Change</em>, and under the ongoing clinical supervision of psychologist <strong className="font-semibold text-foreground">Philipa Thornton</strong> for clinical parts work, Vanesa draws on rich real-world context, clinical rigour and deep empathy to her private practice.
                 </p>
                 <p>
-                  Outside of work, Vanesa values spending time with her family, staying active through strength training, and getting out in nature as much as possible.
+                  Outside of practice, Vanesa prioritises time with family and loved ones, staying active through strength training, and getting out in nature as much as possible.
                 </p>
               </div>
             </div>
