@@ -17,7 +17,7 @@ export default function HeroSection() {
                 Vanesa Sakota
               </p>
               <p className="text-sm text-muted-foreground leading-snug">
-                BA (Psychology) MA (Psychotherapy and Counselling) PACFA
+                BA (Psychology) MA (Psychotherapy and Counselling)
               </p>
             </div>
           </div>
