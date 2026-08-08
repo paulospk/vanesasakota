@@ -25,7 +25,8 @@ const routes = [
     path: "/",
     title: "Vanesa Sakota | Psychotherapist Sydney CBD",
     description:
-      "In-person psychotherapy in Sydney CBD for anxiety, trauma, chronic stress, chronic pelvic pain, vulvodynia, vaginismus and stress-responsive skin conditions. PACFA registered.",
+      "In-person psychotherapy in Sydney CBD for anxiety, trauma, chronic stress, chronic pelvic pain and stress-responsive skin conditions. PACFA registered.",
+
     jsonLd: {
       "@context": "https://schema.org",
       "@graph": [
@@ -101,7 +102,8 @@ const routes = [
     path: "/faqs",
     title: "FAQs | Vanesa Sakota Psychotherapy Sydney CBD",
     description:
-      "Common questions about psychotherapy with Vanesa Sakota in Sydney CBD — referrals, fees, session structure, and what to expect when working with physical symptoms.",
+      "Common questions about psychotherapy with Vanesa Sakota in Sydney CBD: referrals, fees, session length, and working with physical symptoms.",
+
     jsonLd: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -145,7 +147,8 @@ const routes = [
     path: "/for-providers",
     title: "For Providers | Vanesa Sakota Psychotherapy Sydney",
     description:
-      "Referral information and evidence base for GPs, gynaecologists, dermatologists and physiotherapists. Psychotherapy for chronic pelvic pain, stress-responsive skin and trauma in Sydney CBD.",
+      "Referral information and evidence base for GPs, gynaecologists, dermatologists and physiotherapists. Psychotherapy in Sydney CBD.",
+
     jsonLd: null,
   },
   {
@@ -166,7 +169,8 @@ const routes = [
     path: "/about",
     title: "About Vanesa Sakota | Integrative Psychotherapist Sydney CBD",
     description:
-      "Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD with a Master of Psychotherapy from Western Sydney University, working with an integrative mind-body approach.",
+      "Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD with a Master of Psychotherapy from Western Sydney University.",
+
     jsonLd: null,
   },
   {

@@ -41,12 +41,24 @@ const FAQs = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>FAQs | Vanesa Sakota Psychotherapy Sydney CBD</title>
-        <meta name="description" content="Common questions about seeing Vanesa Sakota for psychotherapy in Sydney CBD: no GP referral needed, fees, session length, confidentiality and whether therapy helps physical symptoms." />
+        <meta name="description" content="Common questions about psychotherapy with Vanesa Sakota in Sydney CBD: referrals, fees, session length, and working with physical symptoms." />
         <link rel="canonical" href="https://www.vanesasakota.com.au/faqs" />
         <meta property="og:title" content="FAQs | Vanesa Sakota Psychotherapy Sydney CBD" />
         <meta property="og:description" content="Common questions about psychotherapy with Vanesa Sakota: referrals, fees, session structure and working with physical symptoms." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/faqs" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: { "@type": "Answer", text: faq.answer },
+            })),
+          })}
+        </script>
       </Helmet>
+
       <Navbar />
 
 
