@@ -102,7 +102,8 @@ const routes = [
     path: "/faqs",
     title: "FAQs | Vanesa Sakota Psychotherapy Sydney CBD",
     description:
-      "Common questions about psychotherapy with Vanesa Sakota in Sydney CBD — referrals, fees, session structure, and what to expect when working with physical symptoms.",
+      "Common questions about psychotherapy with Vanesa Sakota in Sydney CBD: referrals, fees, session length, and working with physical symptoms.",
+
     jsonLd: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
