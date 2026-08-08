@@ -15,7 +15,7 @@ export default function DetailsSection() {
           </div>
           <div className="lg:col-span-7 space-y-6 max-w-[680px]">
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75]">
-              My approach draws on: Emotional Awareness &amp; Expression Therapy (EAET), Clinical Parts Therapy, Imagery Rescripting, Emotion-Focused Therapy (EFT), and Grounding Frameworks (CBT &amp; ACT).
+              My approach draws on: Acceptance and Commitment Therapy (ACT), Clinical Parts Therapy, Imagery Rescripting, and Emotional Awareness &amp; Expression Therapy (EAET).
             </p>
             <Link
               to="/approach"
