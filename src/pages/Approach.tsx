@@ -43,10 +43,10 @@ const Approach = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>The Approach | Vanesa Sakota Psychotherapy Sydney</title>
-        <meta name="description" content="An integrative mind-body psychotherapy approach drawing on EAET, Clinical Parts Therapy, Imagery Rescripting, EFT, CBT and ACT." />
+        <meta name="description" content="An integrative psychotherapy approach drawing on ACT, Clinical Parts Therapy, Imagery Rescripting and EAET." />
         <link rel="canonical" href="https://www.vanesasakota.com.au/approach" />
         <meta property="og:title" content="The Approach | Vanesa Sakota Psychotherapy Sydney" />
-        <meta property="og:description" content="An integrative mind-body psychotherapy approach drawing on EAET, Clinical Parts Therapy, Imagery Rescripting, EFT, CBT and ACT." />
+        <meta property="og:description" content="An integrative psychotherapy approach drawing on ACT, Clinical Parts Therapy, Imagery Rescripting and EAET." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/approach" />
       </Helmet>
       <Navbar />
