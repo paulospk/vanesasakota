@@ -53,7 +53,7 @@ const Approach = () => {
 
       {/* Hero */}
       <section className="bg-hero border-b border-border">
-        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 pt-10 md:pt-20 pb-8 md:pb-12">
           <div className="space-y-4 md:space-y-5 animate-fade-up max-w-[720px]">
             <p className="uppercase tracking-[0.25em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
               Approach
@@ -70,7 +70,7 @@ const Approach = () => {
 
       {/* Modalities */}
       <section>
-        <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-20">
+        <div className="max-w-[1000px] mx-auto px-5 md:px-8 pt-8 md:pt-12 pb-10 md:pb-20">
           <div className="max-w-[680px]">
             <ul className="space-y-6">
               {pillars.map((p, i) => (
