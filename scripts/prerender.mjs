@@ -49,7 +49,7 @@ const routes = [
             {
               "@type": "EducationalOccupationalCredential",
               credentialCategory: "degree",
-              name: "Bachelor of Science in Psychology",
+              name: "Bachelor of Psychology",
               recognizedBy: { "@type": "Organization", name: "Griffith University" },
             },
           ],
