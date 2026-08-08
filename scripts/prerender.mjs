@@ -147,7 +147,8 @@ const routes = [
     path: "/for-providers",
     title: "For Providers | Vanesa Sakota Psychotherapy Sydney",
     description:
-      "Referral information and evidence base for GPs, gynaecologists, dermatologists and physiotherapists. Psychotherapy for chronic pelvic pain, stress-responsive skin and trauma in Sydney CBD.",
+      "Referral information and evidence base for GPs, gynaecologists, dermatologists and physiotherapists. Psychotherapy in Sydney CBD.",
+
     jsonLd: null,
   },
   {
