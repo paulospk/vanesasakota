@@ -79,7 +79,7 @@ const Index = () => {
                 <ul className="list-disc pl-5 space-y-2">
                   <li><strong className="text-foreground font-medium">Trauma</strong>, including <strong className="text-foreground font-medium">developmental trauma</strong></li>
                   <li><strong className="text-foreground font-medium">Nociplastic pain</strong>, including <strong className="text-foreground font-medium">chronic pelvic pain</strong>, <strong className="text-foreground font-medium">vulvodynia</strong>, and <strong className="text-foreground font-medium">vaginismus</strong></li>
-                  <li><strong className="text-foreground font-medium">Perinatal mental health</strong>, including preconception support</li>
+                  <li><strong className="text-foreground font-medium">Perinatal mental health</strong></li>
                 </ul>
               </div>
 
