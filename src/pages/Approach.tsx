@@ -5,10 +5,10 @@ import FooterSection from "@/components/FooterSection";
 
 const pillars: { title: ReactNode; description: ReactNode }[] = [
   {
-    title: "Emotional Awareness & Expression Therapy (EAET)",
+    title: "Acceptance and Commitment Therapy (ACT)",
     description: (
       <>
-        Developed specifically for chronic pain by leading mind-body medicine pioneers <strong className="text-foreground font-medium">Dr. Howard Schubiner</strong> and <strong className="text-foreground font-medium">Dr. Mark Lumley</strong>, EAET is a neuro-somatic framework. Instead of focusing on adapting to discomfort, EAET works by identifying and safely processing hidden emotional stressors in order to deactivate the central nervous system's chronic threat response.
+        ACT is an evidence-based framework that helps build psychological flexibility: the capacity to stay present with difficult thoughts and feelings rather than being controlled by them. Rather than fighting or suppressing discomfort, ACT works by changing your relationship to it, so you can keep moving toward what matters to you even when anxiety, pain, or old patterns are present.
       </>
     ),
   },
@@ -29,18 +29,10 @@ const pillars: { title: ReactNode; description: ReactNode }[] = [
     ),
   },
   {
-    title: "Emotion-Focused Therapy (EFT)",
+    title: "Emotional Awareness & Expression Therapy (EAET)",
     description: (
       <>
-        A process-oriented, evidence-based approach developed by <strong className="text-foreground font-medium">Dr. Leslie Greenberg</strong>. EFT works from the understanding that emotions are adaptive guides that, when accessed and processed safely, can lead to meaningful change. In therapy, we slow down to attend to your emotional experience as it arises, helping unhelpful patterns shift and supporting a more secure sense of self.
-      </>
-    ),
-  },
-  {
-    title: "Grounding Frameworks (CBT & ACT)",
-    description: (
-      <>
-        To support this deeper processing, I integrate elements of <strong className="text-foreground font-medium">CBT</strong> and <strong className="text-foreground font-medium">ACT</strong> as vital grounding frameworks. While EAET and Parts Work target symptom resolution, CBT and ACT provide the essential structural support. They offer practical tools to navigate daily stress, defuse from overwhelming thoughts, and build the psychological flexibility needed to feel safe in your body.
+        Developed specifically for chronic pain by leading mind-body medicine pioneers <strong className="text-foreground font-medium">Dr. Howard Schubiner</strong> and <strong className="text-foreground font-medium">Dr. Mark Lumley</strong>, EAET is a neuro-somatic framework. Instead of focusing on adapting to discomfort, EAET works by identifying and safely processing hidden emotional stressors in order to deactivate the central nervous system's chronic threat response.
       </>
     ),
   },
@@ -51,10 +43,10 @@ const Approach = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>The Approach | Vanesa Sakota Psychotherapy Sydney</title>
-        <meta name="description" content="An integrative mind-body psychotherapy approach drawing on EAET, Clinical Parts Therapy, Imagery Rescripting, EFT, CBT and ACT." />
+        <meta name="description" content="An integrative psychotherapy approach drawing on ACT, Clinical Parts Therapy, Imagery Rescripting and EAET." />
         <link rel="canonical" href="https://www.vanesasakota.com.au/approach" />
         <meta property="og:title" content="The Approach | Vanesa Sakota Psychotherapy Sydney" />
-        <meta property="og:description" content="An integrative mind-body psychotherapy approach drawing on EAET, Clinical Parts Therapy, Imagery Rescripting, EFT, CBT and ACT." />
+        <meta property="og:description" content="An integrative psychotherapy approach drawing on ACT, Clinical Parts Therapy, Imagery Rescripting and EAET." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/approach" />
       </Helmet>
       <Navbar />
