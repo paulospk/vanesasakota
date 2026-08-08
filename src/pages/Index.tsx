@@ -90,7 +90,7 @@ const Index = () => {
                 <h3 className="font-serif text-lg md:text-xl text-foreground">Behavioural &amp; Relational Patterns</h3>
                 <ul className="list-disc pl-5 space-y-2">
                   <li><strong className="text-foreground font-medium">Addiction</strong> and unwanted behavioural patterns</li>
-                  <li><strong className="text-foreground font-medium">Disordered eating</strong>, including <strong className="text-foreground font-medium">binge eating</strong> and <strong className="text-foreground font-medium">purging</strong></li>
+                  
                   <li><strong className="text-foreground font-medium">Body-focused repetitive behaviours</strong>, including <strong className="text-foreground font-medium">skin-picking</strong></li>
                   <li><strong className="text-foreground font-medium">Relationship</strong> and <strong className="text-foreground font-medium">attachment difficulties</strong></li>
                 </ul>
