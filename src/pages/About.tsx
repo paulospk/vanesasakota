@@ -87,7 +87,7 @@ const About = () => {
                   <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Western Sydney University, 2023: Dean&rsquo;s Merit List</p>
                 </li>
                 <li className="py-4">
-                  <p className="text-[15px] md:text-base text-foreground">Bachelor of Science in Psychology</p>
+                  <p className="text-[15px] md:text-base text-foreground">Bachelor of Psychology</p>
                   <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground mt-2">Griffith University, 2012</p>
                 </li>
                 <li className="py-4">
