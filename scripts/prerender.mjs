@@ -168,7 +168,8 @@ const routes = [
     path: "/about",
     title: "About Vanesa Sakota | Integrative Psychotherapist Sydney CBD",
     description:
-      "Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD with a Master of Psychotherapy from Western Sydney University, working with an integrative mind-body approach.",
+      "Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD with a Master of Psychotherapy from Western Sydney University.",
+
     jsonLd: null,
   },
   {
