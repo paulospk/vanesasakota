@@ -25,7 +25,8 @@ const routes = [
     path: "/",
     title: "Vanesa Sakota | Psychotherapist Sydney CBD",
     description:
-      "In-person psychotherapy in Sydney CBD for anxiety, trauma, chronic stress, chronic pelvic pain, vulvodynia, vaginismus and stress-responsive skin conditions. PACFA registered.",
+      "In-person psychotherapy in Sydney CBD for anxiety, trauma, chronic stress, chronic pelvic pain and stress-responsive skin conditions. PACFA registered.",
+
     jsonLd: {
       "@context": "https://schema.org",
       "@graph": [
