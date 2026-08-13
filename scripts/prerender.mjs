@@ -25,7 +25,8 @@ const routes = [
     path: "/",
     title: "Trauma, Anxiety & PTSD Therapy | Psychotherapist Sydney",
     description:
-      "Trauma, anxiety and PTSD therapy in Sydney CBD for chronic pain, phobias, social anxiety and stress-responsive physical symptoms. PACFA registered.",
+      "Therapy in Sydney CBD for anxiety, PTSD, phobias, social anxiety, chronic pain, chronic fatigue and stress-responsive physical symptoms. PACFA registered.",
+    keywords: "anxiety therapy Sydney, PTSD treatment Sydney, trauma therapy Sydney, generalised anxiety disorder, social anxiety disorder therapy, phobia therapy Sydney, chronic pain therapy, chronic fatigue therapy, vaginismus treatment, addiction counselling, teenage counselling Sydney, resource therapy, integrative psychotherapy Sydney",
 
     jsonLd: {
       "@context": "https://schema.org",
@@ -125,7 +126,8 @@ const routes = [
     path: "/faqs",
     title: "Psychotherapy FAQs | Anxiety, PTSD, Chronic Pain & Phobia",
     description:
-      "Common questions about therapy for anxiety, PTSD, phobia, chronic pain and physical symptoms with Vanesa Sakota in Sydney CBD.",
+      "Common questions about therapy for anxiety, PTSD, phobia, vaginismus, chronic pain and chronic fatigue with Vanesa Sakota in Sydney CBD.",
+    keywords: "anxiety therapy Sydney, PTSD treatment Sydney, vaginismus treatment, chronic fatigue therapy, chronic pain therapy, phobia therapy Sydney, social anxiety disorder therapy, teenage counselling Sydney, addiction counselling",
 
     jsonLd: {
       "@context": "https://schema.org",
@@ -170,7 +172,8 @@ const routes = [
     path: "/for-providers",
     title: "For Providers | Vanesa Sakota Psychotherapy Sydney",
     description:
-      "Referral information and evidence base for clinicians. Psychotherapy for chronic pelvic pain, stress-responsive skin and trauma in Sydney.",
+      "Referral information and evidence base for clinicians: chronic pelvic pain, vaginismus, vulvodynia, chronic fatigue and trauma therapy in Sydney CBD.",
+    keywords: "psychotherapy referrals Sydney, vaginismus treatment, vulvodynia, chronic pelvic pain, chronic fatigue therapy, PTSD treatment Sydney, generalised anxiety disorder, resource therapy",
 
     jsonLd: null,
   },
@@ -178,21 +181,24 @@ const routes = [
     path: "/contact",
     title: "Anxiety, PTSD & Phobia Therapy Appointments Sydney",
     description:
-      "Book anxiety, PTSD and phobia therapy appointments in Sydney CBD with Vanesa Sakota. BMA House, 135 Macquarie Street. No GP referral required.",
+      "Book anxiety, PTSD, phobia, addiction or teenage counselling appointments in Sydney CBD. BMA House, 135 Macquarie Street. No GP referral required.",
+    keywords: "anxiety therapy Sydney, PTSD treatment Sydney, phobia therapy Sydney, teenage counselling Sydney, addiction counselling, vaginismus treatment, social anxiety disorder therapy, chronic pain therapy",
     jsonLd: null,
   },
   {
     path: "/resources",
     title: "Trauma, Anxiety & Chronic Pain Resources | Sydney",
     description:
-      "Curated resources on trauma, anxiety, PTSD, chronic pain, phobia and nervous system regulation from Vanesa Sakota, psychotherapist Sydney CBD.",
+      "Curated resources on trauma, anxiety, PTSD, chronic pain, chronic fatigue, phobia and nervous system regulation from a psychotherapist in Sydney CBD.",
+    keywords: "trauma therapy Sydney, anxiety therapy Sydney, PTSD treatment Sydney, chronic pain therapy, chronic fatigue therapy, resource therapy, phobia therapy Sydney",
     jsonLd: null,
   },
   {
     path: "/about",
     title: "Psychotherapist Sydney | Anxiety, PTSD & Chronic Pain",
     description:
-      "Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD offering trauma, anxiety and PTSD therapy for chronic pain and phobias.",
+      "Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD offering anxiety, PTSD, phobia, addiction and teenage counselling, and resource therapy.",
+    keywords: "psychotherapist Sydney, anxiety therapy Sydney, PTSD treatment Sydney, resource therapy, addiction counselling, teenage counselling Sydney, generalised anxiety disorder, social anxiety disorder therapy, chronic pain therapy",
 
     jsonLd: null,
   },
@@ -200,7 +206,8 @@ const routes = [
     path: "/approach",
     title: "Trauma & Anxiety Therapy Approach | Psychotherapist Sydney",
     description:
-      "Integrative trauma and anxiety therapy approach in Sydney CBD drawing on ACT, Clinical Parts Therapy, Imagery Rescripting and EAET for PTSD and chronic pain.",
+      "Integrative Sydney CBD approach using ACT, Resource Therapy, clinical parts work, imagery rescripting and EAET for PTSD, phobias, chronic pain and fatigue.",
+    keywords: "resource therapy, EAET, ACT therapy Sydney, clinical parts therapy, imagery rescripting, trauma therapy Sydney, PTSD treatment Sydney, phobia therapy Sydney, chronic pain therapy, chronic fatigue therapy",
     jsonLd: null,
   },
   {
@@ -226,6 +233,7 @@ function buildHeadTags(route) {
   const tags = [
     `<title>${route.title}</title>`,
     `<meta name="description" content="${route.description}" />`,
+    ...(route.keywords ? [`<meta name="keywords" content="${route.keywords}" />`] : []),
     `<link rel="canonical" href="${url}" />`,
     `<meta property="og:title" content="${route.title}" />`,
     `<meta property="og:description" content="${route.description}" />`,
