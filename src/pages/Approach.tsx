@@ -62,7 +62,7 @@ const Approach = () => {
               The Approach
             </h1>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
-              My approach draws on:
+              My approach to trauma therapy in Sydney draws on:
             </p>
           </div>
         </div>
