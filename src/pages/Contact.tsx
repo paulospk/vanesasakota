@@ -9,11 +9,11 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Psychotherapy Appointments Sydney CBD | Vanesa Sakota</title>
-        <meta name="description" content="Book psychotherapy and trauma therapy in Sydney CBD with Vanesa Sakota. BMA House, 135 Macquarie Street. No GP referral required. Call 0405 933 722." />
+        <title>Anxiety, PTSD &amp; Phobia Therapy Appointments Sydney</title>
+        <meta name="description" content="Book anxiety, PTSD and phobia therapy appointments in Sydney CBD with Vanesa Sakota. BMA House, 135 Macquarie Street. No GP referral required." />
         <link rel="canonical" href="https://www.vanesasakota.com.au/contact" />
-        <meta property="og:title" content="Psychotherapy Appointments Sydney CBD | Vanesa Sakota" />
-        <meta property="og:description" content="Psychotherapy and trauma therapy appointments in Sydney CBD. BMA House, 135 Macquarie Street. No referral required." />
+        <meta property="og:title" content="Anxiety, PTSD &amp; Phobia Therapy Appointments Sydney" />
+        <meta property="og:description" content="Book anxiety, PTSD and phobia therapy appointments in Sydney CBD with Vanesa Sakota. BMA House, 135 Macquarie Street. No GP referral required." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/contact" />
       </Helmet>
       <Navbar />

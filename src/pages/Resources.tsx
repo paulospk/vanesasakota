@@ -207,11 +207,11 @@ const Resources = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Resources | Vanesa Sakota Psychotherapy Sydney CBD</title>
-        <meta name="description" content="Curated resources on anxiety, trauma, chronic pelvic pain, nervous system regulation and psychophysiological health from Vanesa Sakota, psychotherapist Sydney CBD." />
+        <title>Trauma, Anxiety &amp; Chronic Pain Resources | Sydney</title>
+        <meta name="description" content="Curated resources on trauma, anxiety, PTSD, chronic pain, phobia and nervous system regulation from Vanesa Sakota, psychotherapist Sydney CBD." />
         <link rel="canonical" href="https://www.vanesasakota.com.au/resources" />
-        <meta property="og:title" content="Resources | Vanesa Sakota Psychotherapy Sydney CBD" />
-        <meta property="og:description" content="Resources on anxiety, trauma, chronic pelvic pain and nervous system regulation." />
+        <meta property="og:title" content="Trauma, Anxiety &amp; Chronic Pain Resources | Sydney" />
+        <meta property="og:description" content="Curated resources on trauma, anxiety, PTSD, chronic pain, phobia and nervous system regulation from Vanesa Sakota, psychotherapist Sydney CBD." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/resources" />
         <script type="application/ld+json">
           {JSON.stringify({

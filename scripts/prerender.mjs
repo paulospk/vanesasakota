@@ -23,9 +23,9 @@ const BASE_URL = "https://www.vanesasakota.com.au";
 const routes = [
   {
     path: "/",
-    title: "Trauma Therapy & Psychotherapist Sydney | Vanesa Sakota",
+    title: "Trauma, Anxiety & PTSD Therapy | Psychotherapist Sydney",
     description:
-      "Trauma therapy and psychotherapy in Sydney CBD for anxiety, chronic stress, chronic pain and stress-responsive physical symptoms. PACFA registered.",
+      "Trauma, anxiety and PTSD therapy in Sydney CBD for chronic pain, phobias, social anxiety and stress-responsive physical symptoms. PACFA registered.",
 
     jsonLd: {
       "@context": "https://schema.org",
@@ -123,9 +123,9 @@ const routes = [
   },
   {
     path: "/faqs",
-    title: "Psychotherapy FAQs | Therapist Sydney CBD",
+    title: "Psychotherapy FAQs | Anxiety, PTSD, Chronic Pain & Phobia",
     description:
-      "Common questions about psychotherapy with Vanesa Sakota in Sydney CBD: referrals, fees, session length, and working with physical symptoms.",
+      "Common questions about therapy for anxiety, PTSD, phobia, chronic pain and physical symptoms with Vanesa Sakota in Sydney CBD.",
 
     jsonLd: {
       "@context": "https://schema.org",
@@ -176,31 +176,31 @@ const routes = [
   },
   {
     path: "/contact",
-    title: "Psychotherapy Appointments Sydney CBD | Vanesa Sakota",
+    title: "Anxiety, PTSD & Phobia Therapy Appointments Sydney",
     description:
-      "Book an appointment with Vanesa Sakota, psychotherapist in Sydney CBD. In-person sessions at BMA House, 135 Macquarie Street. No GP referral required.",
+      "Book anxiety, PTSD and phobia therapy appointments in Sydney CBD with Vanesa Sakota. BMA House, 135 Macquarie Street. No GP referral required.",
     jsonLd: null,
   },
   {
     path: "/resources",
-    title: "Resources | Vanesa Sakota Psychotherapy Sydney CBD",
+    title: "Trauma, Anxiety & Chronic Pain Resources | Sydney",
     description:
-      "Curated resources on anxiety, trauma, chronic pelvic pain, nervous system regulation and psychophysiological health from Vanesa Sakota, psychotherapist Sydney CBD.",
+      "Curated resources on trauma, anxiety, PTSD, chronic pain, phobia and nervous system regulation from Vanesa Sakota, psychotherapist Sydney CBD.",
     jsonLd: null,
   },
   {
     path: "/about",
-    title: "Psychotherapist Sydney CBD | About Vanesa Sakota",
+    title: "Psychotherapist Sydney | Anxiety, PTSD & Chronic Pain",
     description:
-      "Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD with a Master of Psychotherapy from Western Sydney University.",
+      "Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD offering trauma, anxiety and PTSD therapy for chronic pain and phobias.",
 
     jsonLd: null,
   },
   {
     path: "/approach",
-    title: "Trauma Therapy Approach | Psychotherapist Sydney CBD",
+    title: "Trauma & Anxiety Therapy Approach | Psychotherapist Sydney",
     description:
-      "An integrative mind-body psychotherapy approach drawing on EAET, Clinical Parts Therapy, Imagery Rescripting, CBT and ACT, in Sydney CBD.",
+      "Integrative trauma and anxiety therapy approach in Sydney CBD drawing on ACT, Clinical Parts Therapy, Imagery Rescripting and EAET for PTSD and chronic pain.",
     jsonLd: null,
   },
 ];
