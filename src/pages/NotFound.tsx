@@ -18,6 +18,9 @@ const NotFound = () => {
         <meta property="og:title" content="Page not found | Vanesa Sakota" />
         <meta property="og:description" content="The page you requested could not be found. Return to Vanesa Sakota Psychotherapy to explore our services." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/404" />
+        <meta name="robots" content="noindex" />
+        <meta name="twitter:title" content="Page not found | Vanesa Sakota" />
+        <meta name="twitter:description" content="The page you requested could not be found. Return to Vanesa Sakota Psychotherapy to explore our services." />
       </Helmet>
       <div className="text-center">
         <h1 className="mb-4 text-4xl font-bold">404</h1>
