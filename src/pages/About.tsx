@@ -7,11 +7,11 @@ const About = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Psychotherapist Sydney CBD | About Vanesa Sakota</title>
-        <meta name="description" content="Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD offering trauma therapy and mind-body psychotherapy. Master of Psychotherapy, Western Sydney University." />
+        <title>Psychotherapist Sydney | Anxiety, PTSD &amp; Chronic Pain</title>
+        <meta name="description" content="Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD offering trauma, anxiety and PTSD therapy for chronic pain and phobias." />
         <link rel="canonical" href="https://www.vanesasakota.com.au/about" />
-        <meta property="og:title" content="Psychotherapist Sydney CBD | About Vanesa Sakota" />
-        <meta property="og:description" content="PACFA-registered psychotherapist in Sydney CBD offering trauma therapy and mind-body psychotherapy. Master of Psychotherapy, Western Sydney University." />
+        <meta property="og:title" content="Psychotherapist Sydney | Anxiety, PTSD &amp; Chronic Pain" />
+        <meta property="og:description" content="Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD offering trauma, anxiety and PTSD therapy for chronic pain and phobias." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/about" />
       </Helmet>
       <Navbar />
