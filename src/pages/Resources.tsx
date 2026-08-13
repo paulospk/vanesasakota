@@ -146,7 +146,7 @@ const deeper: Book[] = [
 
 const EntryCard = ({ entry }: { entry: Entry }) => (
   <article className="border border-border bg-card rounded-lg p-6 md:p-7 space-y-3">
-    <h3 className="font-serif text-xl md:text-2xl text-foreground leading-snug">{entry.title}</h3>
+    <h2 className="font-serif text-xl md:text-2xl text-foreground leading-snug">{entry.title}</h2>
     <p className="uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-medium text-muted-foreground">
       {entry.meta}
     </p>
@@ -242,7 +242,7 @@ const Resources = () => {
               Resource library
             </p>
             <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
-              A biopsychosocial lens
+              Trauma, anxiety and chronic pain resources
             </h1>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75] max-w-[640px]">
               Seminal research, current thinking, and recommended reading that inform a whole-person view of health,
