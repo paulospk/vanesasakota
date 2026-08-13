@@ -67,6 +67,8 @@ const Unsubscribe = () => {
         <meta property="og:title" content="Unsubscribe | Vanesa Sakota" />
         <meta property="og:description" content="Manage your email preferences and unsubscribe from communications from Vanesa Sakota Psychotherapy." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/unsubscribe" />
+        <meta name="twitter:title" content="Unsubscribe | Vanesa Sakota" />
+        <meta name="twitter:description" content="Manage your email preferences and unsubscribe from communications from Vanesa Sakota Psychotherapy." />
       </Helmet>
       <Navbar />
       <main className="flex-1 flex items-center justify-center px-6 py-24">
