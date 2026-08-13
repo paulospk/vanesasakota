@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import { Button } from "@/components/ui/button";
@@ -59,6 +60,14 @@ const Unsubscribe = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      <Helmet>
+        <title>Unsubscribe | Vanesa Sakota</title>
+        <meta name="description" content="Manage your email preferences and unsubscribe from communications from Vanesa Sakota Psychotherapy." />
+        <link rel="canonical" href="https://www.vanesasakota.com.au/unsubscribe" />
+        <meta property="og:title" content="Unsubscribe | Vanesa Sakota" />
+        <meta property="og:description" content="Manage your email preferences and unsubscribe from communications from Vanesa Sakota Psychotherapy." />
+        <meta property="og:url" content="https://www.vanesasakota.com.au/unsubscribe" />
+      </Helmet>
       <Navbar />
       <main className="flex-1 flex items-center justify-center px-6 py-24">
         <div className="max-w-md w-full text-center space-y-6">
