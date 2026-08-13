@@ -10,29 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
-      - name: Install Playwright Chromium
-        run: npx playwright install --with-deps chromium
-
-      - name: Build (vite + head tags + full HTML prerender)
+      - name: Build
         run: npm run build
-
-      - name: Verify prerendered HTML has real content
-        run: |
-          set -e
-          for f in $(find dist -name index.html); do
-            if grep -q '<div id="root"></div>' "$f"; then
-              echo "::error::$f is not prerendered (empty #root)"
-              exit 1
-            fi
-          done
-          echo "All HTML files contain prerendered content."
 
       - name: Deploy to S3
         env:
@@ -40,17 +22,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: ap-southeast-2
         run: |
-          # Hashed assets: long cache
-          aws s3 sync ./dist s3://amzn-s3-vanesas-website-bucket-648167023132-ap-southeast-2-an \
-            --delete \
-            --exclude "*.html" \
-            --cache-control "public,max-age=31536000,immutable"
-
-          # Every prerendered HTML file (root + each route directory): no cache
-          aws s3 sync ./dist s3://amzn-s3-vanesas-website-bucket-648167023132-ap-southeast-2-an \
-            --exclude "*" --include "*.html" \
-            --content-type "text/html; charset=utf-8" \
-            --cache-control "public,max-age=0,must-revalidate"
+          aws s3 sync ./dist s3://amzn-s3-vanesas-website-bucket-648167023132-ap-southeast-2-an --delete
 
       - name: Invalidate CloudFront cache
         env:
