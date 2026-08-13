@@ -170,7 +170,7 @@ const routes = [
     path: "/for-providers",
     title: "For Providers | Vanesa Sakota Psychotherapy Sydney",
     description:
-      "Referral information and evidence base for GPs, gynaecologists, dermatologists and physiotherapists. Psychotherapy in Sydney CBD.",
+      "Referral information and evidence base for clinicians. Psychotherapy for chronic pelvic pain, stress-responsive skin and trauma in Sydney.",
 
     jsonLd: null,
   },
@@ -201,6 +201,20 @@ const routes = [
     title: "Trauma & Anxiety Therapy Approach | Psychotherapist Sydney",
     description:
       "Integrative trauma and anxiety therapy approach in Sydney CBD drawing on ACT, Clinical Parts Therapy, Imagery Rescripting and EAET for PTSD and chronic pain.",
+    jsonLd: null,
+  },
+  {
+    path: "/unsubscribe",
+    title: "Unsubscribe | Vanesa Sakota",
+    description:
+      "Manage your email preferences and unsubscribe from communications from Vanesa Sakota Psychotherapy.",
+    jsonLd: null,
+  },
+  {
+    path: "/404",
+    title: "Page not found | Vanesa Sakota",
+    description:
+      "The page you requested could not be found. Return to Vanesa Sakota Psychotherapy to explore our services.",
     jsonLd: null,
   },
 ];
