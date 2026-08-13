@@ -109,14 +109,20 @@ async function main() {
 
   for (const route of routes) {
     const url = `${origin}${route}`;
-    await page.goto(url, { waitUntil: "networkidle" });
-    await page.waitForFunction(
-      () => {
-        const root = document.getElementById("root");
-        return root && root.textContent && root.textContent.trim().length > 50;
-      },
-      { timeout: 15000 }
-    );
+    console.log(`  rendering ${route}...`);
+    try {
+      await page.goto(url, { waitUntil: "networkidle" });
+      await page.waitForFunction(
+        () => {
+          const root = document.getElementById("root");
+          return root && root.textContent && root.textContent.trim().length > 50;
+        },
+        { timeout: 60000 }
+      );
+    } catch (err) {
+      console.error(`  ✗  ${route} render failed: ${err.message}`);
+      throw err;
+    }
 
     const rootHtml = await page.evaluate(
       () => document.getElementById("root").innerHTML
