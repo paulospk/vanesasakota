@@ -208,10 +208,11 @@ const Resources = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Trauma, Anxiety &amp; Chronic Pain Resources | Sydney</title>
-        <meta name="description" content="Curated resources on trauma, anxiety, PTSD, chronic pain, phobia and nervous system regulation from Vanesa Sakota, psychotherapist Sydney CBD." />
+        <meta name="description" content="Curated resources on trauma, anxiety, PTSD, chronic pain, chronic fatigue, phobia and nervous system regulation from a psychotherapist in Sydney CBD." />
+        <meta name="keywords" content="trauma therapy Sydney, anxiety therapy Sydney, PTSD treatment Sydney, chronic pain therapy, chronic fatigue therapy, resource therapy, phobia therapy Sydney" />
         <link rel="canonical" href="https://www.vanesasakota.com.au/resources" />
         <meta property="og:title" content="Trauma, Anxiety &amp; Chronic Pain Resources | Sydney" />
-        <meta property="og:description" content="Curated resources on trauma, anxiety, PTSD, chronic pain, phobia and nervous system regulation from Vanesa Sakota, psychotherapist Sydney CBD." />
+        <meta property="og:description" content="Curated resources on trauma, anxiety, PTSD, chronic pain, chronic fatigue, phobia and nervous system regulation from a psychotherapist in Sydney CBD." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/resources" />
         <script type="application/ld+json">
           {JSON.stringify({

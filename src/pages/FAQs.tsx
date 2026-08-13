@@ -41,10 +41,11 @@ const FAQs = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Psychotherapy FAQs | Anxiety, PTSD, Chronic Pain &amp; Phobia</title>
-        <meta name="description" content="Common questions about therapy for anxiety, PTSD, phobia, chronic pain and physical symptoms with Vanesa Sakota in Sydney CBD." />
+        <meta name="description" content="Common questions about therapy for anxiety, PTSD, phobia, vaginismus, chronic pain and chronic fatigue with Vanesa Sakota in Sydney CBD." />
+        <meta name="keywords" content="anxiety therapy Sydney, PTSD treatment Sydney, vaginismus treatment, chronic fatigue therapy, chronic pain therapy, phobia therapy Sydney, social anxiety disorder therapy, teenage counselling Sydney, addiction counselling" />
         <link rel="canonical" href="https://www.vanesasakota.com.au/faqs" />
         <meta property="og:title" content="Psychotherapy FAQs | Anxiety, PTSD, Chronic Pain &amp; Phobia" />
-        <meta property="og:description" content="Common questions about therapy for anxiety, PTSD, phobia, chronic pain and physical symptoms with Vanesa Sakota in Sydney CBD." />
+        <meta property="og:description" content="Common questions about therapy for anxiety, PTSD, phobia, vaginismus, chronic pain and chronic fatigue with Vanesa Sakota in Sydney CBD." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/faqs" />
         <script type="application/ld+json">
           {JSON.stringify({

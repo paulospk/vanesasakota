@@ -43,10 +43,11 @@ const Approach = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Trauma &amp; Anxiety Therapy Approach | Psychotherapist Sydney</title>
-        <meta name="description" content="Integrative trauma and anxiety therapy approach in Sydney CBD drawing on ACT, Clinical Parts Therapy, Imagery Rescripting and EAET for PTSD and chronic pain." />
+        <meta name="description" content="Integrative Sydney CBD approach using ACT, Resource Therapy, clinical parts work, imagery rescripting and EAET for PTSD, phobias, chronic pain and fatigue." />
+        <meta name="keywords" content="resource therapy, EAET, ACT therapy Sydney, clinical parts therapy, imagery rescripting, trauma therapy Sydney, PTSD treatment Sydney, phobia therapy Sydney, chronic pain therapy, chronic fatigue therapy" />
         <link rel="canonical" href="https://www.vanesasakota.com.au/approach" />
         <meta property="og:title" content="Trauma &amp; Anxiety Therapy Approach | Psychotherapist Sydney" />
-        <meta property="og:description" content="Integrative trauma and anxiety therapy approach in Sydney CBD drawing on ACT, Clinical Parts Therapy, Imagery Rescripting and EAET for PTSD and chronic pain." />
+        <meta property="og:description" content="Integrative Sydney CBD approach using ACT, Resource Therapy, clinical parts work, imagery rescripting and EAET for PTSD, phobias, chronic pain and fatigue." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/approach" />
       </Helmet>
       <Navbar />

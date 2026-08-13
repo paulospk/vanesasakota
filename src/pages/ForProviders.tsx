@@ -149,10 +149,11 @@ const ForProviders = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>For Providers | Vanesa Sakota Psychotherapy Sydney</title>
-        <meta name="description" content="Referral information and evidence base for clinicians. Psychotherapy for chronic pelvic pain, stress-responsive skin and trauma in Sydney." />
+        <meta name="description" content="Referral information and evidence base for clinicians: chronic pelvic pain, vaginismus, vulvodynia, chronic fatigue and trauma therapy in Sydney CBD." />
+        <meta name="keywords" content="psychotherapy referrals Sydney, vaginismus treatment, vulvodynia, chronic pelvic pain, chronic fatigue therapy, PTSD treatment Sydney, generalised anxiety disorder, resource therapy" />
         <link rel="canonical" href="https://www.vanesasakota.com.au/for-providers" />
         <meta property="og:title" content="For Providers | Vanesa Sakota Psychotherapy Sydney" />
-        <meta property="og:description" content="Evidence base and referral information for clinicians. Psychotherapy for chronic pelvic pain, vulvodynia, stress-responsive skin and trauma in Sydney CBD." />
+        <meta property="og:description" content="Referral information and evidence base for clinicians: chronic pelvic pain, vaginismus, vulvodynia, chronic fatigue and trauma therapy in Sydney CBD." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/for-providers" />
       </Helmet>
       <Navbar />
