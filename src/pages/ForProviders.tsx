@@ -166,7 +166,7 @@ const ForProviders = () => {
               For Providers
             </p>
             <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
-              The Evidence Base
+              Evidence-based psychotherapy for providers
             </h1>
           </div>
         </div>
