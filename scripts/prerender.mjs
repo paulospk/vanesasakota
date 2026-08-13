@@ -23,9 +23,9 @@ const BASE_URL = "https://www.vanesasakota.com.au";
 const routes = [
   {
     path: "/",
-    title: "Vanesa Sakota | Psychotherapist Sydney CBD",
+    title: "Trauma Therapy & Psychotherapist Sydney | Vanesa Sakota",
     description:
-      "In-person psychotherapy in Sydney CBD for anxiety, trauma, chronic stress, chronic pelvic pain and stress-responsive skin conditions. PACFA registered.",
+      "Trauma therapy and psychotherapy in Sydney CBD for anxiety, chronic stress, chronic pain and stress-responsive physical symptoms. PACFA registered.",
 
     jsonLd: {
       "@context": "https://schema.org",
@@ -53,6 +53,18 @@ const routes = [
               name: "Bachelor of Psychology",
               recognizedBy: { "@type": "Organization", name: "Griffith University" },
             },
+          ],
+          knowsAbout: [
+            "Trauma therapy",
+            "Psychotherapy",
+            "Anxiety treatment",
+            "Chronic stress",
+            "Chronic pain and nociplastic pain",
+            "Emotional Awareness and Expression Therapy",
+            "Acceptance and Commitment Therapy",
+            "Clinical parts therapy",
+            "Imagery rescripting",
+            "Nervous system regulation",
           ],
           memberOf: {
             "@type": "Organization",
@@ -92,6 +104,17 @@ const routes = [
               description: "By appointment only",
             },
           ],
+          areaServed: [
+            { "@type": "City", name: "Sydney" },
+            { "@type": "State", name: "New South Wales" },
+          ],
+          knowsAbout: [
+            "Trauma therapy Sydney",
+            "Psychotherapist Sydney CBD",
+            "Anxiety therapy",
+            "Chronic pain therapy",
+            "Stress and burnout therapy",
+          ],
           hasMap: "https://maps.google.com/?q=135+Macquarie+Street+Sydney+NSW+2000",
           employee: { "@id": `${BASE_URL}/#vanesa` },
         },
@@ -100,7 +123,7 @@ const routes = [
   },
   {
     path: "/faqs",
-    title: "FAQs | Vanesa Sakota Psychotherapy Sydney CBD",
+    title: "Psychotherapy FAQs | Therapist Sydney CBD",
     description:
       "Common questions about psychotherapy with Vanesa Sakota in Sydney CBD: referrals, fees, session length, and working with physical symptoms.",
 
@@ -153,7 +176,7 @@ const routes = [
   },
   {
     path: "/contact",
-    title: "Contact | Vanesa Sakota Psychotherapy Sydney CBD",
+    title: "Psychotherapy Appointments Sydney CBD | Vanesa Sakota",
     description:
       "Book an appointment with Vanesa Sakota, psychotherapist in Sydney CBD. In-person sessions at BMA House, 135 Macquarie Street. No GP referral required.",
     jsonLd: null,
@@ -167,7 +190,7 @@ const routes = [
   },
   {
     path: "/about",
-    title: "About Vanesa Sakota | Integrative Psychotherapist Sydney CBD",
+    title: "Psychotherapist Sydney CBD | About Vanesa Sakota",
     description:
       "Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD with a Master of Psychotherapy from Western Sydney University.",
 
@@ -175,7 +198,7 @@ const routes = [
   },
   {
     path: "/approach",
-    title: "The Approach | Vanesa Sakota Psychotherapy Sydney",
+    title: "Trauma Therapy Approach | Psychotherapist Sydney CBD",
     description:
       "An integrative mind-body psychotherapy approach drawing on EAET, Clinical Parts Therapy, Imagery Rescripting, CBT and ACT, in Sydney CBD.",
     jsonLd: null,

@@ -42,11 +42,11 @@ const Approach = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>The Approach | Vanesa Sakota Psychotherapy Sydney</title>
-        <meta name="description" content="An integrative psychotherapy approach drawing on ACT, Clinical Parts Therapy, Imagery Rescripting and EAET." />
+        <title>Trauma Therapy Approach | Psychotherapist Sydney CBD</title>
+        <meta name="description" content="An integrative trauma therapy approach in Sydney CBD drawing on ACT, Clinical Parts Therapy, Imagery Rescripting and EAET for anxiety, stress and chronic pain." />
         <link rel="canonical" href="https://www.vanesasakota.com.au/approach" />
-        <meta property="og:title" content="The Approach | Vanesa Sakota Psychotherapy Sydney" />
-        <meta property="og:description" content="An integrative psychotherapy approach drawing on ACT, Clinical Parts Therapy, Imagery Rescripting and EAET." />
+        <meta property="og:title" content="Trauma Therapy Approach | Psychotherapist Sydney CBD" />
+        <meta property="og:description" content="An integrative trauma therapy approach in Sydney CBD drawing on ACT, Clinical Parts Therapy, Imagery Rescripting and EAET." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/approach" />
       </Helmet>
       <Navbar />
@@ -62,7 +62,7 @@ const Approach = () => {
               The Approach
             </h1>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
-              My approach draws on:
+              My approach to trauma therapy in Sydney draws on:
             </p>
           </div>
         </div>

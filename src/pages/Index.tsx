@@ -9,11 +9,11 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Vanesa Sakota | Psychotherapist Sydney CBD</title>
-        <meta name="description" content="In-person psychotherapy in Sydney CBD for anxiety, trauma, chronic stress, chronic pelvic pain and stress-responsive skin conditions. PACFA registered." />
+        <title>Trauma Therapy &amp; Psychotherapist Sydney | Vanesa Sakota</title>
+        <meta name="description" content="Trauma therapy and psychotherapy in Sydney CBD for anxiety, chronic stress, chronic pain and stress-responsive physical symptoms. PACFA registered." />
         <link rel="canonical" href="https://www.vanesasakota.com.au/" />
-        <meta property="og:title" content="Vanesa Sakota | Psychotherapist Sydney CBD" />
-        <meta property="og:description" content="In-person psychotherapy in Sydney CBD for anxiety, trauma, chronic stress and stress-sensitive physical conditions. PACFA registered." />
+        <meta property="og:title" content="Trauma Therapy &amp; Psychotherapist Sydney | Vanesa Sakota" />
+        <meta property="og:description" content="Trauma therapy and psychotherapy in Sydney CBD for anxiety, chronic stress, chronic pain and stress-responsive physical symptoms. PACFA registered." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/" />
         <meta property="og:image" content="https://www.vanesasakota.com.au/og-image.jpg" />
       </Helmet>
