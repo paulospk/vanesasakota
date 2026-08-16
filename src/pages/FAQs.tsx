@@ -34,6 +34,16 @@ const faqs = [
     answer:
       "I ask for at least 48 hours notice to cancel or reschedule a session. Late cancellations or missed appointments may be charged at the full session rate.",
   },
+  {
+    question: "Do you work with social anxiety or generalised anxiety, not just trauma?",
+    answer:
+      "Yes. A lot of the people I see aren't coming from a single traumatic event - they're dealing with generalised anxiety, or a persistent social anxiety that's made everyday situations like meetings, dating or socialising feel exhausting. We work with the patterns underneath it, not just the worry on the surface.",
+  },
+  {
+    question: "Do you offer counselling for teenagers?",
+    answer:
+      "Yes. I see older teenagers (16+) for anxiety, social anxiety, family stress and life transitions, alongside my existing adult caseload. If you're not sure whether your teenager's situation is a fit, reach out and we can talk it through before booking.",
+  },
 ];
 
 const FAQs = () => {
@@ -71,7 +81,7 @@ const FAQs = () => {
               FAQs
             </p>
             <h1 className="font-serif text-2xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
-              Common questions
+              Common Questions About Therapy for Anxiety and Chronic Pain
             </h1>
             <p className="text-muted-foreground text-sm md:text-base leading-relaxed md:leading-[1.7]">
               A few things people often want to know. If your question isn't here, please reach out.

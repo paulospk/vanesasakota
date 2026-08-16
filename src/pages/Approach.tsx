@@ -60,7 +60,7 @@ const Approach = () => {
               Approach
             </p>
             <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
-              The Approach
+              An Integrative Approach to Trauma and Anxiety Therapy
             </h1>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.7]">
               My approach to trauma therapy in Sydney draws on:
