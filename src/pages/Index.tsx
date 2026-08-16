@@ -128,7 +128,6 @@ const Index = () => {
             </div>
             <div className="lg:col-span-7 max-w-[680px] space-y-4 text-[15px] md:text-base leading-[1.75] text-muted-foreground">
               <p>Starting therapy can feel like a big decision, and there's no perfect time to begin. Whatever has brought you here, whether it has been building for a while, or feels new, it's enough of a reason to consider reaching out.</p>
-              <p>There's no right or wrong pace to this work, just a genuine curiosity and readiness for change.</p>
             </div>
           </div>
         </div>
