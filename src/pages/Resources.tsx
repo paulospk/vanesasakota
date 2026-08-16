@@ -65,6 +65,7 @@ const current: Entry[] = [
     meta: "McEwen & Stellar · 1993 · ongoing",
     body: "Stress has a cumulative cost. Each experience of threat or dysregulation adds to a running biological total across the cardiovascular, immune, and endocrine systems. This is why removing a current stressor doesn't automatically restore someone to baseline. The body keeps the score over time.",
     tag: "Stress biology · endocrine",
+    href: "https://pubmed.ncbi.nlm.nih.gov/8379800/",
   },
   {
     title: "The HPA axis and emotional memory",
