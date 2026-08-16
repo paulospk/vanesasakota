@@ -31,7 +31,7 @@ const seminal: Entry[] = [
   {
     title: "Psychoneuroimmunology (PNI)",
     meta: "Ader & Cohen · 1975",
-    body: "For a long time, the mind and the immune system were treated as separate systems. This field established they aren't. Psychological experience produces measurable changes in immune and endocrine function. The mind-body divide was always more assumption than anatomy.",
+    body: "For a long time, the mind and the immune system were treated as separate systems. This field established they aren't. Psychological experience produces measurable changes in immune function. The mind-body divide was always more assumption than anatomy.",
     tag: "Mind–body",
     href: "https://pubmed.ncbi.nlm.nih.gov/1162023/",
   },
@@ -75,7 +75,7 @@ const current: Entry[] = [
   {
     title: "The brain–skin axis",
     meta: "Arck, Paus et al. · 2006–present",
-    body: "The skin and the nervous system develop from the same embryonic tissue, and they never stop communicating. Psychological stress has measurable effects on skin inflammation, barrier function, and immune behaviour. This helps explain the stress-responsiveness of conditions like eczema, rosacea, psoriasis, and acne.",
+    body: "The skin and the nervous system develop from the same embryonic tissue, and they never stop communicating. Psychological stress has measurable effects on skin inflammation, barrier function, and immune behaviour. This helps explain the stress-responsiveness of conditions like eczema, psoriasis, and chronic hives.",
     tag: "Skin · nervous system · endocrine",
   },
   {
