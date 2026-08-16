@@ -52,7 +52,7 @@ const FAQs = () => {
       <Helmet>
         <title>Psychotherapy FAQs | Anxiety, PTSD, Chronic Pain &amp; Phobia</title>
         <meta name="description" content="Common questions about therapy for anxiety, PTSD, phobia, vaginismus, chronic pain and chronic fatigue with Vanesa Sakota in Sydney CBD." />
-        <meta name="keywords" content="anxiety therapy Sydney, PTSD treatment Sydney, vaginismus treatment, chronic fatigue therapy, chronic pain therapy, phobia therapy Sydney, social anxiety disorder therapy, teenage counselling Sydney, addiction counselling" />
+        <meta name="keywords" content="anxiety therapy Sydney, PTSD treatment Sydney, vaginismus treatment, chronic fatigue therapy, chronic pain therapy, phobia therapy Sydney, social anxiety disorder therapy, teenage counselling Sydney" />
         <link rel="canonical" href="https://www.vanesasakota.com.au/faqs" />
         <meta property="og:title" content="Psychotherapy FAQs | Anxiety, PTSD, Chronic Pain &amp; Phobia" />
         <meta property="og:description" content="Common questions about therapy for anxiety, PTSD, phobia, vaginismus, chronic pain and chronic fatigue with Vanesa Sakota in Sydney CBD." />

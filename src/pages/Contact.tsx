@@ -10,11 +10,11 @@ const Contact = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Anxiety, PTSD &amp; Phobia Therapy Appointments Sydney</title>
-        <meta name="description" content="Book anxiety, PTSD, phobia, addiction or teenage counselling appointments in Sydney CBD. BMA House, 135 Macquarie Street. No GP referral required." />
-        <meta name="keywords" content="anxiety therapy Sydney, PTSD treatment Sydney, phobia therapy Sydney, teenage counselling Sydney, addiction counselling, vaginismus treatment, social anxiety disorder therapy, chronic pain therapy" />
+        <meta name="description" content="Book anxiety, PTSD, phobia and teenage counselling appointments in Sydney CBD. BMA House, 135 Macquarie Street. No GP referral required." />
+        <meta name="keywords" content="anxiety therapy Sydney, PTSD treatment Sydney, phobia therapy Sydney, teenage counselling Sydney, vaginismus treatment, social anxiety disorder therapy, chronic pain therapy" />
         <link rel="canonical" href="https://www.vanesasakota.com.au/contact" />
         <meta property="og:title" content="Anxiety, PTSD &amp; Phobia Therapy Appointments Sydney" />
-        <meta property="og:description" content="Book anxiety, PTSD, phobia, addiction or teenage counselling appointments in Sydney CBD. BMA House, 135 Macquarie Street. No GP referral required." />
+        <meta property="og:description" content="Book anxiety, PTSD, phobia and teenage counselling appointments in Sydney CBD. BMA House, 135 Macquarie Street. No GP referral required." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/contact" />
       </Helmet>
       <Navbar />

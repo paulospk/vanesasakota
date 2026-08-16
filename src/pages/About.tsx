@@ -8,11 +8,11 @@ const About = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Psychotherapist Sydney | Anxiety, PTSD &amp; Chronic Pain</title>
-        <meta name="description" content="Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD offering anxiety, PTSD, phobia, addiction and teenage counselling, and resource therapy." />
-        <meta name="keywords" content="psychotherapist Sydney, anxiety therapy Sydney, PTSD treatment Sydney, resource therapy, addiction counselling, teenage counselling Sydney, generalised anxiety disorder, social anxiety disorder therapy, chronic pain therapy" />
+        <meta name="description" content="Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD offering anxiety, PTSD, phobia and teenage counselling, and resource therapy." />
+        <meta name="keywords" content="psychotherapist Sydney, anxiety therapy Sydney, PTSD treatment Sydney, resource therapy, teenage counselling Sydney, generalised anxiety disorder, social anxiety disorder therapy, chronic pain therapy" />
         <link rel="canonical" href="https://www.vanesasakota.com.au/about" />
         <meta property="og:title" content="Psychotherapist Sydney | Anxiety, PTSD &amp; Chronic Pain" />
-        <meta property="og:description" content="Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD offering anxiety, PTSD, phobia, addiction and teenage counselling, and resource therapy." />
+        <meta property="og:description" content="Vanesa Sakota is a PACFA-registered psychotherapist in Sydney CBD offering anxiety, PTSD, phobia and teenage counselling, and resource therapy." />
         <meta property="og:url" content="https://www.vanesasakota.com.au/about" />
       </Helmet>
       <Navbar />
