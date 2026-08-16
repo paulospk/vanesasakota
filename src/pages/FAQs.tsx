@@ -9,7 +9,13 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const faqs = [
+type FAQ = {
+  question: string;
+  answer: string;
+  link?: { text: string; href: string };
+};
+
+const faqs: FAQ[] = [
   {
     question: "Do I need a referral or Mental Health Care Plan to see you?",
     answer:
