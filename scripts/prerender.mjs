@@ -363,3 +363,33 @@ for (const route of routes) {
 }
 
 console.log("\nPrerender complete — all routes have static HTML.");
+
+const SITEMAP_PRIORITY = {
+  "/": "1.0",
+  "/contact": "0.9",
+  "/resources": "0.7",
+};
+const DEFAULT_PRIORITY = "0.8";
+const EXCLUDED_FROM_SITEMAP = new Set(["/404", "/unsubscribe"]);
+
+const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD, stamped fresh every build
+
+const sitemapUrls = routes
+  .filter((route) => !route.redirectTo && !EXCLUDED_FROM_SITEMAP.has(route.path))
+  .map((route) => {
+    const priority = SITEMAP_PRIORITY[route.path] ?? DEFAULT_PRIORITY;
+    return [
+      "<url>",
+      `<loc>${BASE_URL}${route.path}</loc>`,
+      `<lastmod>${today}</lastmod>`,
+      "<changefreq>monthly</changefreq>",
+      `<priority>${priority}</priority>`,
+      "</url>",
+    ].join("\n");
+  })
+  .join("\n");
+
+const sitemapXml = `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapUrls}\n</urlset>\n`;
+
+fs.writeFileSync(path.join(DIST, "sitemap.xml"), sitemapXml, "utf-8");
+console.log(`Sitemap generated — ${sitemapUrls.split("<url>").length - 1} URLs, lastmod ${today}.`);
