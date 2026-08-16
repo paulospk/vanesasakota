@@ -93,6 +93,7 @@ const current: Entry[] = [
     meta: "Cozolino, Siegel, Schore · 1990s–present",
     body: "The nervous system develops inside relationship and continues to be regulated through it. Attunement, safety, and relational repair are not just psychological experiences. They are biological events with measurable neurological correlates.",
     tag: "Regulation · relationship",
+    href: "https://pubmed.ncbi.nlm.nih.gov/11707891/",
   },
 ];
 
