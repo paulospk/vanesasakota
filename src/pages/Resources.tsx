@@ -9,6 +9,8 @@ type Entry = {
   meta: string;
   body: string;
   tag: string;
+  href?: string;
+  secondaryHref?: { label: string; url: string };
 };
 
 const seminal: Entry[] = [
@@ -17,30 +19,36 @@ const seminal: Entry[] = [
     meta: "Felitti, Anda et al. · Kaiser Permanente / CDC · 1998",
     body: "A study of 17,000 people found that difficult early experiences like neglect, instability, and abuse quietly shape the body's biology over decades, showing up later as heart disease, autoimmune conditions, and chronic pain. Not metaphorically. Physiologically.",
     tag: "Early experience",
+    href: "https://pubmed.ncbi.nlm.nih.gov/9635069/",
   },
   {
     title: "Polyvagal Theory",
     meta: "Stephen Porges · 1994–present",
     body: "The nervous system is always listening, scanning for cues of safety or danger beneath conscious awareness. When it concludes the environment isn't safe, it shifts into protective states: shutdown, dissociation, exhaustion. Symptoms, in this view, are the body doing its job.",
     tag: "Nervous system · safety",
+    href: "https://onlinelibrary.wiley.com/doi/10.1111/j.1469-8986.1995.tb01213.x",
   },
   {
     title: "Psychoneuroimmunology (PNI)",
     meta: "Ader & Cohen · 1975",
     body: "For a long time, the mind and the immune system were treated as separate systems. This field established they aren't. Psychological experience produces measurable changes in immune and endocrine function. The mind-body divide was always more assumption than anatomy.",
     tag: "Mind–body",
+    href: "https://pubmed.ncbi.nlm.nih.gov/1162023/",
   },
   {
     title: "The HPA axis and chronic stress",
     meta: "Selye · 1936–1950",
     body: "Stress has a biology, one that evolved to help us survive short-term threat. The problem is what happens when that system never switches off. Sustained activation produces neurological and physiological wear that accumulates quietly, until it doesn't.",
     tag: "Stress biology",
+    href: "https://pubmed.ncbi.nlm.nih.gov/9722327/",
   },
   {
     title: "Central sensitisation",
-    meta: "Woolf · 1983 · Yunus · 1990s",
+    meta: "Woolf · 1983 · Yunus · 2007",
     body: "In some people, the nervous system becomes sensitised, amplifying signals of pain and threat even when there's no new injury or cause. The tissue is fine. The alarm system isn't. This helps explain conditions like fibromyalgia, chronic pelvic pain, and IBS that investigations consistently fail to account for.",
     tag: "Chronic symptoms",
+    href: "https://pubmed.ncbi.nlm.nih.gov/6656869/",
+    secondaryHref: { label: "Yunus, 2007", url: "https://pubmed.ncbi.nlm.nih.gov/17350675/" },
   },
 ];
 
@@ -151,11 +159,33 @@ const EntryCard = ({ entry }: { entry: Entry }) => (
       {entry.meta}
     </p>
     <p className="text-muted-foreground text-[14px] md:text-[15px] leading-[1.75]">{entry.body}</p>
-    <div className="pt-1">
+    <div className="pt-1 flex flex-wrap items-center gap-2">
       <span className="inline-block text-[11px] tracking-[0.15em] uppercase font-medium text-foreground bg-hero border border-border rounded-full px-3 py-1">
         {entry.tag}
       </span>
     </div>
+    {entry.href && (
+      <div className="pt-1 flex flex-wrap items-center gap-3">
+        <a
+          href={entry.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block text-[13px] text-foreground underline underline-offset-4 hover:text-muted-foreground transition-colors"
+        >
+          Read the paper →
+        </a>
+        {entry.secondaryHref && (
+          <a
+            href={entry.secondaryHref.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block text-[12px] text-muted-foreground underline underline-offset-4 hover:text-foreground transition-colors"
+          >
+            {entry.secondaryHref.label} →
+          </a>
+        )}
+      </div>
+    )}
   </article>
 );
 
