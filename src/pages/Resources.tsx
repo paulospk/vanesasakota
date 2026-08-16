@@ -31,7 +31,7 @@ const seminal: Entry[] = [
   {
     title: "Psychoneuroimmunology (PNI)",
     meta: "Ader & Cohen · 1975",
-    body: "For a long time, the mind and the immune system were treated as separate systems. This field established they aren't. Psychological experience produces measurable changes in immune and endocrine function. The mind-body divide was always more assumption than anatomy.",
+    body: "For a long time, the mind and the immune system were treated as separate systems. This field established they aren't. Psychological experience produces measurable changes in immune function. The mind-body divide was always more assumption than anatomy.",
     tag: "Mind–body",
     href: "https://pubmed.ncbi.nlm.nih.gov/1162023/",
   },
