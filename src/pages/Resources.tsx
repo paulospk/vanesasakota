@@ -159,11 +159,33 @@ const EntryCard = ({ entry }: { entry: Entry }) => (
       {entry.meta}
     </p>
     <p className="text-muted-foreground text-[14px] md:text-[15px] leading-[1.75]">{entry.body}</p>
-    <div className="pt-1">
+    <div className="pt-1 flex flex-wrap items-center gap-2">
       <span className="inline-block text-[11px] tracking-[0.15em] uppercase font-medium text-foreground bg-hero border border-border rounded-full px-3 py-1">
         {entry.tag}
       </span>
     </div>
+    {entry.href && (
+      <div className="pt-1 flex flex-wrap items-center gap-3">
+        <a
+          href={entry.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block text-[13px] text-foreground underline underline-offset-4 hover:text-muted-foreground transition-colors"
+        >
+          Read the paper →
+        </a>
+        {entry.secondaryHref && (
+          <a
+            href={entry.secondaryHref.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block text-[12px] text-muted-foreground underline underline-offset-4 hover:text-foreground transition-colors"
+          >
+            {entry.secondaryHref.label} →
+          </a>
+        )}
+      </div>
+    )}
   </article>
 );
 
