@@ -17,7 +17,7 @@ const seminal: Entry[] = [
   {
     title: "Adverse Childhood Experiences (ACE) Study",
     meta: "Felitti, Anda et al. · Kaiser Permanente / CDC · 1998",
-    body: "A study of 17,000 people found that difficult early experiences like neglect, instability, and abuse quietly shape the body's biology over decades, showing up later as heart disease, autoimmune conditions, and chronic pain. Not metaphorically. Physiologically.",
+    body: "A study of 9,500 adults found that difficult early experiences like neglect, instability, and abuse quietly shape the body's biology over decades, showing up later as heart disease, cancer, and liver disease. Not metaphorically. Physiologically.",
     tag: "Early experience",
     href: "https://pubmed.ncbi.nlm.nih.gov/9635069/",
   },
@@ -65,18 +65,21 @@ const current: Entry[] = [
     meta: "McEwen & Stellar · 1993 · ongoing",
     body: "Stress has a cumulative cost. Each experience of threat or dysregulation adds to a running biological total across the cardiovascular, immune, and endocrine systems. This is why removing a current stressor doesn't automatically restore someone to baseline. The body keeps the score over time.",
     tag: "Stress biology · endocrine",
+    href: "https://pubmed.ncbi.nlm.nih.gov/8379800/",
   },
   {
     title: "The HPA axis and emotional memory",
     meta: "McEwen, Sapolsky, de Kloet · 1990s–present",
     body: "Cortisol doesn't just respond to stress in the moment. It also shapes how stress gets remembered. Research has traced how chronic cortisol exposure alters memory encoding in the hippocampus and amygdala, making threat feel more present and more likely. Relevant to trauma, persistent anxiety, and why some presentations resist treatment.",
     tag: "Endocrine · stress · memory",
+    href: "https://pubmed.ncbi.nlm.nih.gov/15891777/",
   },
   {
     title: "The brain–skin axis",
     meta: "Arck, Paus et al. · 2006–present",
     body: "The skin and the nervous system develop from the same embryonic tissue, and they never stop communicating. Psychological stress has measurable effects on skin inflammation, barrier function, and immune behaviour. This helps explain the stress-responsiveness of conditions like eczema, psoriasis, and chronic hives.",
     tag: "Skin · nervous system · endocrine",
+    href: "https://pubmed.ncbi.nlm.nih.gov/17709957/",
   },
   {
     title: "Interoception and predictive processing",
@@ -90,6 +93,7 @@ const current: Entry[] = [
     meta: "Cozolino, Siegel, Schore · 1990s–present",
     body: "The nervous system develops inside relationship and continues to be regulated through it. Attunement, safety, and relational repair are not just psychological experiences. They are biological events with measurable neurological correlates.",
     tag: "Regulation · relationship",
+    href: "https://pubmed.ncbi.nlm.nih.gov/11707891/",
   },
 ];
 
