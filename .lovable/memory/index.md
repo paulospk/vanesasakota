@@ -12,3 +12,4 @@
 - [Visual Identity](mem://style/visual-identity) — Core styling rules, typography, and aesthetic choices
 - [Business Info](mem://business/info) — Contact, location, fees, education, and credentials for Vanesa Sakota
 - [For Providers Page](mem://features/for-providers-page) — Content focus and evidence table links for referring clinicians
+- [SEO keyword scope](mem://features/seo-keyword-scope) — Addiction counselling excluded from metadata; teen counselling page confirmed
