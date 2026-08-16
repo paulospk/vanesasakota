@@ -248,7 +248,43 @@ const routes = [
     description:
       "Integrative Sydney CBD approach using ACT, Resource Therapy, clinical parts work, imagery rescripting and EAET for PTSD, phobias, chronic pain and fatigue.",
     keywords: "resource therapy, EAET, ACT therapy Sydney, clinical parts therapy, imagery rescripting, trauma therapy Sydney, PTSD treatment Sydney, phobia therapy Sydney, chronic pain therapy, chronic fatigue therapy",
-    jsonLd: null,
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          name: "Acceptance and Commitment Therapy (ACT)",
+          serviceType: "Psychotherapy modality",
+          provider: { "@id": `${BASE_URL}/#vanesa` },
+          areaServed: { "@type": "City", name: "Sydney" },
+          description: "Evidence-based framework building psychological flexibility, helping clients stay present with difficult thoughts and feelings rather than being controlled by them.",
+        },
+        {
+          "@type": "Service",
+          name: "Clinical Parts Therapy (Resource Therapy)",
+          serviceType: "Psychotherapy modality",
+          provider: { "@id": `${BASE_URL}/#vanesa` },
+          areaServed: { "@type": "City", name: "Sydney" },
+          description: "Trauma-informed, psychodynamic framework founded by Professor Gordon Emmerson, addressing attachment wounds and internal conflicts that can drive chronic physical symptoms.",
+        },
+        {
+          "@type": "Service",
+          name: "Imagery Rescripting",
+          serviceType: "Psychotherapy modality",
+          provider: { "@id": `${BASE_URL}/#vanesa` },
+          areaServed: { "@type": "City", name: "Sydney" },
+          description: "Gently re-entering and updating early memories or relational experiences that may be maintaining a heightened sense of physiological vulnerability.",
+        },
+        {
+          "@type": "Service",
+          name: "Emotional Awareness & Expression Therapy (EAET)",
+          serviceType: "Psychotherapy modality",
+          provider: { "@id": `${BASE_URL}/#vanesa` },
+          areaServed: { "@type": "City", name: "Sydney" },
+          description: "Neuro-somatic framework developed for chronic pain by Dr. Howard Schubiner and Dr. Mark Lumley, identifying and processing hidden emotional stressors to deactivate the nervous system's chronic threat response.",
+        },
+      ],
+    },
   },
   {
     path: "/unsubscribe",
