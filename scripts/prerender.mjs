@@ -219,11 +219,7 @@ const routes = [
   },
   {
     path: "/teenage-counselling-sydney",
-    title: "Teenage Counselling Sydney | Anxiety & Stress Therapy",
-    description:
-      "Teenage counselling in Sydney CBD for older teens (16+) navigating anxiety, social anxiety, school and family stress, and life transitions. PACFA registered.",
-    keywords: "teenage counselling Sydney, teen therapy Sydney, adolescent counselling Sydney, social anxiety disorder therapy, generalised anxiety disorder, anxiety therapy Sydney",
-    jsonLd: null,
+    redirectTo: "/faqs",
   },
   {
     path: "/resources",

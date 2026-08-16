@@ -44,7 +44,6 @@ const faqs = [
     question: "Do you offer counselling for teenagers?",
     answer:
       "Yes. I see older teenagers (16+) for anxiety, social anxiety, family stress and life transitions, alongside my existing adult caseload. If you're not sure whether your teenager's situation is a fit, reach out and we can talk it through before booking.",
-    link: { text: "More on teenage counselling", href: "/teenage-counselling-sydney" },
   },
   {
     question: "Do you offer addiction counselling?",
@@ -98,7 +97,7 @@ const FAQs = () => {
               FAQs
             </p>
             <h1 className="font-serif text-2xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
-              Common Questions About Therapy for Anxiety and Chronic Pain
+              Common Questions
             </h1>
             <p className="text-muted-foreground text-sm md:text-base leading-relaxed md:leading-[1.7]">
               A few things people often want to know. If your question isn't here, please reach out.
