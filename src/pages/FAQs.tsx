@@ -59,7 +59,7 @@ const faqs: FAQ[] = [
   {
     question: "Do you treat vaginismus?",
     answer:
-      "Yes. Vaginismus often has a strong nervous-system and emotional component alongside the physical one, and I work with it through that lens - alongside, not instead of, any medical or pelvic health treatment you're already receiving. Many clients see me in parallel with a pelvic health physiotherapist or GP.",
+      "Yes. Vaginismus is often psychophysiological: it has a strong nervous-system and emotional component alongside the physical one, and I work with it through that lens, alongside, not instead of, any medical or pelvic health treatment you're already receiving. For a lot of clients, it's also tied up with boundaries, the body holding a \"no\" that hasn't been able to be expressed or heard elsewhere, whether that's in a relationship, a past experience, or just difficulty asserting yourself more broadly. We work with that layer alongside the physical symptoms. Many clients see me in parallel with a pelvic health physiotherapist or GP.",
   },
   {
     question: "Can therapy help with chronic fatigue?",
