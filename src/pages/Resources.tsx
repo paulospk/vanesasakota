@@ -9,6 +9,8 @@ type Entry = {
   meta: string;
   body: string;
   tag: string;
+  href?: string;
+  secondaryHref?: { label: string; url: string };
 };
 
 const seminal: Entry[] = [
