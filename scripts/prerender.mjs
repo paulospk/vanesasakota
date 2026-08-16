@@ -135,10 +135,10 @@ const routes = [
       mainEntity: [
         {
           "@type": "Question",
-          name: "Do I need a GP referral or Mental Health Care Plan to see you?",
+          name: "Do I need a referral or Mental Health Care Plan to see you?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "No. You can book directly without a referral. A Mental Health Care Plan is not required.",
+            text: "No, you don't need a referral to see me. If you do have a referral from your GP or specialist - it is most welcome and I will keep your referrer informed of our progress if you wish.",
           },
         },
         {
@@ -146,23 +146,55 @@ const routes = [
           name: "Can therapy actually help with physical symptoms?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes — there is strong research behind it. Many chronic symptoms, including pelvic pain, sensitive skin conditions, and persistent fatigue, are shaped by the nervous system and emotional patterns held in the body.",
+            text: "Yes - there's strong research behind it. Many chronic symptoms, including pelvic pain, sensitive skin conditions, and persistent fatigue, are shaped by the nervous system and emotional patterns. Therapy that works with both the mind and body can lead to meaningful change and improve quality of life.",
           },
         },
         {
           "@type": "Question",
-          name: "Is everything confidential?",
+          name: "What does a session actually look like?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes, with the standard exceptions required by law. Everything else stays between us. Vanesa practises in accordance with the PACFA Code of Ethics 2017.",
+            text: "Sessions are 50 minutes. The first session however is a longer appointment to discuss what brings you to therapy and to cover your history. You'll always know what we're doing and why.",
           },
         },
         {
           "@type": "Question",
-          name: "How long will I need to be in therapy?",
+          name: "How often should I attend sessions?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "This depends on what you are bringing and what you are hoping to achieve. Some people notice meaningful change within a few months. Others benefit from longer-term support.",
+            text: "For most people, weekly sessions are recommended in the early stages of therapy, particularly when working with chronic symptoms or trauma. As things shift, sessions typically move to fortnightly or as needed. This is something we can discuss and adjust.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is your cancellation policy?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "I ask for at least 48 hours notice to cancel or reschedule a session. Late cancellations or missed appointments may be charged at the full session rate.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Do you work with social anxiety or generalised anxiety, not just trauma?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. A lot of the people I see aren't coming from a single traumatic event - they're dealing with generalised anxiety, or a persistent social anxiety that's made everyday situations like meetings, dating or socialising feel exhausting. We work with the patterns underneath it, not just the worry on the surface.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Do you offer counselling for teenagers?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. I see older teenagers (16+) for anxiety, social anxiety, family stress and life transitions, alongside my existing adult caseload. If you're not sure whether your teenager's situation is a fit, reach out and we can talk it through before booking.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Do you offer addiction counselling?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "I work with adults navigating addictive patterns - alcohol, substances, or compulsive behaviours - as part of a broader picture of stress and emotional regulation, rather than a standalone addiction program. If you're not sure whether your situation is a fit, reach out and we can talk it through before booking.",
           },
         },
       ],

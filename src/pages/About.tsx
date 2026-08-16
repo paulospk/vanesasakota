@@ -27,7 +27,7 @@ const About = () => {
                 About
               </p>
               <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
-                About Vanesa
+                About Vanesa: Anxiety and Trauma Therapy, Sydney CBD
               </h1>
               <div className="space-y-4 text-muted-foreground text-[15px] md:text-base leading-[1.7]">
                 <p>

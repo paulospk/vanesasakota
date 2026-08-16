@@ -44,6 +44,11 @@ const faqs = [
     answer:
       "Yes. I see older teenagers (16+) for anxiety, social anxiety, family stress and life transitions, alongside my existing adult caseload. If you're not sure whether your teenager's situation is a fit, reach out and we can talk it through before booking.",
   },
+  {
+    question: "Do you offer addiction counselling?",
+    answer:
+      "I work with adults navigating addictive patterns - alcohol, substances, or compulsive behaviours - as part of a broader picture of stress and emotional regulation, rather than a standalone addiction program. If you're not sure whether your situation is a fit, reach out and we can talk it through before booking.",
+  },
 ];
 
 const FAQs = () => {
