@@ -72,6 +72,7 @@ const current: Entry[] = [
     meta: "McEwen, Sapolsky, de Kloet · 1990s–present",
     body: "Cortisol doesn't just respond to stress in the moment. It also shapes how stress gets remembered. Research has traced how chronic cortisol exposure alters memory encoding in the hippocampus and amygdala, making threat feel more present and more likely. Relevant to trauma, persistent anxiety, and why some presentations resist treatment.",
     tag: "Endocrine · stress · memory",
+    href: "https://pubmed.ncbi.nlm.nih.gov/15891777/",
   },
   {
     title: "The brain–skin axis",
