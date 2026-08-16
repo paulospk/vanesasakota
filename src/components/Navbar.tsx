@@ -10,6 +10,7 @@ const navLinks = [
   { label: "Resources", href: "/resources" },
   { label: "Contact", href: "/contact" },
   { label: "FAQs", href: "/faqs" },
+  { label: "Teen Counselling", href: "/teenage-counselling-sydney" },
 ];
 
 export default function Navbar() {
