@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -11,7 +11,7 @@ import ForProviders from "./pages/ForProviders.tsx";
 import Approach from "./pages/Approach.tsx";
 import Resources from "./pages/Resources.tsx";
 import Contact from "./pages/Contact.tsx";
-import TeenageCounselling from "./pages/TeenageCounselling.tsx";
+
 import Unsubscribe from "./pages/Unsubscribe.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
@@ -33,7 +33,7 @@ const App = () => (
           <Route path="/approach" element={<Approach />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/teenage-counselling-sydney" element={<TeenageCounselling />} />
+          <Route path="/teenage-counselling-sydney" element={<Navigate to="/faqs" replace />} />
           <Route path="/unsubscribe" element={<Unsubscribe />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
