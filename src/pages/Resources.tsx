@@ -75,7 +75,7 @@ const current: Entry[] = [
   {
     title: "The brain–skin axis",
     meta: "Arck, Paus et al. · 2006–present",
-    body: "The skin and the nervous system develop from the same embryonic tissue, and they never stop communicating. Psychological stress has measurable effects on skin inflammation, barrier function, and immune behaviour. This helps explain the stress-responsiveness of conditions like eczema, rosacea, psoriasis, and acne.",
+    body: "The skin and the nervous system develop from the same embryonic tissue, and they never stop communicating. Psychological stress has measurable effects on skin inflammation, barrier function, and immune behaviour. This helps explain the stress-responsiveness of conditions like eczema, psoriasis, and chronic hives.",
     tag: "Skin · nervous system · endocrine",
   },
   {
