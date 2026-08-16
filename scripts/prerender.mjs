@@ -338,7 +338,18 @@ for (const route of routes) {
     .replace(/<meta name="twitter:[^>]*>/g, "")
     .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g, "");
 
-  html = html.replace("</head>", `    ${buildHeadTags(route)}\n  </head>`);
+  if (route.redirectTo) {
+    const destUrl = `${BASE_URL}${route.redirectTo}`;
+    const redirectTags = [
+      `<title>Redirecting…</title>`,
+      `<meta http-equiv="refresh" content="0; url=${destUrl}" />`,
+      `<link rel="canonical" href="${destUrl}" />`,
+      `<meta name="robots" content="noindex, follow" />`,
+    ].join("\n    ");
+    html = html.replace("</head>", `    ${redirectTags}\n  </head>`);
+  } else {
+    html = html.replace("</head>", `    ${buildHeadTags(route)}\n  </head>`);
+  }
 
   const outDir =
     route.path === "/"
