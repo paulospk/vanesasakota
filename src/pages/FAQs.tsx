@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import {
@@ -43,6 +44,7 @@ const faqs = [
     question: "Do you offer counselling for teenagers?",
     answer:
       "Yes. I see older teenagers (16+) for anxiety, social anxiety, family stress and life transitions, alongside my existing adult caseload. If you're not sure whether your teenager's situation is a fit, reach out and we can talk it through before booking.",
+    link: { text: "More on teenage counselling", href: "/teenage-counselling-sydney" },
   },
   {
     question: "Do you offer addiction counselling?",
@@ -118,6 +120,11 @@ const FAQs = () => {
                   </AccordionTrigger>
                   <AccordionContent className="text-sm text-muted-foreground leading-relaxed">
                     {faq.answer}
+                    {faq.link && (
+                      <Link to={faq.link.href} className="block mt-2 text-sm underline underline-offset-2 hover:opacity-60 transition-opacity">
+                        {faq.link.text}
+                      </Link>
+                    )}
                   </AccordionContent>
                 </AccordionItem>
               ))}
