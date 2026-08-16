@@ -49,6 +49,16 @@ const faqs = [
     answer:
       "I work with adults navigating addictive patterns - alcohol, substances, or compulsive behaviours - as part of a broader picture of stress and emotional regulation, rather than a standalone addiction program. If you're not sure whether your situation is a fit, reach out and we can talk it through before booking.",
   },
+  {
+    question: "Do you treat vaginismus?",
+    answer:
+      "Yes. Vaginismus often has a strong nervous-system and emotional component alongside the physical one, and I work with it through that lens - alongside, not instead of, any medical or pelvic health treatment you're already receiving. Many clients see me in parallel with a pelvic health physiotherapist or GP.",
+  },
+  {
+    question: "Can therapy help with chronic fatigue?",
+    answer:
+      "Often, yes. Persistent fatigue is frequently tied to a nervous system stuck in a stress response, even when it doesn't feel like 'stress' day to day. Therapy won't replace medical investigation if that hasn't happened yet, but it can meaningfully ease the fatigue that's driven by chronic stress and unresolved emotional patterns.",
+  },
 ];
 
 const FAQs = () => {
