@@ -11,7 +11,7 @@ const Index = () => {
       <Helmet>
         <title>Trauma, Anxiety &amp; PTSD Therapy | Psychotherapist Sydney</title>
         <meta name="description" content="Therapy in Sydney CBD for anxiety, PTSD, phobias, social anxiety, chronic pain, chronic fatigue and stress-responsive physical symptoms. PACFA registered." />
-        <meta name="keywords" content="anxiety therapy Sydney, PTSD treatment Sydney, trauma therapy Sydney, generalised anxiety disorder, social anxiety disorder therapy, phobia therapy Sydney, chronic pain therapy, chronic fatigue therapy, vaginismus treatment, addiction counselling, teenage counselling Sydney, resource therapy, integrative psychotherapy Sydney" />
+        <meta name="keywords" content="anxiety therapy Sydney, PTSD treatment Sydney, trauma therapy Sydney, generalised anxiety disorder, social anxiety disorder therapy, phobia therapy Sydney, chronic pain therapy, chronic fatigue therapy, vaginismus treatment, teenage counselling Sydney, resource therapy, integrative psychotherapy Sydney" />
         <link rel="canonical" href="https://www.vanesasakota.com.au/" />
         <meta property="og:title" content="Trauma, Anxiety &amp; PTSD Therapy | Psychotherapist Sydney" />
         <meta property="og:description" content="Therapy in Sydney CBD for anxiety, PTSD, phobias, social anxiety, chronic pain, chronic fatigue and stress-responsive physical symptoms. PACFA registered." />
