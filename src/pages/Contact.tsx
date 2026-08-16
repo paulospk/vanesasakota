@@ -28,7 +28,7 @@ const Contact = () => {
               Contact
             </p>
             <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
-              Appointments
+              Book an Appointment: Sydney CBD Psychotherapy
             </h1>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.6]">
               I offer in-person sessions in the Sydney CBD, as well as online sessions for clients across Australia and internationally. Please feel free to contact me by email, and I will reply within 24 hours.
