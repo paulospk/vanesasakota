@@ -298,7 +298,7 @@ const Resources = () => {
       {/* Tabs */}
       <section className="border-b border-border">
         <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-10 md:py-16">
-          <Tabs defaultValue="seminal" className="w-full">
+          <Tabs defaultValue="current" className="w-full">
             <TabsList className="bg-hero border border-border h-auto p-1 mb-8 md:mb-10 flex-wrap">
               <TabsTrigger
                 value="seminal"
