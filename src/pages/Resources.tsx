@@ -17,7 +17,7 @@ const seminal: Entry[] = [
   {
     title: "Adverse Childhood Experiences (ACE) Study",
     meta: "Felitti, Anda et al. · Kaiser Permanente / CDC · 1998",
-    body: "A study of 17,000 people found that difficult early experiences like neglect, instability, and abuse quietly shape the body's biology over decades, showing up later as heart disease, autoimmune conditions, and chronic pain. Not metaphorically. Physiologically.",
+    body: "A study of 9,500 adults found that difficult early experiences like neglect, instability, and abuse quietly shape the body's biology over decades, showing up later as heart disease, cancer, and liver disease. Not metaphorically. Physiologically.",
     tag: "Early experience",
     href: "https://pubmed.ncbi.nlm.nih.gov/9635069/",
   },
