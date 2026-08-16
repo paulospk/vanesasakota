@@ -50,6 +50,13 @@ const seminal: Entry[] = [
     href: "https://pubmed.ncbi.nlm.nih.gov/6656869/",
     secondaryHref: { label: "Yunus, 2007", url: "https://pubmed.ncbi.nlm.nih.gov/17350675/" },
   },
+  {
+    title: "Epigenetics and early experience",
+    meta: "National Scientific Council on the Developing Child (Harvard) · 2010",
+    body: "Adversity doesn't just predict poor health statistically, it can chemically mark the genes themselves. Early experiences such as chronic stress or neglect can attach epigenetic \"signatures\" to genes that control the body's stress response, switching them on or off in ways that persist into adulthood. This is the molecular mechanism behind why early adversity shows up in the body decades later.",
+    tag: "Epigenetics · gene expression",
+    href: "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Early-Experiences-Can-Alter-Gene-Expression-and-Affect-Long-Term-Development.pdf",
+  },
 ];
 
 const current: Entry[] = [
