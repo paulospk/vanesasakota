@@ -31,7 +31,7 @@ const About = () => {
               </h1>
               <div className="space-y-4 text-muted-foreground text-[15px] md:text-base leading-[1.7]">
                 <p>
-                  Vanesa takes pride in the long-term therapeutic alliances she builds with her clients, grounded in trust and collaboration.
+                  Vanesa takes pride in the long-term therapeutic alliances she builds with her clients, grounded in trust and collaboration. Her practice is integrative psychotherapy in the fullest sense: drawing on trauma-informed, relational and body-based approaches rather than a single method.
                 </p>
                 <p>
                   Driven by a lifelong curiosity about human behaviour, Vanesa completed her undergraduate training in <strong className="font-semibold text-foreground">Psychology</strong> at <strong className="font-semibold text-foreground">Griffith University</strong> in <strong className="font-semibold text-foreground">2008</strong>. Believing that effective therapy requires both academic rigour and lived maturity, she intentionally took time to gain real-world experience before entering clinical practice.
