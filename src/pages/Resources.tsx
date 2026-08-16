@@ -80,7 +80,7 @@ const current: Entry[] = [
   },
   {
     title: "Interoception and predictive processing",
-    meta: "Critchley, Seth, Khalsa · 2000s–present",
+    meta: "Critchley, Seth · 2013–present",
     body: "The brain doesn't wait to receive signals from the body. It actively predicts them. When that predictive model has been shaped by chronic threat or early adversity, symptoms can emerge from the model itself rather than from new physical events. Which also means the model can change.",
     tag: "Perception · prediction",
     href: "https://pubmed.ncbi.nlm.nih.gov/23663284/",
