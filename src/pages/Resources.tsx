@@ -316,7 +316,7 @@ const Resources = () => {
                 value="reading"
                 className="text-xs md:text-sm tracking-wide px-4 py-2 data-[state=active]:bg-foreground data-[state=active]:text-background"
               >
-                Reading
+                Books
               </TabsTrigger>
             </TabsList>
 
