@@ -285,8 +285,11 @@ const Resources = () => {
               Resource library
             </p>
             <h1 className="font-serif text-3xl md:text-5xl tracking-tight text-foreground leading-[1.05]">
-              Trauma, anxiety and chronic pain resources
+              Understanding stress, trauma, and the body
             </h1>
+            <p className="text-foreground text-[15px] md:text-base leading-[1.75] font-medium max-w-[640px]">
+              The science behind the work
+            </p>
             <p className="text-muted-foreground text-[15px] md:text-base leading-[1.75] max-w-[640px]">
               Seminal research, current thinking, and recommended reading that inform a whole-person view of health,
               one that holds biological, psychological, social, and endocrine dimensions together rather than apart.
